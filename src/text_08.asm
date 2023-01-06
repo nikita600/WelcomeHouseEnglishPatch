@@ -1,39 +1,33 @@
-.sjis (LANG == "jap") ? \
+; -----------------------------------------------------------------------------
+; 										Receipe
+; -----------------------------------------------------------------------------
+
+.str (LANG == "jap") ? \
 	"チキン、　　　" : \
-	"チキン、　　　"
+	"chicken, "
 
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"ざりがに、　　" : \
-	"ざりがに、　　"
+	"crayfish, "
 
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"たまご、　　　" : \
-	"たまご、　　　"
+	"eggs, "
 
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"にんにく、　　" : \
-	"にんにく、　　"
+	"garlic, "
 
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"トマト、　　　" : \
-	"トマト、　　　"
+	"tomato, "
 
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"ブランデー、　" : \
-	"ブランデー、　"
+	"brandy, "
 
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"が必要だ。」　" : \
-	"が必要だ。」　"
+	"I need "
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h

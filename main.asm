@@ -7,8 +7,6 @@
 
 LANG equ "jap"
 
-JAPANESE:
-
 .headersize 0x8000F800
 
 ; -----------------------------------------------------------------------------
@@ -22,7 +20,10 @@ JAPANESE:
 .org 0x8008E17C ;0x0007E97C
 .area 0x8E9C
 
-;.loadtable "ascii.tbl"
+
+.loadtable "tables\shift_jis.tbl"
+
+;.loadtable "tables\ascii_jis.tbl"
 
 .include "src\text_01.asm"
 .include "src\text_02.asm"

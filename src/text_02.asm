@@ -1,1417 +1,233 @@
 ; -----------------------------------------------------------------------------
+; Inventory
+; -----------------------------------------------------------------------------
 
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　ブランデー" : \
-	"　　　　ブランデー"
+	"Brandy"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　赤い本" : \
-	"　　　　　　赤い本"
+	"The red book"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　青い本" : \
-	"　　　　　　青い本"
+	"The blue book"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　黄色い本" : \
-	"　　　　　黄色い本"
+	"The yellow book"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　ピンクの本" : \
-	"　　　　ピンクの本"
+	"The pink book"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　緑の本" : \
-	"　　　　　　緑の本"
+	"The green book"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　黒い本" : \
-	"　　　　　　黒い本"
+	"The black book"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　白い本" : \
-	"　　　　　　白い本"
+	"The white book"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　赤いカギ" : \
-	"　　　　　赤いカギ"
+	"The red key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　青いカギ" : \
-	"　　　　　青いカギ"
+	"The blue key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　黄色のカギ" : \
-	"　　　　黄色のカギ"
+	"The yellow key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　ピンクのカギ" : \
-	"　　　ピンクのカギ"
+	"The pink key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　緑のカギ" : \
-	"　　　　　緑のカギ"
+	"The green key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　ナポレオンの絵" : \
-	"　　ナポレオンの絵"
+	"A picture of Napoleon"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"アレキサンダーの絵" : \
-	"アレキサンダーの絵"
+	"A picture of Alexander"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　ジンギスカンの絵" : \
-	"　ジンギスカンの絵"
+	"A picture of Genghis Khan"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　　日記" : \
-	"　　　　　　　日記"
+	"A diary"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　金のカギ" : \
-	"　　　　　金のカギ"
+	"The golden key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　銀のカギ" : \
-	"　　　　　銀のカギ"
+	"The silver key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　銅のカギ" : \
-	"　　　　　銅のカギ"
+	"The bronze key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-; -----------------------------------------------------------------------------
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　ラブレター" : \
-	"　　　　ラブレター"
+	"A love letter"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"”皇帝”のレコード" : \
-	"”皇帝”のレコード"
+	"The record \"Emperor\""
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"ヒット曲レコード１" : \
-	"ヒット曲レコード１"
+	"Hit song record 1"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"ヒット曲レコード２" : \
-	"ヒット曲レコード２"
+	"Hit song record 2"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　苦情文" : \
-	"　　　　　　苦情文"
+	"A complaint letter"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　ノコギリ" : \
-	"　　　　　ノコギリ"
+	"A saw"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　鉄のカギ" : \
-	"　　　　　鉄のカギ"
+	"The iron key"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　チキン" : \
-	"　　　　　　チキン"
+	"Chicken"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　ざりがにとアミ" : \
-	"　　ざりがにとアミ"
+	"Crayfish and nettle"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　たまご" : \
-	"　　　　　　たまご"
+	"An egg"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　にんにく" : \
-	"　　　　　にんにく"
+	"Garlic"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　トマト" : \
-	"　　　　　　トマト"
+	"Tomato"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　フランス料理" : \
-	"　　　フランス料理"
+	"French cuisine"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　　アミ" : \
-	"　　　　　　　アミ"
+	"Net"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　魚とアミ" : \
 	"　　　　　魚とアミ"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"使う調べる選択バー" : \
 	"使う調べる選択バー"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"取る取らず選択バー" : \
 	"取る取らず選択バー"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　セーブ選択バー" : \
 	"　　セーブ選択バー"
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h

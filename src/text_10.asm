@@ -1,47 +1,21 @@
-.sjis (LANG == "jap") ? \
+; -----------------------------------------------------------------------------
+; 
+; -----------------------------------------------------------------------------
+
+.str (LANG == "jap") ? \
 	"　　　青いカギを入手した。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　" : \
-	"　　　青いカギを入手した。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	"I obtained a blue key."
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　フランス料理を入手した。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　" : \
-	"　　　フランス料理を入手した。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	"I obtained French cuisine."
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
+.str (LANG == "jap") ? \
 	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　「ちょっと待っててくれたまえ。」　　　　　　　　　　　　　　　　" : \
-	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　「ちょっと待っててくれたまえ。」　　　　　　　　　　　　　　　　"
+	"Please wait just a moment."
 
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
-
-.sjis (LANG == "jap") ? \
-	"" : \
-	""
+.db 00h, 00h, 00h
