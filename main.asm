@@ -34,6 +34,7 @@ LANG equ "jap"
 .include "src\text_07.asm"
 .include "src\text_08.asm"
 .include "src\text_09.asm"
+.include "src\text_10.asm"
 
 .endarea
 
