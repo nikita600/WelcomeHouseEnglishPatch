@@ -1,3 +1,6 @@
 ﻿bin/
 exe/
 temp/
+iso/
+tools/WelcomeHouseToolkit/WelcomeHouseAssetProcessor/obj/
+tools/WelcomeHouseToolkit/.idea/
