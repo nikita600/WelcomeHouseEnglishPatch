@@ -39,6 +39,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="AssetFiles\Asset.cs" />
+        <Compile Include="AssetFiles\PlayStation\ExeStringPointers.cs" />
         <Compile Include="AssetFiles\SegaSaturn\AllLibAsset.cs" />
         <Compile Include="AssetFiles\SegaSaturn\LibAsset.cs" />
         <Compile Include="Program.cs" />

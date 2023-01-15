@@ -19,7 +19,7 @@ namespace WelcomeHouseAssetProcessor.AssetFiles
             return Bytes;
         }
         
-        protected static void ReadBytes(byte[] bytes, Action<BinaryReader> readAction)
+        public static void ReadBytes(byte[] bytes, Action<BinaryReader> readAction)
         {
             using (var memoryStream = new MemoryStream(bytes))
             {
