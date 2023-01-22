@@ -1,5 +1,5 @@
 ;--------------------------------------
-; 			Inventory
+; Inventory (Done)
 ;--------------------------------------
 
 .org 0x800937D0
@@ -278,7 +278,7 @@
 
 .str (LANG == "jap") ? \
 	"　　　　　魚とアミ" : \
-	"　　　　　魚とアミ"
+	"Fish and Ami."
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
@@ -286,7 +286,7 @@
 
 .str (LANG == "jap") ? \
 	"使う調べる選択バー" : \
-	"使う調べる選択バー"
+	"use, investigate, select bar"
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
@@ -294,7 +294,7 @@
 
 .str (LANG == "jap") ? \
 	"取る取らず選択バー" : \
-	"取る取らず選択バー"
+	"take or not take, select bar"
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 
@@ -302,7 +302,7 @@
 
 .str (LANG == "jap") ? \
 	"　　セーブ選択バー" : \
-	"　　セーブ選択バー"
+	"save, select bar"
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 

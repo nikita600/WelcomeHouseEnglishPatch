@@ -25,6 +25,8 @@ LANG equ "jap"
 
 ;.loadtable "tables\ascii_jis.tbl"
 
+.include "src\render_text.asm"
+
 .include "src\text_01.asm"
 .include "src\text_02.asm"
 .include "src\text_03.asm"
