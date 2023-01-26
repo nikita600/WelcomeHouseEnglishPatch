@@ -6,6 +6,13 @@
 
 ;--------------------------------------
 
+.org 0x80030abc 
+.ifdef USE_SHIFT_JIS
+    li v0,0x4
+.else
+    li v0,0x2
+.endif
+
 .org 0x80030af4
 .ifdef USE_SHIFT_JIS
     sll v0,s0,0x2
@@ -230,8 +237,8 @@ loop_80030c58:
 
 ;--------------------------------------
 
-@entry_01: ; 7-6-5-4 (0-4-8-12)
-; @dst_buff = (@src_buff > 7) * @mask0001
+@entry_01: ; 7-6-5-4
+; @dst_buff = (@src_buff >> 7) * @mask0001
     lbu        v1,0x0(@src_buff) 
     nop
     srl        v1,v1,7
@@ -239,7 +246,7 @@ loop_80030c58:
     mflo       v1
     sh         v1,0x0(@dst_buff)
 
-; @dst_buff = ((@src_buff > 6) & 1) * @mask0010
+; @dst_buff = ((@src_buff >> 6) & 1) * @mask0010
     lbu        v0,0x0(@src_buff)
     nop
     srl        v0,v0,6
@@ -361,7 +368,7 @@ GetBiosCharTexturePtr_80030e70:
     jal        Krom2RawAdd
     or        a0,v0
 .else
-    li v0, 0xBFC7F90A
+    li v0, 0xBFC7FACD
 .endif
 
     lw         ra,0x10(sp)
