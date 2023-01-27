@@ -6,6 +6,19 @@
 
 ;--------------------------------------
 
+; Unused function
+.org 0x8004e194
+.area 0x8004e394 - 0x8004e194
+
+    jr ra
+    nop
+
+
+
+.endarea
+
+;--------------------------------------
+
 .org 0x80030abc 
 .ifdef USE_SHIFT_JIS
     li v0,0x4
@@ -40,6 +53,10 @@
 @dst_buff equ t0
 @src_buff equ t1
 @line_idx equ t2
+
+@cur_mask   equ a1
+@pix_idx    equ a2
+@mask_idx   equ a3
 
 ;a0 = char_code
 ;a1, s0 = char_buff
@@ -237,52 +254,62 @@ loop_80030c58:
 
 ;--------------------------------------
 
+    li      v1, 0
+    li      @pix_idx, 7
+    li      @mask_idx, 0
+
 @entry_01: ; 7-6-5-4
-; @dst_buff = (@src_buff >> 7) * @mask0001
-    lbu        v1,0x0(@src_buff) 
+    lbu     v0,0x0(@src_buff) 
     nop
-    srl        v1,v1,7
-    mult       v1,@mask0001
-    mflo       v1
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
-; @dst_buff = ((@src_buff >> 6) & 1) * @mask0010
-    lbu        v0,0x0(@src_buff)
+    lbu     v0,0x0(@src_buff)
     nop
-    srl        v0,v0,6
-    andi       v0,v0,0x1
-    sll        @mask0010,@mask0001,4
-    mult       v0,@mask0010
-    mflo       v0
-    addu       v1,v1,v0
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
- ; @dst_buff = ((@src_buff > 5) & 1) * @mask0100
-    lbu        v0,0x0(@src_buff)
+    lbu     v0,0x0(@src_buff)
     nop
-    srl        v0,v0,5
-    andi       v0,v0,0x1
-    sll        @mask0100,@mask0001,8
-    mult       v0,@mask0100
-    mflo       v0
-    addu       v1,v1,v0
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
- ; @dst_buff = ((@src_buff > 4) & 1) * @mask1000
-    lbu        v0,0x0(@src_buff) 
+    lbu     v0,0x0(@src_buff) 
     nop
-    srl        v0,v0,4
-    andi       v0,v0,0x1
-    sll        @mask1000,@mask0001,12
-    mult       v0,@mask1000
-    mflo       v0
-    addu       v1,v1,v0
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
-    addiu      @dst_buff,@dst_buff,0x2
+    addiu   @dst_buff,@dst_buff,0x2
     
 @entry_02: ; 3-2-1-0 (0-0-0-0)
-; @dst_buff = ((@src_buff >> 3) & 1) * @mask0001
     lbu        v1,0x0(@src_buff)
     nop
     srl        v1,v1,3
@@ -291,31 +318,32 @@ loop_80030c58:
     mflo       v1
     sh         v1,0x0(@dst_buff)
 
-; @dst_buff = ((@src_buff >> 2) & 1) * @mask0010
     lbu        v0,0x0(@src_buff)
     nop
     srl        v0,v0,2
     andi       v0,v0,0x1
-    mult       v0,@mask0010
+    sll        @cur_mask,@mask0001,4
+    mult       v0,@cur_mask
     mflo       v0
     addu       v1,v1,v0
     sh         v1,0x0(@dst_buff)
 
-; @dst_buff = ((@src_buff >> 1) & 1) * @mask0100
     lbu        v0,0x0(@src_buff)
     nop
     srl        v0,v0,1
     andi       v0,v0,0x1
-    mult       v0,@mask0100
+    sll        @cur_mask,@mask0001,8
+    mult       v0,@cur_mask
     mflo       v0
     addu       v1,v1,v0
     sh         v1,0x0(@dst_buff)
 
-; @dst_buff = ((@src_buff >> 0) & 1) * @mask1000
     lbu        v0,0x0(@src_buff)
     nop
+    srl        v0,v0,0
     andi       v0,v0,1
-    mult       v0,@mask1000
+    sll        @cur_mask,@mask0001,12
+    mult       v0,@cur_mask
     mflo       v0
     addu       v1,v1,v0
     sh         v1,0x0(@dst_buff)
