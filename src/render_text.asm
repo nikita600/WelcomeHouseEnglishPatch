@@ -6,19 +6,22 @@
 
 ;--------------------------------------
 
+.ifdef USE_SHIFT_JIS
+
+.else
+
 ; Unused function
 .org 0x8004e194
 .area 0x8004e394 - 0x8004e194
-
     jr ra
     nop
-
-
-
 .endarea
+
+.endif
 
 ;--------------------------------------
 
+; Set currentChar.width
 .org 0x80030abc 
 .ifdef USE_SHIFT_JIS
     li v0,0x4
@@ -26,6 +29,7 @@
     li v0,0x2
 .endif
 
+; Increment currentChar.x offset
 .org 0x80030af4
 .ifdef USE_SHIFT_JIS
     sll v0,s0,0x2
@@ -33,11 +37,20 @@
     sll v0,s0,0x1
 .endif
 
+; Increment Current Text Ptr
 .org 0x80030b0c
 .ifdef USE_SHIFT_JIS
     addiu   s2,s2,0x2
 .else
     addiu   s2,s2,0x1
+.endif
+
+; Max Text Char Count
+.org 0x80030eb4
+.ifdef USE_SHIFT_JIS
+    li v0,0x10
+.else
+    li v0,0x20
 .endif
 
 ;--------------------------------------
@@ -384,24 +397,24 @@ Krom2RawAdd equ  0x8004e5d4
 .area 0x80030ea0 - 0x80030e70
 
 GetBiosCharTexturePtr_80030e70:
-    addiu      sp,sp,-0x18
-    sw         ra,0x10(sp)
+    addiu   sp,sp,-0x18
+    sw      ra,0x10(sp)
 
-    lbu        v0,0x0(a0)
+    lbu     v0,0x0(a0)
     nop
-    sll        v0,v0,0x8
-    lbu        a0,0x1(a0)
+    sll     v0,v0,0x8
+    lbu     a0,0x1(a0)
 
 .ifdef USE_SHIFT_JIS
-    jal        Krom2RawAdd
-    or        a0,v0
+    jal     Krom2RawAdd
+    or      a0,v0
 .else
-    li v0, 0xBFC7FACD
+    li      v0, 0xBFC7FACD
 .endif
 
-    lw         ra,0x10(sp)
-    addiu      sp,sp,0x18
-    jr         ra
+    lw      ra,0x10(sp)
+    addiu   sp,sp,0x18
+    jr      ra
     nop
 
 .endarea
