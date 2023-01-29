@@ -17,6 +17,9 @@
     nop
 .endarea
 
+FontEntries:
+    .include "src\fonts.asm"    
+
 .endif
 
 ;--------------------------------------
@@ -79,8 +82,13 @@ CopyCharTexToBuf_80030c28:
     sw      ra,0x14(sp)
     sw      s0,0x10(sp)
 
+.ifdef USE_SHIFT_JIS
     jal     GetBiosCharTexturePtr_80030e70
     move    s0,a1
+.else
+    jal     get_ascii_bios_char_texture
+    move    s0,a1
+.endif
 
     move    @src_buff,v0
     li      v0,-0x1
@@ -284,47 +292,15 @@ loop_80030c58:
     addu    v1,v1,v0
     sh      v1,0x0(@dst_buff)
 
-    lbu     v0,0x0(@src_buff)
+    slti    v0,@mask_idx,16
+    bne     v0,0,@entry_01     
     nop
-    srlv    v0,v0,@pix_idx
-    addiu   @pix_idx, -1
-    andi    v0,v0,0x1
-    sllv    @cur_mask,@mask0001,@mask_idx
-    addiu   @mask_idx, 4
-    mult    v0,@cur_mask
-    mflo    v0
-    addu    v1,v1,v0
-    sh      v1,0x0(@dst_buff)
-
-    lbu     v0,0x0(@src_buff)
-    nop
-    srlv    v0,v0,@pix_idx
-    addiu   @pix_idx, -1
-    andi    v0,v0,0x1
-    sllv    @cur_mask,@mask0001,@mask_idx
-    addiu   @mask_idx, 4
-    mult    v0,@cur_mask
-    mflo    v0
-    addu    v1,v1,v0
-    sh      v1,0x0(@dst_buff)
-
-    lbu     v0,0x0(@src_buff) 
-    nop
-    srlv    v0,v0,@pix_idx
-    addiu   @pix_idx, -1
-    andi    v0,v0,0x1
-    sllv    @cur_mask,@mask0001,@mask_idx
-    addiu   @mask_idx, 4
-    mult    v0,@cur_mask
-    mflo    v0
-    addu    v1,v1,v0
-    sh      v1,0x0(@dst_buff)
 
     addiu   @dst_buff,@dst_buff,0x2
     
     li      v1, 0
     li      @mask_idx, 0
-    
+
 @entry_02: ; 3-2-1-0 (0-0-0-0)
     lbu     v0,0x0(@src_buff) 
     nop
@@ -338,41 +314,9 @@ loop_80030c58:
     addu    v1,v1,v0
     sh      v1,0x0(@dst_buff)
 
-    lbu     v0,0x0(@src_buff) 
+    slti    v0,@mask_idx,16
+    bne     v0,0,@entry_02     
     nop
-    srlv    v0,v0,@pix_idx
-    addiu   @pix_idx, -1
-    andi    v0,v0,0x1
-    sllv    @cur_mask,@mask0001,@mask_idx
-    addiu   @mask_idx, 4
-    mult    v0,@cur_mask
-    mflo    v0
-    addu    v1,v1,v0
-    sh      v1,0x0(@dst_buff)
-
-    lbu     v0,0x0(@src_buff) 
-    nop
-    srlv    v0,v0,@pix_idx
-    addiu   @pix_idx, -1
-    andi    v0,v0,0x1
-    sllv    @cur_mask,@mask0001,@mask_idx
-    addiu   @mask_idx, 4
-    mult    v0,@cur_mask
-    mflo    v0
-    addu    v1,v1,v0
-    sh      v1,0x0(@dst_buff)
-
-    lbu     v0,0x0(@src_buff) 
-    nop
-    srlv    v0,v0,@pix_idx
-    addiu   @pix_idx, -1
-    andi    v0,v0,0x1
-    sllv    @cur_mask,@mask0001,@mask_idx
-    addiu   @mask_idx, 4
-    mult    v0,@cur_mask
-    mflo    v0
-    addu    v1,v1,v0
-    sh      v1,0x0(@dst_buff)
 
     addiu      @dst_buff,@dst_buff,0x2
 
@@ -400,6 +344,30 @@ return_80030e5c:
     jr         ra
     nop
 
+get_ascii_bios_char_texture:
+    addiu   sp,sp,-0x18
+    sw      ra,0x10(sp)
+
+    lbu     v0,0x0(a0)
+    nop
+    andi    v0, 0x7F
+
+    la      v1, FontEntries
+    nop
+    sll     v0, 1 ; x2
+    addu    v0, v1
+
+    lhu     v0,0x0(v0)
+    nop
+
+    li      v1, 0xBFC70000
+    or      v0,v1 
+
+    lw      ra,0x10(sp)
+    addiu   sp,sp,0x18
+    jr      ra
+    nop
+
 .endarea
 
 ;--------------------------------------
@@ -412,19 +380,12 @@ Krom2RawAdd equ  0x8004e5d4
 GetBiosCharTexturePtr_80030e70:
     addiu   sp,sp,-0x18
     sw      ra,0x10(sp)
-
     lbu     v0,0x0(a0)
     nop
     sll     v0,v0,0x8
     lbu     a0,0x1(a0)
-
-.ifdef USE_SHIFT_JIS
     jal     Krom2RawAdd
     or      a0,v0
-.else
-    li      v0, 0xBFC7FACD
-.endif
-
     lw      ra,0x10(sp)
     addiu   sp,sp,0x18
     jr      ra
