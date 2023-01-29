@@ -322,44 +322,57 @@ loop_80030c58:
 
     addiu   @dst_buff,@dst_buff,0x2
     
+    li      v1, 0
+    li      @mask_idx, 0
+    
 @entry_02: ; 3-2-1-0 (0-0-0-0)
-    lbu        v1,0x0(@src_buff)
+    lbu     v0,0x0(@src_buff) 
     nop
-    srl        v1,v1,3
-    andi       v1,v1,0x1
-    mult       v1,@mask0001
-    mflo       v1
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
-    lbu        v0,0x0(@src_buff)
+    lbu     v0,0x0(@src_buff) 
     nop
-    srl        v0,v0,2
-    andi       v0,v0,0x1
-    sll        @cur_mask,@mask0001,4
-    mult       v0,@cur_mask
-    mflo       v0
-    addu       v1,v1,v0
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
-    lbu        v0,0x0(@src_buff)
+    lbu     v0,0x0(@src_buff) 
     nop
-    srl        v0,v0,1
-    andi       v0,v0,0x1
-    sll        @cur_mask,@mask0001,8
-    mult       v0,@cur_mask
-    mflo       v0
-    addu       v1,v1,v0
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
-    lbu        v0,0x0(@src_buff)
+    lbu     v0,0x0(@src_buff) 
     nop
-    srl        v0,v0,0
-    andi       v0,v0,1
-    sll        @cur_mask,@mask0001,12
-    mult       v0,@cur_mask
-    mflo       v0
-    addu       v1,v1,v0
-    sh         v1,0x0(@dst_buff)
+    srlv    v0,v0,@pix_idx
+    addiu   @pix_idx, -1
+    andi    v0,v0,0x1
+    sllv    @cur_mask,@mask0001,@mask_idx
+    addiu   @mask_idx, 4
+    mult    v0,@cur_mask
+    mflo    v0
+    addu    v1,v1,v0
+    sh      v1,0x0(@dst_buff)
 
     addiu      @dst_buff,@dst_buff,0x2
 
