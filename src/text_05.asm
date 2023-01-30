@@ -9,33 +9,41 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"１階" : \
-	"1F"
+.if LANG == JAP
+	.sjis	"１階"
+.else
+	.sjis	"1F"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"２階" : \
-	"2F"
+.if LANG == JAP
+	.sjis	"２階"
+.else
+	.sjis	"2F"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"３階" : \
-	"3F"
+.if LANG == JAP
+	.sjis	"３階"
+.else
+	.sjis	"3F"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"地下" : \
-	"BS"
+.if LANG == JAP
+	.sjis	"地下"
+.else
+	.sjis	"BS"
+.endif
 .endarea
 
 ;--------------------------------------

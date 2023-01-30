@@ -9,321 +9,353 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　何だ、階段を上がろうとしたら　" + \
-	"　　　足場がなくなった！？　　　" : \
-	\;-----------------------------
-	"What, the foothold disappeared when I tried to go up the stairs!?"
+.if LANG == JAP
+	.sjisn	"　何だ、階段を上がろうとしたら　"
+	.sjis	"　　　足場がなくなった！？　　　"
+.else
+	.sjis	"What, the foothold disappeared when I tried to go up the stairs!?"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　ギャー！手をはさまれた！　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"GYAAAH! My hand got stuck!"
+.if LANG == JAP
+	.sjisn	"　　ギャー！手をはさまれた！　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"GYAAAH! My hand got stuck!"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"おや？中には何も入っていないぞ。" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Oh? There is nothing inside."
+.if LANG == JAP
+	.sjisn	"おや？中には何も入っていないぞ。"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Oh? There is nothing inside."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　何だこの部屋は…　　　　" + \
-	"　ここを飛び越えろというのか？　" : \
-	\;-----------------------------
-	"What is this room... is it saying to jump over here?"
+.if LANG == JAP
+	.sjisn	"　　　　何だこの部屋は…　　　　"
+	.sjis	"　ここを飛び越えろというのか？　"
+.else
+	.sjis	"What is this room... is it saying to jump over here?"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　何やら上の方で音がした。　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"I heard a noise from above."
+.if LANG == JAP
+	.sjisn	"　　何やら上の方で音がした。　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"I heard a noise from above."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　イテテ…　　　　　　　　　　" + \
-	"　油にすべってドラム缶が頭に…。" : \
-	\;-----------------------------
-	"Eek... I slipped on some oil and a drum can hit my head..."
+.if LANG == JAP
+	.sjisn	"　　イテテ…　　　　　　　　　　"
+	.sjis	"　油にすべってドラム缶が頭に…。"
+.else
+	.sjis	"Eek... I slipped on some oil and a drum can hit my head..."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　あっ！これは鏡じゃない！　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Ah! This isn't a mirror!"
+.if LANG == JAP
+	.sjisn	"　　あっ！これは鏡じゃない！　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Ah! This isn't a mirror!"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"ソファに座ったらテレビがついた。" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"When I sat on the sofa, the TV turned on."
+.if LANG == JAP
+	.sjisn	"ソファに座ったらテレビがついた。"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"When I sat on the sofa, the TV turned on."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　何もない部屋だな…。　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"This is an empty room..."
+.if LANG == JAP
+	.sjisn	"　　　何もない部屋だな…。　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"This is an empty room..."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　はぁーっ、死ぬかと思った…。　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Phew, I thought I was going to die..."
+.if LANG == JAP
+	.sjisn	"　はぁーっ、死ぬかと思った…。　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Phew, I thought I was going to die..."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"もう上がっても大丈夫のようだな。" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"It looks like it's safe to go up now."
+.if LANG == JAP
+	.sjisn	"もう上がっても大丈夫のようだな。"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"It looks like it's safe to go up now."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　もう…イヤになっちゃうよ。　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Ugh... this is getting tiresome."
+.if LANG == JAP
+	.sjisn	"　もう…イヤになっちゃうよ。　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Ugh... this is getting tiresome."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　イテテ…ここはどこだ？　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Eek... where am I?"
+.if LANG == JAP
+	.sjisn	"　　イテテ…ここはどこだ？　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Eek... where am I?"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　イテーッ！頭が割れるーっ！　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Eek! My head is splitting open!"
+.if LANG == JAP
+	.sjisn	"　　イテーッ！頭が割れるーっ！　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Eek! My head is splitting open!"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　これでよし…と。　　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Okay, that should do it."
+.if LANG == JAP
+	.sjisn	"　　　　これでよし…と。　　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Okay, that should do it."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　絵をかけると、後ろの　　　" + \
-	"　ドアから小さな物音がした…。　" : \
-	\;-----------------------------
-	"When I hung up the picture, I heard a small noise from the door behind it..."
+.if LANG == JAP
+	.sjisn	"　　　絵をかけると、後ろの　　　"
+	.sjis	"　ドアから小さな物音がした…。　"
+.else
+	.sjis	"When I hung up the picture, I heard a small noise from the door behind it..."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　うわっ、部屋全体が動いてる！　" + \
-	"　　一体何が起こってるんだ！　　" : \
-	\;-----------------------------
-	"Whoa, the whole room is moving! What is going on here!"
+.if LANG == JAP
+	.sjisn	"　うわっ、部屋全体が動いてる！　"
+	.sjis	"　　一体何が起こってるんだ！　　"
+.else
+	.sjis	"Whoa, the whole room is moving! What is going on here!"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　うわっビックリした！　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Whoa, I was surprised!"
+.if LANG == JAP
+	.sjisn	"　　　うわっビックリした！　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Whoa, I was surprised!"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　あっ！本棚が動いた！　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Ah! The bookshelf moved!"
+.if LANG == JAP
+	.sjisn	"　　　あっ！本棚が動いた！　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Ah! The bookshelf moved!"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　階段が動いている…？　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"The stairs are moving...?"
+.if LANG == JAP
+	.sjisn	"　　　階段が動いている…？　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"The stairs are moving...?"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"このドアはこのためにあったのか。" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Was this door made for this purpose?"
+.if LANG == JAP
+	.sjisn	"このドアはこのためにあったのか。"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Was this door made for this purpose?"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　若い男がこっちを見ているぞ。　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"A young man is looking this way."
+.if LANG == JAP
+	.sjisn	"　若い男がこっちを見ているぞ。　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"A young man is looking this way."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　彼からカギをもらった。　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"I received a key from him."
+.if LANG == JAP
+	.sjisn	"　　彼からカギをもらった。　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"I received a key from him."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　きれいな女性が立っているぞ。　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"There is a beautiful woman standing here."
+.if LANG == JAP
+	.sjisn	"　きれいな女性が立っているぞ。　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"There is a beautiful woman standing here."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　彼がコックさんだな。　　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"He's a chef."
+.if LANG == JAP
+	.sjisn	"　　　彼がコックさんだな。　　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"He's a chef."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　このイヌがナポレオンか。　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Is this dog Napoleon?"
+.if LANG == JAP
+	.sjisn	"　　このイヌがナポレオンか。　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Is this dog Napoleon?"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　あっ！なんだあの男は。　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Ah! Who is that man."
+.if LANG == JAP
+	.sjisn	"　　　あっ！なんだあの男は。　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Ah! Who is that man."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　ここはあがれないようだ。　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"It seems like I can't go up from here."
+.if LANG == JAP
+	.sjisn	"　　ここはあがれないようだ。　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"It seems like I can't go up from here."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　またつぶされるのはヤダな。　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"I don't want to be crushed again."
+.if LANG == JAP
+	.sjisn	"　　またつぶされるのはヤダな。　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"I don't want to be crushed again."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　普通だったら死んでるぞ。　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"Normally I would be dead."
+.if LANG == JAP
+	.sjisn	"　　普通だったら死んでるぞ。　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Normally I would be dead."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　彼女からトマトをもらった。　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"I received a tomato from her."
+.if LANG == JAP
+	.sjisn	"　　彼女からトマトをもらった。　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"I received a tomato from her."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　プールの前にイヌがいる。　　" + \
-	"　　　　　　　　　　　　　　　　" : \
-	\;-----------------------------
-	"There is a dog in front of the pool."
+.if LANG == JAP
+	.sjisn	"　　プールの前にイヌがいる。　　"
+	.sjis	"　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"There is a dog in front of the pool."
+.endif
 .endarea
 
 ;--------------------------------------

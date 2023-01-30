@@ -9,33 +9,41 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"をみつけた　　　　　　　　　とりますか？　　　" : \
-	"I found it. Do you want to take it?"
+.if LANG == JAP
+	.sjis	"をみつけた　　　　　　　　　とりますか？　　　"
+.else
+	.sjis	"I found it. Do you want to take it?"
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"を入手した。　　　　　　　　　　　　　　　　　" : \
-	"I obtained it."
+.if LANG == JAP
+	.sjis	"を入手した。　　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"I obtained it."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"をもどした。　　　　　　　　　　　　　　　　　" : \
-	"I returned it."
+.if LANG == JAP
+	.sjis	"をもどした。　　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"I returned it."
+.endif
 .endarea
 
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"をおきますか。　　　　　　　　　　　　　　　　" : \
-	"Do you want to put it away?"
+.if LANG == JAP
+	.sjis	"をおきますか。　　　　　　　　　　　　　　　　"
+.else
+	.sjis	"Do you want to put it away?"
+.endif
 .endarea
 
 ;--------------------------------------

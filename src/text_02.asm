@@ -9,9 +9,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　ブランデー" : \
-	"Brandy"
+
+.if LANG == JAP
+	.sjis	"　　　　ブランデー"
+.else
+	.sjis	"Brandy"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -19,9 +22,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　赤い本" : \
-	"The red book"
+
+.if LANG == JAP
+	.sjis	"　　　　　　赤い本"
+.else
+	.sjis	"The red book"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -29,9 +35,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　青い本" : \
-	"The blue book"
+
+.if LANG == JAP
+	.sjis	"　　　　　　青い本"
+.else
+	.sjis	"The blue book"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -39,9 +48,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　黄色い本" : \
-	"The yellow book"
+
+.if LANG == JAP
+	.sjis	"　　　　　黄色い本"
+.else
+	.sjis	"The yellow book"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -49,9 +61,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　ピンクの本" : \
-	"The pink book"
+
+.if LANG == JAP
+	.sjis	"　　　　ピンクの本"
+.else
+	.sjis	"The pink book"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -59,9 +74,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　緑の本" : \
-	"The green book"
+
+.if LANG == JAP
+	.sjis	"　　　　　　緑の本"
+.else
+	.sjis	"The green book"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -69,9 +87,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　黒い本" : \
-	"The black book"
+
+.if LANG == JAP
+	.sjis	"　　　　　　黒い本"
+.else
+	.sjis	"The black book"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -79,9 +100,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　白い本" : \
-	"The white book"
+
+.if LANG == JAP
+	.sjis	"　　　　　　白い本"
+.else
+	.sjis	"The white book"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -89,9 +113,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　赤いカギ" : \
-	"The red key"
+
+.if LANG == JAP
+	.sjis	"　　　　　赤いカギ"
+.else
+	.sjis	"The red key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -99,9 +126,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　青いカギ" : \
-	"The blue key"
+
+.if LANG == JAP
+	.sjis	"　　　　　青いカギ"
+.else
+	.sjis	"The blue key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -109,9 +139,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　黄色のカギ" : \
-	"The yellow key"
+
+.if LANG == JAP
+	.sjis	"　　　　黄色のカギ"
+.else
+	.sjis	"The yellow key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -119,9 +152,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　ピンクのカギ" : \
-	"The pink key"
+
+.if LANG == JAP
+	.sjis	"　　　ピンクのカギ"
+.else
+	.sjis	"The pink key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -129,9 +165,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　緑のカギ" : \
-	"The green key"
+
+.if LANG == JAP
+	.sjis	"　　　　　緑のカギ"
+.else
+	.sjis	"The green key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -139,9 +178,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　ナポレオンの絵" : \
-	"A picture of Napoleon"
+
+.if LANG == JAP
+	.sjis	"　　ナポレオンの絵"
+.else
+	.sjis	"A picture of Napoleon"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -149,9 +191,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"アレキサンダーの絵" : \
-	"A picture of Alexander"
+
+.if LANG == JAP
+	.sjis	"アレキサンダーの絵"
+.else
+	.sjis	"A picture of Alexander"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -159,9 +204,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　ジンギスカンの絵" : \
-	"A picture of Genghis Khan"
+
+.if LANG == JAP
+	.sjis	"　ジンギスカンの絵"
+.else
+	.sjis	"A picture of Genghis Khan"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -169,9 +217,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　　日記" : \
-	"A diary"
+
+.if LANG == JAP
+	.sjis	"　　　　　　　日記"
+.else
+	.sjis	"A diary"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -179,9 +230,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　金のカギ" : \
-	"The golden key"
+
+.if LANG == JAP
+	.sjis	"　　　　　金のカギ"
+.else
+	.sjis	"The golden key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -189,9 +243,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　銀のカギ" : \
-	"The silver key"
+
+.if LANG == JAP
+	.sjis	"　　　　　銀のカギ"
+.else
+	.sjis	"The silver key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -199,9 +256,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　銅のカギ" : \
-	"The bronze key"
+
+.if LANG == JAP
+	.sjis	"　　　　　銅のカギ"
+.else
+	.sjis	"The bronze key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -209,9 +269,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　ラブレター" : \
-	"A love letter"
+
+.if LANG == JAP
+	.sjis	"　　　　ラブレター"
+.else
+	.sjis	"A love letter"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -219,9 +282,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"”皇帝”のレコード" : \
-	"The record \"Emperor\""
+
+.if LANG == JAP
+	.sjis	"”皇帝”のレコード"
+.else
+	.sjis	"The record \"Emperor\""
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -229,9 +295,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"ヒット曲レコード１" : \
-	"Hit song record 1"
+
+.if LANG == JAP
+	.sjis	"ヒット曲レコード１"
+.else
+	.sjis	"Hit song record 1"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -239,9 +308,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"ヒット曲レコード２" : \
-	"Hit song record 2"
+
+.if LANG == JAP
+	.sjis	"ヒット曲レコード２"
+.else
+	.sjis	"Hit song record 2"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -249,9 +321,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　苦情文" : \
-	"A complaint letter"
+
+.if LANG == JAP
+	.sjis	"　　　　　　苦情文"
+.else
+	.sjis	"A complaint letter"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -259,9 +334,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　ノコギリ" : \
-	"A saw"
+
+.if LANG == JAP
+	.sjis	"　　　　　ノコギリ"
+.else
+	.sjis	"A saw"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -269,9 +347,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　鉄のカギ" : \
-	"The iron key"
+
+.if LANG == JAP
+	.sjis	"　　　　　鉄のカギ"
+.else
+	.sjis	"The iron key"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -279,9 +360,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　チキン" : \
-	"Chicken"
+
+.if LANG == JAP
+	.sjis	"　　　　　　チキン"
+.else
+	.sjis	"Chicken"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -289,9 +373,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　ざりがにとアミ" : \
-	"Crayfish and nettle"
+
+.if LANG == JAP
+	.sjis	"　　ざりがにとアミ"
+.else
+	.sjis	"Crayfish and nettle"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -299,9 +386,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　たまご" : \
-	"An egg"
+
+.if LANG == JAP
+	.sjis	"　　　　　　たまご"
+.else
+	.sjis	"An egg"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -309,9 +399,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　にんにく" : \
-	"Garlic"
+
+.if LANG == JAP
+	.sjis	"　　　　　にんにく"
+.else
+	.sjis	"Garlic"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -319,9 +412,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　トマト" : \
-	"Tomato"
+
+.if LANG == JAP
+	.sjis	"　　　　　　トマト"
+.else
+	.sjis	"Tomato"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -329,9 +425,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　フランス料理" : \
-	"French cuisine"
+
+.if LANG == JAP
+	.sjis	"　　　フランス料理"
+.else
+	.sjis	"French cuisine"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -339,9 +438,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　　　アミ" : \
-	"Net"
+
+.if LANG == JAP
+	.sjis	"　　　　　　　アミ"
+.else
+	.sjis	"Net"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -349,9 +451,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　　　　魚とアミ" : \
-	"Fish and Ami."
+
+.if LANG == JAP
+	.sjis	"　　　　　魚とアミ"
+.else
+	.sjis	"Fish and Ami."
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -359,9 +464,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"使う調べる選択バー" : \
-	"use, investigate, select bar"
+
+.if LANG == JAP
+	.sjis	"使う調べる選択バー"
+.else
+	.sjis	"use, investigate, select bar"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -369,9 +477,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"取る取らず選択バー" : \
-	"take or not take, select bar"
+
+.if LANG == JAP
+	.sjis	"取る取らず選択バー"
+.else
+	.sjis	"take or not take, select bar"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
@@ -379,9 +490,12 @@
 ;--------------------------------------
 
 .area @text_size
-.sjis (LANG == JAP) ? \
-	"　　セーブ選択バー" : \
-	"save, select bar"
+
+.if LANG == JAP
+	.sjis	"　　セーブ選択バー"
+.else
+	.sjis	"save, select bar"
+.endif
 
 .db 00h, 00h, 00h, 00h, 00h, 00h, 00h, 00h
 .endarea
