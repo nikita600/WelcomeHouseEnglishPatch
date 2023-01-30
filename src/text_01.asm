@@ -1906,7 +1906,7 @@ Text04_8008f036:
 	.sjisn	"こんなところにピンクの本がある。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"こんなところにピンクの本がある。　　　　　　　　　　　　　　　　"
+	.sjis	"A pink book is here in this place."
 .endif
 .endarea
 
@@ -1917,7 +1917,7 @@ Text04_8008f036:
 	.sjisn	"　　　もう何もないようだ。　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　もう何もないようだ。　　　　　　　　　　　　　　　　　　　"
+	.sjis	"It seems there is nothing left."
 .endif
 .endarea
 
@@ -1928,7 +1928,7 @@ Text04_8008f036:
 	.sjisn	"枕の下からノコギリが出てきたぞ。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"枕の下からノコギリが出てきたぞ。　　　　　　　　　　　　　　　　"
+	.sjis	"A saw came out from under the pillow."
 .endif
 .endarea
 
@@ -1939,7 +1939,7 @@ Text04_8008f036:
 	.sjisn	"　下にあるキッチンと同じドアだ。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　下にあるキッチンと同じドアだ。　　　　　　　　　　　　　　　　"
+	.sjis	"It's the same door as the kitchen below."
 .endif
 .endarea
 
@@ -1950,7 +1950,7 @@ Text04_8008f036:
 	.sjisn	"　　何やら紙キレが出てきた。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　何やら紙キレが出てきた。　　　　　　　　　　　　　　　　　　"
+	.sjis	"Something like a paper cut came out."
 .endif
 .endarea
 
@@ -1961,7 +1961,7 @@ Text04_8008f036:
 	.sjisn	"　　　緑のカギが見つかった。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　緑のカギが見つかった。　　　　　　　　　　　　　　　　　　"
+	.sjis	"A green key was found."
 .endif
 .endarea
 
@@ -1972,7 +1972,7 @@ Text04_8008f036:
 	.sjisn	"　蓄音機の上にレコードがある。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　蓄音機の上にレコードがある。　　　　　　　　　　　　　　　　　"
+	.sjis	"There is a record on top of the phonograph."
 .endif
 .endarea
 
@@ -1983,7 +1983,7 @@ Text04_8008f036:
 	.sjisn	"　　ベートーベンのポスターだ。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　ベートーベンのポスターだ。　　　　　　　　　　　　　　　　　"
+	.sjis	"It's a Beethoven poster."
 .endif
 .endarea
 
@@ -1994,7 +1994,7 @@ Text04_8008f036:
 	.sjisn	"　　　　楽器のようだな。　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　楽器のようだな。　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"It looks like a musical instrument."
 .endif
 .endarea
 
@@ -2005,7 +2005,7 @@ Text04_8008f036:
 	.sjisn	"　　　　楽譜のようだな。　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　楽譜のようだな。　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"It looks like sheet music."
 .endif
 .endarea
 
@@ -2016,7 +2016,7 @@ Text04_8008f036:
 	.sjisn	"２階の窓から外に出るのはムリだ。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"２階の窓から外に出るのはムリだ。　　　　　　　　　　　　　　　　"
+	.sjis	"Exiting through the window on the second floor is impossible."
 .endif
 .endarea
 

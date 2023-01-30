@@ -1,5 +1,5 @@
 ; -----------------------------------------------------------------------------
-; Inventory Descriptions
+; Inventory Descriptions (Done)
 ; -----------------------------------------------------------------------------
 
 .org 0x80093DC4
@@ -379,7 +379,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"２階のリビングルームの水槽でアミ　を使ったら、ざりがにが捕れた。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"When I used a net in the aquarium in the living room on the second floor, I caught a small fish."
 .endif
 .endarea
 
@@ -392,7 +392,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　キッチンの冷蔵庫の中から　　　　　　見つかった生卵だ。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"The eggs found in the refrigerator in the kitchen were raw."
 .endif
 .endarea
 
@@ -405,7 +405,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"１階の食堂の暖炉の上で見つけた。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"I found it on the fireplace in the dining room on the first floor."
 .endif
 .endarea
 
@@ -418,7 +418,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"アレグロさんからもらったトマト　　コックのエスカルゴに渡そう。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"The tomatoes I received from Alegro will be passed on to the cook for the Escargot."
 .endif
 .endarea
 
@@ -431,7 +431,7 @@
 	.sjisn	"　よりをかけたフランス料理だ。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　アレグロさんの機嫌をとろうと、　　コックのエスカルゴが腕に　　　よりをかけたフランス料理だ。　　　　　　　　　　　　　　　　　"
+	.sjis	"To improve Alegro's mood, the cook put his skills to use and made a French dish with Escargot as the main ingredient."
 .endif
 .endarea
 
@@ -444,7 +444,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　２階の黄色い部屋で見つかった　魚を捕まえるためのアミのようだ。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"The object found in the yellow room on the second floor appears to be a net for catching fish."
 .endif
 .endarea
 
@@ -457,7 +457,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"２階のリビングルームの水槽でアミ　を使ったら、魚が捕れた。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"When I used a net in the aquarium in the living room on the second floor, I caught a fish."
 .endif
 .endarea
 
@@ -470,7 +470,7 @@
 	.sjisn	"　　ピンクのカギを手に入れた。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　本にカギがはさんであった　　　　　　　　　　　　　　　　　　　　ピンクのカギを手に入れた。　　　　　　　　　　　　　　　　　"
+	.sjis	"I found a pink key that was stuck in a book."
 .endif
 .endarea
 
@@ -483,7 +483,7 @@
 	.sjisn	"カベに穴をあけたからシンバルで　"
 	.sjis	"ぶったたいてやろうとしたのよ。」"
 .else
-	.sjis	"「もう、これ見てっ！私の部屋が　メチャクチャよっ…エスカルゴが　カベに穴をあけたからシンバルで　ぶったたいてやろうとしたのよ。」"
+	.sjis	"Look at this! My room is a mess... because the Escargot drilled a hole in the wall and I tried to knock it down with a cymbal."
 .endif
 .endarea
 
@@ -496,7 +496,7 @@
 	.sjisn	"たんだけど、エスカルゴに言い寄　"
 	.sjis	"られて困ってるの…最低だわ！」　"
 .else
-	.sjis	"「私はアレグロ・アダージョ…音　楽の留学生としてイタリアから来　たんだけど、エスカルゴに言い寄　られて困ってるの…最低だわ！」　"
+	.sjis	"I am Alegro Adagio... I came to study music from Italy as a foreign student, but now I am troubled by the Escargot... it's the worst!"
 .endif
 .endarea
 
@@ -509,7 +509,7 @@
 	.sjisn	"子供がいるのに私のことが好きだ　"
 	.sjis	"ってしつこいのよ…変な人だわ。」"
 .else
-	.sjis	"「エスカルゴはフランスから来た　コックさんなの…お国に奥さんと　子供がいるのに私のことが好きだ　ってしつこいのよ…変な人だわ。」"
+	.sjis	"Escargot is a cook who came from France... despite having a wife and children back in their home country, they keep saying they like me... they're a strange person."
 .endif
 .endarea
 
@@ -522,7 +522,7 @@
 	.sjisn	"スターパーキンソンならこの階の反"
 	.sjis	"対側の部屋で待っているわよ。」　"
 .else
-	.sjis	"「私の部屋にはもう入らないで…レディに対して失礼だと思わない？ミスターパーキンソンならこの階の反対側の部屋で待っているわよ。」　"
+	.sjis	"Don't come into my room anymore... don't you think it's rude to me as a lady? Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor."
 .endif
 .endarea
 
@@ -535,7 +535,7 @@
 	.sjisn	"　直してやるよ…しかしずいぶんポ"
 	.sjis	"　ンコツだね、新しく買ったら？」"
 .else
-	.sjis	"「やぁ！このオンボロ車あんたの？　ひどくこわれてるけどオレがすぐ　直してやるよ…しかしずいぶんポ　ンコツだね、新しく買ったら？」"
+	.sjis	"Hey! Is this old and broken car yours? I can fix it right away, but wouldn't it be better to buy a new one?"
 .endif
 .endarea
 
@@ -548,7 +548,7 @@
 	.sjisn	"も本当は芸術家の卵なんだぜ…気　"
 	.sjis	"軽にジャックって呼んでくれよ。」"
 .else
-	.sjis	"「オレはジャック・スミス…この　家で世話になってる使用人さ…で　も本当は芸術家の卵なんだぜ…気　軽にジャックって呼んでくれよ。」"
+	.sjis	"I'm Jack Smith. I'm a caretaker here, but actually I'm an artistic talent. Feel free to call me Jack."
 .endif
 .endarea
 
@@ -561,7 +561,7 @@
 	.sjisn	"ことが気になってるみたいだな…今"
 	.sjis	"は落ち込んでキッチンにいるよ。」"
 .else
-	.sjis	"「どうやらコックさんのムッシュ・アペリチフは美人のアレグロさんのことが気になってるみたいだな…今は落ち込んでキッチンにいるよ。」"
+	.sjis	"It seems like Chef Apéritif, Mouch, is interested in the beautiful Allegro. Now he's feeling down and is in the kitchen."
 .endif
 .endarea
 
@@ -574,7 +574,7 @@
 	.sjisn	"あいつだったら庭にいるよ…なに、"
 	.sjis	"大丈夫、かみつきゃしないから。」"
 .else
-	.sjis	"「ナポレオン？そりゃ君のおじさ　んがかわいがってるイヌの名前だ　あいつだったら庭にいるよ…なに、大丈夫、かみつきゃしないから。」"
+	.sjis	"Napoleon? That's the name of your uncle's pet dog. He's in the yard right now. Don't worry, he won't bite."
 .endif
 .endarea
 
@@ -587,7 +587,7 @@
 	.sjisn	"しかし、アレグロはかんかんに怒　"
 	.sjis	"ってもう口もきいてくれない。」　"
 .else
-	.sjis	"「たしかに私はカベに穴を空けた　が、太っているので通れなかった…しかし、アレグロはかんかんに怒　ってもう口もきいてくれない。」　"
+	.sjis	"Yes, I did make a hole in the wall, but I was too big to fit through it. But now, Allegro is so angry that he won't even talk to me."
 .endif
 .endarea
 
@@ -600,7 +600,7 @@
 	.sjisn	"る…昔はフランスのレストランで　"
 	.sjis	"料理長をしていたこともある。」　"
 .else
-	.sjis	"「わしはエスカルゴ・アペリチフ　この家でみんなの食事を作ってお　る…昔はフランスのレストランで　料理長をしていたこともある。」　"
+	.sjis	"I am Escolex Apetichif, I make everyone's meals in this house. I used to be a head chef in a French restaurant in the past."
 .endif
 .endarea
 
@@ -613,7 +613,7 @@
 	.sjisn	"そんな彼女にわしは夢中になった　"
 	.sjis	"フランス人はいつも恋するのさ。」"
 .else
-	.sjis	"「アレグロに嫌われてしまった…　彼女のひくピアノは美しい音色だ　そんな彼女にわしは夢中になった　フランス人はいつも恋するのさ。」"
+	.sjis	"I've been hated by Allegro... her playing piano has a beautiful sound, I became obsessed with such a girl. French people always fall in love."
 .endif
 .endarea
 
@@ -626,7 +626,7 @@
 	.sjisn	"しないゼイタクなイヌだ。」　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"「ナポレオンなら庭で遊んどるよ　あのイヌはフランス料理しか口に　しないゼイタクなイヌだ。」　　　　　　　　　　　　　　　　　　　"
+	.sjis	"Napoleon is playing in the yard, that dog only eats French cuisine, he's quite picky."
 .endif
 .endarea
 
@@ -639,7 +639,7 @@
 	.sjisn	"わざわざ来てくれてすまなかった　"
 	.sjis	"がなかなか楽しかったじゃろう？」"
 .else
-	.sjis	"「待っておったぞ！キートン君…　どうだね、わしの新しい屋敷は？　わざわざ来てくれてすまなかった　がなかなか楽しかったじゃろう？」"
+	.sjis	"Waited for you! Keaton sir... How's it going? My new mansion, did you like it? Sorry to have kept you waiting, but I bet it was enjoyable, right?"
 .endif
 .endarea
 
@@ -652,7 +652,7 @@
 	.sjisn	"ちなみに今日４月１日はナポレオ　"
 	.sjis	"ンの結婚記念日でもあるのだよ。」"
 .else
-	.sjis	"「わしはナポレオンが好きでね…　イヌにもその名前を付けておる…　ちなみに今日４月１日はナポレオ　ンの結婚記念日でもあるのだよ。」"
+	.sjis	"I like Napoleon, you see... I even named my dog after him... By the way, today April 1st is also Napoleon's wedding anniversary."
 .endif
 .endarea
 
@@ -665,7 +665,7 @@
 	.sjisn	"しばらくゆっくりしてくれたまえ、"
 	.sjis	"今日はごちそうを用意するから。」"
 .else
-	.sjis	"「君の車は使用人のジャックに直　させるから心配しないでおくれ…　しばらくゆっくりしてくれたまえ、今日はごちそうを用意するから。」"
+	.sjis	"Don't worry about your car, I'll have Jack, the handyman, fix it. Take your time and relax, I have a feast prepared for you today."
 .endif
 .endarea
 
@@ -678,7 +678,7 @@
 	.sjisn	"てくれたまえ、次はもっと面白い仕"
 	.sjis	"掛けを用意しとくから、ワハハ。」"
 .else
-	.sjis	"「これもわしの趣味でな…まあそう怒らないで…これにこりずにまた来てくれたまえ、次はもっと面白い仕掛けを用意しとくから、ワハハ。」"
+	.sjis	"This is also my hobby, don't get mad... come back without getting caught again, I'll prepare a more interesting setup next time, hahaha."
 .endif
 .endarea
 
@@ -691,7 +691,7 @@
 	.sjisn	"盗んで私のピアノにさわるから３　"
 	.sjis	"階の音楽室もふさいだのよ。」　　"
 .else
-	.sjis	"「それはエスカルゴにあてて私が　書いたの…あの人ったら人の目を　盗んで私のピアノにさわるから３　階の音楽室もふさいだのよ。」　　"
+	.sjis	"That's a letter I wrote to Escargot. She's always looking into other people's business and touching my piano, so I had to block access to the third-floor music room."
 .endif
 .endarea
 
@@ -704,7 +704,7 @@
 	.sjisn	"れてしまう…おいしいフランス料　"
 	.sjis	"理を作るから材料を集めてくれ。」"
 .else
-	.sjis	"「トホホ…何とかしてアレグロの　機嫌をとらなきゃわしは一生嫌わ　れてしまう…おいしいフランス料　理を作るから材料を集めてくれ。」"
+	.sjis	"Oh no... I have to do something to make Alleandro happy or I'll be hated forever... I'll make delicious French cuisine, so gather the ingredients."
 .endif
 .endarea
 
@@ -717,7 +717,7 @@
 	.sjisn	"をあげるからエスカルゴにごめん　"
 	.sjis	"なさいと言っておいてくれない？」"
 .else
-	.sjis	"「気持ちはありがたいけど私には　フィアンセがいるの…このトマト　をあげるからエスカルゴにごめん　なさいと言っておいてくれない？」"
+	.sjis	"I appreciate it but I have a fiancé. Can you give this tomato and apologize to Escargot for me?"
 .endif
 .endarea
 
@@ -730,7 +730,7 @@
 	.sjisn	"がどうも気まずい…わしの代わり　"
 	.sjis	"にアレグロに渡してきてくれ。」　"
 .else
-	.sjis	"「ムッ！それはわしが書いた手紙…アレグロに渡そうと思っておった　がどうも気まずい…わしの代わり　にアレグロに渡してきてくれ。」　"
+	.sjis	"Ugh! That's the letter I wrote... I was going to give it to Allegro, but it's kind of awkward... Could you deliver it to Allegro instead of me?"
 .endif
 .endarea
 
@@ -743,7 +743,7 @@
 	.sjisn	"いなの…それナポレオンが大好き　"
 	.sjis	"だから食べさせてあげて。」　　　"
 .else
-	.sjis	"「ごめんなさい受け取れないわ…　私、フランス料理って太るから嫌　いなの…それナポレオンが大好き　だから食べさせてあげて。」　　　"
+	.sjis	"Sorry, I can't take it... I don't like French cuisine because it makes me gain weight... That's why I let Napoleon eat it."
 .endif
 .endarea
 
@@ -756,7 +756,7 @@
 	.sjisn	"くれ。」　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"「その料理をアレグロに見せて、　わしが心を込めて作ったと伝えて　くれ。」　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"Sure, I'll let Alegro know how much love and care you put into making that dish."
 .endif
 .endarea
 
@@ -769,7 +769,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"「わしの料理に洋酒は欠かせない　このプランデーはナポレオンだ。」　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"Wine is essential for my cooking, this Grand Cru is dedicated to Napoleon."
 .endif
 .endarea
 
@@ -782,7 +782,7 @@
 	.sjisn	"」　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"「うむ、このブランデーを使えば　わしの料理はもっとうまくなる…。」　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"Hm, if I use this brandy my cooking will become even better."
 .endif
 .endarea
 
@@ -795,7 +795,7 @@
 	.sjisn	"れ…この鉄のカギを使えば上の扉　"
 	.sjis	"が開くから日記は返してくれ。」　"
 .else
-	.sjis	"「それはオレの日記じゃないか！　オレの部屋を探しまわらないでく　れ…この鉄のカギを使えば上の扉　が開くから日記は返してくれ。」　"
+	.sjis	"That's my diary! Don't go searching through my room... use this iron key to open the upper door and return my diary."
 .endif
 .endarea
 
@@ -808,7 +808,7 @@
 	.sjisn	"「そんなもの私がもらって　　　　"
 	.sjis	"　　　　　どうしろというのだ？」"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　「そんなもの私がもらって　　　　　　　　　どうしろというのだ？」"
+	.sjis	"Why would I take it? What am I supposed to do with it?"
 .endif
 .endarea
 
@@ -821,7 +821,7 @@
 	.sjisn	"ていたと伝えといてくれないか。」"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"「さあ、その料理をアレグロに渡してきておくれ…わしがよろしく言っていたと伝えといてくれないか。」　　　　　　　　　　　　　　　　"
+	.sjis	"Please deliver that dish to Algrero, and tell them I recommended it."
 .endif
 .endarea
 
@@ -886,7 +886,7 @@
 	.sjisn	"「ちょっと待っててくれたまえ。」"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　「ちょっと待っててくれたまえ。」　　　　　　　　　　　　　　　　"
+	.sjis	"Please wait for a moment."
 .endif
 .endarea
 
@@ -899,7 +899,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"「そんなもの私がもらって　　　　　　　　　どうしろというのだ？」　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"What am I supposed to do with such a thing?"
 .endif
 .endarea
 
