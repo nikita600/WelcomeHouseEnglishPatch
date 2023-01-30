@@ -5,6 +5,7 @@
 
 ; -----------------------------------------------------------------------------
 
+JAP equ "jap"
 LANG equ "jap"
 
 .headersize 0x8000F800
@@ -12,6 +13,7 @@ LANG equ "jap"
 ; -----------------------------------------------------------------------------
 
 ;.include "src\pointers.asm"
+.include "src\render_text.asm"
 
 ; -----------------------------------------------------------------------------
 
@@ -19,13 +21,6 @@ LANG equ "jap"
 
 .org 0x8008E17C ;0x0007E97C
 .area 0x8E9C
-
-
-.loadtable "tables\shift_jis.tbl"
-
-;.loadtable "tables\ascii_jis.tbl"
-
-.include "src\render_text.asm"
 
 .include "src\text_01.asm"
 .include "src\text_02.asm"

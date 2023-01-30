@@ -9,7 +9,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"１階" : \
 	"1F"
 .endarea
@@ -17,7 +17,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"２階" : \
 	"2F"
 .endarea
@@ -25,7 +25,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"３階" : \
 	"3F"
 .endarea
@@ -33,7 +33,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"地下" : \
 	"BS"
 .endarea

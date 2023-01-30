@@ -9,7 +9,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　ブランデー" : \
 	"Brandy"
 
@@ -19,7 +19,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　赤い本" : \
 	"The red book"
 
@@ -29,7 +29,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　青い本" : \
 	"The blue book"
 
@@ -39,7 +39,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　黄色い本" : \
 	"The yellow book"
 
@@ -49,7 +49,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　ピンクの本" : \
 	"The pink book"
 
@@ -59,7 +59,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　緑の本" : \
 	"The green book"
 
@@ -69,7 +69,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　黒い本" : \
 	"The black book"
 
@@ -79,7 +79,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　白い本" : \
 	"The white book"
 
@@ -89,7 +89,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　赤いカギ" : \
 	"The red key"
 
@@ -99,7 +99,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　青いカギ" : \
 	"The blue key"
 
@@ -109,7 +109,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　黄色のカギ" : \
 	"The yellow key"
 
@@ -119,7 +119,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　ピンクのカギ" : \
 	"The pink key"
 
@@ -129,7 +129,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　緑のカギ" : \
 	"The green key"
 
@@ -139,7 +139,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　ナポレオンの絵" : \
 	"A picture of Napoleon"
 
@@ -149,7 +149,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"アレキサンダーの絵" : \
 	"A picture of Alexander"
 
@@ -159,7 +159,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　ジンギスカンの絵" : \
 	"A picture of Genghis Khan"
 
@@ -169,7 +169,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　　日記" : \
 	"A diary"
 
@@ -179,7 +179,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　金のカギ" : \
 	"The golden key"
 
@@ -189,7 +189,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　銀のカギ" : \
 	"The silver key"
 
@@ -199,7 +199,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　銅のカギ" : \
 	"The bronze key"
 
@@ -209,7 +209,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　ラブレター" : \
 	"A love letter"
 
@@ -219,7 +219,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"”皇帝”のレコード" : \
 	"The record \"Emperor\""
 
@@ -229,7 +229,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"ヒット曲レコード１" : \
 	"Hit song record 1"
 
@@ -239,7 +239,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"ヒット曲レコード２" : \
 	"Hit song record 2"
 
@@ -249,7 +249,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　苦情文" : \
 	"A complaint letter"
 
@@ -259,7 +259,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　ノコギリ" : \
 	"A saw"
 
@@ -269,7 +269,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　鉄のカギ" : \
 	"The iron key"
 
@@ -279,7 +279,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　チキン" : \
 	"Chicken"
 
@@ -289,7 +289,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　ざりがにとアミ" : \
 	"Crayfish and nettle"
 
@@ -299,7 +299,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　たまご" : \
 	"An egg"
 
@@ -309,7 +309,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　にんにく" : \
 	"Garlic"
 
@@ -319,7 +319,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　トマト" : \
 	"Tomato"
 
@@ -329,7 +329,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　フランス料理" : \
 	"French cuisine"
 
@@ -339,7 +339,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　　　アミ" : \
 	"Net"
 
@@ -349,7 +349,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　　　　魚とアミ" : \
 	"Fish and Ami."
 
@@ -359,7 +359,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"使う調べる選択バー" : \
 	"use, investigate, select bar"
 
@@ -369,7 +369,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"取る取らず選択バー" : \
 	"take or not take, select bar"
 
@@ -379,7 +379,7 @@
 ;--------------------------------------
 
 .area @text_size
-.str (LANG == "jap") ? \
+.sjis (LANG == JAP) ? \
 	"　　セーブ選択バー" : \
 	"save, select bar"
 

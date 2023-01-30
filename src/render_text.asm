@@ -1,6 +1,6 @@
 ;--------------------------------------
 
-.if LANG == "jap"
+.if LANG == JAP
 USE_SHIFT_JIS:
 .endif
 
