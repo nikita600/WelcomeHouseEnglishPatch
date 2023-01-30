@@ -1,6 +1,8 @@
 ;--------------------------------------
 
-;USE_SHIFT_JIS:
+.if LANG == "jap"
+USE_SHIFT_JIS:
+.endif
 
 @char_height equ 0x0F
 
@@ -344,6 +346,7 @@ return_80030e5c:
     jr         ra
     nop
 
+.ifndef USE_SHIFT_JIS
 get_ascii_bios_char_texture:
     addiu   sp,sp,-0x18
     sw      ra,0x10(sp)
@@ -367,6 +370,7 @@ get_ascii_bios_char_texture:
     addiu   sp,sp,0x18
     jr      ra
     nop
+.endif
 
 .endarea
 
