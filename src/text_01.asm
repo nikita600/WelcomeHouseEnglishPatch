@@ -2027,7 +2027,7 @@ Text04_8008f036:
 	.sjisn	"　手紙らしきものが置いてある。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　手紙らしきものが置いてある。　　　　　　　　　　　　　　　　　"
+	.sjis	"There's something that looks like a letter left."
 .endif
 .endarea
 
@@ -2038,7 +2038,7 @@ Text04_8008f036:
 	.sjisn	"　　女の人の写真があるけど…　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　女の人の写真があるけど…　　　　　　　　　　　　　　　　　　"
+	.sjis	"There's a photo of a woman, but..."
 .endif
 .endarea
 
@@ -2049,7 +2049,7 @@ Text04_8008f036:
 	.sjisn	"　あれ？カベに穴が開いてるぞ。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　あれ？カベに穴が開いてるぞ。　　　　　　　　　　　　　　　　　"
+	.sjis	"Hey, there's a hole in the wall."
 .endif
 .endarea
 
@@ -2060,7 +2060,7 @@ Text04_8008f036:
 	.sjisn	"　　　カベに穴が開いている　　　"
 	.sjis	"　ノコギリで切ったアトがある。　"
 .else
-	.sjis	"　　　カベに穴が開いている　　　　ノコギリで切ったアトがある。　"
+	.sjis	"There's a hole in the wall and an axe that was cut with a saw."
 .endif
 .endarea
 
@@ -2071,7 +2071,7 @@ Text04_8008f036:
 	.sjisn	"　穴を通るとシンバルで叩かれる　"
 	.sjis	"　いったいどういうことなんだ？　"
 .else
-	.sjis	"　穴を通るとシンバルで叩かれる　　いったいどういうことなんだ？　"
+	.sjis	"Going through the hole, you hear a cymbal being struck. What's going on?"
 .endif
 .endarea
 
@@ -2082,7 +2082,7 @@ Text04_8008f036:
 	.sjisn	"　このドアにはカギ穴がないけど　"
 	.sjis	"　　　　　開かないな。　　　　　"
 .else
-	.sjis	"　このドアにはカギ穴がないけど　　　　　　開かないな。　　　　　"
+	.sjis	"There's no keyhole on this door but it won't open."
 .endif
 .endarea
 
@@ -2093,7 +2093,7 @@ Text04_8008f036:
 	.sjisn	"　　カギ穴がないけど開かない　　"
 	.sjis	"　　何か仕掛けがあるのかな。　　"
 .else
-	.sjis	"　　カギ穴がないけど開かない　　　　何か仕掛けがあるのかな。　　"
+	.sjis	"No keyhole but won't open, could there be a mechanism?"
 .endif
 .endarea
 
@@ -2104,7 +2104,7 @@ Text04_8008f036:
 	.sjisn	"　　　　これはテレビだな。　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　これはテレビだな。　　　　　　　　　　　　　　　　　　　"
+	.sjis	"This is a TV, I guess."
 .endif
 .endarea
 
@@ -2115,7 +2115,7 @@ Text04_8008f036:
 	.sjisn	"　　おや…スイッチを入れても　　"
 	.sjis	"　　　　　何も映らない。　　　　"
 .else
-	.sjis	"　　おや…スイッチを入れても　　　　　　　何も映らない。　　　　"
+	.sjis	"Oh... even if I turn on the switch, nothing is shown."
 .endif
 .endarea
 
@@ -2126,7 +2126,7 @@ Text04_8008f036:
 	.sjisn	"　映らないのか…つまらないな。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　映らないのか…つまらないな。　　　　　　　　　　　　　　　　　"
+	.sjis	"Nothing is shown? That's boring."
 .endif
 .endarea
 
@@ -2137,7 +2137,7 @@ Text04_8008f036:
 	.sjisn	"　矢印がドアの方を向いている…　"
 	.sjis	"　ドアが開いたということかな。　"
 .else
-	.sjis	"　矢印がドアの方を向いている…　　ドアが開いたということかな。　"
+	.sjis	"The arrow is pointing towards the door... I guess it means the door is open."
 .endif
 .endarea
 
@@ -2148,7 +2148,7 @@ Text04_8008f036:
 	.sjisn	"　テーブルの上にレコードがある。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　テーブルの上にレコードがある。　　　　　　　　　　　　　　　　"
+	.sjis	"There's a record on the table."
 .endif
 .endarea
 
@@ -2159,7 +2159,7 @@ Text04_8008f036:
 	.sjisn	"　　　　大きな水槽だな…　　　　"
 	.sjis	"　　　　　魚も泳いでる。　　　　"
 .else
-	.sjis	"　　　　大きな水槽だな…　　　　　　　　　魚も泳いでる。　　　　"
+	.sjis	"It's a big aquarium... and the fish are swimming."
 .endif
 .endarea
 
@@ -2170,7 +2170,7 @@ Text04_8008f036:
 	.sjisn	"　　なんだか怪しいカベだな。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　なんだか怪しいカベだな。　　　　　　　　　　　　　　　　　　"
+	.sjis	"This wall looks suspicious somehow."
 .endif
 .endarea
 
@@ -2181,7 +2181,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　まさか…　　　　　　"
 	.sjis	"　つぶされたりしないだろうな。　"
 .else
-	.sjis	"　　　　　　まさか…　　　　　　　つぶされたりしないだろうな。　"
+	.sjis	"I hope it won't collapse or be smashed."
 .endif
 .endarea
 
@@ -2192,7 +2192,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　怪しいカベだ。　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　怪しいカベだ。　　　　　　　　　　　　　　　　　　　　"
+	.sjis	"This wall is suspicious."
 .endif
 .endarea
 
@@ -2203,7 +2203,7 @@ Text04_8008f036:
 	.sjisn	"　　こんな所に小さなスキマが…　"
 	.sjis	"　　何に使うスキマなのかな？　　"
 .else
-	.sjis	"　　こんな所に小さなスキマが…　　　何に使うスキマなのかな？　　"
+	.sjis	"There is a small gap in this place... I wonder what the gap is used for."
 .endif
 .endarea
 
@@ -2214,7 +2214,7 @@ Text04_8008f036:
 	.sjisn	"　　よくわからないスキマだ。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　よくわからないスキマだ。　　　　　　　　　　　　　　　　　　"
+	.sjis	"It is an unclear gap."
 .endif
 .endarea
 
@@ -2225,7 +2225,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　あれ…　　　　　　"
 	.sjis	"　おかしいな…扉が開かないっ！　"
 .else
-	.sjis	"　　　　　　　あれ…　　　　　　　おかしいな…扉が開かないっ！　"
+	.sjis	"What... that's strange... the door won't open!"
 .endif
 .endarea
 
@@ -2236,7 +2236,7 @@ Text04_8008f036:
 	.sjisn	"　　しまった閉じこめられた！　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　しまった閉じこめられた！　　　　　　　　　　　　　　　　　　"
+	.sjis	"Oh no, I'm trapped!"
 .endif
 .endarea
 
@@ -2247,7 +2247,7 @@ Text04_8008f036:
 	.sjisn	"　よく見ると中はみんな赤い本だ　"
 	.sjis	"　むずかしい内容の本ばかりだな。"
 .else
-	.sjis	"　よく見ると中はみんな赤い本だ　　むずかしい内容の本ばかりだな。"
+	.sjis	"Upon closer inspection, the books inside are all red, and they all seem to have difficult content."
 .endif
 .endarea
 
@@ -2258,7 +2258,7 @@ Text04_8008f036:
 	.sjisn	"　ここに赤い本を戻しておこう。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ここに赤い本を戻しておこう。　　　　　　　　　　　　　　　　　"
+	.sjis	"It's a good idea to return the red book back to its place."
 .endif
 .endarea
 
@@ -2269,7 +2269,7 @@ Text04_8008f036:
 	.sjisn	"　この本じゃ色が合わないな…。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　この本じゃ色が合わないな…。　　　　　　　　　　　　　　　　　"
+	.sjis	"This book doesn't match the color."
 .endif
 .endarea
 
@@ -2280,7 +2280,7 @@ Text04_8008f036:
 	.sjisn	"　これは青い本ばかりある本棚だ　"
 	.sjis	"　　有名な小説が並んでいる。　　"
 .else
-	.sjis	"　これは青い本ばかりある本棚だ　　　有名な小説が並んでいる。　　"
+	.sjis	"This is a bookshelf full of blue books. There are famous novels lined up."
 .endif
 .endarea
 
@@ -2291,7 +2291,7 @@ Text04_8008f036:
 	.sjisn	"　ここに青い本を戻しておこう。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ここに青い本を戻しておこう。　　　　　　　　　　　　　　　　　"
+	.sjis	"Let's put the blue book back here."
 .endif
 .endarea
 
@@ -2302,7 +2302,7 @@ Text04_8008f036:
 	.sjisn	"　この本棚には黄色い本しかない　"
 	.sjis	"　すべて料理の作り方のようだ。　"
 .else
-	.sjis	"　この本棚には黄色い本しかない　　すべて料理の作り方のようだ。　"
+	.sjis	"This bookshelf only has yellow books, they all seem to be recipes."
 .endif
 .endarea
 
@@ -2313,7 +2313,7 @@ Text04_8008f036:
 	.sjisn	"　ここに黄色い本を戻しておこう。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ここに黄色い本を戻しておこう。　　　　　　　　　　　　　　　　"
+	.sjis	"Let's put the yellow book back here."
 .endif
 .endarea
 
@@ -2324,7 +2324,7 @@ Text04_8008f036:
 	.sjisn	"　ナポレオンの絵で扉が開いた。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ナポレオンの絵で扉が開いた。　　　　　　　　　　　　　　　　　"
+	.sjis	"The door opened with a picture of Napoleon."
 .endif
 .endarea
 
@@ -2335,7 +2335,7 @@ Text04_8008f036:
 	.sjisn	"　　机がある…書斎なのかな。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　机がある…書斎なのかな。　　　　　　　　　　　　　　　　　　"
+	.sjis	"It seems to be a study room, there's a desk."
 .endif
 .endarea
 
@@ -2346,7 +2346,7 @@ Text04_8008f036:
 	.sjisn	"　調べても何もないみたいだな。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　調べても何もないみたいだな。　　　　　　　　　　　　　　　　　"
+	.sjis	"It seems like there's nothing here after checking."
 .endif
 .endarea
 
@@ -2357,7 +2357,7 @@ Text04_8008f036:
 	.sjisn	"　ピンクの本ばかり集めてあるな　"
 	.sjis	"　やっぱりエッチな本ばかりだ。　"
 .else
-	.sjis	"　ピンクの本ばかり集めてあるな　　やっぱりエッチな本ばかりだ。　"
+	.sjis	"I've only collected pink books. As expected, they're all naughty books."
 .endif
 .endarea
 
@@ -2368,7 +2368,7 @@ Text04_8008f036:
 	.sjisn	"　ここにはやっぱりピンクの本を。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ここにはやっぱりピンクの本を。　　　　　　　　　　　　　　　　"
+	.sjis	"I'll return the pink book here."
 .endif
 .endarea
 
@@ -2379,7 +2379,7 @@ Text04_8008f036:
 	.sjisn	"　よく見ると緑の本ばっかりだな　"
 	.sjis	"　　音楽に関した本しかないな。　"
 .else
-	.sjis	"　よく見ると緑の本ばっかりだな　　　音楽に関した本しかないな。　"
+	.sjis	"Looks like it's all green books, all about music."
 .endif
 .endarea
 
@@ -2390,7 +2390,7 @@ Text04_8008f036:
 	.sjisn	"　ここに緑の本を戻しておこう。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ここに緑の本を戻しておこう。　　　　　　　　　　　　　　　　　"
+	.sjis	"Let's return the green book here."
 .endif
 .endarea
 
@@ -2401,7 +2401,7 @@ Text04_8008f036:
 	.sjisn	"　ここには黒い本が並んでいるな　"
 	.sjis	"　黒い本なんて持ってたっけ…？　"
 .else
-	.sjis	"　ここには黒い本が並んでいるな　　黒い本なんて持ってたっけ…？　"
+	.sjis	"Let's return the black book here as well."
 .endif
 .endarea
 
@@ -2412,7 +2412,7 @@ Text04_8008f036:
 	.sjisn	"黒くぬった白い本だけどいいかな。"
 	.sjis	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"黒くぬった白い本だけどいいかな。　　　　　　　　　　　　　　　　"
+	.sjis	"Let's return the blackened white book here too."
 .endif
 .endarea
 
@@ -2423,7 +2423,7 @@ Text04_8008f036:
 	.sjisn	"　　「やあ…おどろいたかい？　　"
 	.sjis	"　　ぼくはいとこのアントニー。」"
 .else
-	.sjis	"　　「やあ…おどろいたかい？　　　　ぼくはいとこのアントニー。」"
+	.sjis	"Hey...surprised? I'm your cousin Anthony."
 .endif
 .endarea
 
