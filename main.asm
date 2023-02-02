@@ -6,7 +6,9 @@
 ; -----------------------------------------------------------------------------
 
 JAP equ "jap"
-LANG equ "jap"
+ENG equ "eng"
+
+LANG equ JAP
 
 .headersize 0x8000F800
 

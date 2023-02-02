@@ -5,10 +5,11 @@
 .org 0x80096918
 
 @text_size equ 65
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「メモリーカードがありません。」"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -19,7 +20,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットされていません…　"
 	.sjis	"　　フォーマットしますか？」　　"
@@ -30,7 +31,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　「メモリーカードを　　　　"
 	.sjis	"　　差しなおしてください。」　　"
@@ -41,7 +42,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「フォーマットしました。」　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -52,7 +53,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「フォーマット中です。」　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -63,7 +64,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットしませんでした。」"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -74,7 +75,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「セーブが終わりました。」　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -85,7 +86,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「メモリーカードがいっぱいで　　"
 	.sjis	"　セーブする場所がありません。」"
@@ -96,7 +97,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「セーブデータを上書きします…"
 	.sjis	"　　　　よろしいですか。」　　　"
@@ -107,7 +108,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「新しくセーブします…　　　"
 	.sjis	"　　　　よろしいですか。」　　　"
@@ -118,7 +119,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ウエルカムハウスの　　　　　　"
 	.sjis	"　　セーブデータがありません。」"
@@ -129,7 +130,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットされていない　　　"
 	.sjis	"カードです…ロードできません。」"
@@ -140,7 +141,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットされている　　　　"
 	.sjis	"　　　　　メモリーカードです。」"
@@ -151,7 +152,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ここではセーブできません。」　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -162,7 +163,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「セーブデフォ（上書）に引っ掛か"
 	.sjis	"りました…見直してください。」　"
@@ -173,7 +174,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「セーブデフォ（新規）に引っ掛か"
 	.sjis	"りました…見直してください。」　"
@@ -184,7 +185,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ファイルチェックに引っ掛かりま"
 	.sjis	"した…見直してください。」　　　"
@@ -195,7 +196,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「セーブしませんでした。」　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -206,7 +207,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「セーブデータをロード中です。」"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -217,7 +218,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「ロードが終わりました。」　　"
 	.sjis	"　　　　　　　　　　　　　　　　"

@@ -5,10 +5,11 @@
 .org 0x80093DC4
 
 @text_size equ 129
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　バーのカウンターから出てきた…"
 	.sjisn	"　こんなに強い酒は飲めないから　"
@@ -21,7 +22,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"愛のない世界とは、あかりのない幻"
 	.sjisn	"燈のようなものだ　　　　　　　　"
@@ -34,7 +35,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"『言語は思想のひょうげんである』"
 	.sjisn	"　　これはウエブスター辞書だ　　"
@@ -47,7 +48,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"チキンざりがに卵トマトにんにく、"
 	.sjisn	"プーレソーテ・ア・ラ・マレンゴの"
@@ -60,7 +61,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　あわわ、　　　　　　　　　　"
 	.sjisn	"こいつは口に出して言えないような"
@@ -73,7 +74,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ブオナパルテが自らを皇帝と称する"
 	.sjisn	"とベートーベンはかっとなって楽譜"
@@ -86,7 +87,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　トルストイの『戦争と平和』だ　"
 	.sjisn	"　　黒い本が見つからないので　　"
@@ -99,7 +100,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"芸術家にとっての英雄の存在とは、"
 	.sjisn	"歴史の中のひとりの人間である　　"
@@ -112,7 +113,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　１階の客間で見つかったカギだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -125,7 +126,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　鏡の男からもらったカギだ　　"
 	.sjisn	"　青い扉は１階と２階にあるけど　"
@@ -138,7 +139,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　１階のキッチンから見つかった。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -151,7 +152,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"トイレで見つけたエッチな本の間に"
 	.sjisn	"　　　はさんであったカギだ　　　"
@@ -164,7 +165,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　２階の緑の部屋から見つけた。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -177,7 +178,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　下級の兵士からヨーロッパ　　"
 	.sjisn	"　　全土を統一し、皇帝の座に　　"
@@ -190,7 +191,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"地中海からアジア一帯を占領した、"
 	.sjisn	"　　　　古代の征服者だ。　　　　"
@@ -203,7 +204,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"昔の中国大陸から世界の３分の１を"
 	.sjisn	"　　　支配した東洋の王様だ。　　"
@@ -216,7 +217,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"３月３１日、ムッシュ・アペリチフ"
 	.sjisn	"がノコギリを借りに来た…あれで何"
@@ -229,7 +230,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　なんで犬が鍵をくれるんだろう…"
 	.sjisn	"まぁいいか　おじさんの部屋以外に"
@@ -242,7 +243,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"１階の応接間から見つかったカギ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -255,7 +256,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ピンクの部屋から見つかったカギ　"
 	.sjisn	"　これを手に入れるのにずいぶん　"
@@ -268,7 +269,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"いとしのアレグロへ　　　　　　　"
 	.sjisn	"あなたを一目見たときに私の鍋に火"
@@ -281,7 +282,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ベートーベンのクラシック…　　　"
 	.sjisn	"　　　　　　　　　「皇帝」だ。　"
@@ -294,7 +295,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ドリス・ディのヒットソング…　　"
 	.sjisn	"　　　　「ケ・セラ・セラ」だ。　"
@@ -307,7 +308,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ベスト・オブ・ジャズ…　　　　　"
 	.sjisn	"　　　「イン・ザ・ムード」だ。　"
@@ -320,7 +321,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ムッシュ・アペリチフへ　　　　　"
 	.sjisn	"私のいない間に壁に穴を開けるなん"
@@ -333,7 +334,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"２階の黄色い部屋のベッドの枕元に"
 	.sjisn	"　　ノコギリがかくしてあった。　"
@@ -346,7 +347,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ジャックからもらったカギ　　"
 	.sjisn	"これで、おじさんの部屋の前にある"
@@ -359,7 +360,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　キッチンのオーブンの中に　　"
 	.sjisn	"　　　あったニワトリの肉だ。　　"
@@ -372,7 +373,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"２階のリビングルームの水槽でアミ"
 	.sjisn	"　を使ったら、ざりがにが捕れた。"
@@ -385,7 +386,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　キッチンの冷蔵庫の中から　　"
 	.sjisn	"　　　　見つかった生卵だ。　　　"
@@ -398,7 +399,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"１階の食堂の暖炉の上で見つけた。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -411,7 +412,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"アレグロさんからもらったトマト　"
 	.sjisn	"　コックのエスカルゴに渡そう。　"
@@ -424,7 +425,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　アレグロさんの機嫌をとろうと、"
 	.sjisn	"　　コックのエスカルゴが腕に　　"
@@ -437,7 +438,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　２階の黄色い部屋で見つかった　"
 	.sjisn	"魚を捕まえるためのアミのようだ。"
@@ -450,7 +451,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"２階のリビングルームの水槽でアミ"
 	.sjisn	"　を使ったら、魚が捕れた。　　　"
@@ -463,7 +464,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　本にカギがはさんであった　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -476,7 +477,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「もう、これ見てっ！私の部屋が　"
 	.sjisn	"メチャクチャよっ…エスカルゴが　"
@@ -489,7 +490,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「私はアレグロ・アダージョ…音　"
 	.sjisn	"楽の留学生としてイタリアから来　"
@@ -502,7 +503,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「エスカルゴはフランスから来た　"
 	.sjisn	"コックさんなの…お国に奥さんと　"
@@ -515,7 +516,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「私の部屋にはもう入らないで…レ"
 	.sjisn	"ディに対して失礼だと思わない？ミ"
@@ -528,7 +529,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「やぁ！このオンボロ車あんたの？"
 	.sjisn	"　ひどくこわれてるけどオレがすぐ"
@@ -541,7 +542,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「オレはジャック・スミス…この　"
 	.sjisn	"家で世話になってる使用人さ…で　"
@@ -554,7 +555,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「どうやらコックさんのムッシュ・"
 	.sjisn	"アペリチフは美人のアレグロさんの"
@@ -567,7 +568,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ナポレオン？そりゃ君のおじさ　"
 	.sjisn	"んがかわいがってるイヌの名前だ　"
@@ -580,7 +581,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「たしかに私はカベに穴を空けた　"
 	.sjisn	"が、太っているので通れなかった…"
@@ -593,7 +594,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「わしはエスカルゴ・アペリチフ　"
 	.sjisn	"この家でみんなの食事を作ってお　"
@@ -606,7 +607,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「アレグロに嫌われてしまった…　"
 	.sjisn	"彼女のひくピアノは美しい音色だ　"
@@ -619,7 +620,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ナポレオンなら庭で遊んどるよ　"
 	.sjisn	"あのイヌはフランス料理しか口に　"
@@ -632,7 +633,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「待っておったぞ！キートン君…　"
 	.sjisn	"どうだね、わしの新しい屋敷は？　"
@@ -645,7 +646,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「わしはナポレオンが好きでね…　"
 	.sjisn	"イヌにもその名前を付けておる…　"
@@ -658,7 +659,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「君の車は使用人のジャックに直　"
 	.sjisn	"させるから心配しないでおくれ…　"
@@ -671,7 +672,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「これもわしの趣味でな…まあそう"
 	.sjisn	"怒らないで…これにこりずにまた来"
@@ -684,7 +685,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「それはエスカルゴにあてて私が　"
 	.sjisn	"書いたの…あの人ったら人の目を　"
@@ -697,7 +698,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「トホホ…何とかしてアレグロの　"
 	.sjisn	"機嫌をとらなきゃわしは一生嫌わ　"
@@ -710,7 +711,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「気持ちはありがたいけど私には　"
 	.sjisn	"フィアンセがいるの…このトマト　"
@@ -723,7 +724,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ムッ！それはわしが書いた手紙…"
 	.sjisn	"アレグロに渡そうと思っておった　"
@@ -736,7 +737,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ごめんなさい受け取れないわ…　"
 	.sjisn	"私、フランス料理って太るから嫌　"
@@ -749,7 +750,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「その料理をアレグロに見せて、　"
 	.sjisn	"わしが心を込めて作ったと伝えて　"
@@ -762,7 +763,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「わしの料理に洋酒は欠かせない　"
 	.sjisn	"このプランデーはナポレオンだ。」"
@@ -775,7 +776,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「うむ、このブランデーを使えば　"
 	.sjisn	"わしの料理はもっとうまくなる…。"
@@ -788,7 +789,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「それはオレの日記じゃないか！　"
 	.sjisn	"オレの部屋を探しまわらないでく　"
@@ -801,7 +802,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -814,7 +815,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「さあ、その料理をアレグロに渡し"
 	.sjisn	"てきておくれ…わしがよろしく言っ"
@@ -827,7 +828,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -840,7 +841,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -853,7 +854,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -866,7 +867,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -879,7 +880,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
@@ -892,7 +893,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「そんなもの私がもらって　　　　"
 	.sjisn	"　　　　　どうしろというのだ？」"

@@ -5,10 +5,11 @@
 .org 0x800968AC
 
 @text_size equ 15
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"チキン、　　　"
 .else
@@ -18,7 +19,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"ざりがに、　　"
 .else
@@ -28,7 +29,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"たまご、　　　"
 .else
@@ -38,7 +39,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"にんにく、　　"
 .else
@@ -48,7 +49,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"トマト、　　　"
 .else
@@ -58,7 +59,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"ブランデー、　"
 .else
@@ -68,7 +69,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"が必要だ。」　"
 .else

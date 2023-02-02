@@ -5,10 +5,11 @@
 .org 0x800937D0
 
 @text_size equ 27
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　ブランデー"
@@ -21,7 +22,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　赤い本"
@@ -34,7 +35,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　青い本"
@@ -47,7 +48,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　黄色い本"
@@ -60,7 +61,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　ピンクの本"
@@ -73,7 +74,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　緑の本"
@@ -86,7 +87,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　黒い本"
@@ -99,7 +100,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　白い本"
@@ -112,7 +113,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　赤いカギ"
@@ -125,7 +126,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　青いカギ"
@@ -138,7 +139,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　黄色のカギ"
@@ -151,7 +152,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　ピンクのカギ"
@@ -164,7 +165,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　緑のカギ"
@@ -177,7 +178,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　ナポレオンの絵"
@@ -190,7 +191,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"アレキサンダーの絵"
@@ -203,7 +204,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　ジンギスカンの絵"
@@ -216,7 +217,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　　日記"
@@ -229,7 +230,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　金のカギ"
@@ -242,7 +243,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　銀のカギ"
@@ -255,7 +256,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　銅のカギ"
@@ -268,7 +269,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　ラブレター"
@@ -281,7 +282,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"”皇帝”のレコード"
@@ -294,7 +295,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"ヒット曲レコード１"
@@ -307,7 +308,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"ヒット曲レコード２"
@@ -320,7 +321,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　苦情文"
@@ -333,7 +334,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　ノコギリ"
@@ -346,7 +347,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　鉄のカギ"
@@ -359,7 +360,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　チキン"
@@ -372,7 +373,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　ざりがにとアミ"
@@ -385,7 +386,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　たまご"
@@ -398,7 +399,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　にんにく"
@@ -411,7 +412,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　トマト"
@@ -424,7 +425,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　フランス料理"
@@ -437,7 +438,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　　　アミ"
@@ -450,7 +451,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　　　　魚とアミ"
@@ -463,7 +464,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"使う調べる選択バー"
@@ -476,7 +477,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"取る取らず選択バー"
@@ -489,7 +490,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 
 .if LANG == JAP
 	.sjis	"　　セーブ選択バー"

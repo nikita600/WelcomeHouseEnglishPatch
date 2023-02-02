@@ -5,10 +5,11 @@
 .org 0x8009608C
 
 @text_size equ 65
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　何だ、階段を上がろうとしたら　"
 	.sjis	"　　　足場がなくなった！？　　　"
@@ -19,7 +20,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ギャー！手をはさまれた！　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -30,7 +31,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"おや？中には何も入っていないぞ。"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -41,7 +42,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　何だこの部屋は…　　　　"
 	.sjis	"　ここを飛び越えろというのか？　"
@@ -52,7 +53,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　何やら上の方で音がした。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -63,7 +64,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　イテテ…　　　　　　　　　　"
 	.sjis	"　油にすべってドラム缶が頭に…。"
@@ -74,7 +75,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　あっ！これは鏡じゃない！　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -85,7 +86,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ソファに座ったらテレビがついた。"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -96,7 +97,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　何もない部屋だな…。　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -107,7 +108,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　はぁーっ、死ぬかと思った…。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -118,7 +119,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"もう上がっても大丈夫のようだな。"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -129,7 +130,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　もう…イヤになっちゃうよ。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -140,7 +141,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　イテテ…ここはどこだ？　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -151,7 +152,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　イテーッ！頭が割れるーっ！　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -162,7 +163,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　これでよし…と。　　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -173,7 +174,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　絵をかけると、後ろの　　　"
 	.sjis	"　ドアから小さな物音がした…。　"
@@ -184,7 +185,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　うわっ、部屋全体が動いてる！　"
 	.sjis	"　　一体何が起こってるんだ！　　"
@@ -195,7 +196,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　うわっビックリした！　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -206,7 +207,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　あっ！本棚が動いた！　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -217,7 +218,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　階段が動いている…？　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -228,7 +229,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"このドアはこのためにあったのか。"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -239,7 +240,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　若い男がこっちを見ているぞ。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -250,7 +251,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　彼からカギをもらった。　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -261,7 +262,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　きれいな女性が立っているぞ。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -272,7 +273,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　彼がコックさんだな。　　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -283,7 +284,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　このイヌがナポレオンか。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -294,7 +295,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　あっ！なんだあの男は。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -305,7 +306,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここはあがれないようだ。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -316,7 +317,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　またつぶされるのはヤダな。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -327,7 +328,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　普通だったら死んでるぞ。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -338,7 +339,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　彼女からトマトをもらった。　"
 	.sjis	"　　　　　　　　　　　　　　　　"
@@ -349,7 +350,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　プールの前にイヌがいる。　　"
 	.sjis	"　　　　　　　　　　　　　　　　"

@@ -5,10 +5,11 @@
 .org 0x80093DB0
 
 @text_size equ 5
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"１階"
 .else
@@ -18,7 +19,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"２階"
 .else
@@ -28,7 +29,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"３階"
 .else
@@ -38,7 +39,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"地下"
 .else

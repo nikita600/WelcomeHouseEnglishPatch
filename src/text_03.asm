@@ -5,10 +5,11 @@
 .org 0x80093BD4
 
 @text_size equ 47
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"をみつけた　　　　　　　　　とりますか？　　　"
 .else
@@ -18,7 +19,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"を入手した。　　　　　　　　　　　　　　　　　"
 .else
@@ -28,7 +29,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"をもどした。　　　　　　　　　　　　　　　　　"
 .else
@@ -38,7 +39,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"をおきますか。　　　　　　　　　　　　　　　　"
 .else

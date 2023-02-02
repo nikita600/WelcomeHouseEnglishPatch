@@ -5,10 +5,11 @@
 .org 0x80093C90
 
 @text_size equ 13
+@fill_value equ 0x20
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　玄関　　　"
 .else
@@ -18,7 +19,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　酒場　　　"
 .else
@@ -28,7 +29,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　キッチン　"
 .else
@@ -38,7 +39,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　食堂　　　"
 .else
@@ -48,7 +49,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　応接間　　"
 .else
@@ -58,7 +59,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　廊下　　　"
 .else
@@ -68,7 +69,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　トイレ　　"
 .else
@@ -78,7 +79,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　青い部屋　"
 .else
@@ -88,7 +89,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　ガレージ　"
 .else
@@ -98,7 +99,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　庭　　　　"
 .else
@@ -108,7 +109,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　かくし部屋"
 .else
@@ -118,7 +119,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　黒い部屋　"
 .else
@@ -128,7 +129,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　図書室　　"
 .else
@@ -138,7 +139,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　リビング　"
 .else
@@ -148,7 +149,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　トラップ　"
 .else
@@ -158,7 +159,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"ピンクの部屋"
 .else
@@ -168,7 +169,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　黄色い部屋"
 .else
@@ -178,7 +179,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　緑の部屋　"
 .else
@@ -188,7 +189,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　音楽室　　"
 .else
@@ -198,7 +199,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　物置　　　"
 .else
@@ -208,7 +209,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　ベランダ　"
 .else
@@ -218,7 +219,7 @@
 
 ;--------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjis	"　ゴール　　"
 .else

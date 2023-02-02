@@ -1,3761 +1,4103 @@
-;--------------------------------------
+;---------------------------------------------
 ;
-;--------------------------------------
+;---------------------------------------------
 
 .org 0x8008E17C
 
-@text_size equ 65
+@text_size 		equ		65
+@fill_value 	equ 	0x20
+@end_of_line 	equ 	0x00
 
-;--------------------------------------
+;---------------------------------------------
 
 Text01_8008e17c:
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
-	.area 32
-		.sjisn	"　　　ここには何もなさそうだ。　"
-	.endarea
-	.area 33
-		.sjis	"　　　　　　　　　　　　　　　　"
-	.endarea
+	.sjisn	"　　　ここには何もなさそうだ。　" + \
+			"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Seems nothing here."
+	.sjisn	"Seems nothing here.             " + \
+			"                                "
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　カギがかかってて開かないや　　"
-	.sjis	"まいったな、だれもいないのかな？"
+	.sjisn	"まいったな、だれもいないのかな？"
 .else
-	.sjis	"The door is locked and won't open. Damn it, is anyone here?"
+	.sjisn	"The door is locked and won't    "
+	.sjisn	"open. Damn it, is anyone here?  "
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　ここはまだ開かないな　　　"
-	.sjis	"　　　カギがかかっている。　　　"
+	.sjisn	"　　　カギがかかっている。　　　"
 .else
-	.sjis	"This place is still locked, the door is locked."
+	.sjisn	"This place is still locked, the " + \
+			"door is locked.                 "
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　ここはもう開いている。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This place is already open."
+	.sjisn	"This place is already open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　このカギでは開かないようだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems this key won't open it."
+	.sjisn	"It seems this key won't open it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　おじさんジョーダンきついよ　　"
-	.sjis	"　ここからはもう外に出られない。"
+	.sjisn	"　ここからはもう外に出られない。"
 .else
-	.sjis	"Uncle Jordan is tough, we can't get out from here anymore."
+	.sjisn	"Uncle Jordan is tough, we can't get out from here anymore."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ここはどうしても開かないようだ　"
-	.sjis	"　　他に出口をさがさなきゃ。　　"
+	.sjisn	"　　他に出口をさがさなきゃ。　　"
 .else
-	.sjis	"It seems this place won't open no matter what. We have to look for another exit."
+	.sjisn	"It seems this place won't open. " + \
+			"We have to look for another exit."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　カギでは開きそうにないな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It doesn't seem like the key will open it."
+	.sjisn	"It doesn't seem like the key will open it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　カギがかかってて開かないや　　"
-	.sjis	"　どこかでカギを見つけなきゃ。　"
+	.sjisn	"　どこかでカギを見つけなきゃ。　"
 .else
-	.sjis	"The door is locked and won't open. We have to find the key somewhere."
+	.sjisn	"The door is locked and won't open. We have to find the key somewhere."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　ここはまだ開かないな　　　"
-	.sjis	"　どこかでカギを見つけなきゃ。　"
+	.sjisn	"　どこかでカギを見つけなきゃ。　"
 .else
-	.sjis	"This place is still locked, we have to find the key somewhere."
+	.sjisn	"This place is still locked, we have to find the key somewhere."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"持ってるカギで開くかもしれない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It might open with the key we have."
+	.sjisn	"It might open with the key we have."
 .endif
+.db @end_of_line
 .endarea
 
 Text02_8008e447:
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　やっぱり…！ぴったりだ！　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Just as I thought... it's a perfect fit!"
+	.sjisn	"Just as I thought... it's a perfect fit!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　ここはもう開いている。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's already open here."
+	.sjisn	"It's already open here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　おっ！ここは開くようだな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Oh! It looks like it's opening here."
+	.sjisn	"Oh! It looks like it's opening here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここはカギがかかっていない。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The door is not locked here."
+	.sjisn	"The door is not locked here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"もともと開いてたから意味ないな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's already open, so it doesn't matter."
+	.sjisn	"It's already open, so it doesn't matter."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　２階に上がる階段がある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a staircase leading up to the second floor."
+	.sjisn	"There is a staircase leading up to the second floor."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ヒドいな…上がれないぞ　　　"
-	.sjis	"　　いったいどうなってるんだ。　"
+	.sjisn	"　　いったいどうなってるんだ。　"
 .else
-	.sjis	"This is tough... I can't make it up. What on earth is going on?"
+	.sjisn	"This is tough... I can't make it up. What on earth is going on?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　もう大丈夫だろうな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I suppose it's already okay."
+	.sjisn	"I suppose it's already okay."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　どうしても出られないようだ　　"
-	.sjis	"　　他の部屋に行ってみよう。　　"
+	.sjisn	"　　他の部屋に行ってみよう。　　"
 .else
-	.sjis	"It seems that I can't get out no matter what. I'll try going to another room."
+	.sjisn	"It seems that I can't get out no matter what. I'll try going to another room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　テコでも開きそうにないな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It doesn't seem like it will open even if I try to force it."
+	.sjisn	"It doesn't seem like it will open even if I try to force it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　おじさんの絵だ　　　　　"
-	.sjis	"　なんだか笑ってるみたいだな。　"
+	.sjisn	"　なんだか笑ってるみたいだな。　"
 .else
 	.sjisn	"This is the old man's picture.  "
-	.sjis	"It looks like he's smiling.     "
+	.sjisn	"It looks like he's smiling.     "
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　おじさんに会わないと帰れない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I can't go home until I see the old man."
+	.sjisn	"I can't go home until I see the old man."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　上にあがる階段がある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a staircase leading up."
+	.sjisn	"There is a staircase leading up."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　カギはかかっていないようだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems that the door is not locked."
+	.sjisn	"It seems that the door is not locked."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　こっちは庭だな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is the garden."
+	.sjisn	"This is the garden."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　こっちはキッチンだな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is the kitchen."
+	.sjisn	"This is the kitchen."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　こちら側からカギがかかってる　"
-	.sjis	"　　　　　開けておこう。　　　　"
+	.sjisn	"　　　　　開けておこう。　　　　"
 .else
-	.sjis	"The door is locked from this side. I'll unlock it."
+	.sjisn	"The door is locked from this side. I'll unlock it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　こっちは玄関だな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is the entrance."
+	.sjisn	"This is the entrance."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　きれいなネオンだな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"That's a beautiful neon light."
+	.sjisn	"That's a beautiful neon light."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"カウンターの中をしらべてみよう。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Let's search inside the counter."
+	.sjisn	"Let's search inside the counter."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここでは何も見つからない。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Nothing was found here."
+	.sjisn	"Nothing was found here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　おや…こんなところから　　　"
-	.sjis	"　　　　白い本が出てきた。　　　"
+	.sjisn	"　　　　白い本が出てきた。　　　"
 .else
-	.sjis	"Oh... a white book came out from such a place."
+	.sjisn	"Oh... a white book came out from such a place."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　お酒があった　　　　　"
-	.sjis	"フランス産のブランデーのようだ。"
+	.sjisn	"フランス産のブランデーのようだ。"
 .else
-	.sjis	"There is alcohol. It looks like French brandy."
+	.sjisn	"There is alcohol. It looks like French brandy."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　カウンターがある。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a counter."
+	.sjisn	"There is a counter."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　すわっても何も出ないな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Nothing comes out even if I sit down."
+	.sjisn	"Nothing comes out even if I sit down."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　しゃれたジュークボックスだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a stylish jukebox."
+	.sjisn	"This is a stylish jukebox."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"なんだ、レコードがひとつもない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"What? There's not even one record."
+	.sjisn	"What? There's not even one record."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　気晴らしに音楽でも聞くかな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Maybe I'll listen to music to relax."
+	.sjisn	"Maybe I'll listen to music to relax."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　でかいオーブンだな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a big oven."
+	.sjisn	"This is a big oven."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　中には何もないようだな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems that there is nothing inside."
+	.sjisn	"It seems that there is nothing inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　鍋があるけど重くて持てない。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a pot, but it is heavy and I cannot lift it."
+	.sjisn	"There is a pot, but it is heavy and I cannot lift it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　でかいオーブンだな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a big oven."
+	.sjisn	"This is a big oven."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここで料理をするんだろう　　"
-	.sjis	"まだあまり使われていないようだ。"
+	.sjisn	"まだあまり使われていないようだ。"
 .else
-	.sjis	"I guess cooking is done here. It doesn't seem to have been used much yet."
+	.sjisn	"I guess cooking is done here. It doesn't seem to have been used much yet."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここからなら上に乗れそうだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It looks like I can get on top from here."
+	.sjisn	"It looks like I can get on top from here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　箱の中からカギが出てきた。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"A key came out from inside the box."
+	.sjisn	"A key came out from inside the box."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　もう何も入っていないようだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems that there is nothing inside anymore."
+	.sjisn	"It seems that there is nothing inside anymore."
 .endif
+.db @end_of_line
 .endarea
 
 Text03_8008ed6b:
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　開けてみようかな…　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Maybe I'll try opening it..."
+	.sjisn	"Maybe I'll try opening it..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　あっ…中はもぬけのカラだ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Ah... it's empty inside."
+	.sjisn	"Ah... it's empty inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　中には何も入ってない　　　"
-	.sjis	"　穴が開いてて奥に進めそうだ。　"
+	.sjisn	"　穴が開いてて奥に進めそうだ。　"
 .else
-	.sjis	"There is nothing inside. There is an opening and it seems I can proceed inside."
+	.sjisn	"There is nothing inside. There is an opening and it seems I can proceed inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　これは冷蔵庫だ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is the refrigerator."
+	.sjisn	"This is the refrigerator."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　あれ…本しか入ってない。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Hmm... there are only books inside."
+	.sjisn	"Hmm... there are only books inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　こっちは食堂だな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is the dining room."
+	.sjisn	"This is the dining room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　フタの上に乗れそうだな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I can get on top of the lid."
+	.sjisn	"I can get on top of the lid."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　暖炉の上ににんにくがある。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is garlic on top of the fireplace."
+	.sjisn	"There is garlic on top of the fireplace."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　このドアは開いているようだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This door seems to be open."
+	.sjisn	"This door seems to be open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　こっちは玄関だな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is the entrance."
+	.sjisn	"This is the entrance."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　テーブルの上にレコードが…　"
-	.sjis	"　　　　後で聞いてみよう。　　　"
+	.sjisn	"　　　　後で聞いてみよう。　　　"
 .else
-	.sjis	"There are records on the table... I'll listen to them later."
+	.sjisn	"There are records on the table... I'll listen to them later."
 .endif
+.db @end_of_line
 .endarea
 
 Text04_8008f036:
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　こんなところに落とし穴が…　"
-	.sjis	"いたずらにしては手がこんでるな。"
+	.sjisn	"いたずらにしては手がこんでるな。"
 .else
-	.sjis	"There is a pitfall in such a place... It's a mischievous hand to do this."
+	.sjisn	"There is a pitfall in such a place... It's a mischievous hand to do this."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　大きな食卓だ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a large dining table."
+	.sjisn	"This is a large dining table."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これはただの時計だ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is just a clock."
+	.sjisn	"This is just a clock."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　これはファミリーの写真だな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a family photo."
+	.sjisn	"This is a family photo."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　おじさんの若い頃の写真がある。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a photo of the old man when he was young."
+	.sjisn	"There is a photo of the old man when he was young."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　たいして意味はなさそうだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It doesn't seem to have much meaning."
+	.sjisn	"It doesn't seem to have much meaning."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　ここもだめか…　　　　"
-	.sjis	"どうしても外に出さないつもりか。"
+	.sjisn	"どうしても外に出さないつもりか。"
 .else
-	.sjis	"Is this also no good...? Do you really not plan on letting me out?"
+	.sjisn	"Is this also no good...? Do you really not plan on letting me out?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　もうビクとも動かない。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I won't move even if I flinch."
+	.sjisn	"I won't move even if I flinch."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　赤い本を見つけた。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I found a red book."
+	.sjisn	"I found a red book."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ここでカギを使っても意味ないな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It doesn't seem to make a difference using the key here."
+	.sjisn	"It doesn't seem to make a difference using the key here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　おや…　　　　　　"
-	.sjis	"　　テーブルの上にカギがある。　"
+	.sjisn	"　　テーブルの上にカギがある。　"
 .else
-	.sjis	"Oh... there is a key on top of the table."
+	.sjisn	"Oh... there is a key on top of the table."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ゆっくりしてる暇はないな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I don't have time to take it easy." 
+	.sjisn	"I don't have time to take it easy." 
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　ただのソファのようだ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It just looks like a regular sofa."
+	.sjisn	"It just looks like a regular sofa."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　おっ！ここは開くようだな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Oh! it looks like it opens up here."
+	.sjisn	"Oh! it looks like it opens up here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　ここはトイレだ…　　　　"
-	.sjis	"　　　　特に用はないな。　　　　"
+	.sjisn	"　　　　特に用はないな。　　　　"
 .else
-	.sjis	"This is the toilet... I don't particularly need to use it."
+	.sjisn	"This is the toilet... I don't particularly need to use it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　カギはかかっていないようだが　"
-	.sjis	"　　何かにつかえて開かないや。　"
+	.sjisn	"　　何かにつかえて開かないや。　"
 .else
-	.sjis	"It doesn't look like the key is locked, but it can't be opened for some reason."
+	.sjisn	"It doesn't look like the key is locked, but it can't be opened for some reason."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"開いているけど、つかえて動かない"
-	.sjis	"　　向こうに何かがあるようだ。　"
+	.sjisn	"　　向こうに何かがあるようだ。　"
 .else
-	.sjis	"It's open but I can't move it, it looks like there's something on the other side."
+	.sjisn	"It's open but I can't move it, it looks like there's something on the other side."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　カギでは意味がなさそうだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It doesn't seem like the key would be of any use."
+	.sjisn	"It doesn't seem like the key would be of any use."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"どうしても外に出さないつもりか。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Are you determined not to let me out?"
+	.sjisn	"Are you determined not to let me out?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　２階の方から何やら物音がする　"
-	.sjis	"　どうやらおじさんはこの上だな。"
+	.sjisn	"　どうやらおじさんはこの上だな。"
 .else
-	.sjis	"I can hear some noise from upstairs, it seems that the old man is up there."
+	.sjisn	"I can hear some noise from upstairs, it seems that the old man is up there."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　これは鏡だ。　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a mirror."
+	.sjisn	"This is a mirror."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　これはタオルだ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a towel."
+	.sjisn	"This is a towel."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"おフロに入っているヒマはないな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I don't have time to soak in the bath."
+	.sjisn	"I don't have time to soak in the bath."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　これはトイレだ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a toilet."
+	.sjisn	"This is a toilet."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　おっ！　　　　　　"
-	.sjis	"　まくらの下からカギが出てきた。"
+	.sjisn	"　まくらの下からカギが出てきた。"
 .else
-	.sjis	"Oh! the key came out from under the pillow."
+	.sjisn	"Oh! the key came out from under the pillow."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　ここにはもう何もない。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There's nothing left here."
+	.sjisn	"There's nothing left here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　これは電話だ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a telephone."
+	.sjisn	"This is a telephone."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　外にかけられるか試してみよう…"
-	.sjis	"　だめだ、この電話は使えない。　"
+	.sjisn	"　だめだ、この電話は使えない。　"
 .else
-	.sjis	"Let's try calling outside, it doesn't work, this phone is not usable."
+	.sjisn	"Let's try calling outside, it doesn't work, this phone is not usable."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　この電話は使えない。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This phone is not usable."
+	.sjisn	"This phone is not usable."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここを出ると廊下に出る。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"If I go out from here, I'll be in the hallway."
+	.sjisn	"If I go out from here, I'll be in the hallway."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　これはベッドだ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a bed."
+	.sjisn	"This is a bed."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　少し休んでいきたいところだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I would like to take a nap for a little bit."
+	.sjisn	"I would like to take a nap for a little bit."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　おや、カレンダーがある　　　"
-	.sjis	"　　　　今日は４月１日…。　　　"
+	.sjisn	"　　　　今日は４月１日…。　　　"
 .else
-	.sjis	"Oh, there's a calendar. Today is April 1st..."
+	.sjisn	"Oh, there's a calendar. Today is April 1st..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　しまった、エイプリルフールだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Oh no, it's April Fool's Day."
+	.sjisn	"Oh no, it's April Fool's Day."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　おじさんにまんまとのせられた。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I was completely fooled by the old man."
+	.sjisn	"I was completely fooled by the old man."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　いらっしゃい…キートン…　　"
-	.sjis	"　おじさんからのメッセージだ。　"
+	.sjisn	"　おじさんからのメッセージだ。　"
 .else
-	.sjis	"Welcome... Keeton... This is a message from the old man."
+	.sjisn	"Welcome... Keeton... This is a message from the old man."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　おじさんからのメッセージだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a message from the old man."
+	.sjisn	"This is a message from the old man."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　青い本が見つかった…。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I found a blue book..."
+	.sjisn	"I found a blue book..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　これは机だ。　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a desk."
+	.sjisn	"This is a desk."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　階段がある。　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a staircase."
+	.sjisn	"There is a staircase."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　私の車がある…　　　　"
-	.sjis	"　　　誰が運んだのだろう。　　　"
+	.sjisn	"　　　誰が運んだのだろう。　　　"
 .else
-	.sjis	"My car is here... I wonder who drove it here."
+	.sjisn	"My car is here... I wonder who drove it here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　こわれて動きそうにない。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems to be broken and won't move."
+	.sjisn	"It seems to be broken and won't move."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ドラム缶がドアをふさいでいる　"
-	.sjis	"　どけないとドアは開かないな。　"
+	.sjisn	"　どけないとドアは開かないな。　"
 .else
-	.sjis	"A drum can is blocking the door, I won't be able to open the door unless I move it."
+	.sjisn	"A drum can is blocking the door, I won't be able to open the door unless I move it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ドラム缶をどけないと通れない　"
-	.sjis	"　　けど今にもくずれそうだな。　"
+	.sjisn	"　　けど今にもくずれそうだな。　"
 .else
-	.sjis	"I can't get through unless I move the drum can, but it looks like it's about to fall."
+	.sjisn	"I can't get through unless I move the drum can, but it looks like it's about to fall."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　たおれた拍子にくずれた。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I slipped and fell when the timing was bad."
+	.sjisn	"I slipped and fell when the timing was bad."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"プール付きの庭とはしゃれてるね。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The garden with a pool looks lively."
+	.sjisn	"The garden with a pool looks lively."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　犬小屋がある…　　　　"
-	.sjis	"ということは中に犬がいるのかな？"
+	.sjisn	"ということは中に犬がいるのかな？"
 .else
-	.sjis	"There's a dog house... Does that mean there's a dog inside?"
+	.sjisn	"There's a dog house... Does that mean there's a dog inside?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ビックリしたなぁもう…。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Wow, I'm surprised... already."
+	.sjisn	"Wow, I'm surprised... already."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"何かいるようだけど出てこないな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems like something is there, but it's not coming out."
+	.sjisn	"It seems like something is there, but it's not coming out."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ドラム缶があるけど何だろう…　"
-	.sjis	"黒いペンキが入ってるみたいだな。"
+	.sjisn	"黒いペンキが入ってるみたいだな。"
 .else
-	.sjis	"There is a drum can, but what is it... It looks like it's filled with black paint."
+	.sjisn	"There is a drum can, but what is it... It looks like it's filled with black paint."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　黒いペンキの入ったドラム缶だ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's a drum can filled with black paint."
+	.sjisn	"It's a drum can filled with black paint."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　あ～ぁ、白い本が…　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Ah, a white book is..."
+	.sjisn	"Ah, a white book is..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　本をよごすのはやめておこう。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Let's stop soiling the book."
+	.sjisn	"Let's stop soiling the book."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ジャンプすれば乗れそうだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"If I jump, I think I can ride it."
+	.sjisn	"If I jump, I think I can ride it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　こっちからは入れないな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I can't get in from this side."
+	.sjisn	"I can't get in from this side."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここからは降りれないな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I can't get off from here."
+	.sjisn	"I can't get off from here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　しっかりカギがかかってて　　"
-	.sjis	"　　　　開きそうにないな。　　　"
+	.sjisn	"　　　　開きそうにないな。　　　"
 .else
-	.sjis	"The lock is securely fastened and it doesn't look like it will open."
+	.sjisn	"The lock is securely fastened and it doesn't look like it will open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　柵の外にも広い庭があるぞ　　"
-	.sjis	"　ヤシが遠くにかすんで見えるよ。"
+	.sjisn	"　ヤシが遠くにかすんで見えるよ。"
 .else
-	.sjis	"The palm trees are hazy in the distance."
+	.sjisn	"The palm trees are hazy in the distance."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　地下に降りる階段がある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a staircase that leads down underground."
+	.sjisn	"There is a staircase that leads down underground."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　食料がいっぱい積んであるけど　"
-	.sjis	"　　　特に意味はなさそうだ。　　"
+	.sjisn	"　　　特に意味はなさそうだ。　　"
 .else
-	.sjis	"There is a lot of food stored here but it doesn't seem to have any particular meaning."
+	.sjisn	"There is a lot of food stored here but it doesn't seem to have any particular meaning."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここをぬけるとキッチンだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"If we pass through here, it leads to the kitchen."
+	.sjisn	"If we pass through here, it leads to the kitchen."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"スイッチがあるけど動かしてみる？"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a switch, should we try moving it?"
+	.sjisn	"There is a switch, should we try moving it?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"変な音がしてもう動かなくなった。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It made a strange noise and now it won't move."
+	.sjisn	"It made a strange noise and now it won't move."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　エスカルゴ・アペリチフ…　　"
-	.sjis	"この部屋に住んでる人の名前かな。"
+	.sjisn	"この部屋に住んでる人の名前かな。"
 .else
-	.sjis	"Escargot Apéritif... It looks like the name of the person living in this room."
+	.sjisn	"Escargot Apéritif... It looks like the name of the person living in this room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　エスカルゴさんの部屋か…　　"
-	.sjis	"　カギがかかってて開かないな。　"
+	.sjisn	"　カギがかかってて開かないな。　"
 .else
-	.sjis	"This is Mr. Escargot's room... The door is locked and it doesn't seem to open."
+	.sjisn	"This is Mr. Escargot's room... The door is locked and it doesn't seem to open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　下のキッチンで見つけたカギを。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I found the key in the kitchen below."
+	.sjisn	"I found the key in the kitchen below."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　ジャック・スミス…　　　"
-	.sjis	"　　扉に名前のプレートがある。　"
+	.sjisn	"　　扉に名前のプレートがある。　"
 .else
-	.sjis	"Jack Smith... there is a name plate on the door."
+	.sjisn	"Jack Smith... there is a name plate on the door."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　ピンク色の扉か…　　　　"
-	.sjis	"　カギがかかってて開かないな。　"
+	.sjisn	"　カギがかかってて開かないな。　"
 .else
-	.sjis	"A pink colored door... The key is locked and it doesn't seem to open."
+	.sjisn	"A pink colored door... The key is locked and it doesn't seem to open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ピンク色の扉だからカギもピンク"
-	.sjis	"。　　　　　　　　　　　　　　　"
+	.sjisn	"。　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Because the door is pink, the key is also pink."
+	.sjisn	"Because the door is pink, the key is also pink."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここにも鉄の扉がある…。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is also an iron door here..."
+	.sjisn	"There is also an iron door here..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　扉のカギはどこにあるのだろう。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I wonder where the key to the door is."
+	.sjisn	"I wonder where the key to the door is."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"押してもビクともしそうにないな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Even if I press it, it doesn't seem to move."
+	.sjisn	"Even if I press it, it doesn't seem to move."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　鉄の扉が開いてるぞ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The iron door is open."
+	.sjisn	"The iron door is open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　もらったカギで開けてみよう。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Let's try opening it with the key we received."
+	.sjisn	"Let's try opening it with the key we received."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これはただの花ビンだ…　　"
-	.sjis	"壊したら大変だから持ってくまい。"
+	.sjisn	"壊したら大変だから持ってくまい。"
 .else
-	.sjis	"This is just a flower vase... If we break it, it would be a problem, so let's not take it."
+	.sjisn	"This is just a flower vase... If we break it, it would be a problem, so let's not take it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　こんなせまいスキマを通るのは　"
-	.sjis	"　　　　　もうゴメンだ。　　　　"
+	.sjisn	"　　　　　もうゴメンだ。　　　　"
 .else
-	.sjis	"Sorry, I can't pass through such a narrow gap."
+	.sjisn	"Sorry, I can't pass through such a narrow gap."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これは鏡のようだが…。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This looks like a mirror, but..."
+	.sjisn	"This looks like a mirror, but..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　これは鏡のようだが変だな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This looks like a mirror, but it's strange."
+	.sjisn	"This looks like a mirror, but it's strange."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　鉄の扉が閉まってる…　　　"
-	.sjis	"たぶんおじさんはこの向こうだな。"
+	.sjisn	"たぶんおじさんはこの向こうだな。"
 .else
-	.sjis	"The iron door is closed... The old man probably went this way."
+	.sjisn	"The iron door is closed... The old man probably went this way."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　この扉は開くようだぞ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems like this door can be opened."
+	.sjisn	"It seems like this door can be opened."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ここから出ると庭に落ちてしまう。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"If I exit here, I will fall into the garden."
+	.sjisn	"If I exit here, I will fall into the garden."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　３階に戻ってもしかたがない。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I have to go back to the third floor."
+	.sjisn	"I have to go back to the third floor."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　この扉にはカギ穴がない。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This door doesn't have a keyhole."
+	.sjisn	"This door doesn't have a keyhole."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"消火器があるけど重くて持てない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a fire extinguisher, but it is too heavy to carry."
+	.sjisn	"There is a fire extinguisher, but it is too heavy to carry."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"内側からカギがかかってるようだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It looks like the key is locked on the inside."
+	.sjisn	"It looks like the key is locked on the inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　あっ、内側からカギをかけたな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Oh, I locked it from the inside."
+	.sjisn	"Oh, I locked it from the inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　これは窓だ。　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a window."
+	.sjisn	"This is a window."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　まいったな、カギがかかってる　"
-	.sjis	"　おじさんは中にいるはずなのに。"
+	.sjisn	"　おじさんは中にいるはずなのに。"
 .else
-	.sjis	"Dammit, the key is locked. The old man should be inside."
+	.sjisn	"Dammit, the key is locked. The old man should be inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　どこかでカギを見つけなきゃ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I need to find the key somewhere."
+	.sjisn	"I need to find the key somewhere."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　この扉はもう開いている。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The door is already open."
+	.sjisn	"The door is already open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　まだ上があるのか…。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Is there still more above...?"
+	.sjisn	"Is there still more above...?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　アレグロ・アダージョ…　　"
-	.sjis	"　　扉に名前のプレートがある。　"
+	.sjisn	"　　扉に名前のプレートがある。　"
 .else
-	.sjis	"Alegro Adagio... there is a name plate on the door."
+	.sjisn	"Alegro Adagio... there is a name plate on the door."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　アレグロさんの部屋か…　　"
-	.sjis	"　カギがかかってて開かないな。　"
+	.sjisn	"　カギがかかってて開かないな。　"
 .else
-	.sjis	"This is Mr. Alegro's room..."
+	.sjisn	"This is Mr. Alegro's room..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"絵をかけておくような凹みがある。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a small recess that looks like it is meant for hanging a picture."
+	.sjisn	"There is a small recess that looks like it is meant for hanging a picture."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここに絵をかけるのかな…。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I wonder if I should hang a picture here..."
+	.sjisn	"I wonder if I should hang a picture here..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　この絵でよかったみたいだな　　"
-	.sjis	"後ろのドアのカギが外れたようだ。"
+	.sjisn	"後ろのドアのカギが外れたようだ。"
 .else
-	.sjis	"It seems like this picture is good, the key of the door in the back seems to have been removed."
+	.sjisn	"It seems like this picture is good, the key of the door in the back seems to have been removed."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　この絵は違うらしいな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This picture seems to be different."
+	.sjisn	"This picture seems to be different."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"このドアにはカギがかかっている。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This door is locked."
+	.sjisn	"This door is locked."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　絵の重さで開くしくみか…　　"
-	.sjis	"　ナポレオンでよかったようだな。"
+	.sjisn	"　ナポレオンでよかったようだな。"
 .else
-	.sjis	"It seems that the door can be opened by the weight of the picture... It worked with Napoleon."
+	.sjisn	"It seems that the door can be opened by the weight of the picture... It worked with Napoleon."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここはもう開かないだろうな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It probably won't open anymore."
+	.sjisn	"It probably won't open anymore."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　銅のカギが出てきた…　　　"
-	.sjis	"こんなところにかくしていたのか。"
+	.sjisn	"こんなところにかくしていたのか。"
 .else
-	.sjis	"A copper key has appeared... It was hidden here."
+	.sjisn	"A copper key has appeared... It was hidden here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　変わった形のベッドだな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a bed with an unusual shape."
+	.sjisn	"This is a bed with an unusual shape."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　日記がおいてある。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"A diary is left here."
+	.sjisn	"A diary is left here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　ハワイのポスターだ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's a poster of Hawaii."
+	.sjisn	"It's a poster of Hawaii."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　これは別に関係なさそうだな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This doesn't seem to be related."
+	.sjisn	"This doesn't seem to be related."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　サーフボードだな　　　　"
-	.sjis	"　この部屋の住人は遊び好きだな。"
+	.sjisn	"　この部屋の住人は遊び好きだな。"
 .else
-	.sjis	"It's a surfboard. The person living in this room seems to like to play."
+	.sjisn	"It's a surfboard. The person living in this room seems to like to play."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　こんなものは持っていけない。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I can't bring this thing with me."
+	.sjisn	"I can't bring this thing with me."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　こっちは廊下だな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a corridor."
+	.sjisn	"This is a corridor."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　モンローのポスターだ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's a poster of Monet."
+	.sjisn	"It's a poster of Monet."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　内側からカギがかかってて　　"
-	.sjis	"　　　　　　開かない。　　　　　"
+	.sjisn	"　　　　　　開かない。　　　　　"
 .else
-	.sjis	"The key is locked from the inside and cannot be opened."
+	.sjisn	"The key is locked from the inside and cannot be opened."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ヨットのカジのようなものがある。"
-	.sjis	"　　　　　　…おや？　　　　　　"
+	.sjisn	"　　　　　　…おや？　　　　　　"
 .else
-	.sjis	"There is something like a yacht's cabin. ...Oh?"
+	.sjisn	"There is something like a yacht's cabin. ...Oh?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　動くみたいだぞ…　　　　"
-	.sjis	"　　　　動かしますか？　　　　　"
+	.sjisn	"　　　　動かしますか？　　　　　"
 .else
-	.sjis	"It looks like it's moving... Do you want to move it?"
+	.sjisn	"It looks like it's moving... Do you want to move it?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　こういう仕掛けだったのか…。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"So that's what this mechanism was for..."
+	.sjisn	"So that's what this mechanism was for..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"こんなところにピンクの本がある。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"A pink book is here in this place."
+	.sjisn	"A pink book is here in this place."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　もう何もないようだ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems there is nothing left."
+	.sjisn	"It seems there is nothing left."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"枕の下からノコギリが出てきたぞ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"A saw came out from under the pillow."
+	.sjisn	"A saw came out from under the pillow."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　下にあるキッチンと同じドアだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's the same door as the kitchen below."
+	.sjisn	"It's the same door as the kitchen below."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　何やら紙キレが出てきた。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Something like a paper cut came out."
+	.sjisn	"Something like a paper cut came out."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　緑のカギが見つかった。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"A green key was found."
+	.sjisn	"A green key was found."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　蓄音機の上にレコードがある。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a record on top of the phonograph."
+	.sjisn	"There is a record on top of the phonograph."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ベートーベンのポスターだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's a Beethoven poster."
+	.sjisn	"It's a Beethoven poster."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　楽器のようだな。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It looks like a musical instrument."
+	.sjisn	"It looks like a musical instrument."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　楽譜のようだな。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It looks like sheet music."
+	.sjisn	"It looks like sheet music."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"２階の窓から外に出るのはムリだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Exiting through the window on the second floor is impossible."
+	.sjisn	"Exiting through the window on the second floor is impossible."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　手紙らしきものが置いてある。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There's something that looks like a letter left."
+	.sjisn	"There's something that looks like a letter left."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　女の人の写真があるけど…　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There's a photo of a woman, but..."
+	.sjisn	"There's a photo of a woman, but..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　あれ？カベに穴が開いてるぞ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Hey, there's a hole in the wall."
+	.sjisn	"Hey, there's a hole in the wall."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　カベに穴が開いている　　　"
-	.sjis	"　ノコギリで切ったアトがある。　"
+	.sjisn	"　ノコギリで切ったアトがある。　"
 .else
-	.sjis	"There's a hole in the wall and an axe that was cut with a saw."
+	.sjisn	"There's a hole in the wall and an axe that was cut with a saw."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　穴を通るとシンバルで叩かれる　"
-	.sjis	"　いったいどういうことなんだ？　"
+	.sjisn	"　いったいどういうことなんだ？　"
 .else
-	.sjis	"Going through the hole, you hear a cymbal being struck. What's going on?"
+	.sjisn	"Going through the hole, you hear a cymbal being struck. What's going on?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　このドアにはカギ穴がないけど　"
-	.sjis	"　　　　　開かないな。　　　　　"
+	.sjisn	"　　　　　開かないな。　　　　　"
 .else
-	.sjis	"There's no keyhole on this door but it won't open."
+	.sjisn	"There's no keyhole on this door but it won't open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　カギ穴がないけど開かない　　"
-	.sjis	"　　何か仕掛けがあるのかな。　　"
+	.sjisn	"　　何か仕掛けがあるのかな。　　"
 .else
-	.sjis	"No keyhole but won't open, could there be a mechanism?"
+	.sjisn	"No keyhole but won't open, could there be a mechanism?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　これはテレビだな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is a TV, I guess."
+	.sjisn	"This is a TV, I guess."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　おや…スイッチを入れても　　"
-	.sjis	"　　　　　何も映らない。　　　　"
+	.sjisn	"　　　　　何も映らない。　　　　"
 .else
-	.sjis	"Oh... even if I turn on the switch, nothing is shown."
+	.sjisn	"Oh... even if I turn on the switch, nothing is shown."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　映らないのか…つまらないな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Nothing is shown? That's boring."
+	.sjisn	"Nothing is shown? That's boring."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　矢印がドアの方を向いている…　"
-	.sjis	"　ドアが開いたということかな。　"
+	.sjisn	"　ドアが開いたということかな。　"
 .else
-	.sjis	"The arrow is pointing towards the door... I guess it means the door is open."
+	.sjisn	"The arrow is pointing towards the door... I guess it means the door is open."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　テーブルの上にレコードがある。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There's a record on the table."
+	.sjisn	"There's a record on the table."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　大きな水槽だな…　　　　"
-	.sjis	"　　　　　魚も泳いでる。　　　　"
+	.sjisn	"　　　　　魚も泳いでる。　　　　"
 .else
-	.sjis	"It's a big aquarium... and the fish are swimming."
+	.sjisn	"It's a big aquarium... and the fish are swimming."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　なんだか怪しいカベだな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This wall looks suspicious somehow."
+	.sjisn	"This wall looks suspicious somehow."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　まさか…　　　　　　"
-	.sjis	"　つぶされたりしないだろうな。　"
+	.sjisn	"　つぶされたりしないだろうな。　"
 .else
-	.sjis	"I hope it won't collapse or be smashed."
+	.sjisn	"I hope it won't collapse or be smashed."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　怪しいカベだ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This wall is suspicious."
+	.sjisn	"This wall is suspicious."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　こんな所に小さなスキマが…　"
-	.sjis	"　　何に使うスキマなのかな？　　"
+	.sjisn	"　　何に使うスキマなのかな？　　"
 .else
-	.sjis	"There is a small gap in this place... I wonder what the gap is used for."
+	.sjisn	"There is a small gap in this place... I wonder what the gap is used for."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　よくわからないスキマだ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It is an unclear gap."
+	.sjisn	"It is an unclear gap."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　あれ…　　　　　　"
-	.sjis	"　おかしいな…扉が開かないっ！　"
+	.sjisn	"　おかしいな…扉が開かないっ！　"
 .else
-	.sjis	"What... that's strange... the door won't open!"
+	.sjisn	"What... that's strange... the door won't open!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　しまった閉じこめられた！　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Oh no, I'm trapped!"
+	.sjisn	"Oh no, I'm trapped!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　よく見ると中はみんな赤い本だ　"
-	.sjis	"　むずかしい内容の本ばかりだな。"
+	.sjisn	"　むずかしい内容の本ばかりだな。"
 .else
-	.sjis	"Upon closer inspection, the books inside are all red, and they all seem to have difficult content."
+	.sjisn	"Upon closer inspection, the books inside are all red, and they all seem to have difficult content."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここに赤い本を戻しておこう。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It's a good idea to return the red book back to its place."
+	.sjisn	"It's a good idea to return the red book back to its place."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　この本じゃ色が合わないな…。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This book doesn't match the color."
+	.sjisn	"This book doesn't match the color."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　これは青い本ばかりある本棚だ　"
-	.sjis	"　　有名な小説が並んでいる。　　"
+	.sjisn	"　　有名な小説が並んでいる。　　"
 .else
-	.sjis	"This is a bookshelf full of blue books. There are famous novels lined up."
+	.sjisn	"This is a bookshelf full of blue books. There are famous novels lined up."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここに青い本を戻しておこう。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Let's put the blue book back here."
+	.sjisn	"Let's put the blue book back here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　この本棚には黄色い本しかない　"
-	.sjis	"　すべて料理の作り方のようだ。　"
+	.sjisn	"　すべて料理の作り方のようだ。　"
 .else
-	.sjis	"This bookshelf only has yellow books, they all seem to be recipes."
+	.sjisn	"This bookshelf only has yellow books, they all seem to be recipes."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここに黄色い本を戻しておこう。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Let's put the yellow book back here."
+	.sjisn	"Let's put the yellow book back here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ナポレオンの絵で扉が開いた。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The door opened with a picture of Napoleon."
+	.sjisn	"The door opened with a picture of Napoleon."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　机がある…書斎なのかな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems to be a study room, there's a desk."
+	.sjisn	"It seems to be a study room, there's a desk."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　調べても何もないみたいだな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems like there's nothing here after checking."
+	.sjisn	"It seems like there's nothing here after checking."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ピンクの本ばかり集めてあるな　"
-	.sjis	"　やっぱりエッチな本ばかりだ。　"
+	.sjisn	"　やっぱりエッチな本ばかりだ。　"
 .else
-	.sjis	"I've only collected pink books. As expected, they're all naughty books."
+	.sjisn	"I've only collected pink books. As expected, they're all naughty books."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここにはやっぱりピンクの本を。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I'll return the pink book here."
+	.sjisn	"I'll return the pink book here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　よく見ると緑の本ばっかりだな　"
-	.sjis	"　　音楽に関した本しかないな。　"
+	.sjisn	"　　音楽に関した本しかないな。　"
 .else
-	.sjis	"Looks like it's all green books, all about music."
+	.sjisn	"Looks like it's all green books, all about music."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここに緑の本を戻しておこう。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Let's return the green book here."
+	.sjisn	"Let's return the green book here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ここには黒い本が並んでいるな　"
-	.sjis	"　黒い本なんて持ってたっけ…？　"
+	.sjisn	"　黒い本なんて持ってたっけ…？　"
 .else
-	.sjis	"Let's return the black book here as well."
+	.sjisn	"Let's return the black book here as well."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"黒くぬった白い本だけどいいかな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Let's return the blackened white book here too."
+	.sjisn	"Let's return the blackened white book here too."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「やあ…おどろいたかい？　　"
-	.sjis	"　　ぼくはいとこのアントニー。」"
+	.sjisn	"　　ぼくはいとこのアントニー。」"
 .else
-	.sjis	"Hey...surprised? I'm your cousin Anthony."
+	.sjisn	"Hey...surprised? I'm your cousin Anthony."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「キミに似てるから、頼まれて　"
-	.sjis	"　　鏡のフリをしていたんだ。」　"
+	.sjisn	"　　鏡のフリをしていたんだ。」　"
 .else
-	.sjis	"　「キミに似てるから、頼まれて　　　鏡のフリをしていたんだ。」　"
+	.sjisn	"I was asked to do a stand-in for you because you resemble me."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「この青いカギをあげるから　"
-	.sjis	"　　　　ゆるしてくれよ。」　　　"
+	.sjisn	"　　　　ゆるしてくれよ。」　　　"
 .else
-	.sjis	"　　「この青いカギをあげるから　　　　　ゆるしてくれよ。」　　　"
+	.sjisn	"I'll give you this blue key, so forgive me."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　「もうなにもないよ。」　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　「もうなにもないよ。」　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There's nothing left anymore."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　私と同じカッコの男がいる　　"
-	.sjis	"なんて手の込んだイタズラなんだ。"
+	.sjisn	"なんて手の込んだイタズラなんだ。"
 .else
-	.sjis	"　　私と同じカッコの男がいる　　なんて手の込んだイタズラなんだ。"
+	.sjisn	"There's a man with the same outfit as me. What a elaborate prank."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　いてて…　　　　　　"
-	.sjis	"　　　　これはサボテンだ。　　　"
+	.sjisn	"　　　　これはサボテンだ。　　　"
 .else
-	.sjis	"　　　　　　いてて…　　　　　　　　　　これはサボテンだ。　　　"
+	.sjisn	"Whoa... this is a cactus."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　カギ穴はないけど内側から　　"
-	.sjis	"　　　　閉められるようだ。　　　"
+	.sjisn	"　　　　閉められるようだ。　　　"
 .else
-	.sjis	"　　カギ穴はないけど内側から　　　　　　閉められるようだ。　　　"
+	.sjisn	"The keyhole is not visible, but it looks like it can be locked from the inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　さっきの男はこの中に逃げたな　"
-	.sjis	"　　カギはかかってないようだ。　"
+	.sjisn	"　　カギはかかってないようだ。　"
 .else
-	.sjis	"　さっきの男はこの中に逃げたな　　　カギはかかってないようだ。　"
+	.sjisn	"It seems the man from earlier escaped into this room and the door is not locked from the inside."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　内側からカギをかけたな…　　"
-	.sjis	"　このドアはもう開きそうにない。"
+	.sjisn	"　このドアはもう開きそうにない。"
 .else
-	.sjis	"　　内側からカギをかけたな…　　　このドアはもう開きそうにない。"
+	.sjisn	"The man inside has locked the door from inside... It seems like this door won't open anymore."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　なんだ鏡かと思ったら…　　"
-	.sjis	"なんて手の込んだイタズラなんだ。"
+	.sjisn	"なんて手の込んだイタズラなんだ。"
 .else
-	.sjis	"　　　なんだ鏡かと思ったら…　　なんて手の込んだイタズラなんだ。"
+	.sjisn	"I thought it was a mirror... what a complicated prank."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　なんだ鏡かと思ったら…　　"
-	.sjis	"　　ここは通れるじゃないか。　　"
+	.sjisn	"　　ここは通れるじゃないか。　　"
 .else
-	.sjis	"　　　なんだ鏡かと思ったら…　　　　ここは通れるじゃないか。　　"
+	.sjisn	"I thought it was a mirror...What a elaborate prank. But wait, can we pass through here?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"なんて手の込んだイタズラなんだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"なんて手の込んだイタズラなんだ。　　　　　　　　　　　　　　　　"
+	.sjisn	"What a complicated prank!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　ナポレオンの絵だ　　　　"
-	.sjis	"おじさんナポレオンが好きなんだ。"
+	.sjisn	"おじさんナポレオンが好きなんだ。"
 .else
-	.sjis	"　　　　ナポレオンの絵だ　　　　おじさんナポレオンが好きなんだ。"
+	.sjisn	"It's a picture of Napoleon, the old man likes Napoleon."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　「待っておったぞ…！　　　"
-	.sjis	"　やっと会えたな、キートン君。」"
+	.sjisn	"　やっと会えたな、キートン君。」"
 .else
-	.sjis	"　　　「待っておったぞ…！　　　　やっと会えたな、キートン君。」"
+	.sjisn	"I've been waiting...! Finally I met you, Keaton."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「どうかね？わしの新しい家は　"
-	.sjis	"なかなか楽しかったじゃろう？。」"
+	.sjisn	"なかなか楽しかったじゃろう？。」"
 .else
-	.sjis	"　「どうかね？わしの新しい家は　なかなか楽しかったじゃろう？。」"
+	.sjisn	"How was it? Did you have a good time in my new house?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「わざわざすまなかった…　　"
-	.sjis	"しばらくゆっくりしてくれたまえ」"
+	.sjisn	"しばらくゆっくりしてくれたまえ」"
 .else
-	.sjis	"　　「わざわざすまなかった…　　しばらくゆっくりしてくれたまえ」"
+	.sjisn	"You didn't have to go out of your way... take your time for a while."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「これもわしの趣味でな…　　"
-	.sjis	"　　まぁ悪く思わんでおくれ。」　"
+	.sjisn	"　　まぁ悪く思わんでおくれ。」　"
 .else
-	.sjis	"　　「これもわしの趣味でな…　　　　まぁ悪く思わんでおくれ。」　"
+	.sjisn	"This is also my hobby... don't think badly of me, okay?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「車は使用人のジャックに言って　"
-	.sjis	"　直させるから心配せんでくれ。」"
+	.sjisn	"　直させるから心配せんでくれ。」"
 .else
-	.sjis	"「車は使用人のジャックに言って　　直させるから心配せんでくれ。」"
+	.sjisn	"Don't worry, I've told the driver Jack to fix it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「これにこりずにまた来ておくれよ"
-	.sjis	"　次はごちそうを用意するから。」"
+	.sjisn	"　次はごちそうを用意するから。」"
 .else
-	.sjis	"「これにこりずにまた来ておくれよ　次はごちそうを用意するから。」"
+	.sjisn	"Come back without fail next time, I'll prepare a feast."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これでやっと帰れる…。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　これでやっと帰れる…。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Finally I can go home now."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　これはおじさんの机だな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　これはおじさんの机だな。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems to be the desk of the old man."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　これはカメラのようだな　　　"
-	.sjis	"　　　何に使うんだろう…？　　　"
+	.sjisn	"　　　何に使うんだろう…？　　　"
 .else
-	.sjis	"　　これはカメラのようだな　　　　　　何に使うんだろう…？　　　"
+	.sjisn	"This looks like a camera, I wonder what it's used for?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　これもナポレオンの絵だ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　これもナポレオンの絵だ。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems that this is also a picture of Napoleon."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　もうここが最後の部屋だろう。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　もうここが最後の部屋だろう。　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems like this is the last room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　私の部屋に来いだと…　　　"
-	.sjis	"　人を散々ふり回しといてっ…！　"
+	.sjisn	"　人を散々ふり回しといてっ…！　"
 .else
-	.sjis	"　　　私の部屋に来いだと…　　　　人を散々ふり回しといてっ…！　"
+	.sjisn	"Come to my room... making people run around like crazy!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　おめでとうだと…　　　　"
-	.sjis	"　こっちはヒドい目にあったぞ！　"
+	.sjisn	"　こっちはヒドい目にあったぞ！　"
 .else
-	.sjis	"　　　　おめでとうだと…　　　　　こっちはヒドい目にあったぞ！　"
+	.sjisn	"Congratulations... I had a terrible time over here!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"地下で見たようなスイッチがある。"
-	.sjis	"　　　　動かしますか？　　　　　"
+	.sjisn	"　　　　動かしますか？　　　　　"
 .else
-	.sjis	"地下で見たようなスイッチがある。　　　　動かしますか？　　　　　"
+	.sjisn	"Do you want to move the switch that you saw in the basement?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここを通ると図書室だな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　ここを通ると図書室だな。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This leads to the library."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　下は２階だ。　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　下は２階だ。　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"The floor below is the second floor."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"この緑のカギで開くかもしれない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"この緑のカギで開くかもしれない。　　　　　　　　　　　　　　　　"
+	.sjisn	"It might open with this green key."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　このカギなら開くかもしれない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　このカギなら開くかもしれない。　　　　　　　　　　　　　　　　"
+	.sjisn	"This key might open it."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これはただのイスだ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　これはただのイスだ。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This is just a chair."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　ひどいなあ…　　　　　"
-	.sjis	"　　　　手をはさまれたよ。　　　"
+	.sjisn	"　　　　手をはさまれたよ。　　　"
 .else
-	.sjis	"　　　　　ひどいなあ…　　　　　　　　　手をはさまれたよ。　　　"
+	.sjisn	"This is terrible... I got my hand caught."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　この部屋は音楽室のようだな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　この部屋は音楽室のようだな。　　　　　　　　　　　　　　　　　"
+	.sjisn	"This room seems like a music room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ピアノの上に緑色の本がある。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ピアノの上に緑色の本がある。　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a green book on top of the piano."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　出窓があるぞ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　出窓があるぞ。　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This room has a window."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"３階の窓からはとても出られない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"３階の窓からはとても出られない。　　　　　　　　　　　　　　　　"
+	.sjisn	"The window on the third floor can't be seen from here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　これは何でもないようだ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　これは何でもないようだ。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This seems to be nothing."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"これは東洋の王ジンギスカンだな　"
-	.sjis	"　この絵は持っていけそうだぞ。　"
+	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
-	.sjis	"これは東洋の王ジンギスカンだな　　この絵は持っていけそうだぞ。　"
+	.sjisn	"This is a picture of the Eastern King JINGISKAN. It looks like you can take this picture."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"これは古代の王アレキサンダーだ　"
-	.sjis	"　この絵は持っていけそうだぞ。　"
+	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
-	.sjis	"これは古代の王アレキサンダーだ　　この絵は持っていけそうだぞ。　"
+	.sjisn	"This is the ancient king Alexander. This picture seems like it can be taken."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"これは中世の王、ナポレオンだな　"
-	.sjis	"　この絵は持っていけそうだぞ。　"
+	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
-	.sjis	"これは中世の王、ナポレオンだな　　この絵は持っていけそうだぞ。　"
+	.sjisn	"This is King Napoleon from the Middle Ages, I think I can take this painting."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"この位の高さなら上に乗れそうだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"この位の高さなら上に乗れそうだ。　　　　　　　　　　　　　　　　"
+	.sjisn	"Yes, it seems that you could climb up from here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　これに乗るのはムリだな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　これに乗るのはムリだな。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems impossible to ride this."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　荷物が高く重ねてある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　荷物が高く重ねてある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This appears to be a pile of heavy items stacked high."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　絵は重すぎて２枚は持てないな　"
-	.sjis	"今持ってる絵を置いていこうかな？"
+	.sjisn	"今持ってる絵を置いていこうかな？"
 .else
-	.sjis	"　絵は重すぎて２枚は持てないな　今持ってる絵を置いていこうかな？"
+	.sjisn	"The pictures are too heavy to carry two, maybe I'll put down the one I'm carrying now?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ナポレオンの絵があった所だ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"ナポレオンの絵があった所だ。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This is the place where there was a painting of Napoleon."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ジンギスカンの絵があった所だ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"ジンギスカンの絵があった所だ。　　　　　　　　　　　　　　　　　"
+	.sjisn	"This is the place where the picture of Genghis Khan was."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"アレキサンダーの絵があった所だ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"アレキサンダーの絵があった所だ。　　　　　　　　　　　　　　　　"
+	.sjisn	"This is where the painting of Alexander was."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　この鉄のカギをあげるよ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　この鉄のカギをあげるよ。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"I will raise this iron key."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　オーブンの中から　　　　"
-	.sjis	"　　ニワトリの肉が出てきた。　　"
+	.sjisn	"　　ニワトリの肉が出てきた。　　"
 .else
-	.sjis	"　　　　オーブンの中から　　　　　　ニワトリの肉が出てきた。　　"
+	.sjisn	"The chicken meat came out from the oven."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　冷蔵庫のフタから　　　　"
-	.sjis	"　　　　　卵が出てきた。　　　　"
+	.sjisn	"　　　　　卵が出てきた。　　　　"
 .else
-	.sjis	"　　　　冷蔵庫のフタから　　　　　　　　　卵が出てきた。　　　　"
+	.sjisn	"An egg came out from the refrigerator lid."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　こんな所にアミが置いてある。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　こんな所にアミが置いてある。　　　　　　　　　　　　　　　　　"
+	.sjisn	"A candy is placed here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　女の人の写真がある。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　女の人の写真がある。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a photo of a woman."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これじゃ先に進めない。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　これじゃ先に進めない。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"I can't move forward like this."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　本棚が動いて抜け穴が現れた。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　本棚が動いて抜け穴が現れた。　　　　　　　　　　　　　　　　　"
+	.sjisn	"The bookshelf moved and a hole appeared."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　フタがジャマして先に進めない。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　フタがジャマして先に進めない。　　　　　　　　　　　　　　　　"
+	.sjisn	"The lid is in the way and I can't move forward."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　コックさんが着る　　　　"
-	.sjis	"　　　ような服が掛けてある。　　"
+	.sjisn	"　　　ような服が掛けてある。　　"
 .else
-	.sjis	"　　　　コックさんが着る　　　　　　　ような服が掛けてある。　　"
+	.sjisn	"There is a piece of clothing hanging that looks like what the chef would wear."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　小さなテーブルがある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　小さなテーブルがある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a small table."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　あわわ…つぶされる！　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　あわわ…つぶされる！　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Oh no... I'm going to be crushed!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　あっ！何だあの男は。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　あっ！何だあの男は。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Ah! Who is that man?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　もう絵は必要ない。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　もう絵は必要ない。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"I don't need the picture anymore."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　玄関に降りる階段がある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　玄関に降りる階段がある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a staircase leading down to the entrance."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　わっ！カベがせまってくる。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　わっ！カベがせまってくる。　　　　　　　　　　　　　　　　　"
+	.sjisn	"Whoa! The wall is closing in."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　このままではつぶされる。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　このままではつぶされる。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"If it stays like this, I'll be crushed."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　あわわ…もうだめだ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　あわわ…もうだめだ。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Oh no... it's over."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これをまたやるのか。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　これをまたやるのか。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Will I do this again?"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　もう、どうにでもしてくれ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　もう、どうにでもしてくれ。　　　　　　　　　　　　　　　　　"
+	.sjisn	"Please, just do anything."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　１階に上がる階段がある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　１階に上がる階段がある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a staircase leading up to the first floor."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　もう中には何もいないな。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　もう中には何もいないな。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems that there's nothing inside anymore."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　だれかがカギ穴から　　　　"
-	.sjis	"　　　カギを持って行ったな。　　"
+	.sjisn	"　　　カギを持って行ったな。　　"
 .else
-	.sjis	"　　　だれかがカギ穴から　　　　　　　カギを持って行ったな。　　"
+	.sjisn	"It seems like someone has taken the key from the keyhole and went away."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"もうどこにも跳び乗れないようだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"もうどこにも跳び乗れないようだ。　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems that there is no longer anywhere to jump on."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　この電話は鳴らないようだ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　この電話は鳴らないようだ。　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems that this phone is not ringing."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　黄色い本がしまってある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　黄色い本がしまってある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"A yellow book is stored."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　黒い本がしまってある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　黒い本がしまってある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a black book stored."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　緑の本がしまってある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　緑の本がしまってある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a green book stored."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　青い本がしまってある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　青い本がしまってある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"A blue book is stored."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ピンクの本がしまってある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ピンクの本がしまってある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"A pink book is stored."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　赤い本がしまってある。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　赤い本がしまってある。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is a red book stored."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これは鏡ではなかった。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　これは鏡ではなかった。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This was not a mirror."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　これは電気スタンドだ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　これは電気スタンドだ。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This is an electric stand."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　矢印がドアをさしている。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　矢印がドアをさしている。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is an arrow pointing to the door."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　何もない棚がある。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　何もない棚がある。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"There is an empty shelf."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　どうやらおじさんはこの上だな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　どうやらおじさんはこの上だな。　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems that the old man is on this floor."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　このカベにつぶされるのは　　"
-	.sjis	"　　　　　もうイヤだな。　　　　"
+	.sjisn	"　　　　　もうイヤだな。　　　　"
 .else
-	.sjis	"　　このカベにつぶされるのは　　　　　　　もうイヤだな。　　　　"
+	.sjisn	"It seems that getting crushed under this bed is no longer acceptable."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　もう２度とつぶされたくないな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　もう２度とつぶされたくないな。　　　　　　　　　　　　　　　　"
+	.sjisn	"I don't want to be crushed again."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　洋服をかけるハンガーのようだ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　洋服をかけるハンガーのようだ。　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems to be a hanger for hanging clothes."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　これは絵皿だ。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　これは絵皿だ。　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This is a plate."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　青い鍵を入手した。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　青い鍵を入手した。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Got a blue key."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　お城みたいな家だな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　お城みたいな家だな。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Yes, it sounds like a house that resembles a castle."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　酒場のような場所だ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　酒場のような場所だ。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems to be a place like a bar."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここはキッチンのようだな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　ここはキッチンのようだな。　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems to be a kitchen."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　大きなテーブルがある…　　"
-	.sjis	"　ここでみんな食事するのかな。　"
+	.sjisn	"　ここでみんな食事するのかな。　"
 .else
-	.sjis	"　　　大きなテーブルがある…　　　ここでみんな食事するのかな。　"
+	.sjisn	"It seems to be a large dining table. People probably eat here together."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　応接間といったところか…。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　応接間といったところか…。　　　　　　　　　　　　　　　　　"
+	.sjisn	"It appears to be a reception room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　何だトイレか…。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　何だトイレか…。　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems to be a bathroom."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　やっと部屋に入れたよ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　やっと部屋に入れたよ。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Finally, I got into the room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　やっと抜け出せた…　　　"
-	.sjis	"　おや、上にあがる階段があるぞ。"
+	.sjisn	"　おや、上にあがる階段があるぞ。"
 .else
-	.sjis	"　　　　やっと抜け出せた…　　　　おや、上にあがる階段があるぞ。"
+	.sjisn	"Finally, I got out... Oh, there's a staircase leading up."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　庭に出てしまった…　　　"
-	.sjis	"　プール付きとはしゃれてるね…。"
+	.sjisn	"　プール付きとはしゃれてるね…。"
 .else
-	.sjis	"　　　　庭に出てしまった…　　　　プール付きとはしゃれてるね…。"
+	.sjisn	"I finally made it to the garden... It's fancy with a pool attached..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"こんなところにかくし部屋がある。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"こんなところにかくし部屋がある。　　　　　　　　　　　　　　　　"
+	.sjisn	"There's a hidden room in a place like this."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ピンク色の趣味の悪い部屋だな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ピンク色の趣味の悪い部屋だな。　　　　　　　　　　　　　　　　"
+	.sjisn	"This is a pink room with tasteless decor."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　ここはトイレか…。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　ここはトイレか…。　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This is the toilet..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　黄色い部屋だな。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　黄色い部屋だな。　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"This is a yellow room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　リビングルームのようだな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　リビングルームのようだな。　　　　　　　　　　　　　　　　　"
+	.sjisn	"This looks like a living room."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　うわっ、たくさん本があるなあ　"
-	.sjis	"　　　まるで図書館のようだ。　　"
+	.sjisn	"　　　まるで図書館のようだ。　　"
 .else
-	.sjis	"　うわっ、たくさん本があるなあ　　　　まるで図書館のようだ。　　"
+	.sjisn	"Wow, there are so many books here. It's like a library."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"今、私と同じカッコの男がいたぞ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"今、私と同じカッコの男がいたぞ。　　　　　　　　　　　　　　　　"
+	.sjisn	"There was a man dressed the same way as me."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　あっ…！おじさんがいる。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　あっ…！おじさんがいる。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"Oh... there's an old man."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　ピアノがある…音楽室らしいな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　ピアノがある…音楽室らしいな。　　　　　　　　　　　　　　　　"
+	.sjisn	"This looks like a music room with a piano."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここは物置きのようだな…　　"
-	.sjis	"片付けていない荷物が重ねてある。"
+	.sjisn	"片付けていない荷物が重ねてある。"
 .else
-	.sjis	"　　ここは物置きのようだな…　　片付けていない荷物が重ねてある。"
+	.sjisn	"This seems to be a storage room... there are piles of unorganized belongings."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　アイテムがない…。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　アイテムがない…。　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"No items... "
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"こんな所で使っても意味がないな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"こんな所で使っても意味がないな。　　　　　　　　　　　　　　　　"
+	.sjisn	"It doesn't make sense to use it here."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　白い本が真っ黒に　　　　"
-	.sjis	"　　　　なっちゃったよ…。　　　"
+	.sjisn	"　　　　なっちゃったよ…。　　　"
 .else
-	.sjis	"　　　　白い本が真っ黒に　　　　　　　　なっちゃったよ…。　　　"
+	.sjisn	"The white book has turned completely black..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　なぜか料理と引き換えに　　　"
-	.sjis	"　　　　金のカギをくれた。　　　"
+	.sjisn	"　　　　金のカギをくれた。　　　"
 .else
-	.sjis	"　　なぜか料理と引き換えに　　　　　　　金のカギをくれた。　　　"
+	.sjisn	"Somehow, in exchange for cooking, they gave me a golden key."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ナポレオンはうれしそうに　　"
-	.sjis	"　　　料理を口にくわえた。　　　"
+	.sjisn	"　　　料理を口にくわえた。　　　"
 .else
-	.sjis	"　　ナポレオンはうれしそうに　　　　　料理を口にくわえた。　　　"
+	.sjisn	"Napoleon seems happily taking a bite of the cuisine."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　水槽をすくったら魚が入った！　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　水槽をすくったら魚が入った！　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems that you have found some fish in a aquarium."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　こんどはざりがにが入った！　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　こんどはざりがにが入った！　　　　　　　　　　　　　　　　　"
+	.sjisn	"It seems like there are now different fish in the tank."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　こんどは何もとれなかった！　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　こんどは何もとれなかった！　　　　　　　　　　　　　　　　　"
+	.sjisn	"This time, I couldn't get anything!"
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　アミを水槽の中にいれた。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　アミを水槽の中にいれた。　　　　　　　　　　　　　　　　　　"
+	.sjisn	"I put Amy in the aquarium."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
-.area @text_size
+.area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"アイテムなんか使っている　　　　"
-	.sjis	"　　　　　　　場合じゃないな…。"
+	.sjisn	"　　　　　　　場合じゃないな…。"
 .else
-	.sjis	"アイテムなんか使っている　　　　　　　　　　　場合じゃないな…。"
+	.sjisn	"There's no use for these items right now..."
 .endif
+.db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
