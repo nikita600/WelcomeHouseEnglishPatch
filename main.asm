@@ -8,9 +8,14 @@
 JAP equ "jap"
 ENG equ "eng"
 
-LANG equ JAP
+LANG equ ENG
 
 .headersize 0x8000F800
+
+; -----------------------------------------------------------------------------
+
+; Memcard Save Name
+;.org 0x800992B0 
 
 ; -----------------------------------------------------------------------------
 
@@ -18,6 +23,54 @@ LANG equ JAP
 .include "src\render_text.asm"
 
 ; -----------------------------------------------------------------------------
+
+.org 0x800112B0
+.if LANG == JAP
+	.db 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h
+.else
+	.db 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h
+.endif
+
+.org 0x800112BC
+.if LANG == JAP
+	.db 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h
+.else
+	.db 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h
+.endif
+
+.org 0x800112D0
+.if LANG == JAP
+	.db 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h
+    .db 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h
+    .db 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h
+    .db 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h, 81h, 40h
+.else
+	.db 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h
+    .db 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h
+    .db 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h
+    .db 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h, 20h
+.endif
+
+.org 0x800b1c4c
+.if LANG == JAP
+	.db 81h, 40h, 81h, 40h, 81h, 40h
+.else
+	.db 20h, 20h, 20h, 20h, 20h, 20h
+.endif
+
+.org 0x800b1c54
+.if LANG == JAP
+	.db 81h, 40h
+.else
+	.db 20h, 20h
+.endif
+
+.org 0x800b1c58
+.if LANG == JAP
+	.db 81h, 40h, 81h, 40h
+.else
+	.db 20h, 20h, 20h, 20h
+.endif
 
 ; Text Data (0x8008E17C - 0x80097018 = 0x8E9C)
 
