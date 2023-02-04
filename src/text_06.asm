@@ -8,7 +8,7 @@
 @fill_value 	equ 	0x20
 @end_of_line 	equ 	0x00
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -17,14 +17,14 @@
 	.sjisn	"　　　　　やめておこう。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I came out from behind the "
+	.sjisn	"I came out from behind the      "
 	.sjisn	"bar... I can't drink such strong"
-	.sjisn	" alcohol, so I'll stop."
+	.sjisn	"alcohol, so I'll stop."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -36,12 +36,12 @@
 	.sjisn	"A world without love is like "
 	.sjisn	"a lamp without light. "
 	.sjisn	"\"The Sorrows of Young Werther\""
-	.sjisn	" is a famous Goethe philosophical book."
+	.sjisn	"is a famous Goethe philosophical book."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -51,14 +51,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
 	.sjisn	"\"Language is the expression of "
-	.sjisn	"thought.\" This is a Webster's "
+	.sjisn	"thought.\" This is a Webster's  "
 	.sjisn	"dictionary. Maybe it's a present"
-	.sjisn	" from the old man?"
+	.sjisn	"from the old man?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -67,15 +67,15 @@
 	.sjisn	"作り方　　　　　　　　　　　　　"
 	.sjisn	"　　どうやら料理の本のようだ。　"
 .else
-	.sjisn	"\"Chicken Zari with Egg Tomato "
-	.sjisn	"Garlic, how to make Pollo a la "
+	.sjisn	"\"Chicken Zari with Egg Tomato  "
+	.sjisn	"Garlic, how to make Pollo a la  "
 	.sjisn	"Marango\" It looks like "
 	.sjisn	"a cooking book."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -84,15 +84,15 @@
 	.sjisn	"　　　エッチな内容の本だ。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh no, this seems to be a book "
+	.sjisn	"Oh no, this seems to be a book  "
 	.sjisn	"with explicit and inappropriate "
-	.sjisn	"content that I cannot speak "
+	.sjisn	"content that I cannot speak     "
 	.sjisn	"aloud about."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -101,15 +101,15 @@
 	.sjisn	"をひきちぎった…英雄交きょう曲　"
 	.sjisn	"　　音楽に関する本のようだな。　"
 .else
-	.sjisn	"Beethoven became furious when "
-	.sjisn	"Bonaparte declared himself "
+	.sjisn	"Beethoven became furious when   "
+	.sjisn	"Bonaparte declared himself      "
 	.sjisn	"Emperor and tore up the score..."
-	.sjisn	" a heroic symphony? It seems to be a book about music."
+	.sjisn	"a heroic symphony? It seems to be a book about music."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -119,14 +119,14 @@
 	.sjisn	"　こんな事、していいのだろうか？"
 .else
 	.sjisn	"It is Tolstoy's 'War and Peace'."
-	.sjisn	" I couldn't find a black book, "
+	.sjisn	" I couldn't find a black book,  "
 	.sjisn	"so I tried to paint a white book"
-	.sjisn	" black with paint... Is it okay to do something like this?"
+	.sjisn	"black with paint... Is it okay to do something like this?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -135,15 +135,15 @@
 	.sjisn	"　トルストイのむずかしい文学書　"
 	.sjisn	"　　　　『戦争と平和』だ。　　　"
 .else
-	.sjisn	"For an artist, the hero's "
-	.sjisn	"existence is a human being in "
-	.sjisn	"history, Tolstoy's difficult "
+	.sjisn	"For an artist, the hero's       "
+	.sjisn	"existence is a human being in   "
+	.sjisn	"history, Tolstoy's difficult    "
 	.sjisn	"literary book, 'War and Peace'."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -158,7 +158,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -168,14 +168,14 @@
 	.sjisn	"　　かかってなかったはずだ。　　"
 .else
 	.sjisn	"This is the key that I received "
-	.sjisn	"from the man in the mirror. "
+	.sjisn	"from the man in the mirror.     "
 	.sjisn	"There is a blue door on both the"
 	.sjisn	" first and second floors, but the key shouldn't be locked in the room on the first floor."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -184,13 +184,13 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It was found in the kitchen on "
+	.sjisn	"It was found in the kitchen on  "
 	.sjisn	"the first floor."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -206,7 +206,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -215,13 +215,13 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It was found in the green room"
-	.sjisn	" on the second floor."
+	.sjisn	"It was found in the green room  "
+	.sjisn	"on the second floor."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -230,15 +230,15 @@
 	.sjisn	"　登りつめたフランスの英雄だ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"He is a hero of France who "
-	.sjisn	"united all of Europe and "
-	.sjisn	"ascended to the throne as "
+	.sjisn	"He is a hero of France who      "
+	.sjisn	"united all of Europe and        "
+	.sjisn	"ascended to the throne as       "
 	.sjisn	"emperor, starting as a low-ranking soldier."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -247,14 +247,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"He is an ancient conqueror who"
-	.sjisn	" occupied the Mediterranean"
-	.sjisn	" and Asia."
+	.sjisn	"He is an ancient conqueror who  "
+	.sjisn	"occupied the Mediterranean      "
+	.sjisn	"and Asia."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -263,15 +263,15 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"He was the king of the Orient"
-	.sjisn	" who once ruled one-third of"
-	.sjisn	" the world from the mainland"
-	.sjisn	" of ancient China."
+	.sjisn	"He was the king of the Orient   "
+	.sjisn	"who once ruled one-third of     "
+	.sjisn	"the world from the mainland     "
+	.sjisn	"of ancient China."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -280,15 +280,15 @@
 	.sjisn	"をする気だろう？　　　　　　　　"
 	.sjisn	"　　　　　　　　ジャック・スミス"
 .else
-	.sjisn	"On March 31, Mussh Apelichif "
+	.sjisn	"On March 31, Mussh Apelichif    "
 	.sjisn	"came to borrow a saw... What do "
-	.sjisn	"you think he's planning to do "
+	.sjisn	"you think he's planning to do   "
 	.sjisn	"with it? Jack Smith."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -297,15 +297,15 @@
 	.sjisn	"　閉まっている部屋はもうない！　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I wonder why the dog is giving "
-	.sjisn	"me a key... Oh well, there are "
-	.sjisn	"no more rooms that are locked "
+	.sjisn	"I wonder why the dog is giving  "
+	.sjisn	"me a key... Oh well, there are  "
+	.sjisn	"no more rooms that are locked   "
 	.sjisn	"except for the old man's room!"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -314,14 +314,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The key was found in the "
-	.sjisn	"reception room on the first "
+	.sjisn	"The key was found in the        "
+	.sjisn	"reception room on the first     "
 	.sjisn	"floor."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -330,14 +330,14 @@
 	.sjisn	"　　　　痛い目にあった。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The key was found in the pink "
-	.sjisn	"room. I went through a lot of "
+	.sjisn	"The key was found in the pink   "
+	.sjisn	"room. I went through a lot of   "
 	.sjisn	"painful experiences to get it."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -346,15 +346,15 @@
 	.sjisn	"がついた…あなたの事を想うと私の"
 	.sjisn	"心はムニエルだ。　　　エスカルゴ"
 .else
-	.sjisn	"To my beloved Allegro, when I "
+	.sjisn	"To my beloved Allegro, when I   "
 	.sjisn	"first laid eyes on you, my heart"
-	.sjisn	"caught fire... thinking of you "
+	.sjisn	"caught fire... thinking of you  "
 	.sjisn	"makes my heart flutter. Escargot"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -363,13 +363,13 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Beethoven's Classic... "
+	.sjisn	"Beethoven's Classic...          "
 	.sjisn	"\"Emperor\""
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -378,13 +378,13 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Doris Day hit song ... "
+	.sjisn	"Doris Day hit song ...          "
 	.sjisn	"\"Que Sera, Sera\""
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -393,12 +393,12 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Best of jazz... \"In The Mood\""
+	.sjisn	"Best of jazz... \"In The Mood\" "
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -407,15 +407,15 @@
 	.sjisn	"て最低よ…私に近づかないで！　　"
 	.sjisn	"　　　　　　アレグロ・アダージョ"
 .else
-	.sjisn	"To Mussorgsky, to open a hole "
-	.sjisn	"in the wall while I'm away is "
-	.sjisn	"the lowest of lows... don't "
+	.sjisn	"To Mussorgsky, to open a hole   "
+	.sjisn	"in the wall while I'm away is   "
+	.sjisn	"the lowest of lows... don't     "
 	.sjisn	"come near me! Allegro Adagio."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -424,14 +424,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There was a saw hidden under "
-	.sjisn	"the pillow on the bed in the "
+	.sjisn	"There was a saw hidden under    "
+	.sjisn	"the pillow on the bed in the    "
 	.sjisn	"yellow room on the second floor."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -440,14 +440,14 @@
 	.sjisn	"　　重たいとびらは開くだろう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The key I received from Jack "
-	.sjisn	"should open the heavy door in "
+	.sjisn	"The key I received from Jack    "
+	.sjisn	"should open the heavy door in   "
 	.sjisn	"front of the uncle's room."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -456,13 +456,13 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The meat in the oven in the "
+	.sjisn	"The meat in the oven in the     "
 	.sjisn	"kitchen was chicken."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -471,15 +471,15 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"When I used a net in the "
-	.sjisn	"aquarium in the living room on "
-	.sjisn	"the second floor, I caught "
+	.sjisn	"When I used a net in the        "
+	.sjisn	"aquarium in the living room on  "
+	.sjisn	"the second floor, I caught      "
 	.sjisn	"a small fish."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -488,14 +488,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The eggs found in the "
-	.sjisn	"refrigerator in the kitchen "
+	.sjisn	"The eggs found in the           "
+	.sjisn	"refrigerator in the kitchen     "
 	.sjisn	"were raw."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -504,14 +504,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I found it on the fireplace "
-	.sjisn	"in the dining room on the "
+	.sjisn	"I found it on the fireplace     "
+	.sjisn	"in the dining room on the       "
 	.sjisn	"first floor."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -520,14 +520,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The tomatoes I received from "
-	.sjisn	"Alegro will be passed on to "
-	.sjisn	"the cook for the Escargot."
+	.sjisn	"The tomatoes I received from    "
+	.sjisn	"Alegro will be passed on to     "
+	.sjisn	"the cook for the Escargot.      "
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -536,15 +536,15 @@
 	.sjisn	"　よりをかけたフランス料理だ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"To improve Alegro's mood, the "
-	.sjisn	"cook put his skills to use and "
+	.sjisn	"To improve Alegro's mood, the   "
+	.sjisn	"cook put his skills to use and  "
 	.sjisn	"made a French dish with Escargot"
 	.sjisn	"as the main ingredient."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -553,14 +553,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The object found in the yellow"
+	.sjisn	"The object found in the yellow  "
 	.sjisn	"room on the second floor appears"
 	.sjisn	"to be a net for catching fish."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -569,15 +569,15 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"When I used a net in the"
-	.sjisn	"aquarium in the living room on"
-	.sjisn	"the second floor, I caught"
+	.sjisn	"When I used a net in the        "
+	.sjisn	"aquarium in the living room on  "
+	.sjisn	"the second floor, I caught      "
 	.sjisn	"a fish."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -586,13 +586,13 @@
 	.sjisn	"　　ピンクのカギを手に入れた。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I found a pink key that was"
+	.sjisn	"I found a pink key that was     "
 	.sjisn	"stuck in a book."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -601,15 +601,15 @@
 	.sjisn	"カベに穴をあけたからシンバルで　"
 	.sjisn	"ぶったたいてやろうとしたのよ。」"
 .else
-	.sjisn	"Look at this! My room is"
-	.sjisn	"a mess... because the Escargot"
-	.sjisn	"drilled a hole in the wall and"
+	.sjisn	"Look at this! My room is        "
+	.sjisn	"a mess... because the Escargot  "
+	.sjisn	"drilled a hole in the wall and  "
 	.sjisn	"I tried to knock it down with a cymbal."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -618,15 +618,15 @@
 	.sjisn	"たんだけど、エスカルゴに言い寄　"
 	.sjisn	"られて困ってるの…最低だわ！」　"
 .else
-	.sjisn	"I am Alegro Adagio... I came to"
-	.sjisn	"study music from Italy as"
-	.sjisn	"a foreign student, but now I am"
+	.sjisn	"I am Alegro Adagio... I came to "
+	.sjisn	"study music from Italy as       "
+	.sjisn	"a foreign student, but now I am "
 	.sjisn	"troubled by the Escargot... it's the worst!"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -636,15 +636,15 @@
 	.sjisn	"ってしつこいのよ…変な人だわ。」"
 .else
 	.sjisn	"Escargot is a cook who came from"
-	.sjisn	"France... despite having a wife"
-	.sjisn	"and children back in their home"
-	.sjisn	"country, they keep saying they"
+	.sjisn	"France... despite having a wife "
+	.sjisn	"and children back in their home "
+	.sjisn	"country, they keep saying they  "
 	.sjisn	"like me... they're a strange person."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -653,15 +653,15 @@
 	.sjisn	"スターパーキンソンならこの階の反"
 	.sjisn	"対側の部屋で待っているわよ。」　"
 .else
-	.sjisn	"Don't come into my room"
-	.sjisn	"anymore... don't you think it's"
-	.sjisn	"rude to me as a lady?"
+	.sjisn	"Don't come into my room         "
+	.sjisn	"anymore... don't you think it's "
+	.sjisn	"rude to me as a lady?           "
 	.sjisn	"Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -670,15 +670,15 @@
 	.sjisn	"　直してやるよ…しかしずいぶんポ"
 	.sjisn	"　ンコツだね、新しく買ったら？」"
 .else
-	.sjisn	"Hey! Is this old and broken car"
-	.sjisn	"yours? I can fix it right away,"
-	.sjisn	"but wouldn't it be better to"
+	.sjisn	"Hey! Is this old and broken car "
+	.sjisn	"yours? I can fix it right away, "
+	.sjisn	"but wouldn't it be better to    "
 	.sjisn	"buy a new one?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -687,15 +687,15 @@
 	.sjisn	"も本当は芸術家の卵なんだぜ…気　"
 	.sjisn	"軽にジャックって呼んでくれよ。」"
 .else
-	.sjisn	"I'm Jack Smith. I'm a caretaker"
-	.sjisn	"here, but actually I'm an"
-	.sjisn	"artistic talent. Feel free to"
+	.sjisn	"I'm Jack Smith. I'm a caretaker "
+	.sjisn	"here, but actually I'm an       "
+	.sjisn	"artistic talent. Feel free to   "
 	.sjisn	"call me Jack."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -704,15 +704,15 @@
 	.sjisn	"ことが気になってるみたいだな…今"
 	.sjisn	"は落ち込んでキッチンにいるよ。」"
 .else
-	.sjisn	"It seems like Chef Apéritif,"
-	.sjisn	"Mouch, is interested in the"
-	.sjisn	"beautiful Allegro. Now he's"
+	.sjisn	"It seems like Chef Apéritif,    "
+	.sjisn	"Mouch, is interested in the     "
+	.sjisn	"beautiful Allegro. Now he's     "
 	.sjisn	"feeling down and is in the kitchen."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -721,15 +721,15 @@
 	.sjisn	"あいつだったら庭にいるよ…なに、"
 	.sjisn	"大丈夫、かみつきゃしないから。」"
 .else
-	.sjisn	"Napoleon? That's the name of"
-	.sjisn	"your uncle's pet dog. He's in"
+	.sjisn	"Napoleon? That's the name of    "
+	.sjisn	"your uncle's pet dog. He's in   "
 	.sjisn	"the yard right now. Don't worry,"
 	.sjisn	"he won't bite."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -738,15 +738,15 @@
 	.sjisn	"しかし、アレグロはかんかんに怒　"
 	.sjisn	"ってもう口もきいてくれない。」　"
 .else
-	.sjisn	"Yes, I did make a hole in the"
-	.sjisn	"wall, but I was too big to fit"
-	.sjisn	"through it. But now, Allegro is"
+	.sjisn	"Yes, I did make a hole in the   "
+	.sjisn	"wall, but I was too big to fit  "
+	.sjisn	"through it. But now, Allegro is "
 	.sjisn	"so angry that he won't even talk to me."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -755,15 +755,15 @@
 	.sjisn	"る…昔はフランスのレストランで　"
 	.sjisn	"料理長をしていたこともある。」　"
 .else
-	.sjisn	"I am Escolex Apetichif, I make"
-	.sjisn	"everyone's meals in this house."
-	.sjisn	"I used to be a head chef in a"
-	.sjisn	"French restaurant in the past."
+	.sjisn	"I am Escolex Apetichif, I make  "
+	.sjisn	"everyone's meals in this house. "
+	.sjisn	"I used to be a head chef in a   "
+	.sjisn	"French restaurant in the past.  "
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -772,15 +772,15 @@
 	.sjisn	"そんな彼女にわしは夢中になった　"
 	.sjisn	"フランス人はいつも恋するのさ。」"
 .else
-	.sjisn	"I've been hated by Allegro..."
-	.sjisn	"her playing piano has a"
-	.sjisn	"beautiful sound, I became"
+	.sjisn	"I've been hated by Allegro...   "
+	.sjisn	"her playing piano has a         "
+	.sjisn	"beautiful sound, I became       "
 	.sjisn	"obsessed with such a girl. French people always fall in love."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -790,13 +790,13 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
 	.sjisn	"Napoleon is playing in the yard,"
-	.sjisn	"that dog only eats French"
-	.sjisn	"cuisine, he's quite picky."
+	.sjisn	"that dog only eats French       "
+	.sjisn	"cuisine, he's quite picky.      "
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -805,15 +805,15 @@
 	.sjisn	"わざわざ来てくれてすまなかった　"
 	.sjisn	"がなかなか楽しかったじゃろう？」"
 .else
-	.sjisn	"Waited for you! Keaton sir..."
-	.sjisn	"How's it going? My new mansion,"
-	.sjisn	"did you like it? Sorry to have"
+	.sjisn	"Waited for you! Keaton sir...   "
+	.sjisn	"How's it going? My new mansion, "
+	.sjisn	"did you like it? Sorry to have  "
 	.sjisn	"kept you waiting, but I bet it was enjoyable, right?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -822,15 +822,15 @@
 	.sjisn	"ちなみに今日４月１日はナポレオ　"
 	.sjisn	"ンの結婚記念日でもあるのだよ。」"
 .else
-	.sjisn	"I like Napoleon, you see..."
+	.sjisn	"I like Napoleon, you see...     "
 	.sjisn	"I even named my dog after him..."
-	.sjisn	"By the way, today April 1st is"
+	.sjisn	"By the way, today April 1st is  "
 	.sjisn	"also Napoleon's wedding anniversary."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -847,7 +847,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -858,13 +858,13 @@
 .else
 	.sjisn	"This is also my hobby, don't get"
 	.sjisn	"mad... come back without getting"
-	.sjisn	"caught again, I'll prepare a"
+	.sjisn	"caught again, I'll prepare a    "
 	.sjisn	"more interesting setup next time, hahaha."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -873,16 +873,16 @@
 	.sjisn	"盗んで私のピアノにさわるから３　"
 	.sjisn	"階の音楽室もふさいだのよ。」　　"
 .else
-	.sjisn	"That's a letter I wrote to"
-	.sjisn	"Escargot. She's always looking"
+	.sjisn	"That's a letter I wrote to      "
+	.sjisn	"Escargot. She's always looking  "
 	.sjisn	"into other people's business and"
-	.sjisn	"touching my piano, so I had to"
+	.sjisn	"touching my piano, so I had to  "
 	.sjisn	"block access to the third-floor music room."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -891,16 +891,16 @@
 	.sjisn	"れてしまう…おいしいフランス料　"
 	.sjisn	"理を作るから材料を集めてくれ。」"
 .else
-	.sjisn	"Oh no... I have to do something"
-	.sjisn	"to make Alleandro happy or I'll"
-	.sjisn	"be hated forever... I'll make"
-	.sjisn	"delicious French cuisine, so"
+	.sjisn	"Oh no... I have to do something "
+	.sjisn	"to make Alleandro happy or I'll "
+	.sjisn	"be hated forever... I'll make   "
+	.sjisn	"delicious French cuisine, so    "
 	.sjisn	"gather the ingredients."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -909,15 +909,15 @@
 	.sjisn	"をあげるからエスカルゴにごめん　"
 	.sjisn	"なさいと言っておいてくれない？」"
 .else
-	.sjisn	"I appreciate it but I have a"
+	.sjisn	"I appreciate it but I have a    "
 	.sjisn	"fiancé. Can you give this tomato"
-	.sjisn	"and apologize to Escargot for"
+	.sjisn	"and apologize to Escargot for   "
 	.sjisn	"me?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -926,15 +926,15 @@
 	.sjisn	"がどうも気まずい…わしの代わり　"
 	.sjisn	"にアレグロに渡してきてくれ。」　"
 .else
-	.sjisn	"Ugh! That's the letter I"
-	.sjisn	"wrote... I was going to give it"
-	.sjisn	"to Allegro, but it's kind of"
+	.sjisn	"Ugh! That's the letter I        "
+	.sjisn	"wrote... I was going to give it "
+	.sjisn	"to Allegro, but it's kind of    "
 	.sjisn	"awkward... Could you deliver it to Allegro instead of me?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -943,15 +943,15 @@
 	.sjisn	"いなの…それナポレオンが大好き　"
 	.sjisn	"だから食べさせてあげて。」　　　"
 .else
-	.sjisn	"Sorry, I can't take it..."
-	.sjisn	"I don't like French cuisine"
-	.sjisn	"because it makes me gain"
+	.sjisn	"Sorry, I can't take it...       "
+	.sjisn	"I don't like French cuisine     "
+	.sjisn	"because it makes me gain        "
 	.sjisn	"weight... That's why I let Napoleon eat it."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -960,14 +960,14 @@
 	.sjisn	"くれ。」　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Sure, I'll let Alegro know how"
-	.sjisn	"much love and care you put into"
+	.sjisn	"Sure, I'll let Alegro know how  "
+	.sjisn	"much love and care you put into "
 	.sjisn	"making that dish."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -976,14 +976,14 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Wine is essential for my"
-	.sjisn	"cooking, this Grand Cru is"
+	.sjisn	"Wine is essential for my        "
+	.sjisn	"cooking, this Grand Cru is      "
 	.sjisn	"dedicated to Napoleon."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -992,13 +992,13 @@
 	.sjisn	"」　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Hm, if I use this brandy my"
+	.sjisn	"Hm, if I use this brandy my     "
 	.sjisn	"cooking will become even better."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1007,15 +1007,15 @@
 	.sjisn	"れ…この鉄のカギを使えば上の扉　"
 	.sjisn	"が開くから日記は返してくれ。」　"
 .else
-	.sjisn	"That's my diary! Don't go"
-	.sjisn	"searching through my room..."
-	.sjisn	"use this iron key to open the"
-	.sjisn	"upper door and return my diary."
+	.sjisn	"That's my diary! Don't go       "
+	.sjisn	"searching through my room...    "
+	.sjisn	"use this iron key to open the   "
+	.sjisn	"upper door and return my diary. "
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1024,13 +1024,13 @@
 	.sjisn	"「そんなもの私がもらって　　　　"
 	.sjisn	"　　　　　どうしろというのだ？」"
 .else
-	.sjisn	"Why would I take it? What am I"
+	.sjisn	"Why would I take it? What am I  "
 	.sjisn	"supposed to do with it?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1039,14 +1039,14 @@
 	.sjisn	"ていたと伝えといてくれないか。」"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Please deliver that dish to"
-	.sjisn	"Algrero, and tell them I"
+	.sjisn	"Please deliver that dish to     "
+	.sjisn	"Algrero, and tell them I        "
 	.sjisn	"recommended it."
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1060,7 +1060,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1074,7 +1074,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1088,7 +1088,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1102,7 +1102,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1116,7 +1116,7 @@
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -1125,12 +1125,12 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"What am I supposed to do with"
+	.sjisn	"What am I supposed to do with   "
 	.sjisn	"such a thing?"
 .endif
 .db @end_of_line
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .db 00h, 00h, 00h

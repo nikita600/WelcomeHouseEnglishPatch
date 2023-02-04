@@ -1,6 +1,6 @@
-;--------------------------------------
+;---------------------------------------------
 ;  (Done)
-;--------------------------------------
+;---------------------------------------------
 
 .org 0x80096E2C
 
@@ -8,7 +8,7 @@
 @fill_value 	equ 	0x20
 @end_of_line 	equ 	0x00
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -18,14 +18,18 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I obtained a blue key."
+	.sjisn	"     I obtained a blue key.     "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .db @end_of_line
 
 .db 00h, 00h, 00h
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -35,14 +39,18 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I obtained French cuisine."
+	.sjisn	"   I obtained French cuisine.   "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .db @end_of_line
 
 .db 00h, 00h, 00h
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
@@ -52,11 +60,15 @@
 	.sjisn	"「ちょっと待っててくれたまえ。」"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Please wait just a moment."
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"   Please wait just a moment.   "
+	.sjisn	"                                "
 .endif
 .db @end_of_line
 
 .db 00h, 00h, 00h
 .endarea
 
-;--------------------------------------
+;---------------------------------------------
