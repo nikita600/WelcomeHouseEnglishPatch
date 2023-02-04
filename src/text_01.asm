@@ -1547,7 +1547,7 @@ Text04_8008f036:
 	.sjisn	"　　エスカルゴ・アペリチフ…　　"
 	.sjisn	"この部屋に住んでる人の名前かな。"
 .else
-	.sjisn	"Escargot Apéritif, name of room "
+	.sjisn	"Escargot Aperitif, name of room "
 	.sjisn	"dweller."
 .endif
 .db @end_of_line
@@ -2613,7 +2613,8 @@ Text04_8008f036:
 	.sjisn	"　　有名な小説が並んでいる。　　"
 .else
 	.sjisn	"This is a bookshelf full of blue"
-	.sjisn	"books. There are famous novels lined up."
+	.sjisn	"books. There are famous novels.."
+	;.sjisn	"books. There are famous novels lined up." ; CUT
 .endif
 .db @end_of_line
 .endarea
@@ -2639,7 +2640,7 @@ Text04_8008f036:
 	.sjisn	"　すべて料理の作り方のようだ。　"
 .else
 	.sjisn	"This bookshelf only has yellow  "
-	.sjisn	"books, they all seem to be recipes."
+	;.sjisn	"books, they all seem to be recipes." ;CUT
 .endif
 .db @end_of_line
 .endarea
@@ -2704,7 +2705,7 @@ Text04_8008f036:
 	.sjisn	"　やっぱりエッチな本ばかりだ。　"
 .else
 	.sjisn	"I've only collected pink books. "
-	.sjisn	"As expected, they're all naughty books."
+	;.sjisn	"As expected, they're all naughty books.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -2857,7 +2858,7 @@ Text04_8008f036:
 	.sjisn	"　　　　閉められるようだ。　　　"
 .else
 	.sjisn	"The keyhole is not visible, but"
-	.sjisn	"it looks like it can be locked from the inside."
+	;.sjisn	"it looks like it can be locked from the inside.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -2870,7 +2871,7 @@ Text04_8008f036:
 	.sjisn	"　　カギはかかってないようだ。　"
 .else
 	.sjisn	"It seems the man from earlier"
-	.sjisn	"escaped into this room and the door is not locked from the inside."
+	;.sjisn	"escaped into this room and the door is not locked from the inside.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -2883,7 +2884,7 @@ Text04_8008f036:
 	.sjisn	"　このドアはもう開きそうにない。"
 .else
 	.sjisn	"The man inside has locked the"
-	.sjisn	"door from inside... It seems like this door won't open anymore."
+	;.sjisn	"door from inside... It seems like this door won't open anymore.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -2909,7 +2910,7 @@ Text04_8008f036:
 	.sjisn	"　　ここは通れるじゃないか。　　"
 .else
 	.sjisn	"I thought it was a mirror..."
-	.sjisn	"What a elaborate prank. But wait, can we pass through here?"
+	;.sjisn	"What a elaborate prank. But wait, can we pass through here?";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -2973,7 +2974,7 @@ Text04_8008f036:
 	.sjisn	"しばらくゆっくりしてくれたまえ」"
 .else
 	.sjisn	"You didn't have to go out of    "
-	.sjisn	"your way... take your time for a while."
+	;.sjisn	"your way... take your time for a while.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3266,7 +3267,7 @@ Text04_8008f036:
 	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
 	.sjisn	"This is a picture of the"
-	.sjisn	"Eastern King JINGISKAN. It looks like you can take this picture."
+	;.sjisn	"Eastern King JINGISKAN. It looks like you can take this picture.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3279,7 +3280,7 @@ Text04_8008f036:
 	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
 	.sjisn	"This is the ancient king"
-	.sjisn	"Alexander. This picture seems like it can be taken."
+	;.sjisn	"Alexander. This picture seems like it can be taken.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3292,7 +3293,7 @@ Text04_8008f036:
 	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
 	.sjisn	"This is King Napoleon from the"
-	.sjisn	"Middle Ages, I think I can take this painting."
+	;.sjisn	"Middle Ages, I think I can take this painting.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3344,7 +3345,7 @@ Text04_8008f036:
 	.sjisn	"今持ってる絵を置いていこうかな？"
 .else
 	.sjisn	"The pictures are too heavy to   "
-	.sjisn	"carry two, maybe I'll put down the one I'm carrying now?"
+	;.sjisn	"carry two, maybe I'll put down the one I'm carrying now?";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3522,7 +3523,7 @@ Text04_8008f036:
 	.sjisn	"　　　ような服が掛けてある。　　"
 .else
 	.sjisn	"There is a piece of clothing"
-	.sjisn	"hanging that looks like what the chef would wear."
+	;.sjisn	"hanging that looks like what the chef would wear.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3685,7 +3686,7 @@ Text04_8008f036:
 	.sjisn	"　　　カギを持って行ったな。　　"
 .else
 	.sjisn	"It seems like someone has taken"
-	.sjisn	"the key from the keyhole and went away."
+	;.sjisn	"the key from the keyhole and went away.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3858,7 +3859,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　もうイヤだな。　　　　"
 .else
 	.sjisn	"It seems that getting crushed"
-	.sjisn	"under this bed is no longer acceptable."
+	;.sjisn	"under this bed is no longer acceptable.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -3959,7 +3960,7 @@ Text04_8008f036:
 	.sjisn	"　ここでみんな食事するのかな。　"
 .else
 	.sjisn	"It seems to be a large dining"
-	.sjisn	"table. People probably eat here together."
+	;.sjisn	"table. People probably eat here together.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -4035,7 +4036,7 @@ Text04_8008f036:
 	.sjisn	"　プール付きとはしゃれてるね…。"
 .else
 	.sjisn	"I finally made it to the"
-	.sjisn	"garden... It's fancy with a pool attached..."
+	;.sjisn	"garden... It's fancy with a pool attached...";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -4187,7 +4188,7 @@ Text04_8008f036:
 	.sjisn	"片付けていない荷物が重ねてある。"
 .else
 	.sjisn	"This seems to be a storage"
-	.sjisn	"room... there are piles of unorganized belongings."
+	;.sjisn	"room... there are piles of unorganized belongings.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -4238,7 +4239,7 @@ Text04_8008f036:
 	.sjisn	"　　　　金のカギをくれた。　　　"
 .else
 	.sjisn	"Somehow, in exchange for"
-	.sjisn	"cooking, they gave me a golden key."
+	;.sjisn	"cooking, they gave me a golden key.";CUT
 .endif
 .db @end_of_line
 .endarea

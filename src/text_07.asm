@@ -17,7 +17,7 @@
 .else
 	.sjisn	"What, the foothold disappeared  "
 	.sjisn	"when I tried to go up the"
-	.sjisn	"stairs!?"
+	;.sjisn	"stairs!?";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -203,7 +203,7 @@
 	.sjisn	"　ドアから小さな物音がした…。　"
 .else
 	.sjisn	"When I hung up the picture, I"
-	.sjisn	"heard a small noise from the door behind it..."
+	;.sjisn	"heard a small noise from the door behind it...";CUT
 .endif
 .db @end_of_line
 .endarea

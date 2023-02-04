@@ -36,7 +36,7 @@
 	.sjisn	"A world without love is like "
 	.sjisn	"a lamp without light. "
 	.sjisn	"\"The Sorrows of Young Werther\""
-	.sjisn	"is a famous Goethe philosophical book."
+	;.sjisn	"is a famous Goethe philosophical book.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -104,7 +104,7 @@
 	.sjisn	"Beethoven became furious when   "
 	.sjisn	"Bonaparte declared himself      "
 	.sjisn	"Emperor and tore up the score..."
-	.sjisn	"a heroic symphony? It seems to be a book about music."
+	;.sjisn	"a heroic symphony? It seems to be a book about music.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -121,7 +121,7 @@
 	.sjisn	"It is Tolstoy's 'War and Peace'."
 	.sjisn	" I couldn't find a black book,  "
 	.sjisn	"so I tried to paint a white book"
-	.sjisn	"black with paint... Is it okay to do something like this?"
+	;.sjisn	"black with paint... Is it okay to do something like this?";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -170,7 +170,7 @@
 	.sjisn	"This is the key that I received "
 	.sjisn	"from the man in the mirror.     "
 	.sjisn	"There is a blue door on both the"
-	.sjisn	" first and second floors, but the key shouldn't be locked in the room on the first floor."
+	;.sjisn	" first and second floors, but the key shouldn't be locked in the room on the first floor.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -233,7 +233,7 @@
 	.sjisn	"He is a hero of France who      "
 	.sjisn	"united all of Europe and        "
 	.sjisn	"ascended to the throne as       "
-	.sjisn	"emperor, starting as a low-ranking soldier."
+	;.sjisn	"emperor, starting as a low-ranking soldier.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -604,7 +604,7 @@
 	.sjisn	"Look at this! My room is        "
 	.sjisn	"a mess... because the Escargot  "
 	.sjisn	"drilled a hole in the wall and  "
-	.sjisn	"I tried to knock it down with a cymbal."
+	;.sjisn	"I tried to knock it down with a cymbal.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -621,7 +621,7 @@
 	.sjisn	"I am Alegro Adagio... I came to "
 	.sjisn	"study music from Italy as       "
 	.sjisn	"a foreign student, but now I am "
-	.sjisn	"troubled by the Escargot... it's the worst!"
+	;.sjisn	"troubled by the Escargot... it's the worst!";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -639,7 +639,7 @@
 	.sjisn	"France... despite having a wife "
 	.sjisn	"and children back in their home "
 	.sjisn	"country, they keep saying they  "
-	.sjisn	"like me... they're a strange person."
+	;.sjisn	"like me... they're a strange person.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -656,7 +656,7 @@
 	.sjisn	"Don't come into my room         "
 	.sjisn	"anymore... don't you think it's "
 	.sjisn	"rude to me as a lady?           "
-	.sjisn	"Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor."
+	;.sjisn	"Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -704,10 +704,10 @@
 	.sjisn	"ことが気になってるみたいだな…今"
 	.sjisn	"は落ち込んでキッチンにいるよ。」"
 .else
-	.sjisn	"It seems like Chef Apéritif,    "
+	.sjisn	"It seems like Chef Aperitif,    "
 	.sjisn	"Mouch, is interested in the     "
 	.sjisn	"beautiful Allegro. Now he's     "
-	.sjisn	"feeling down and is in the kitchen."
+	;.sjisn	"feeling down and is in the kitchen.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -741,7 +741,7 @@
 	.sjisn	"Yes, I did make a hole in the   "
 	.sjisn	"wall, but I was too big to fit  "
 	.sjisn	"through it. But now, Allegro is "
-	.sjisn	"so angry that he won't even talk to me."
+	;.sjisn	"so angry that he won't even talk to me.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -775,7 +775,7 @@
 	.sjisn	"I've been hated by Allegro...   "
 	.sjisn	"her playing piano has a         "
 	.sjisn	"beautiful sound, I became       "
-	.sjisn	"obsessed with such a girl. French people always fall in love."
+	;.sjisn	"obsessed with such a girl. French people always fall in love.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -808,7 +808,7 @@
 	.sjisn	"Waited for you! Keaton sir...   "
 	.sjisn	"How's it going? My new mansion, "
 	.sjisn	"did you like it? Sorry to have  "
-	.sjisn	"kept you waiting, but I bet it was enjoyable, right?"
+	;.sjisn	"kept you waiting, but I bet it was enjoyable, right?";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -825,7 +825,7 @@
 	.sjisn	"I like Napoleon, you see...     "
 	.sjisn	"I even named my dog after him..."
 	.sjisn	"By the way, today April 1st is  "
-	.sjisn	"also Napoleon's wedding anniversary."
+	;.sjisn	"also Napoleon's wedding anniversary.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -859,7 +859,7 @@
 	.sjisn	"This is also my hobby, don't get"
 	.sjisn	"mad... come back without getting"
 	.sjisn	"caught again, I'll prepare a    "
-	.sjisn	"more interesting setup next time, hahaha."
+	;.sjisn	"more interesting setup next time, hahaha.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -876,8 +876,8 @@
 	.sjisn	"That's a letter I wrote to      "
 	.sjisn	"Escargot. She's always looking  "
 	.sjisn	"into other people's business and"
-	.sjisn	"touching my piano, so I had to  "
-	.sjisn	"block access to the third-floor music room."
+	;.sjisn	"touching my piano, so I had to  ";CUT
+	;.sjisn	"block access to the third-floor music room.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -895,7 +895,7 @@
 	.sjisn	"to make Alleandro happy or I'll "
 	.sjisn	"be hated forever... I'll make   "
 	.sjisn	"delicious French cuisine, so    "
-	.sjisn	"gather the ingredients."
+	;.sjisn	"gather the ingredients.";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -910,7 +910,7 @@
 	.sjisn	"なさいと言っておいてくれない？」"
 .else
 	.sjisn	"I appreciate it but I have a    "
-	.sjisn	"fiancé. Can you give this tomato"
+	.sjisn	"fiance. Can you give this tomato"
 	.sjisn	"and apologize to Escargot for   "
 	.sjisn	"me?"
 .endif
@@ -929,7 +929,7 @@
 	.sjisn	"Ugh! That's the letter I        "
 	.sjisn	"wrote... I was going to give it "
 	.sjisn	"to Allegro, but it's kind of    "
-	.sjisn	"awkward... Could you deliver it to Allegro instead of me?"
+	;.sjisn	"awkward... Could you deliver it to Allegro instead of me?";CUT
 .endif
 .db @end_of_line
 .endarea
@@ -946,7 +946,7 @@
 	.sjisn	"Sorry, I can't take it...       "
 	.sjisn	"I don't like French cuisine     "
 	.sjisn	"because it makes me gain        "
-	.sjisn	"weight... That's why I let Napoleon eat it."
+	;.sjisn	"weight... That's why I let Napoleon eat it.";CUT
 .endif
 .db @end_of_line
 .endarea
