@@ -1,5 +1,5 @@
 ;---------------------------------------------
-; Reactions (Done)
+; Item Actions (Done)
 ;---------------------------------------------
 
 .org 0x80093BD4
@@ -12,9 +12,11 @@
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjisn	"をみつけた　　　　　　　　　とりますか？　　　"
+	.sjisn	"をみつけた　　"
+	.sjisn	"　　　　　　　とりますか？　　　"
 .else
-	.sjisn	"I found it. Do you want to take it?"
+	.sjisn	" founded.     "
+	.sjisn	"     Do you want to take it?    "
 .endif
 .endarea
 .db @end_of_line
@@ -23,9 +25,10 @@
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjisn	"を入手した。　　　　　　　　　　　　　　　　　"
+	.sjisn	"を入手した。　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I obtained it."
+	.sjisn	" obtained."
 .endif
 .endarea
 .db @end_of_line
@@ -34,9 +37,10 @@
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjisn	"をもどした。　　　　　　　　　　　　　　　　　"
+	.sjisn	"をもどした。　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I returned it."
+	.sjisn	" returned."
 .endif
 .endarea
 .db @end_of_line
@@ -45,8 +49,10 @@
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjisn	"をおきますか。　　　　　　　　　　　　　　　　"
+	.sjisn	"をおきますか。"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
+	.sjisn	"              "
 	.sjisn	"Do you want to put it away?"
 .endif
 .endarea

@@ -3483,8 +3483,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjisn	"　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
@@ -3496,8 +3496,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjisn	"　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
@@ -3985,8 +3985,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjisn	"　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
@@ -4061,8 +4061,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjisn	"　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
@@ -4161,8 +4161,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjisn	"　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line

@@ -1055,7 +1055,10 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
@@ -1069,7 +1072,10 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
@@ -1083,7 +1089,10 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
@@ -1097,7 +1106,10 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
+	.sjisn	"                                "
 .endif
 .endarea
 .db @end_of_line
