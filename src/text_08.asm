@@ -4,7 +4,7 @@
 
 .org 0x800968AC
 
-@text_size 		equ 	15
+@text_size 		equ 	14
 @fill_value 	equ 	0x20
 @end_of_line 	equ 	0x00
 
@@ -16,8 +16,8 @@
 .else
 	.sjisn	"chicken,      "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -27,8 +27,8 @@
 .else
 	.sjisn	"crayfish,     "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -38,8 +38,8 @@
 .else
 	.sjisn	"eggs,         "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -49,8 +49,8 @@
 .else
 	.sjisn	"garlic,       "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -60,8 +60,8 @@
 .else
 	.sjisn	"tomato,       "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -71,8 +71,8 @@
 .else
 	.sjisn	"brandy,       "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -82,8 +82,8 @@
 .else
 	.sjisn	"I need        "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 

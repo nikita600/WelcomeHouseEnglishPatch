@@ -4,7 +4,7 @@
 
 .org 0x80093DC4
 
-@text_size 		equ 	129
+@text_size 		equ 	128
 @fill_value 	equ 	0x20
 @end_of_line 	equ 	0x00
 
@@ -21,8 +21,8 @@
 	.sjisn	"bar... I can't drink such strong"
 	.sjisn	"alcohol, so I'll stop."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -38,8 +38,8 @@
 	.sjisn	"\"The Sorrows of Young Werther\""
 	;.sjisn	"is a famous Goethe philosophical book.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -55,8 +55,8 @@
 	.sjisn	"dictionary. Maybe it's a present"
 	.sjisn	"from the old man?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -72,8 +72,8 @@
 	.sjisn	"Marango\" It looks like "
 	.sjisn	"a cooking book."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -89,8 +89,8 @@
 	.sjisn	"content that I cannot speak     "
 	.sjisn	"aloud about."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -106,8 +106,8 @@
 	.sjisn	"Emperor and tore up the score..."
 	;.sjisn	"a heroic symphony? It seems to be a book about music.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -123,8 +123,8 @@
 	.sjisn	"so I tried to paint a white book"
 	;.sjisn	"black with paint... Is it okay to do something like this?";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -140,8 +140,8 @@
 	.sjisn	"history, Tolstoy's difficult    "
 	.sjisn	"literary book, 'War and Peace'."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -155,8 +155,8 @@
 	.sjisn	"The key was found in the living "
 	.sjisn	"room on the first floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -172,8 +172,8 @@
 	.sjisn	"There is a blue door on both the"
 	;.sjisn	" first and second floors, but the key shouldn't be locked in the room on the first floor.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -187,8 +187,8 @@
 	.sjisn	"It was found in the kitchen on  "
 	.sjisn	"the first floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -203,8 +203,8 @@
 	.sjisn	" books found in the toilet. What"
 	.sjisn	" were you doing in the toilet?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -218,8 +218,8 @@
 	.sjisn	"It was found in the green room  "
 	.sjisn	"on the second floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -235,8 +235,8 @@
 	.sjisn	"ascended to the throne as       "
 	;.sjisn	"emperor, starting as a low-ranking soldier.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -251,8 +251,8 @@
 	.sjisn	"occupied the Mediterranean      "
 	.sjisn	"and Asia."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -268,8 +268,8 @@
 	.sjisn	"the world from the mainland     "
 	.sjisn	"of ancient China."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -285,8 +285,8 @@
 	.sjisn	"you think he's planning to do   "
 	.sjisn	"with it? Jack Smith."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -302,8 +302,8 @@
 	.sjisn	"no more rooms that are locked   "
 	.sjisn	"except for the old man's room!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -318,8 +318,8 @@
 	.sjisn	"reception room on the first     "
 	.sjisn	"floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -334,8 +334,8 @@
 	.sjisn	"room. I went through a lot of   "
 	.sjisn	"painful experiences to get it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -351,8 +351,8 @@
 	.sjisn	"caught fire... thinking of you  "
 	.sjisn	"makes my heart flutter. Escargot"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -366,8 +366,8 @@
 	.sjisn	"Beethoven's Classic...          "
 	.sjisn	"\"Emperor\""
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -381,8 +381,8 @@
 	.sjisn	"Doris Day hit song ...          "
 	.sjisn	"\"Que Sera, Sera\""
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -395,8 +395,8 @@
 .else
 	.sjisn	"Best of jazz... \"In The Mood\" "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -412,8 +412,8 @@
 	.sjisn	"the lowest of lows... don't     "
 	.sjisn	"come near me! Allegro Adagio."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -428,8 +428,8 @@
 	.sjisn	"the pillow on the bed in the    "
 	.sjisn	"yellow room on the second floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -444,8 +444,8 @@
 	.sjisn	"should open the heavy door in   "
 	.sjisn	"front of the uncle's room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -459,8 +459,8 @@
 	.sjisn	"The meat in the oven in the     "
 	.sjisn	"kitchen was chicken."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -476,8 +476,8 @@
 	.sjisn	"the second floor, I caught      "
 	.sjisn	"a small fish."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -492,8 +492,8 @@
 	.sjisn	"refrigerator in the kitchen     "
 	.sjisn	"were raw."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -508,8 +508,8 @@
 	.sjisn	"in the dining room on the       "
 	.sjisn	"first floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -524,8 +524,8 @@
 	.sjisn	"Alegro will be passed on to     "
 	.sjisn	"the cook for the Escargot.      "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -541,8 +541,8 @@
 	.sjisn	"made a French dish with Escargot"
 	.sjisn	"as the main ingredient."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -557,8 +557,8 @@
 	.sjisn	"room on the second floor appears"
 	.sjisn	"to be a net for catching fish."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -574,8 +574,8 @@
 	.sjisn	"the second floor, I caught      "
 	.sjisn	"a fish."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -589,8 +589,8 @@
 	.sjisn	"I found a pink key that was     "
 	.sjisn	"stuck in a book."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -606,8 +606,8 @@
 	.sjisn	"drilled a hole in the wall and  "
 	;.sjisn	"I tried to knock it down with a cymbal.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -623,8 +623,8 @@
 	.sjisn	"a foreign student, but now I am "
 	;.sjisn	"troubled by the Escargot... it's the worst!";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -641,8 +641,8 @@
 	.sjisn	"country, they keep saying they  "
 	;.sjisn	"like me... they're a strange person.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -658,8 +658,8 @@
 	.sjisn	"rude to me as a lady?           "
 	;.sjisn	"Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -675,8 +675,8 @@
 	.sjisn	"but wouldn't it be better to    "
 	.sjisn	"buy a new one?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -692,8 +692,8 @@
 	.sjisn	"artistic talent. Feel free to   "
 	.sjisn	"call me Jack."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -709,8 +709,8 @@
 	.sjisn	"beautiful Allegro. Now he's     "
 	;.sjisn	"feeling down and is in the kitchen.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -726,8 +726,8 @@
 	.sjisn	"the yard right now. Don't worry,"
 	.sjisn	"he won't bite."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -743,8 +743,8 @@
 	.sjisn	"through it. But now, Allegro is "
 	;.sjisn	"so angry that he won't even talk to me.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -760,8 +760,8 @@
 	.sjisn	"I used to be a head chef in a   "
 	.sjisn	"French restaurant in the past.  "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -777,8 +777,8 @@
 	.sjisn	"beautiful sound, I became       "
 	;.sjisn	"obsessed with such a girl. French people always fall in love.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -793,8 +793,8 @@
 	.sjisn	"that dog only eats French       "
 	.sjisn	"cuisine, he's quite picky.      "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -810,8 +810,8 @@
 	.sjisn	"did you like it? Sorry to have  "
 	;.sjisn	"kept you waiting, but I bet it was enjoyable, right?";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -827,8 +827,8 @@
 	.sjisn	"By the way, today April 1st is  "
 	;.sjisn	"also Napoleon's wedding anniversary.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -844,8 +844,8 @@
 	.sjisn	"Take your time and relax, I have"
 	.sjisn	"a feast prepared for you today."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -861,8 +861,8 @@
 	.sjisn	"caught again, I'll prepare a    "
 	;.sjisn	"more interesting setup next time, hahaha.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -879,8 +879,8 @@
 	;.sjisn	"touching my piano, so I had to  ";CUT
 	;.sjisn	"block access to the third-floor music room.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -897,8 +897,8 @@
 	.sjisn	"delicious French cuisine, so    "
 	;.sjisn	"gather the ingredients.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -914,8 +914,8 @@
 	.sjisn	"and apologize to Escargot for   "
 	.sjisn	"me?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -931,8 +931,8 @@
 	.sjisn	"to Allegro, but it's kind of    "
 	;.sjisn	"awkward... Could you deliver it to Allegro instead of me?";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -948,8 +948,8 @@
 	.sjisn	"because it makes me gain        "
 	;.sjisn	"weight... That's why I let Napoleon eat it.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -964,8 +964,8 @@
 	.sjisn	"much love and care you put into "
 	.sjisn	"making that dish."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -980,8 +980,8 @@
 	.sjisn	"cooking, this Grand Cru is      "
 	.sjisn	"dedicated to Napoleon."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -995,8 +995,8 @@
 	.sjisn	"Hm, if I use this brandy my     "
 	.sjisn	"cooking will become even better."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1012,8 +1012,8 @@
 	.sjisn	"use this iron key to open the   "
 	.sjisn	"upper door and return my diary. "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1027,8 +1027,8 @@
 	.sjisn	"Why would I take it? What am I  "
 	.sjisn	"supposed to do with it?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1043,8 +1043,8 @@
 	.sjisn	"Algrero, and tell them I        "
 	.sjisn	"recommended it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1057,8 +1057,8 @@
 .else
 	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1071,8 +1071,8 @@
 .else
 	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1085,8 +1085,8 @@
 .else
 	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1099,8 +1099,8 @@
 .else
 	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1113,8 +1113,8 @@
 .else
 	.sjisn	"Please wait for a moment."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1128,8 +1128,8 @@
 	.sjisn	"What am I supposed to do with   "
 	.sjisn	"such a thing?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 

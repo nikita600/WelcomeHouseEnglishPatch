@@ -4,8 +4,8 @@
 
 .org 0x80093DB0
 
-@text_size 		equ 	5
-@fill_value 	equ 	0x20
+@text_size 		equ 	4
+@fill_value 	equ 	0x00
 @end_of_line 	equ 	0x00
 
 ;---------------------------------------------
@@ -16,8 +16,8 @@
 .else
 	.sjisn	"1F"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -27,8 +27,8 @@
 .else
 	.sjisn	"2F"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -38,8 +38,8 @@
 .else
 	.sjisn	"3F"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -49,7 +49,7 @@
 .else
 	.sjisn	"BS"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------

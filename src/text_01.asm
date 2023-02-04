@@ -4,7 +4,7 @@
 
 .org 0x8008E17C
 
-@text_size 		equ		65
+@text_size 		equ		64
 @fill_value 	equ 	0x20
 @end_of_line 	equ 	0x00
 
@@ -19,8 +19,8 @@ Text01_8008e17c:
 .else
 	.sjisn	"Seems nothing here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -32,8 +32,8 @@ Text01_8008e17c:
 	.sjisn	"The door is locked and won't    "
 	.sjisn	"open. Damn it, is anyone here?  "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -45,8 +45,8 @@ Text01_8008e17c:
 	.sjisn	"This place is still locked, the "
 	.sjisn	"door is locked.                 "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -57,8 +57,8 @@ Text01_8008e17c:
 .else
 	.sjisn	"This place is already open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -69,8 +69,8 @@ Text01_8008e17c:
 .else
 	.sjisn	"It seems this key won't open it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -82,8 +82,8 @@ Text01_8008e17c:
 	.sjisn	"Uncle Jordan is tough, we can't "
 	.sjisn	"get out from here anymore."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -95,8 +95,8 @@ Text01_8008e17c:
 	.sjisn	"It seems this place won't open. "
 	.sjisn	"Look for another exit."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -108,8 +108,8 @@ Text01_8008e17c:
 	.sjisn	"It doesn't seem like the key    "
 	.sjisn	"will open it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -121,8 +121,8 @@ Text01_8008e17c:
 	.sjisn	"Door locked, won't open. Find   "
 	.sjisn	"Find key somewhere."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -134,8 +134,8 @@ Text01_8008e17c:
 	.sjisn	"This place is still locked, we  "
 	.sjisn	"have to find the key somewhere."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -147,8 +147,8 @@ Text01_8008e17c:
 	.sjisn	"It might open with the key we   "
 	.sjisn	"have."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 Text02_8008e447:
 
@@ -162,8 +162,8 @@ Text02_8008e447:
 	.sjisn	"Just as I thought...            "
 	.sjisn	"it's a perfect fit!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -174,8 +174,8 @@ Text02_8008e447:
 .else
 	.sjisn	"It's already open here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -187,8 +187,8 @@ Text02_8008e447:
 	.sjisn	"Oh! It looks like it's opening  "
 	.sjisn	"here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -199,8 +199,8 @@ Text02_8008e447:
 .else
 	.sjisn	"The door is not locked here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -212,8 +212,8 @@ Text02_8008e447:
 	.sjisn	"It's already open, so it doesn't"
 	.sjisn	"matter."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -225,8 +225,8 @@ Text02_8008e447:
 	.sjisn	"There is a staircase leading up "
 	.sjisn	"to the second floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -238,8 +238,8 @@ Text02_8008e447:
 	.sjisn	"This is tough... I can't make it"
 	.sjisn	"up. What on earth is going on?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -250,8 +250,8 @@ Text02_8008e447:
 .else
 	.sjisn	"I suppose it's already okay."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -262,8 +262,8 @@ Text02_8008e447:
 .else
 	.sjisn	"Can't get out, try another room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -275,8 +275,8 @@ Text02_8008e447:
 	.sjisn	"It doesn't seem like it will    "
 	.sjisn	"open even if I try to force it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -288,8 +288,8 @@ Text02_8008e447:
 	.sjisn	"This is the old man's picture.  "
 	.sjisn	"It looks like he's smiling.     "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -301,8 +301,8 @@ Text02_8008e447:
 	.sjisn	"I can't go home until I see the "
 	.sjisn	"old man."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -313,8 +313,8 @@ Text02_8008e447:
 .else
 	.sjisn	"There is a staircase leading up."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -326,8 +326,8 @@ Text02_8008e447:
 	.sjisn	"It seems that the door is not   "
 	.sjisn	"locked."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -338,8 +338,8 @@ Text02_8008e447:
 .else
 	.sjisn	"This is the garden."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -350,8 +350,8 @@ Text02_8008e447:
 .else
 	.sjisn	"This is the kitchen."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -363,8 +363,8 @@ Text02_8008e447:
 	.sjisn	"The door is locked from this    "
 	.sjisn	"side. I'll unlock it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -375,8 +375,8 @@ Text02_8008e447:
 .else
 	.sjisn	"This is the entrance."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -387,8 +387,8 @@ Text02_8008e447:
 .else
 	.sjisn	"That's a beautiful neon light."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -399,8 +399,8 @@ Text02_8008e447:
 .else
 	.sjisn	"Let's search inside the counter."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -411,8 +411,8 @@ Text02_8008e447:
 .else
 	.sjisn	"Nothing was found here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -424,8 +424,8 @@ Text02_8008e447:
 	.sjisn	"Oh... a white book came out     "
 	.sjisn	"from such a place."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -437,8 +437,8 @@ Text02_8008e447:
 	.sjisn	"There is alcohol. It looks like "
 	.sjisn	"French brandy."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -449,8 +449,8 @@ Text02_8008e447:
 .else
 	.sjisn	"There is a counter."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -462,8 +462,8 @@ Text02_8008e447:
 	.sjisn	"Nothing comes out even if I sit "
 	.sjisn	"down."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -474,8 +474,8 @@ Text02_8008e447:
 .else
 	.sjisn	"This is a stylish jukebox."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -487,8 +487,8 @@ Text02_8008e447:
 	.sjisn	"What? There's not even one      "
 	.sjisn	"record."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -500,8 +500,8 @@ Text02_8008e447:
 	.sjisn	"Maybe I'll listen to music to   "
 	.sjisn	"relax."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -512,8 +512,8 @@ Text02_8008e447:
 .else
 	.sjisn	"This is a big oven."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -525,8 +525,8 @@ Text02_8008e447:
 	.sjisn	"It seems that there is nothing  "
 	.sjisn	"inside."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -538,8 +538,8 @@ Text02_8008e447:
 	.sjisn	"There is a pot, but it is heavy "
 	.sjisn	"and I cannot lift it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -550,8 +550,8 @@ Text02_8008e447:
 .else
 	.sjisn	"This is a big oven."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -562,8 +562,8 @@ Text02_8008e447:
 .else
 	.sjisn	"Cooking done, not used much yet."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -575,8 +575,8 @@ Text02_8008e447:
 	.sjisn	"It looks like I can get on top  "
 	.sjisn	"from here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -588,8 +588,8 @@ Text02_8008e447:
 	.sjisn	"A key came out from inside the  "
 	.sjisn	"box."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -601,8 +601,8 @@ Text02_8008e447:
 	.sjisn	"It seems that there is nothing  "
 	.sjisn	"inside anymore."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 Text03_8008ed6b:
 
@@ -615,8 +615,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"Maybe I'll try opening it..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -627,8 +627,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"Ah... it's empty inside."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -640,8 +640,8 @@ Text03_8008ed6b:
 	.sjisn	"Nothing inside, proceed through "
 	.sjisn	"opening."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -652,8 +652,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"This is the refrigerator."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -665,8 +665,8 @@ Text03_8008ed6b:
 	.sjisn	"Hmm... there are only books     "
 	.sjisn	"inside."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -677,8 +677,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"This is the dining room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -689,8 +689,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"I can get on top of the lid."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -702,8 +702,8 @@ Text03_8008ed6b:
 	.sjisn	"There is garlic on top of the   "
 	.sjisn	"fireplace."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -714,8 +714,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"This door seems to be open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -726,8 +726,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"This is the entrance."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -738,8 +738,8 @@ Text03_8008ed6b:
 .else
 	.sjisn	"Records on table, listen later."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 Text04_8008f036:
 ;---------------------------------------------
@@ -752,8 +752,8 @@ Text04_8008f036:
 	.sjisn	"Pitfall, mischievous hand       "
 	.sjisn	"did it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -764,8 +764,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a large dining table."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -776,8 +776,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is just a clock."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -788,8 +788,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a family photo."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -801,8 +801,8 @@ Text04_8008f036:
 	.sjisn	"There is a photo of the old man "
 	.sjisn	"when he was young."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -814,8 +814,8 @@ Text04_8008f036:
 	.sjisn	"It doesn't seem to have much    "
 	.sjisn	"meaning."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -827,8 +827,8 @@ Text04_8008f036:
 	.sjisn	"This also no good?              "
 	.sjisn	"Not letting me out?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -839,8 +839,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I won't move even if I flinch."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -851,8 +851,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I found a red book."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -864,8 +864,8 @@ Text04_8008f036:
 	.sjisn	"It doesn't seem to make a       "
 	.sjisn	"difference using the key here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -877,8 +877,8 @@ Text04_8008f036:
 	.sjisn	"Oh... there is a key on top of  "
 	.sjisn	"the table."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -890,8 +890,8 @@ Text04_8008f036:
 	.sjisn	"I don't have time to take it    "
 	.sjisn	"easy." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -903,8 +903,8 @@ Text04_8008f036:
 	.sjisn	"It just looks like a regular    "
 	.sjisn	"sofa."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -916,8 +916,8 @@ Text04_8008f036:
 	.sjisn	"Oh! it looks like it opens up   "
 	.sjisn	"here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -929,8 +929,8 @@ Text04_8008f036:
 	.sjisn	"This is the toilet... I don't   "
 	.sjisn	"particularly need to use it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -942,8 +942,8 @@ Text04_8008f036:
 	.sjisn	"Key not locked but can't open,  "
 	.sjisn	"reason unknown."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -955,8 +955,8 @@ Text04_8008f036:
 	.sjisn	"Open but can't move, something  "
 	.sjisn	"on other side."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -968,8 +968,8 @@ Text04_8008f036:
 	.sjisn	"It doesn't seem like the key    "
 	.sjisn	"would be of any use."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -981,8 +981,8 @@ Text04_8008f036:
 	.sjisn	"Are you determined not to let   "
 	.sjisn	"me out?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -994,8 +994,8 @@ Text04_8008f036:
 	.sjisn	"Hear noise from upstairs,       "
 	.sjisn	"old man up there."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1006,8 +1006,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a mirror."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1018,8 +1018,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a towel."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1031,8 +1031,8 @@ Text04_8008f036:
 	.sjisn	"I don't have time to soak in    "
 	.sjisn	"the bath."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1043,8 +1043,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a toilet."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1056,8 +1056,8 @@ Text04_8008f036:
 	.sjisn	"Oh! the key came out from under "
 	.sjisn	"the pillow."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1068,8 +1068,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There's nothing left here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1080,8 +1080,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a telephone."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1093,8 +1093,8 @@ Text04_8008f036:
 	.sjisn	"Try calling outside, doesn't    "
 	.sjisn	"work, phone not usable."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1105,8 +1105,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This phone is not usable."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1118,8 +1118,8 @@ Text04_8008f036:
 	.sjisn	"If I go out from here, I'll be  "
 	.sjisn	"in the hallway."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1130,8 +1130,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a bed."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1143,8 +1143,8 @@ Text04_8008f036:
 	.sjisn	"I would like to take a nap for  "
 	.sjisn	"a little bit."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1156,8 +1156,8 @@ Text04_8008f036:
 	.sjisn	"Oh, there's a calendar. Today is"
 	.sjisn	"April 1st..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1168,8 +1168,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Oh no, it's April Fool's Day."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1181,8 +1181,8 @@ Text04_8008f036:
 	.sjisn	"I was completely fooled by the  "
 	.sjisn	"old man."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1194,8 +1194,8 @@ Text04_8008f036:
 	.sjisn	"Welcome... Keeton... This is    "
 	.sjisn	"a message from the old man."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1207,8 +1207,8 @@ Text04_8008f036:
 	.sjisn	"This is a message from the old  "
 	.sjisn	"man."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1219,8 +1219,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I found a blue book..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1231,8 +1231,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a desk."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1243,8 +1243,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There is a staircase."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1256,8 +1256,8 @@ Text04_8008f036:
 	.sjisn	"My car is here... I wonder who  "
 	.sjisn	"drove it here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1269,8 +1269,8 @@ Text04_8008f036:
 	.sjisn	"It seems to be broken and won't "
 	.sjisn	"move."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1282,8 +1282,8 @@ Text04_8008f036:
 	.sjisn	"Drum can blocks door, move to   "
 	.sjisn	"open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1295,8 +1295,8 @@ Text04_8008f036:
 	.sjisn	"Can't get through, drum can     "
 	.sjisn	"about to fall."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1308,8 +1308,8 @@ Text04_8008f036:
 	.sjisn	"I slipped and fell when the     "
 	.sjisn	"timing was bad."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1321,8 +1321,8 @@ Text04_8008f036:
 	.sjisn	"The garden with a pool looks    "
 	.sjisn	"lively."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1334,8 +1334,8 @@ Text04_8008f036:
 	.sjisn	"There's a dog house... Does that"
 	.sjisn	"mean there's a dog inside?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1346,8 +1346,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Wow, I'm surprised... already."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1359,8 +1359,8 @@ Text04_8008f036:
 	.sjisn	"It seems like something is      "
 	.sjisn	"there, but it's not coming out."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1372,8 +1372,8 @@ Text04_8008f036:
 	.sjisn	"Drum can, what is it...         "
 	.sjisn	"Filled with black paint."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1385,8 +1385,8 @@ Text04_8008f036:
 	.sjisn	"It's a drum can filled with     "
 	.sjisn	"black paint."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1397,8 +1397,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Ah, a white book is..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1409,8 +1409,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Let's stop soiling the book."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1422,8 +1422,8 @@ Text04_8008f036:
 	.sjisn	"If I jump, I think I can ride   "
 	.sjisn	"it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1434,8 +1434,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I can't get in from this side."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1446,8 +1446,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I can't get off from here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1459,8 +1459,8 @@ Text04_8008f036:
 	.sjisn	"Lock securely fastened, won't   "
 	.sjisn	"open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1472,8 +1472,8 @@ Text04_8008f036:
 	.sjisn	"The palm trees are hazy in the  "
 	.sjisn	"distance."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1485,8 +1485,8 @@ Text04_8008f036:
 	.sjisn	"There is a staircase that leads "
 	.sjisn	"down underground."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1498,8 +1498,8 @@ Text04_8008f036:
 	.sjisn	"Food stored, no particular      "
 	.sjisn	"meaning."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1511,8 +1511,8 @@ Text04_8008f036:
 	.sjisn	"If we pass through here, it     "
 	.sjisn	"leads to the kitchen."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1524,8 +1524,8 @@ Text04_8008f036:
 	.sjisn	"There is a switch, should we    "
 	.sjisn	"try moving it?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1537,8 +1537,8 @@ Text04_8008f036:
 	.sjisn	"It made a strange noise and now "
 	.sjisn	"it won't move."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1550,8 +1550,8 @@ Text04_8008f036:
 	.sjisn	"Escargot Aperitif, name of room "
 	.sjisn	"dweller."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1563,8 +1563,8 @@ Text04_8008f036:
 	.sjisn	"Mr. Escargot's room, door       "
 	.sjisn	"locked, won't open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1576,8 +1576,8 @@ Text04_8008f036:
 	.sjisn	"I found the key in the kitchen  "
 	.sjisn	"below."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1589,8 +1589,8 @@ Text04_8008f036:
 	.sjisn	"Jack Smith... there is a name   "
 	.sjisn	"plate on the door."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1602,8 +1602,8 @@ Text04_8008f036:
 	.sjisn	"Pink door, key locked, won't    "
 	.sjisn	"open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1615,8 +1615,8 @@ Text04_8008f036:
 	.sjisn	"Because the door is pink, the   "
 	.sjisn	"key is also pink."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1628,8 +1628,8 @@ Text04_8008f036:
 	.sjisn	"There is also an iron door      "
 	.sjisn	"here..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1641,8 +1641,8 @@ Text04_8008f036:
 	.sjisn	"I wonder where the key to the   "
 	.sjisn	"door is."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1654,8 +1654,8 @@ Text04_8008f036:
 	.sjisn	"Even if I press it, it doesn't  "
 	.sjisn	"seem to move."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1666,8 +1666,8 @@ Text04_8008f036:
 .else
 	.sjisn	"The iron door is open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1679,8 +1679,8 @@ Text04_8008f036:
 	.sjisn	"Let's try opening it with the   "
 	.sjisn	"key we received."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1692,8 +1692,8 @@ Text04_8008f036:
 	.sjisn	"Just a flower vase, don't break "
 	.sjisn	"it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1705,8 +1705,8 @@ Text04_8008f036:
 	.sjisn	"Sorry, I can't pass through     "
 	.sjisn	"such a narrow gap."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1717,8 +1717,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This looks like a mirror, but..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1730,8 +1730,8 @@ Text04_8008f036:
 	.sjisn	"This looks like a mirror, but   "
 	.sjisn	"it's strange."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1743,8 +1743,8 @@ Text04_8008f036:
 	.sjisn	"The iron door is closed... The  "
 	.sjisn	"old man probably went this way."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1756,8 +1756,8 @@ Text04_8008f036:
 	.sjisn	"It seems like this door can be  "
 	.sjisn	"opened."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1769,8 +1769,8 @@ Text04_8008f036:
 	.sjisn	"If I exit here, I will fall into"
 	.sjisn	"the garden."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1782,8 +1782,8 @@ Text04_8008f036:
 	.sjisn	"I have to go back to the third  "
 	.sjisn	"floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1795,8 +1795,8 @@ Text04_8008f036:
 	.sjisn	"This door doesn't have          "
 	.sjisn	"a keyhole."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1808,8 +1808,8 @@ Text04_8008f036:
 	.sjisn	"There is a fire extinguisher,   "
 	.sjisn	"but it is too heavy to carry."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1821,8 +1821,8 @@ Text04_8008f036:
 	.sjisn	"It looks like the key is locked "
 	.sjisn	"on the inside."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1833,8 +1833,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Oh, I locked it from the inside."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1845,8 +1845,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a window."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1858,8 +1858,8 @@ Text04_8008f036:
 	.sjisn	"Dammit, the key is locked.      "
 	.sjisn	"The old man should be inside."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1871,8 +1871,8 @@ Text04_8008f036:
 	.sjisn	"I need to find the key          "
 	.sjisn	"somewhere."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1883,8 +1883,8 @@ Text04_8008f036:
 .else
 	.sjisn	"The door is already open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1895,8 +1895,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Is there still more above...?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1908,8 +1908,8 @@ Text04_8008f036:
 	.sjisn	"Alegro Adagio... there is a name"
 	.sjisn	"plate on the door."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1920,8 +1920,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is Mr. Alegro's room..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1932,8 +1932,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Recess for hanging picture."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1945,8 +1945,8 @@ Text04_8008f036:
 	.sjisn	"I wonder if I should hang a     "
 	.sjisn	"picture here..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1958,8 +1958,8 @@ Text04_8008f036:
 	.sjisn	"Picture good, key of back door  "
 	.sjisn	"removed."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1971,8 +1971,8 @@ Text04_8008f036:
 	.sjisn	"This picture seems to be        "
 	.sjisn	"different."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1983,8 +1983,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This door is locked."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -1996,8 +1996,8 @@ Text04_8008f036:
 	.sjisn	"Door opens with picture weight. "
 	.sjisn	"Worked with Napoleon."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2008,8 +2008,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It probably won't open anymore."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2021,8 +2021,8 @@ Text04_8008f036:
 	.sjisn	"A copper key has appeared...    "
 	.sjisn	"It was hidden here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2034,8 +2034,8 @@ Text04_8008f036:
 	.sjisn	"This is a bed with an unusual   "
 	.sjisn	"shape."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2046,8 +2046,8 @@ Text04_8008f036:
 .else
 	.sjisn	"A diary is left here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2058,8 +2058,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It's a poster of Hawaii."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2070,8 +2070,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This doesn't seem to be related."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2083,8 +2083,8 @@ Text04_8008f036:
 	.sjisn	"It's a surfboard. Resident likes"
 	.sjisn	"to play."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2096,8 +2096,8 @@ Text04_8008f036:
 	.sjisn	"I can't bring this thing with   "
 	.sjisn	"me."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2108,8 +2108,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a corridor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2120,8 +2120,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It's a poster of Monet."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2133,8 +2133,8 @@ Text04_8008f036:
 	.sjisn	"The key is locked from the      "
 	.sjisn	"inside and cannot be opened."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2146,8 +2146,8 @@ Text04_8008f036:
 	.sjisn	"There is something like         "
 	.sjisn	"a yacht's cabin. ...Oh?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2159,8 +2159,8 @@ Text04_8008f036:
 	.sjisn	"It looks like it's moving...    "
 	.sjisn	"Do you want to move it?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2172,8 +2172,8 @@ Text04_8008f036:
 	.sjisn	"So that's what this mechanism   "
 	.sjisn	"was for..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2185,8 +2185,8 @@ Text04_8008f036:
 	.sjisn	"A pink book is here in this     "
 	.sjisn	"place."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2197,8 +2197,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It seems there is nothing left. "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2210,8 +2210,8 @@ Text04_8008f036:
 	.sjisn	"A saw came out from under the   "
 	.sjisn	"pillow."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2223,8 +2223,8 @@ Text04_8008f036:
 	.sjisn	"It's the same door as the       "
 	.sjisn	"kitchen below."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2236,8 +2236,8 @@ Text04_8008f036:
 	.sjisn	"Something like a paper cut came "
 	.sjisn	"out."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2248,8 +2248,8 @@ Text04_8008f036:
 .else
 	.sjisn	"A green key was found."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2261,8 +2261,8 @@ Text04_8008f036:
 	.sjisn	"There is a record on top of the "
 	.sjisn	"phonograph."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2273,8 +2273,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It's a Beethoven poster."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2286,8 +2286,8 @@ Text04_8008f036:
 	.sjisn	"It looks like a musical         "
 	.sjisn	"instrument."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2298,8 +2298,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It looks like sheet music."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2311,8 +2311,8 @@ Text04_8008f036:
 	.sjisn	"Exiting through the window on   "
 	.sjisn	"the second floor is impossible."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2324,8 +2324,8 @@ Text04_8008f036:
 	.sjisn	"There's something that looks    "
 	.sjisn	"like a letter left."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2337,8 +2337,8 @@ Text04_8008f036:
 	.sjisn	"There's a photo of a woman,     "
 	.sjisn	"but..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2349,8 +2349,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Hey, there's a hole in the wall."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2362,8 +2362,8 @@ Text04_8008f036:
 	.sjisn	"There's a hole in the wall and  "
 	.sjisn	"an axe that was cut with a saw."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2375,8 +2375,8 @@ Text04_8008f036:
 	.sjisn	"Hear cymbal strike thru hole,   "
 	.sjisn	"what's going on?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2388,8 +2388,8 @@ Text04_8008f036:
 	.sjisn	"There's no keyhole on this door "
 	.sjisn	"but it won't open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2401,8 +2401,8 @@ Text04_8008f036:
 	.sjisn	"No keyhole but won't open, could"
 	.sjisn	"there be a mechanism?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2413,8 +2413,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a TV, I guess."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2426,8 +2426,8 @@ Text04_8008f036:
 	.sjisn	"Oh... even if I turn on the     "
 	.sjisn	"switch, nothing is shown."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2438,8 +2438,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Nothing is shown? That's boring."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2451,8 +2451,8 @@ Text04_8008f036:
 	.sjisn	"Arrow points to door, likely    "
 	.sjisn	"means it's open."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2463,8 +2463,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There's a record on the table."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2476,8 +2476,8 @@ Text04_8008f036:
 	.sjisn	"It's a big aquarium... and the  "
 	.sjisn	"fish are swimming."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2489,8 +2489,8 @@ Text04_8008f036:
 	.sjisn	"This wall looks suspicious      "
 	.sjisn	"somehow."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2502,8 +2502,8 @@ Text04_8008f036:
 	.sjisn	"I hope it won't collapse or     "
 	.sjisn	"be smashed."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2514,8 +2514,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This wall is suspicious.        "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2527,8 +2527,8 @@ Text04_8008f036:
 	.sjisn	"Small gap here... What's it's   "
 	.sjisn	"purpose?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2539,8 +2539,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It is an unclear gap."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2552,8 +2552,8 @@ Text04_8008f036:
 	.sjisn	"What... that's strange... the   "
 	.sjisn	"door won't open!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2564,8 +2564,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Oh no, I'm trapped!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2576,8 +2576,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Upon closer inspection, all red books have difficult content."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2589,8 +2589,8 @@ Text04_8008f036:
 	.sjisn	"It's a good idea to return the  "
 	.sjisn	"red book back to its place."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2602,8 +2602,8 @@ Text04_8008f036:
 	.sjisn	"This book doesn't match the     "
 	.sjisn	"color."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2616,8 +2616,8 @@ Text04_8008f036:
 	.sjisn	"books. There are famous novels.."
 	;.sjisn	"books. There are famous novels lined up." ; CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2629,8 +2629,8 @@ Text04_8008f036:
 	.sjisn	"Let's put the blue book back    "
 	.sjisn	"here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2642,8 +2642,8 @@ Text04_8008f036:
 	.sjisn	"This bookshelf only has yellow  "
 	;.sjisn	"books, they all seem to be recipes." ;CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2655,8 +2655,8 @@ Text04_8008f036:
 	.sjisn	"Let's put the yellow book back  "
 	.sjisn	"here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2668,8 +2668,8 @@ Text04_8008f036:
 	.sjisn	"The door opened with a picture  "
 	.sjisn	"of Napoleon."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2681,8 +2681,8 @@ Text04_8008f036:
 	.sjisn	"It seems to be a study room,    "
 	.sjisn	"there's a desk."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2694,8 +2694,8 @@ Text04_8008f036:
 	.sjisn	"It seems like there's nothing   "
 	.sjisn	"here after checking."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2707,8 +2707,8 @@ Text04_8008f036:
 	.sjisn	"I've only collected pink books. "
 	;.sjisn	"As expected, they're all naughty books.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2719,8 +2719,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I'll return the pink book here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2732,8 +2732,8 @@ Text04_8008f036:
 	.sjisn	"Looks like it's all green books,"
 	.sjisn	"all about music."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2745,8 +2745,8 @@ Text04_8008f036:
 	.sjisn	"Let's return the green book     "
 	.sjisn	"here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2758,8 +2758,8 @@ Text04_8008f036:
 	.sjisn	"Let's return the black book here"
 	.sjisn	"as well."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2771,8 +2771,8 @@ Text04_8008f036:
 	.sjisn	"Let's return the blackened white"
 	.sjisn	"book here too."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2784,8 +2784,8 @@ Text04_8008f036:
 	.sjisn	"Hey...surprised? I'm your cousin"
 	.sjisn	"Anthony."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2797,8 +2797,8 @@ Text04_8008f036:
 	.sjisn	"I was asked to do a stand-in for"
 	.sjisn	"you because you resemble me."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2810,8 +2810,8 @@ Text04_8008f036:
 	.sjisn	"I'll give you this blue key, so "
 	.sjisn	"forgive me."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2822,8 +2822,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There's nothing left anymore."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2835,8 +2835,8 @@ Text04_8008f036:
 	.sjisn	"There's a man with the same"
 	.sjisn	"outfit as me. What a elaborate prank."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2847,8 +2847,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Whoa... this is a cactus."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2860,8 +2860,8 @@ Text04_8008f036:
 	.sjisn	"The keyhole is not visible, but"
 	;.sjisn	"it looks like it can be locked from the inside.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2873,8 +2873,8 @@ Text04_8008f036:
 	.sjisn	"It seems the man from earlier"
 	;.sjisn	"escaped into this room and the door is not locked from the inside.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2886,8 +2886,8 @@ Text04_8008f036:
 	.sjisn	"The man inside has locked the"
 	;.sjisn	"door from inside... It seems like this door won't open anymore.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2899,8 +2899,8 @@ Text04_8008f036:
 	.sjisn	"I thought it was a mirror...    "
 	.sjisn	"what a complicated prank."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2912,8 +2912,8 @@ Text04_8008f036:
 	.sjisn	"I thought it was a mirror..."
 	;.sjisn	"What a elaborate prank. But wait, can we pass through here?";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2924,8 +2924,8 @@ Text04_8008f036:
 .else
 	.sjisn	"What a complicated prank!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2937,8 +2937,8 @@ Text04_8008f036:
 	.sjisn	"It's a picture of Napoleon,     "
 	.sjisn	"the old man likes Napoleon."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2950,8 +2950,8 @@ Text04_8008f036:
 	.sjisn	"I've been waiting...!"
 	.sjisn	"Finally I met you, Keaton."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2963,8 +2963,8 @@ Text04_8008f036:
 	.sjisn	"How was it? Did you have a good "
 	.sjisn	"time in my new house?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2976,8 +2976,8 @@ Text04_8008f036:
 	.sjisn	"You didn't have to go out of    "
 	;.sjisn	"your way... take your time for a while.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -2989,8 +2989,8 @@ Text04_8008f036:
 	.sjisn	"This is also my hobby... don't  "
 	.sjisn	"think badly of me, okay?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3002,8 +3002,8 @@ Text04_8008f036:
 	.sjisn	"Don't worry, I've told the      "
 	.sjisn	"driver Jack to fix it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3015,8 +3015,8 @@ Text04_8008f036:
 	.sjisn	"Come back without fail next     "
 	.sjisn	"time, I'll prepare a feast."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3027,8 +3027,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Finally I can go home now.      "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3040,8 +3040,8 @@ Text04_8008f036:
 	.sjisn	"It seems to be the desk of the  "
 	.sjisn	"old man."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3053,8 +3053,8 @@ Text04_8008f036:
 	.sjisn	"This looks like a camera,       "
 	.sjisn	"I wonder what it's used for?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3066,8 +3066,8 @@ Text04_8008f036:
 	.sjisn	"It seems that this is also a    "
 	.sjisn	"picture of Napoleon."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3079,8 +3079,8 @@ Text04_8008f036:
 	.sjisn	"It seems like this is the last  "
 	.sjisn	"room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3092,8 +3092,8 @@ Text04_8008f036:
 	.sjisn	"Come to my room... making people"
 	.sjisn	"run around like crazy!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3105,8 +3105,8 @@ Text04_8008f036:
 	.sjisn	"Congratulations... I had a"
 	.sjisn	"terrible time over here!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3118,8 +3118,8 @@ Text04_8008f036:
 	.sjisn	"Do you want to move the switch  "
 	.sjisn	"that you saw in the basement?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3130,8 +3130,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This leads to the library."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3143,8 +3143,8 @@ Text04_8008f036:
 	.sjisn	"The floor below is the second   "
 	.sjisn	"floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3156,8 +3156,8 @@ Text04_8008f036:
 	.sjisn	"It might open with this green   "
 	.sjisn	"key."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3168,8 +3168,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This key might open it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3180,8 +3180,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is just a chair."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3193,8 +3193,8 @@ Text04_8008f036:
 	.sjisn	"This is terrible... I got my    "
 	.sjisn	"hand caught."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3206,8 +3206,8 @@ Text04_8008f036:
 	.sjisn	"This room seems like a music    "
 	.sjisn	"room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3219,8 +3219,8 @@ Text04_8008f036:
 	.sjisn	"There is a green book on top of "
 	.sjisn	"the piano."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3231,8 +3231,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This room has a window."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3244,8 +3244,8 @@ Text04_8008f036:
 	.sjisn	"The window on the third floor   "
 	.sjisn	"can't be seen from here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3256,8 +3256,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This seems to be nothing."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3269,8 +3269,8 @@ Text04_8008f036:
 	.sjisn	"This is a picture of the"
 	;.sjisn	"Eastern King JINGISKAN. It looks like you can take this picture.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3282,8 +3282,8 @@ Text04_8008f036:
 	.sjisn	"This is the ancient king"
 	;.sjisn	"Alexander. This picture seems like it can be taken.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3295,8 +3295,8 @@ Text04_8008f036:
 	.sjisn	"This is King Napoleon from the"
 	;.sjisn	"Middle Ages, I think I can take this painting.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3308,8 +3308,8 @@ Text04_8008f036:
 	.sjisn	"Yes, it seems that you could    "
 	.sjisn	"climb up from here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3321,8 +3321,8 @@ Text04_8008f036:
 	.sjisn	"It seems impossible to ride     "
 	.sjisn	"this."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3334,8 +3334,8 @@ Text04_8008f036:
 	.sjisn	"This appears to be a pile of    "
 	.sjisn	"heavy items stacked high."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3347,8 +3347,8 @@ Text04_8008f036:
 	.sjisn	"The pictures are too heavy to   "
 	;.sjisn	"carry two, maybe I'll put down the one I'm carrying now?";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3360,8 +3360,8 @@ Text04_8008f036:
 	.sjisn	"This is the place where there   "
 	.sjisn	"was a painting of Napoleon."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3373,8 +3373,8 @@ Text04_8008f036:
 	.sjisn	"This is the place where the     "
 	.sjisn	"picture of Genghis Khan was."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3386,8 +3386,8 @@ Text04_8008f036:
 	.sjisn	"This is where the painting of   "
 	.sjisn	"Alexander was."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3398,8 +3398,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I will raise this iron key.     "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3411,8 +3411,8 @@ Text04_8008f036:
 	.sjisn	"The chicken meat came out from  "
 	.sjisn	"the oven."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3424,8 +3424,8 @@ Text04_8008f036:
 	.sjisn	"An egg came out from the        "
 	.sjisn	"refrigerator lid."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3436,8 +3436,8 @@ Text04_8008f036:
 .else
 	.sjisn	"A candy is placed here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3448,8 +3448,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There is a photo of a woman."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3460,8 +3460,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I can't move forward like this."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3473,8 +3473,8 @@ Text04_8008f036:
 	.sjisn	"The bookshelf moved and         "
 	.sjisn	"a hole appeared."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3486,8 +3486,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3499,8 +3499,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3512,8 +3512,8 @@ Text04_8008f036:
 	.sjisn	"The lid is in the way and       "
 	.sjisn	"I can't move forward."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3525,8 +3525,8 @@ Text04_8008f036:
 	.sjisn	"There is a piece of clothing"
 	;.sjisn	"hanging that looks like what the chef would wear.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3537,8 +3537,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There is a small table."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3550,8 +3550,8 @@ Text04_8008f036:
 	.sjisn	"Oh no...                        "
 	.sjisn	"I'm going to be crushed!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3562,8 +3562,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Ah! Who is that man?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3575,8 +3575,8 @@ Text04_8008f036:
 	.sjisn	"I don't need the picture        "
 	.sjisn	"anymore."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3588,8 +3588,8 @@ Text04_8008f036:
 	.sjisn	"There is a staircase leading    "
 	.sjisn	"down to the entrance."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3600,8 +3600,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Whoa! The wall is closing in."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3613,8 +3613,8 @@ Text04_8008f036:
 	.sjisn	"If it stays like this, I'll be  "
 	.sjisn	"crushed."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3625,8 +3625,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Oh no... it's over."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3637,8 +3637,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Will I do this again?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3649,8 +3649,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Please, just do anything."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3662,8 +3662,8 @@ Text04_8008f036:
 	.sjisn	"There is a staircase leading up "
 	.sjisn	"to the first floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3675,8 +3675,8 @@ Text04_8008f036:
 	.sjisn	"It seems that there's nothing   "
 	.sjisn	"inside anymore."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3688,8 +3688,8 @@ Text04_8008f036:
 	.sjisn	"It seems like someone has taken"
 	;.sjisn	"the key from the keyhole and went away.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3701,8 +3701,8 @@ Text04_8008f036:
 	.sjisn	"It seems that there is no longer"
 	.sjisn	"anywhere to jump on."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3714,8 +3714,8 @@ Text04_8008f036:
 	.sjisn	"It seems that this phone is not "
 	.sjisn	"ringing."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3726,8 +3726,8 @@ Text04_8008f036:
 .else
 	.sjisn	"A yellow book is stored."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3738,8 +3738,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There is a black book stored."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3750,8 +3750,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There is a green book stored."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3762,8 +3762,8 @@ Text04_8008f036:
 .else
 	.sjisn	"A blue book is stored."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3774,8 +3774,8 @@ Text04_8008f036:
 .else
 	.sjisn	"A pink book is stored."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3786,8 +3786,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There is a red book stored."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3798,8 +3798,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This was not a mirror."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3810,8 +3810,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is an electric stand."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3823,8 +3823,8 @@ Text04_8008f036:
 	.sjisn	"There is an arrow pointing to   "
 	.sjisn	"the door."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3835,8 +3835,8 @@ Text04_8008f036:
 .else
 	.sjisn	"There is an empty shelf.        "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3848,8 +3848,8 @@ Text04_8008f036:
 	.sjisn	"It seems that the old man is on "
 	.sjisn	"this floor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3861,8 +3861,8 @@ Text04_8008f036:
 	.sjisn	"It seems that getting crushed"
 	;.sjisn	"under this bed is no longer acceptable.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3874,8 +3874,8 @@ Text04_8008f036:
 	.sjisn	"I don't want to be crushed      "
 	.sjisn	"again."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3887,8 +3887,8 @@ Text04_8008f036:
 	.sjisn	"It seems to be a hanger for     "
 	.sjisn	"hanging clothes."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3899,8 +3899,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a plate."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3911,8 +3911,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Got a blue key."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3924,8 +3924,8 @@ Text04_8008f036:
 	.sjisn	"Yes, it sounds like a house that"
 	.sjisn	"resembles a castle."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3937,8 +3937,8 @@ Text04_8008f036:
 	.sjisn	"It seems to be a place like     "
 	.sjisn	"a bar."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3949,8 +3949,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It seems to be a kitchen."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3962,8 +3962,8 @@ Text04_8008f036:
 	.sjisn	"It seems to be a large dining"
 	;.sjisn	"table. People probably eat here together.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3975,8 +3975,8 @@ Text04_8008f036:
 	.sjisn	"It appears to be a reception    "
 	.sjisn	"room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -3988,8 +3988,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4000,8 +4000,8 @@ Text04_8008f036:
 .else
 	.sjisn	"It seems to be a bathroom."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4012,8 +4012,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Finally, I got into the room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4025,8 +4025,8 @@ Text04_8008f036:
 	.sjisn	"Finally, I got out... Oh,       "
 	.sjisn	"there's a staircase leading up."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4038,8 +4038,8 @@ Text04_8008f036:
 	.sjisn	"I finally made it to the"
 	;.sjisn	"garden... It's fancy with a pool attached...";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4051,8 +4051,8 @@ Text04_8008f036:
 	.sjisn	"There's a hidden room in a place"
 	.sjisn	"like this."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4064,8 +4064,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4077,8 +4077,8 @@ Text04_8008f036:
 	.sjisn	"This is a pink room with        "
 	.sjisn	"tasteless decor."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4089,8 +4089,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is the toilet..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4101,8 +4101,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This is a yellow room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4113,8 +4113,8 @@ Text04_8008f036:
 .else
 	.sjisn	"This looks like a living room."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4126,8 +4126,8 @@ Text04_8008f036:
 	.sjisn	"Wow, there are so many books    "
 	.sjisn	"here. It's like a library."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4139,8 +4139,8 @@ Text04_8008f036:
 	.sjisn	"There was a man dressed the same"
 	.sjisn	"way as me."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4151,8 +4151,8 @@ Text04_8008f036:
 .else
 	.sjisn	"Oh... there's an old man."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4164,8 +4164,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4177,8 +4177,8 @@ Text04_8008f036:
 	.sjisn	"This looks like a music room    "
 	.sjisn	"with a piano."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4190,8 +4190,8 @@ Text04_8008f036:
 	.sjisn	"This seems to be a storage"
 	;.sjisn	"room... there are piles of unorganized belongings.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4202,8 +4202,8 @@ Text04_8008f036:
 .else
 	.sjisn	"No items... "
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4215,8 +4215,8 @@ Text04_8008f036:
 	.sjisn	"It doesn't make sense to use    "
 	.sjisn	"it here."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4228,8 +4228,8 @@ Text04_8008f036:
 	.sjisn	"The white book has turned       "
 	.sjisn	"completely black..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4241,8 +4241,8 @@ Text04_8008f036:
 	.sjisn	"Somehow, in exchange for"
 	;.sjisn	"cooking, they gave me a golden key.";CUT
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4254,8 +4254,8 @@ Text04_8008f036:
 	.sjisn	"Napoleon seems happily taking   "
 	.sjisn	"a bite of the cuisine."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4267,8 +4267,8 @@ Text04_8008f036:
 	.sjisn	"It seems that you have found    "
 	.sjisn	"some fish in a aquarium."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4280,8 +4280,8 @@ Text04_8008f036:
 	.sjisn	"It seems like there are now     "
 	.sjisn	"different fish in the tank."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4293,8 +4293,8 @@ Text04_8008f036:
 	.sjisn	"This time, I couldn't get       "
 	.sjisn	"anything!"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4305,8 +4305,8 @@ Text04_8008f036:
 .else
 	.sjisn	"I put Amy in the aquarium."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -4318,7 +4318,7 @@ Text04_8008f036:
 	.sjisn	"There's no use for these items  "
 	.sjisn	"right now..."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------

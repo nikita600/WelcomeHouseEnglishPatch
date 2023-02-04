@@ -4,7 +4,7 @@
 
 .org 0x80096918
 
-@text_size 		equ 	65
+@text_size 		equ 	64
 @fill_value 	equ 	0x20
 @end_of_line 	equ 	0x00
 
@@ -17,8 +17,8 @@
 .else
 	.sjisn 	"There is no memory card."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -30,8 +30,8 @@
 	.sjisn 	"It is not formatted...          "
 	.sjisn	"Would you like to format it?" 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -42,8 +42,8 @@
 .else
 	.sjisn 	"Please reinsert the memory card." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -54,8 +54,8 @@
 .else
 	.sjisn 	"I formatted it." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -66,8 +66,8 @@
 .else
 	.sjisn 	"It is being formatted." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -78,8 +78,8 @@
 .else
 	.sjisn 	"I did not format it." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -90,8 +90,8 @@
 .else
 	.sjisn 	"The save is complete." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -103,8 +103,8 @@
 	.sjisn 	"The memory card is full and     "
 	.sjisn	"there is no place to save." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -116,8 +116,8 @@
 	.sjisn 	"I will overwrite the save       "
 	.sjisn	"data... Is that okay?" 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -129,8 +129,8 @@
 	.sjisn 	"I will save anew... Is that     "
 	.sjisn	"okay?" 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -142,8 +142,8 @@
 	.sjisn 	"There is no save data for the   "
 	.sjisn	"Welcome House." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -155,8 +155,8 @@
 	.sjisn 	"This is an unformatted card...  "
 	.sjisn	"It cannot be loaded." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -167,8 +167,8 @@
 .else
 	.sjisn 	"This is a formatted memory card." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -179,8 +179,8 @@
 .else
 	.sjisn 	"You cannot save here." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -192,8 +192,8 @@
 	.sjisn 	"The save has failed             "
 	.sjisn	"(overwrite)... Please try again." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -205,8 +205,8 @@
 	.sjisn 	"The save has failed (new)...    "
 	.sjisn	"Please try again." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -218,8 +218,8 @@
 	.sjisn 	"The file check has failed...    "
 	.sjisn	"Please try again." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -230,8 +230,8 @@
 .else
 	.sjisn 	"I did not save." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -242,8 +242,8 @@
 .else
 	.sjisn 	"Loading the save data." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -254,7 +254,7 @@
 .else
 	.sjisn 	"The load is complete." 
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------

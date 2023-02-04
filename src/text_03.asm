@@ -4,7 +4,7 @@
 
 .org 0x80093BD4
 
-@text_size		equ		47
+@text_size		equ		46
 @fill_value		equ		0x20
 @end_of_line 	equ 	0x00
 
@@ -16,8 +16,8 @@
 .else
 	.sjisn	"I found it. Do you want to take it?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -27,8 +27,8 @@
 .else
 	.sjisn	"I obtained it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -38,8 +38,8 @@
 .else
 	.sjisn	"I returned it."
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -49,7 +49,7 @@
 .else
 	.sjisn	"Do you want to put it away?"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------

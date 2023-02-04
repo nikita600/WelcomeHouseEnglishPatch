@@ -4,7 +4,7 @@
 
 .org 0x80096E2C
 
-@text_size 		equ 	164
+@text_size 		equ 	160
 @fill_value 	equ 	0x20
 @end_of_line 	equ 	0x00
 
@@ -24,10 +24,10 @@
 	.sjisn	"                                "
 	.sjisn	"                                "
 .endif
-.db @end_of_line
-
-.db 00h, 00h, 00h
 .endarea
+
+.db @end_of_line
+.db 00h, 00h, 00h
 
 ;---------------------------------------------
 
@@ -45,10 +45,10 @@
 	.sjisn	"                                "
 	.sjisn	"                                "
 .endif
-.db @end_of_line
-
-.db 00h, 00h, 00h
 .endarea
+
+.db @end_of_line
+.db 00h, 00h, 00h
 
 ;---------------------------------------------
 
@@ -66,9 +66,9 @@
 	.sjisn	"   Please wait just a moment.   "
 	.sjisn	"                                "
 .endif
-.db @end_of_line
-
-.db 00h, 00h, 00h
 .endarea
+
+.db @end_of_line
+.db 00h, 00h, 00h
 
 ;---------------------------------------------

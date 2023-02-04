@@ -4,8 +4,8 @@
 
 .org 0x80093C90
 
-@text_size 		equ 	13
-@fill_value 	equ 	0x20
+@text_size 		equ 	12
+@fill_value 	equ 	0x00
 @end_of_line 	equ 	0x00
 
 ;---------------------------------------------
@@ -14,10 +14,10 @@
 .if LANG == JAP
 	.sjisn	"　玄関　　　"
 .else
-	.sjisn	" Entrance   "
+	.sjisn	"Entrance"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -25,10 +25,10 @@
 .if LANG == JAP
 	.sjisn	"　酒場　　　"
 .else
-	.sjisn	" Bar        "
+	.sjisn	"Bar"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -36,10 +36,10 @@
 .if LANG == JAP
 	.sjisn	"　キッチン　"
 .else
-	.sjisn	" Kitchen    "
+	.sjisn	"Kitchen"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -47,10 +47,10 @@
 .if LANG == JAP
 	.sjisn	"　食堂　　　"
 .else
-	.sjisn	" Dining room"
+	.sjisn	"Dining room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -58,10 +58,10 @@
 .if LANG == JAP
 	.sjisn	"　応接間　　"
 .else
-	.sjisn	" Reception  "
+	.sjisn	"Reception"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -69,10 +69,10 @@
 .if LANG == JAP
 	.sjisn	"　廊下　　　"
 .else
-	.sjisn	" Hallway    "
+	.sjisn	"Hallway"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -80,10 +80,10 @@
 .if LANG == JAP
 	.sjisn	"　トイレ　　"
 .else
-	.sjisn	" Toilet     "
+	.sjisn	"Toilet"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -91,10 +91,10 @@
 .if LANG == JAP
 	.sjisn	"　青い部屋　"
 .else
-	.sjisn	" Blue Room  "
+	.sjisn	"Blue Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -102,10 +102,10 @@
 .if LANG == JAP
 	.sjisn	"　ガレージ　"
 .else
-	.sjisn	" Garage     "
+	.sjisn	"Garage"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -113,10 +113,10 @@
 .if LANG == JAP
 	.sjisn	"　庭　　　　"
 .else
-	.sjisn	" Garden     "
+	.sjisn	"Garden"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -124,10 +124,10 @@
 .if LANG == JAP
 	.sjisn	"　かくし部屋"
 .else
-	.sjisn	" Hidden Room"
+	.sjisn	"Hidden Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -135,10 +135,10 @@
 .if LANG == JAP
 	.sjisn	"　黒い部屋　"
 .else
-	.sjisn	" Black Room "
+	.sjisn	"Black Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -146,10 +146,10 @@
 .if LANG == JAP
 	.sjisn	"　図書室　　"
 .else
-	.sjisn	" Library    "
+	.sjisn	"Library"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -157,10 +157,10 @@
 .if LANG == JAP
 	.sjisn	"　リビング　"
 .else
-	.sjisn	" Living Room"
+	.sjisn	"Living Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -168,10 +168,10 @@
 .if LANG == JAP
 	.sjisn	"　トラップ　"
 .else
-	.sjisn	" Trap       "
+	.sjisn	"Trap"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -179,10 +179,10 @@
 .if LANG == JAP
 	.sjisn	"ピンクの部屋"
 .else
-	.sjisn	" Pink Room  "
+	.sjisn	"Pink Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -190,10 +190,10 @@
 .if LANG == JAP
 	.sjisn	"　黄色い部屋"
 .else
-	.sjisn	" Yellow Room"
+	.sjisn	"Yellow Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -201,10 +201,10 @@
 .if LANG == JAP
 	.sjisn	"　緑の部屋　"
 .else
-	.sjisn	" Green Room "
+	.sjisn	"Green Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -212,10 +212,10 @@
 .if LANG == JAP
 	.sjisn	"　音楽室　　"
 .else
-	.sjisn	" Music Room "
+	.sjisn	"Music Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -225,8 +225,8 @@
 .else
 	.sjisn	"Storage Room"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -234,10 +234,10 @@
 .if LANG == JAP
 	.sjisn	"　ベランダ　"
 .else
-	.sjisn	" Balcony    "
+	.sjisn	"Balcony"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
@@ -245,10 +245,10 @@
 .if LANG == JAP
 	.sjisn	"　ゴール　　"
 .else
-	.sjisn	" Goal       "
+	.sjisn	"Goal"
 .endif
-.db @end_of_line
 .endarea
+.db @end_of_line
 
 ;---------------------------------------------
 
