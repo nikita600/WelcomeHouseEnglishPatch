@@ -4,47 +4,52 @@
 
 .org 0x80093BD4
 
-@text_size equ 47
-@fill_value equ 0x20
+@text_size		equ		47
+@fill_value		equ		0x20
+@end_of_line 	equ 	0x00
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"をみつけた　　　　　　　　　とりますか？　　　"
+	.sjisn	"をみつけた　　　　　　　　　とりますか？　　　"
 .else
-	.sjis	"I found it. Do you want to take it?"
+	.sjisn	"I found it. Do you want to take it?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"を入手した。　　　　　　　　　　　　　　　　　"
+	.sjisn	"を入手した。　　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I obtained it."
+	.sjisn	"I obtained it."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"をもどした。　　　　　　　　　　　　　　　　　"
+	.sjisn	"をもどした。　　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I returned it."
+	.sjisn	"I returned it."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"をおきますか。　　　　　　　　　　　　　　　　"
+	.sjisn	"をおきますか。　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Do you want to put it away?"
+	.sjisn	"Do you want to put it away?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------

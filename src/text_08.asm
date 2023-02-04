@@ -4,77 +4,85 @@
 
 .org 0x800968AC
 
-@text_size equ 15
-@fill_value equ 0x20
+@text_size 		equ 	15
+@fill_value 	equ 	0x20
+@end_of_line 	equ 	0x00
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"チキン、　　　"
+	.sjisn	"チキン、　　　"
 .else
-	.sjis	"chicken, "
+	.sjisn	"chicken, "
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"ざりがに、　　"
+	.sjisn	"ざりがに、　　"
 .else
-	.sjis	"crayfish, "
+	.sjisn	"crayfish, "
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"たまご、　　　"
+	.sjisn	"たまご、　　　"
 .else
-	.sjis	"eggs, "
+	.sjisn	"eggs, "
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"にんにく、　　"
+	.sjisn	"にんにく、　　"
 .else
-	.sjis	"garlic, "
+	.sjisn	"garlic, "
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"トマト、　　　"
+	.sjisn	"トマト、　　　"
 .else
-	.sjis	"tomato, "
+	.sjisn	"tomato, "
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"ブランデー、　"
+	.sjisn	"ブランデー、　"
 .else
-	.sjis	"brandy, "
+	.sjisn	"brandy, "
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"が必要だ。」　"
+	.sjisn	"が必要だ。」　"
 .else
-	.sjis	"I need "
+	.sjisn	"I need "
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------

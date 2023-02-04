@@ -4,18 +4,20 @@
 
 .org 0x80096918
 
-@text_size equ 65
-@fill_value equ 0x20
+@text_size 		equ 	65
+@fill_value 	equ 	0x20
+@end_of_line 	equ 	0x00
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「メモリーカードがありません。」"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"There is no memory card."
+	.sjisn 	"There is no memory card."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -23,10 +25,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットされていません…　"
-	.sjis	"　　フォーマットしますか？」　　"
+	.sjisn	"　　フォーマットしますか？」　　"
 .else
-	.sjis 	"It is not formatted... Would you like to format it?" 
+	.sjisn 	"It is not formatted..."
+	.sjisn	"Would you like to format it?" 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -34,10 +38,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　「メモリーカードを　　　　"
-	.sjis	"　　差しなおしてください。」　　"
+	.sjisn	"　　差しなおしてください。」　　"
 .else
-	.sjis 	"Please reinsert the memory card." 
+	.sjisn 	"Please reinsert the memory card." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -45,10 +50,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「フォーマットしました。」　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"I formatted it." 
+	.sjisn 	"I formatted it." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -56,10 +62,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「フォーマット中です。」　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"It is being formatted." 
+	.sjisn 	"It is being formatted." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -67,10 +74,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットしませんでした。」"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"I did not format it." 
+	.sjisn 	"I did not format it." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -78,10 +86,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「セーブが終わりました。」　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"The save is complete." 
+	.sjisn 	"The save is complete." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -89,10 +98,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「メモリーカードがいっぱいで　　"
-	.sjis	"　セーブする場所がありません。」"
+	.sjisn	"　セーブする場所がありません。」"
 .else
-	.sjis 	"The memory card is full and there is no place to save." 
+	.sjisn 	"The memory card is full and"
+	.sjisn	"there is no place to save." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -100,10 +111,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「セーブデータを上書きします…"
-	.sjis	"　　　　よろしいですか。」　　　"
+	.sjisn	"　　　　よろしいですか。」　　　"
 .else
-	.sjis 	"I will overwrite the save data... Is that okay?" 
+	.sjisn 	"I will overwrite the save"
+	.sjisn	"data... Is that okay?" 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -111,10 +124,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「新しくセーブします…　　　"
-	.sjis	"　　　　よろしいですか。」　　　"
+	.sjisn	"　　　　よろしいですか。」　　　"
 .else
-	.sjis 	"I will save anew... Is that okay?" 
+	.sjisn 	"I will save anew... Is that"
+	.sjisn	"okay?" 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -122,10 +137,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ウエルカムハウスの　　　　　　"
-	.sjis	"　　セーブデータがありません。」"
+	.sjisn	"　　セーブデータがありません。」"
 .else
-	.sjis 	"There is no save data for the Welcome House." 
+	.sjisn 	"There is no save data for the"
+	.sjisn	"Welcome House." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -133,10 +150,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットされていない　　　"
-	.sjis	"カードです…ロードできません。」"
+	.sjisn	"カードです…ロードできません。」"
 .else
-	.sjis 	"This is an unformatted card... It cannot be loaded." 
+	.sjisn 	"This is an unformatted card..."
+	.sjisn	"It cannot be loaded." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -144,10 +163,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「フォーマットされている　　　　"
-	.sjis	"　　　　　メモリーカードです。」"
+	.sjisn	"　　　　　メモリーカードです。」"
 .else
-	.sjis 	"This is a formatted memory card." 
+	.sjisn 	"This is a formatted memory card." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -155,10 +175,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ここではセーブできません。」　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"You cannot save here." 
+	.sjisn 	"You cannot save here." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -166,10 +187,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「セーブデフォ（上書）に引っ掛か"
-	.sjis	"りました…見直してください。」　"
+	.sjisn	"りました…見直してください。」　"
 .else
-	.sjis 	"The save has failed (overwriting)... Please check again." 
+	.sjisn 	"The save has failed"
+	.sjisn	"(overwrite)... Please try again." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -177,10 +200,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「セーブデフォ（新規）に引っ掛か"
-	.sjis	"りました…見直してください。」　"
+	.sjisn	"りました…見直してください。」　"
 .else
-	.sjis 	"The save has failed (new)... Please check again." 
+	.sjisn 	"The save has failed (new)..."
+	.sjisn	"Please try again." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -188,10 +213,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「ファイルチェックに引っ掛かりま"
-	.sjis	"した…見直してください。」　　　"
+	.sjisn	"した…見直してください。」　　　"
 .else
-	.sjis 	"The file check has failed... Please check again." 
+	.sjisn 	"The file check has failed..."
+	.sjisn	"Please try again." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -199,10 +226,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　「セーブしませんでした。」　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"I did not save." 
+	.sjisn 	"I did not save." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -210,10 +238,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"「セーブデータをロード中です。」"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"Loading the save data." 
+	.sjisn 	"Loading the save data." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -221,10 +250,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　「ロードが終わりました。」　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis 	"The load is complete." 
+	.sjisn 	"The load is complete." 
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------

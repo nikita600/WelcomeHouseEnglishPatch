@@ -4,18 +4,22 @@
 
 .org 0x8009608C
 
-@text_size equ 65
-@fill_value equ 0x20
+@text_size 		equ 	65
+@fill_value 	equ 	0x20
+@end_of_line 	equ 	0x00
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　何だ、階段を上がろうとしたら　"
-	.sjis	"　　　足場がなくなった！？　　　"
+	.sjisn	"　　　足場がなくなった！？　　　"
 .else
-	.sjis	"What, the foothold disappeared when I tried to go up the stairs!?"
+	.sjisn	"What, the foothold disappeared"
+	.sjisn	"when I tried to go up the"
+	.sjisn	"stairs!?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -23,10 +27,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ギャー！手をはさまれた！　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"GYAAAH! My hand got stuck!"
+	.sjisn	"GYAAAH! My hand got stuck!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -34,10 +39,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"おや？中には何も入っていないぞ。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Oh? There is nothing inside."
+	.sjisn	"Oh? There is nothing inside."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -45,10 +51,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　何だこの部屋は…　　　　"
-	.sjis	"　ここを飛び越えろというのか？　"
+	.sjisn	"　ここを飛び越えろというのか？　"
 .else
-	.sjis	"What is this room... is it saying to jump over here?"
+	.sjisn	"What is this room... is it"
+	.sjisn	"saying to jump over here?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -56,10 +64,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　何やら上の方で音がした。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I heard a noise from above."
+	.sjisn	"I heard a noise from above."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -67,10 +76,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　イテテ…　　　　　　　　　　"
-	.sjis	"　油にすべってドラム缶が頭に…。"
+	.sjisn	"　油にすべってドラム缶が頭に…。"
 .else
-	.sjis	"Eek... I slipped on some oil and a drum can hit my head..."
+	.sjisn	"Eek... I slipped on some oil"
+	.sjisn	"and a drum can hit my head..."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -78,10 +89,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　あっ！これは鏡じゃない！　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Ah! This isn't a mirror!"
+	.sjisn	"Ah! This isn't a mirror!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -89,10 +101,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"ソファに座ったらテレビがついた。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"When I sat on the sofa, the TV turned on."
+	.sjisn	"When I sat on the sofa, the TV"
+	.sjisn	"turned on."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -100,10 +114,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　何もない部屋だな…。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"This is an empty room..."
+	.sjisn	"This is an empty room..."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -111,10 +126,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　はぁーっ、死ぬかと思った…。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Phew, I thought I was going to die..."
+	.sjisn	"Phew, I thought I was going to"
+	.sjisn	"die..."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -122,10 +139,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"もう上がっても大丈夫のようだな。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It looks like it's safe to go up now."
+	.sjisn	"It looks like it's safe to go up"
+	.sjisn	"now."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -133,10 +152,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　もう…イヤになっちゃうよ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Ugh... this is getting tiresome."
+	.sjisn	"Ugh... this is getting tiresome."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -144,10 +164,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　イテテ…ここはどこだ？　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Eek... where am I?"
+	.sjisn	"Eek... where am I?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -155,10 +176,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　イテーッ！頭が割れるーっ！　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Eek! My head is splitting open!"
+	.sjisn	"Eek! My head is splitting open!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -166,10 +188,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　　これでよし…と。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Okay, that should do it."
+	.sjisn	"Okay, that should do it."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -177,10 +200,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　絵をかけると、後ろの　　　"
-	.sjis	"　ドアから小さな物音がした…。　"
+	.sjisn	"　ドアから小さな物音がした…。　"
 .else
-	.sjis	"When I hung up the picture, I heard a small noise from the door behind it..."
+	.sjisn	"When I hung up the picture, I"
+	.sjisn	"heard a small noise from the door behind it..."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -188,10 +213,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　うわっ、部屋全体が動いてる！　"
-	.sjis	"　　一体何が起こってるんだ！　　"
+	.sjisn	"　　一体何が起こってるんだ！　　"
 .else
-	.sjis	"Whoa, the whole room is moving! What is going on here!"
+	.sjisn	"Whoa, the whole room is moving!"
+	.sjisn	"What is going on here!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -199,10 +226,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　うわっビックリした！　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Whoa, I was surprised!"
+	.sjisn	"Whoa, I was surprised!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -210,10 +238,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　あっ！本棚が動いた！　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Ah! The bookshelf moved!"
+	.sjisn	"Ah! The bookshelf moved!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -221,10 +250,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　階段が動いている…？　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The stairs are moving...?"
+	.sjisn	"The stairs are moving...?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -232,10 +262,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"このドアはこのためにあったのか。"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Was this door made for this purpose?"
+	.sjisn	"Was this door made for this"
+	.sjisn	"purpose?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -243,10 +275,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　若い男がこっちを見ているぞ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"A young man is looking this way."
+	.sjisn	"A young man is looking this way."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -254,10 +287,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　彼からカギをもらった。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I received a key from him."
+	.sjisn	"I received a key from him."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -265,10 +299,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　きれいな女性が立っているぞ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a beautiful woman standing here."
+	.sjisn	"There is a beautiful woman"
+	.sjisn	"standing here."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -276,10 +312,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　彼がコックさんだな。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"He's a chef."
+	.sjisn	"He's a chef."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -287,10 +324,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　このイヌがナポレオンか。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Is this dog Napoleon?"
+	.sjisn	"Is this dog Napoleon?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -298,10 +336,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　　あっ！なんだあの男は。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Ah! Who is that man."
+	.sjisn	"Ah! Who is that man."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -309,10 +348,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　ここはあがれないようだ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It seems like I can't go up from here."
+	.sjisn	"It seems like I can't go up from"
+	.sjisn	"here."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -320,10 +361,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　またつぶされるのはヤダな。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I don't want to be crushed again."
+	.sjisn	"I don't want to be crushed"
+	.sjisn	"again."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -331,10 +374,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　普通だったら死んでるぞ。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Normally I would be dead."
+	.sjisn	"Normally I would be dead."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -342,10 +386,11 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　彼女からトマトをもらった。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I received a tomato from her."
+	.sjisn	"I received a tomato from her."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -353,10 +398,12 @@
 .area @text_size,@fill_value
 .if LANG == JAP
 	.sjisn	"　　プールの前にイヌがいる。　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There is a dog in front of the pool."
+	.sjisn	"There is a dog in front of the"
+	.sjisn	"pool."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------

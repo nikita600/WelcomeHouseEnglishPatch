@@ -4,8 +4,9 @@
 
 .org 0x80093DC4
 
-@text_size equ 129
-@fill_value equ 0x20
+@text_size 		equ 	129
+@fill_value 	equ 	0x20
+@end_of_line 	equ 	0x00
 
 ;--------------------------------------
 
@@ -14,10 +15,13 @@
 	.sjisn	"　バーのカウンターから出てきた…"
 	.sjisn	"　こんなに強い酒は飲めないから　"
 	.sjisn	"　　　　　やめておこう。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I came out from behind the bar... I can't drink such strong alcohol, so I'll stop."
+	.sjisn	"I came out from behind the "
+	.sjisn	"bar... I can't drink such strong"
+	.sjisn	" alcohol, so I'll stop."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -27,10 +31,14 @@
 	.sjisn	"愛のない世界とは、あかりのない幻"
 	.sjisn	"燈のようなものだ　　　　　　　　"
 	.sjisn	"　　「若きウエルテルの悩み」　　"
-	.sjis	"　　有名なゲーテの哲学書だ。　　"
+	.sjisn	"　　有名なゲーテの哲学書だ。　　"
 .else
-	.sjis	"A world without love is like a lamp without light. \"The Sorrows of Young Werther\" is a famous Goethe philosophical book."
+	.sjisn	"A world without love is like "
+	.sjisn	"a lamp without light. "
+	.sjisn	"\"The Sorrows of Young Werther\""
+	.sjisn	" is a famous Goethe philosophical book."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -40,10 +48,14 @@
 	.sjisn	"『言語は思想のひょうげんである』"
 	.sjisn	"　　これはウエブスター辞書だ　　"
 	.sjisn	"　おじさんからのプレゼントかな？"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"\"Language is the expression of thought.\" This is a Webster's dictionary. Maybe it's a present from the old man?"
+	.sjisn	"\"Language is the expression of "
+	.sjisn	"thought.\" This is a Webster's "
+	.sjisn	"dictionary. Maybe it's a present"
+	.sjisn	" from the old man?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -53,10 +65,14 @@
 	.sjisn	"チキンざりがに卵トマトにんにく、"
 	.sjisn	"プーレソーテ・ア・ラ・マレンゴの"
 	.sjisn	"作り方　　　　　　　　　　　　　"
-	.sjis	"　　どうやら料理の本のようだ。　"
+	.sjisn	"　　どうやら料理の本のようだ。　"
 .else
-	.sjis	"\"Chicken Zari with Egg Tomato Garlic, how to make Pollo a la Marango\" It looks like a cooking book."
+	.sjisn	"\"Chicken Zari with Egg Tomato "
+	.sjisn	"Garlic, how to make Pollo a la "
+	.sjisn	"Marango\" It looks like "
+	.sjisn	"a cooking book."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -66,10 +82,14 @@
 	.sjisn	"　　あわわ、　　　　　　　　　　"
 	.sjisn	"こいつは口に出して言えないような"
 	.sjisn	"　　　エッチな内容の本だ。　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Oh no, this seems to be a book with explicit and inappropriate content that I cannot speak aloud about."
+	.sjisn	"Oh no, this seems to be a book "
+	.sjisn	"with explicit and inappropriate "
+	.sjisn	"content that I cannot speak "
+	.sjisn	"aloud about."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -79,10 +99,14 @@
 	.sjisn	"ブオナパルテが自らを皇帝と称する"
 	.sjisn	"とベートーベンはかっとなって楽譜"
 	.sjisn	"をひきちぎった…英雄交きょう曲　"
-	.sjis	"　　音楽に関する本のようだな。　"
+	.sjisn	"　　音楽に関する本のようだな。　"
 .else
-	.sjis	"Beethoven became furious when Bonaparte declared himself Emperor and tore up the score... a heroic symphony? It seems to be a book about music."
+	.sjisn	"Beethoven became furious when "
+	.sjisn	"Bonaparte declared himself "
+	.sjisn	"Emperor and tore up the score..."
+	.sjisn	" a heroic symphony? It seems to be a book about music."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -92,10 +116,14 @@
 	.sjisn	"　トルストイの『戦争と平和』だ　"
 	.sjisn	"　　黒い本が見つからないので　　"
 	.sjisn	"　ペンキで白い本を黒くしてみた…"
-	.sjis	"　こんな事、していいのだろうか？"
+	.sjisn	"　こんな事、していいのだろうか？"
 .else
-	.sjis	"It is Tolstoy's 'War and Peace'. I couldn't find a black book, so I tried to paint a white book black with paint... Is it okay to do something like this?"
+	.sjisn	"It is Tolstoy's 'War and Peace'."
+	.sjisn	" I couldn't find a black book, "
+	.sjisn	"so I tried to paint a white book"
+	.sjisn	" black with paint... Is it okay to do something like this?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -105,10 +133,14 @@
 	.sjisn	"芸術家にとっての英雄の存在とは、"
 	.sjisn	"歴史の中のひとりの人間である　　"
 	.sjisn	"　トルストイのむずかしい文学書　"
-	.sjis	"　　　　『戦争と平和』だ。　　　"
+	.sjisn	"　　　　『戦争と平和』だ。　　　"
 .else
-	.sjis	"For an artist, the hero's existence is a human being in history, Tolstoy's difficult literary book, 'War and Peace'."
+	.sjisn	"For an artist, the hero's "
+	.sjisn	"existence is a human being in "
+	.sjisn	"history, Tolstoy's difficult "
+	.sjisn	"literary book, 'War and Peace'."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -118,10 +150,12 @@
 	.sjisn	"　１階の客間で見つかったカギだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The key was found in the living room on the first floor."
+	.sjisn	"The key was found in the living "
+	.sjisn	"room on the first floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -131,10 +165,14 @@
 	.sjisn	"　　鏡の男からもらったカギだ　　"
 	.sjisn	"　青い扉は１階と２階にあるけど　"
 	.sjisn	"　　　１階の部屋にはカギは　　　"
-	.sjis	"　　かかってなかったはずだ。　　"
+	.sjisn	"　　かかってなかったはずだ。　　"
 .else
-	.sjis	"This is the key that I received from the man in the mirror. There is a blue door on both the first and second floors, but the key shouldn't be locked in the room on the first floor."
+	.sjisn	"This is the key that I received "
+	.sjisn	"from the man in the mirror. "
+	.sjisn	"There is a blue door on both the"
+	.sjisn	" first and second floors, but the key shouldn't be locked in the room on the first floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -144,10 +182,12 @@
 	.sjisn	"　１階のキッチンから見つかった。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It was found in the kitchen on the first floor."
+	.sjisn	"It was found in the kitchen on "
+	.sjisn	"the first floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -157,10 +197,13 @@
 	.sjisn	"トイレで見つけたエッチな本の間に"
 	.sjisn	"　　　はさんであったカギだ　　　"
 	.sjisn	"トイレで一体何をしてたんだろう？"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The key was wedged between dirty books found in the toilet. What were you doing in the toilet?"
+	.sjisn	"The key was wedged between dirty"
+	.sjisn	" books found in the toilet. What"
+	.sjisn	" were you doing in the toilet?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -170,10 +213,12 @@
 	.sjisn	"　２階の緑の部屋から見つけた。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"It was found in the green room on the second floor."
+	.sjisn	"It was found in the green room"
+	.sjisn	" on the second floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -183,10 +228,14 @@
 	.sjisn	"　　下級の兵士からヨーロッパ　　"
 	.sjisn	"　　全土を統一し、皇帝の座に　　"
 	.sjisn	"　登りつめたフランスの英雄だ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"He is a hero of France who united all of Europe and ascended to the throne as emperor, starting as a low-ranking soldier."
+	.sjisn	"He is a hero of France who "
+	.sjisn	"united all of Europe and "
+	.sjisn	"ascended to the throne as "
+	.sjisn	"emperor, starting as a low-ranking soldier."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -196,10 +245,13 @@
 	.sjisn	"地中海からアジア一帯を占領した、"
 	.sjisn	"　　　　古代の征服者だ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"He is an ancient conqueror who occupied the Mediterranean and Asia."
+	.sjisn	"He is an ancient conqueror who"
+	.sjisn	" occupied the Mediterranean"
+	.sjisn	" and Asia."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -209,10 +261,14 @@
 	.sjisn	"昔の中国大陸から世界の３分の１を"
 	.sjisn	"　　　支配した東洋の王様だ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"He was the king of the Orient who once ruled one-third of the world from the mainland of ancient China."
+	.sjisn	"He was the king of the Orient"
+	.sjisn	" who once ruled one-third of"
+	.sjisn	" the world from the mainland"
+	.sjisn	" of ancient China."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -222,10 +278,14 @@
 	.sjisn	"３月３１日、ムッシュ・アペリチフ"
 	.sjisn	"がノコギリを借りに来た…あれで何"
 	.sjisn	"をする気だろう？　　　　　　　　"
-	.sjis	"　　　　　　　　ジャック・スミス"
+	.sjisn	"　　　　　　　　ジャック・スミス"
 .else
-	.sjis	"On March 31, Mussh Apelichif came to borrow a saw... What do you think he's planning to do with it? Jack Smith."
+	.sjisn	"On March 31, Mussh Apelichif "
+	.sjisn	"came to borrow a saw... What do "
+	.sjisn	"you think he's planning to do "
+	.sjisn	"with it? Jack Smith."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -235,10 +295,14 @@
 	.sjisn	"　なんで犬が鍵をくれるんだろう…"
 	.sjisn	"まぁいいか　おじさんの部屋以外に"
 	.sjisn	"　閉まっている部屋はもうない！　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I wonder why the dog is giving me a key... Oh well, there are no more rooms that are locked except for the old man's room!"
+	.sjisn	"I wonder why the dog is giving "
+	.sjisn	"me a key... Oh well, there are "
+	.sjisn	"no more rooms that are locked "
+	.sjisn	"except for the old man's room!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -248,10 +312,13 @@
 	.sjisn	"１階の応接間から見つかったカギ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The key was found in the reception room on the first floor."
+	.sjisn	"The key was found in the "
+	.sjisn	"reception room on the first "
+	.sjisn	"floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -261,10 +328,13 @@
 	.sjisn	"ピンクの部屋から見つかったカギ　"
 	.sjisn	"　これを手に入れるのにずいぶん　"
 	.sjisn	"　　　　痛い目にあった。　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The key was found in the pink room. I went through a lot of painful experiences to get it."
+	.sjisn	"The key was found in the pink "
+	.sjisn	"room. I went through a lot of "
+	.sjisn	"painful experiences to get it."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -274,10 +344,14 @@
 	.sjisn	"いとしのアレグロへ　　　　　　　"
 	.sjisn	"あなたを一目見たときに私の鍋に火"
 	.sjisn	"がついた…あなたの事を想うと私の"
-	.sjis	"心はムニエルだ。　　　エスカルゴ"
+	.sjisn	"心はムニエルだ。　　　エスカルゴ"
 .else
-	.sjis	"To my beloved Allegro, when I first laid eyes on you, my heart caught fire... thinking of you makes my heart flutter. Escargot"
+	.sjisn	"To my beloved Allegro, when I "
+	.sjisn	"first laid eyes on you, my heart"
+	.sjisn	"caught fire... thinking of you "
+	.sjisn	"makes my heart flutter. Escargot"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -287,10 +361,12 @@
 	.sjisn	"ベートーベンのクラシック…　　　"
 	.sjisn	"　　　　　　　　　「皇帝」だ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Beethoven's Classic... \"Emperor\""
+	.sjisn	"Beethoven's Classic... "
+	.sjisn	"\"Emperor\""
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -300,10 +376,12 @@
 	.sjisn	"ドリス・ディのヒットソング…　　"
 	.sjisn	"　　　　「ケ・セラ・セラ」だ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Doris Day hit song ... \"Que Sera, Sera\""
+	.sjisn	"Doris Day hit song ... "
+	.sjisn	"\"Que Sera, Sera\""
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -313,10 +391,11 @@
 	.sjisn	"ベスト・オブ・ジャズ…　　　　　"
 	.sjisn	"　　　「イン・ザ・ムード」だ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Best of jazz... \"In The Mood\""
+	.sjisn	"Best of jazz... \"In The Mood\""
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -326,10 +405,14 @@
 	.sjisn	"ムッシュ・アペリチフへ　　　　　"
 	.sjisn	"私のいない間に壁に穴を開けるなん"
 	.sjisn	"て最低よ…私に近づかないで！　　"
-	.sjis	"　　　　　　アレグロ・アダージョ"
+	.sjisn	"　　　　　　アレグロ・アダージョ"
 .else
-	.sjis	"To Mussorgsky, to open a hole in the wall while I'm away is the lowest of lows... don't come near me! Allegro Adagio."
+	.sjisn	"To Mussorgsky, to open a hole "
+	.sjisn	"in the wall while I'm away is "
+	.sjisn	"the lowest of lows... don't "
+	.sjisn	"come near me! Allegro Adagio."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -339,10 +422,13 @@
 	.sjisn	"２階の黄色い部屋のベッドの枕元に"
 	.sjisn	"　　ノコギリがかくしてあった。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"There was a saw hidden under the pillow on the bed in the yellow room on the second floor."
+	.sjisn	"There was a saw hidden under "
+	.sjisn	"the pillow on the bed in the "
+	.sjisn	"yellow room on the second floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -352,10 +438,13 @@
 	.sjisn	"　　ジャックからもらったカギ　　"
 	.sjisn	"これで、おじさんの部屋の前にある"
 	.sjisn	"　　重たいとびらは開くだろう。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The key I received from Jack should open the heavy door in front of the uncle's room."
+	.sjisn	"The key I received from Jack "
+	.sjisn	"should open the heavy door in "
+	.sjisn	"front of the uncle's room."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -365,10 +454,12 @@
 	.sjisn	"　　キッチンのオーブンの中に　　"
 	.sjisn	"　　　あったニワトリの肉だ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The meat in the oven in the kitchen was chicken."
+	.sjisn	"The meat in the oven in the "
+	.sjisn	"kitchen was chicken."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -378,10 +469,14 @@
 	.sjisn	"２階のリビングルームの水槽でアミ"
 	.sjisn	"　を使ったら、ざりがにが捕れた。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"When I used a net in the aquarium in the living room on the second floor, I caught a small fish."
+	.sjisn	"When I used a net in the "
+	.sjisn	"aquarium in the living room on "
+	.sjisn	"the second floor, I caught "
+	.sjisn	"a small fish."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -391,10 +486,13 @@
 	.sjisn	"　　キッチンの冷蔵庫の中から　　"
 	.sjisn	"　　　　見つかった生卵だ。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The eggs found in the refrigerator in the kitchen were raw."
+	.sjisn	"The eggs found in the "
+	.sjisn	"refrigerator in the kitchen "
+	.sjisn	"were raw."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -404,10 +502,13 @@
 	.sjisn	"１階の食堂の暖炉の上で見つけた。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I found it on the fireplace in the dining room on the first floor."
+	.sjisn	"I found it on the fireplace "
+	.sjisn	"in the dining room on the "
+	.sjisn	"first floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -417,10 +518,13 @@
 	.sjisn	"アレグロさんからもらったトマト　"
 	.sjisn	"　コックのエスカルゴに渡そう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The tomatoes I received from Alegro will be passed on to the cook for the Escargot."
+	.sjisn	"The tomatoes I received from "
+	.sjisn	"Alegro will be passed on to "
+	.sjisn	"the cook for the Escargot."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -430,10 +534,14 @@
 	.sjisn	"　アレグロさんの機嫌をとろうと、"
 	.sjisn	"　　コックのエスカルゴが腕に　　"
 	.sjisn	"　よりをかけたフランス料理だ。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"To improve Alegro's mood, the cook put his skills to use and made a French dish with Escargot as the main ingredient."
+	.sjisn	"To improve Alegro's mood, the "
+	.sjisn	"cook put his skills to use and "
+	.sjisn	"made a French dish with Escargot"
+	.sjisn	"as the main ingredient."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -443,10 +551,13 @@
 	.sjisn	"　２階の黄色い部屋で見つかった　"
 	.sjisn	"魚を捕まえるためのアミのようだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"The object found in the yellow room on the second floor appears to be a net for catching fish."
+	.sjisn	"The object found in the yellow"
+	.sjisn	"room on the second floor appears"
+	.sjisn	"to be a net for catching fish."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -456,10 +567,14 @@
 	.sjisn	"２階のリビングルームの水槽でアミ"
 	.sjisn	"　を使ったら、魚が捕れた。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"When I used a net in the aquarium in the living room on the second floor, I caught a fish."
+	.sjisn	"When I used a net in the"
+	.sjisn	"aquarium in the living room on"
+	.sjisn	"the second floor, I caught"
+	.sjisn	"a fish."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -469,10 +584,12 @@
 	.sjisn	"　　本にカギがはさんであった　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　ピンクのカギを手に入れた。　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I found a pink key that was stuck in a book."
+	.sjisn	"I found a pink key that was"
+	.sjisn	"stuck in a book."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -482,10 +599,14 @@
 	.sjisn	"「もう、これ見てっ！私の部屋が　"
 	.sjisn	"メチャクチャよっ…エスカルゴが　"
 	.sjisn	"カベに穴をあけたからシンバルで　"
-	.sjis	"ぶったたいてやろうとしたのよ。」"
+	.sjisn	"ぶったたいてやろうとしたのよ。」"
 .else
-	.sjis	"Look at this! My room is a mess... because the Escargot drilled a hole in the wall and I tried to knock it down with a cymbal."
+	.sjisn	"Look at this! My room is"
+	.sjisn	"a mess... because the Escargot"
+	.sjisn	"drilled a hole in the wall and"
+	.sjisn	"I tried to knock it down with a cymbal."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -495,10 +616,14 @@
 	.sjisn	"「私はアレグロ・アダージョ…音　"
 	.sjisn	"楽の留学生としてイタリアから来　"
 	.sjisn	"たんだけど、エスカルゴに言い寄　"
-	.sjis	"られて困ってるの…最低だわ！」　"
+	.sjisn	"られて困ってるの…最低だわ！」　"
 .else
-	.sjis	"I am Alegro Adagio... I came to study music from Italy as a foreign student, but now I am troubled by the Escargot... it's the worst!"
+	.sjisn	"I am Alegro Adagio... I came to"
+	.sjisn	"study music from Italy as"
+	.sjisn	"a foreign student, but now I am"
+	.sjisn	"troubled by the Escargot... it's the worst!"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -508,10 +633,15 @@
 	.sjisn	"「エスカルゴはフランスから来た　"
 	.sjisn	"コックさんなの…お国に奥さんと　"
 	.sjisn	"子供がいるのに私のことが好きだ　"
-	.sjis	"ってしつこいのよ…変な人だわ。」"
+	.sjisn	"ってしつこいのよ…変な人だわ。」"
 .else
-	.sjis	"Escargot is a cook who came from France... despite having a wife and children back in their home country, they keep saying they like me... they're a strange person."
+	.sjisn	"Escargot is a cook who came from"
+	.sjisn	"France... despite having a wife"
+	.sjisn	"and children back in their home"
+	.sjisn	"country, they keep saying they"
+	.sjisn	"like me... they're a strange person."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -521,10 +651,14 @@
 	.sjisn	"「私の部屋にはもう入らないで…レ"
 	.sjisn	"ディに対して失礼だと思わない？ミ"
 	.sjisn	"スターパーキンソンならこの階の反"
-	.sjis	"対側の部屋で待っているわよ。」　"
+	.sjisn	"対側の部屋で待っているわよ。」　"
 .else
-	.sjis	"Don't come into my room anymore... don't you think it's rude to me as a lady? Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor."
+	.sjisn	"Don't come into my room"
+	.sjisn	"anymore... don't you think it's"
+	.sjisn	"rude to me as a lady?"
+	.sjisn	"Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -534,10 +668,14 @@
 	.sjisn	"「やぁ！このオンボロ車あんたの？"
 	.sjisn	"　ひどくこわれてるけどオレがすぐ"
 	.sjisn	"　直してやるよ…しかしずいぶんポ"
-	.sjis	"　ンコツだね、新しく買ったら？」"
+	.sjisn	"　ンコツだね、新しく買ったら？」"
 .else
-	.sjis	"Hey! Is this old and broken car yours? I can fix it right away, but wouldn't it be better to buy a new one?"
+	.sjisn	"Hey! Is this old and broken car"
+	.sjisn	"yours? I can fix it right away,"
+	.sjisn	"but wouldn't it be better to"
+	.sjisn	"buy a new one?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -547,10 +685,14 @@
 	.sjisn	"「オレはジャック・スミス…この　"
 	.sjisn	"家で世話になってる使用人さ…で　"
 	.sjisn	"も本当は芸術家の卵なんだぜ…気　"
-	.sjis	"軽にジャックって呼んでくれよ。」"
+	.sjisn	"軽にジャックって呼んでくれよ。」"
 .else
-	.sjis	"I'm Jack Smith. I'm a caretaker here, but actually I'm an artistic talent. Feel free to call me Jack."
+	.sjisn	"I'm Jack Smith. I'm a caretaker"
+	.sjisn	"here, but actually I'm an"
+	.sjisn	"artistic talent. Feel free to"
+	.sjisn	"call me Jack."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -560,10 +702,14 @@
 	.sjisn	"「どうやらコックさんのムッシュ・"
 	.sjisn	"アペリチフは美人のアレグロさんの"
 	.sjisn	"ことが気になってるみたいだな…今"
-	.sjis	"は落ち込んでキッチンにいるよ。」"
+	.sjisn	"は落ち込んでキッチンにいるよ。」"
 .else
-	.sjis	"It seems like Chef Apéritif, Mouch, is interested in the beautiful Allegro. Now he's feeling down and is in the kitchen."
+	.sjisn	"It seems like Chef Apéritif,"
+	.sjisn	"Mouch, is interested in the"
+	.sjisn	"beautiful Allegro. Now he's"
+	.sjisn	"feeling down and is in the kitchen."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -573,10 +719,14 @@
 	.sjisn	"「ナポレオン？そりゃ君のおじさ　"
 	.sjisn	"んがかわいがってるイヌの名前だ　"
 	.sjisn	"あいつだったら庭にいるよ…なに、"
-	.sjis	"大丈夫、かみつきゃしないから。」"
+	.sjisn	"大丈夫、かみつきゃしないから。」"
 .else
-	.sjis	"Napoleon? That's the name of your uncle's pet dog. He's in the yard right now. Don't worry, he won't bite."
+	.sjisn	"Napoleon? That's the name of"
+	.sjisn	"your uncle's pet dog. He's in"
+	.sjisn	"the yard right now. Don't worry,"
+	.sjisn	"he won't bite."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -586,10 +736,14 @@
 	.sjisn	"「たしかに私はカベに穴を空けた　"
 	.sjisn	"が、太っているので通れなかった…"
 	.sjisn	"しかし、アレグロはかんかんに怒　"
-	.sjis	"ってもう口もきいてくれない。」　"
+	.sjisn	"ってもう口もきいてくれない。」　"
 .else
-	.sjis	"Yes, I did make a hole in the wall, but I was too big to fit through it. But now, Allegro is so angry that he won't even talk to me."
+	.sjisn	"Yes, I did make a hole in the"
+	.sjisn	"wall, but I was too big to fit"
+	.sjisn	"through it. But now, Allegro is"
+	.sjisn	"so angry that he won't even talk to me."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -599,10 +753,14 @@
 	.sjisn	"「わしはエスカルゴ・アペリチフ　"
 	.sjisn	"この家でみんなの食事を作ってお　"
 	.sjisn	"る…昔はフランスのレストランで　"
-	.sjis	"料理長をしていたこともある。」　"
+	.sjisn	"料理長をしていたこともある。」　"
 .else
-	.sjis	"I am Escolex Apetichif, I make everyone's meals in this house. I used to be a head chef in a French restaurant in the past."
+	.sjisn	"I am Escolex Apetichif, I make"
+	.sjisn	"everyone's meals in this house."
+	.sjisn	"I used to be a head chef in a"
+	.sjisn	"French restaurant in the past."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -612,10 +770,14 @@
 	.sjisn	"「アレグロに嫌われてしまった…　"
 	.sjisn	"彼女のひくピアノは美しい音色だ　"
 	.sjisn	"そんな彼女にわしは夢中になった　"
-	.sjis	"フランス人はいつも恋するのさ。」"
+	.sjisn	"フランス人はいつも恋するのさ。」"
 .else
-	.sjis	"I've been hated by Allegro... her playing piano has a beautiful sound, I became obsessed with such a girl. French people always fall in love."
+	.sjisn	"I've been hated by Allegro..."
+	.sjisn	"her playing piano has a"
+	.sjisn	"beautiful sound, I became"
+	.sjisn	"obsessed with such a girl. French people always fall in love."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -625,10 +787,13 @@
 	.sjisn	"「ナポレオンなら庭で遊んどるよ　"
 	.sjisn	"あのイヌはフランス料理しか口に　"
 	.sjisn	"しないゼイタクなイヌだ。」　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Napoleon is playing in the yard, that dog only eats French cuisine, he's quite picky."
+	.sjisn	"Napoleon is playing in the yard,"
+	.sjisn	"that dog only eats French"
+	.sjisn	"cuisine, he's quite picky."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -638,10 +803,14 @@
 	.sjisn	"「待っておったぞ！キートン君…　"
 	.sjisn	"どうだね、わしの新しい屋敷は？　"
 	.sjisn	"わざわざ来てくれてすまなかった　"
-	.sjis	"がなかなか楽しかったじゃろう？」"
+	.sjisn	"がなかなか楽しかったじゃろう？」"
 .else
-	.sjis	"Waited for you! Keaton sir... How's it going? My new mansion, did you like it? Sorry to have kept you waiting, but I bet it was enjoyable, right?"
+	.sjisn	"Waited for you! Keaton sir..."
+	.sjisn	"How's it going? My new mansion,"
+	.sjisn	"did you like it? Sorry to have"
+	.sjisn	"kept you waiting, but I bet it was enjoyable, right?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -651,10 +820,14 @@
 	.sjisn	"「わしはナポレオンが好きでね…　"
 	.sjisn	"イヌにもその名前を付けておる…　"
 	.sjisn	"ちなみに今日４月１日はナポレオ　"
-	.sjis	"ンの結婚記念日でもあるのだよ。」"
+	.sjisn	"ンの結婚記念日でもあるのだよ。」"
 .else
-	.sjis	"I like Napoleon, you see... I even named my dog after him... By the way, today April 1st is also Napoleon's wedding anniversary."
+	.sjisn	"I like Napoleon, you see..."
+	.sjisn	"I even named my dog after him..."
+	.sjisn	"By the way, today April 1st is"
+	.sjisn	"also Napoleon's wedding anniversary."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -664,10 +837,14 @@
 	.sjisn	"「君の車は使用人のジャックに直　"
 	.sjisn	"させるから心配しないでおくれ…　"
 	.sjisn	"しばらくゆっくりしてくれたまえ、"
-	.sjis	"今日はごちそうを用意するから。」"
+	.sjisn	"今日はごちそうを用意するから。」"
 .else
-	.sjis	"Don't worry about your car, I'll have Jack, the handyman, fix it. Take your time and relax, I have a feast prepared for you today."
+	.sjisn	"Don't worry about your car, I'll"
+	.sjisn	"have Jack, the handyman, fix it."
+	.sjisn	"Take your time and relax, I have"
+	.sjisn	"a feast prepared for you today."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -677,10 +854,14 @@
 	.sjisn	"「これもわしの趣味でな…まあそう"
 	.sjisn	"怒らないで…これにこりずにまた来"
 	.sjisn	"てくれたまえ、次はもっと面白い仕"
-	.sjis	"掛けを用意しとくから、ワハハ。」"
+	.sjisn	"掛けを用意しとくから、ワハハ。」"
 .else
-	.sjis	"This is also my hobby, don't get mad... come back without getting caught again, I'll prepare a more interesting setup next time, hahaha."
+	.sjisn	"This is also my hobby, don't get"
+	.sjisn	"mad... come back without getting"
+	.sjisn	"caught again, I'll prepare a"
+	.sjisn	"more interesting setup next time, hahaha."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -690,10 +871,15 @@
 	.sjisn	"「それはエスカルゴにあてて私が　"
 	.sjisn	"書いたの…あの人ったら人の目を　"
 	.sjisn	"盗んで私のピアノにさわるから３　"
-	.sjis	"階の音楽室もふさいだのよ。」　　"
+	.sjisn	"階の音楽室もふさいだのよ。」　　"
 .else
-	.sjis	"That's a letter I wrote to Escargot. She's always looking into other people's business and touching my piano, so I had to block access to the third-floor music room."
+	.sjisn	"That's a letter I wrote to"
+	.sjisn	"Escargot. She's always looking"
+	.sjisn	"into other people's business and"
+	.sjisn	"touching my piano, so I had to"
+	.sjisn	"block access to the third-floor music room."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -703,10 +889,15 @@
 	.sjisn	"「トホホ…何とかしてアレグロの　"
 	.sjisn	"機嫌をとらなきゃわしは一生嫌わ　"
 	.sjisn	"れてしまう…おいしいフランス料　"
-	.sjis	"理を作るから材料を集めてくれ。」"
+	.sjisn	"理を作るから材料を集めてくれ。」"
 .else
-	.sjis	"Oh no... I have to do something to make Alleandro happy or I'll be hated forever... I'll make delicious French cuisine, so gather the ingredients."
+	.sjisn	"Oh no... I have to do something"
+	.sjisn	"to make Alleandro happy or I'll"
+	.sjisn	"be hated forever... I'll make"
+	.sjisn	"delicious French cuisine, so"
+	.sjisn	"gather the ingredients."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -716,10 +907,14 @@
 	.sjisn	"「気持ちはありがたいけど私には　"
 	.sjisn	"フィアンセがいるの…このトマト　"
 	.sjisn	"をあげるからエスカルゴにごめん　"
-	.sjis	"なさいと言っておいてくれない？」"
+	.sjisn	"なさいと言っておいてくれない？」"
 .else
-	.sjis	"I appreciate it but I have a fiancé. Can you give this tomato and apologize to Escargot for me?"
+	.sjisn	"I appreciate it but I have a"
+	.sjisn	"fiancé. Can you give this tomato"
+	.sjisn	"and apologize to Escargot for"
+	.sjisn	"me?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -729,10 +924,14 @@
 	.sjisn	"「ムッ！それはわしが書いた手紙…"
 	.sjisn	"アレグロに渡そうと思っておった　"
 	.sjisn	"がどうも気まずい…わしの代わり　"
-	.sjis	"にアレグロに渡してきてくれ。」　"
+	.sjisn	"にアレグロに渡してきてくれ。」　"
 .else
-	.sjis	"Ugh! That's the letter I wrote... I was going to give it to Allegro, but it's kind of awkward... Could you deliver it to Allegro instead of me?"
+	.sjisn	"Ugh! That's the letter I"
+	.sjisn	"wrote... I was going to give it"
+	.sjisn	"to Allegro, but it's kind of"
+	.sjisn	"awkward... Could you deliver it to Allegro instead of me?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -742,10 +941,14 @@
 	.sjisn	"「ごめんなさい受け取れないわ…　"
 	.sjisn	"私、フランス料理って太るから嫌　"
 	.sjisn	"いなの…それナポレオンが大好き　"
-	.sjis	"だから食べさせてあげて。」　　　"
+	.sjisn	"だから食べさせてあげて。」　　　"
 .else
-	.sjis	"Sorry, I can't take it... I don't like French cuisine because it makes me gain weight... That's why I let Napoleon eat it."
+	.sjisn	"Sorry, I can't take it..."
+	.sjisn	"I don't like French cuisine"
+	.sjisn	"because it makes me gain"
+	.sjisn	"weight... That's why I let Napoleon eat it."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -755,10 +958,13 @@
 	.sjisn	"「その料理をアレグロに見せて、　"
 	.sjisn	"わしが心を込めて作ったと伝えて　"
 	.sjisn	"くれ。」　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Sure, I'll let Alegro know how much love and care you put into making that dish."
+	.sjisn	"Sure, I'll let Alegro know how"
+	.sjisn	"much love and care you put into"
+	.sjisn	"making that dish."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -768,10 +974,13 @@
 	.sjisn	"「わしの料理に洋酒は欠かせない　"
 	.sjisn	"このプランデーはナポレオンだ。」"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Wine is essential for my cooking, this Grand Cru is dedicated to Napoleon."
+	.sjisn	"Wine is essential for my"
+	.sjisn	"cooking, this Grand Cru is"
+	.sjisn	"dedicated to Napoleon."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -781,10 +990,12 @@
 	.sjisn	"「うむ、このブランデーを使えば　"
 	.sjisn	"わしの料理はもっとうまくなる…。"
 	.sjisn	"」　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Hm, if I use this brandy my cooking will become even better."
+	.sjisn	"Hm, if I use this brandy my"
+	.sjisn	"cooking will become even better."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -794,10 +1005,14 @@
 	.sjisn	"「それはオレの日記じゃないか！　"
 	.sjisn	"オレの部屋を探しまわらないでく　"
 	.sjisn	"れ…この鉄のカギを使えば上の扉　"
-	.sjis	"が開くから日記は返してくれ。」　"
+	.sjisn	"が開くから日記は返してくれ。」　"
 .else
-	.sjis	"That's my diary! Don't go searching through my room... use this iron key to open the upper door and return my diary."
+	.sjisn	"That's my diary! Don't go"
+	.sjisn	"searching through my room..."
+	.sjisn	"use this iron key to open the"
+	.sjisn	"upper door and return my diary."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -807,10 +1022,12 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"「そんなもの私がもらって　　　　"
-	.sjis	"　　　　　どうしろというのだ？」"
+	.sjisn	"　　　　　どうしろというのだ？」"
 .else
-	.sjis	"Why would I take it? What am I supposed to do with it?"
+	.sjisn	"Why would I take it? What am I"
+	.sjisn	"supposed to do with it?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -820,10 +1037,13 @@
 	.sjisn	"「さあ、その料理をアレグロに渡し"
 	.sjisn	"てきておくれ…わしがよろしく言っ"
 	.sjisn	"ていたと伝えといてくれないか。」"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Please deliver that dish to Algrero, and tell them I recommended it."
+	.sjisn	"Please deliver that dish to"
+	.sjisn	"Algrero, and tell them I"
+	.sjisn	"recommended it."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -833,10 +1053,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -846,10 +1067,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -859,10 +1081,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -872,10 +1095,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -885,10 +1109,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"「ちょっと待っててくれたまえ。」"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Please wait for a moment."
+	.sjisn	"Please wait for a moment."
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
@@ -898,10 +1123,12 @@
 	.sjisn	"「そんなもの私がもらって　　　　"
 	.sjisn	"　　　　　どうしろというのだ？」"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"What am I supposed to do with such a thing?"
+	.sjisn	"What am I supposed to do with"
+	.sjisn	"such a thing?"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------

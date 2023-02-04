@@ -1,230 +1,253 @@
 ;--------------------------------------
-; Locations (Done)
+; Locations (Done) (Formatted)
 ;--------------------------------------
 
 .org 0x80093C90
 
-@text_size equ 13
-@fill_value equ 0x20
+@text_size 		equ 	13
+@fill_value 	equ 	0x20
+@end_of_line 	equ 	0x00
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　玄関　　　"
+	.sjisn	"　玄関　　　"
 .else
-	.sjis	"Entrance"
+	.sjisn	"Entrance"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　酒場　　　"
+	.sjisn	"　酒場　　　"
 .else
-	.sjis	"Bar"
+	.sjisn	"Bar"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　キッチン　"
+	.sjisn	"　キッチン　"
 .else
-	.sjis	"Kitchen"
+	.sjisn	"Kitchen"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　食堂　　　"
+	.sjisn	"　食堂　　　"
 .else
-	.sjis	"Dining room"
+	.sjisn	"Dining room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　応接間　　"
+	.sjisn	"　応接間　　"
 .else
-	.sjis	"Reception room"
+	.sjisn	"Reception"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　廊下　　　"
+	.sjisn	"　廊下　　　"
 .else
-	.sjis	"Hallway"
+	.sjisn	"Hallway"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　トイレ　　"
+	.sjisn	"　トイレ　　"
 .else
-	.sjis	"Toilet"
+	.sjisn	"Toilet"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　青い部屋　"
+	.sjisn	"　青い部屋　"
 .else
-	.sjis	"Blue Room"
+	.sjisn	"Blue Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　ガレージ　"
+	.sjisn	"　ガレージ　"
 .else
-	.sjis	"Garage"
+	.sjisn	"Garage"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　庭　　　　"
+	.sjisn	"　庭　　　　"
 .else
-	.sjis	"Garden"
+	.sjisn	"Garden"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　かくし部屋"
+	.sjisn	"　かくし部屋"
 .else
-	.sjis	"Hidden Room"
+	.sjisn	"Hidden Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　黒い部屋　"
+	.sjisn	"　黒い部屋　"
 .else
-	.sjis	"Black Room"
+	.sjisn	"Black Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　図書室　　"
+	.sjisn	"　図書室　　"
 .else
-	.sjis	"Library"
+	.sjisn	"Library"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　リビング　"
+	.sjisn	"　リビング　"
 .else
-	.sjis	"Living Room"
+	.sjisn	"Living Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　トラップ　"
+	.sjisn	"　トラップ　"
 .else
-	.sjis	"Trap"
+	.sjisn	"Trap"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"ピンクの部屋"
+	.sjisn	"ピンクの部屋"
 .else
-	.sjis	"Pink Room"
+	.sjisn	"Pink Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　黄色い部屋"
+	.sjisn	"　黄色い部屋"
 .else
-	.sjis	"Yellow Room"
+	.sjisn	"Yellow Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　緑の部屋　"
+	.sjisn	"　緑の部屋　"
 .else
-	.sjis	"Green Room"
+	.sjisn	"Green Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　音楽室　　"
+	.sjisn	"　音楽室　　"
 .else
-	.sjis	"Music Room"
+	.sjisn	"Music Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　物置　　　"
+	.sjisn	"　物置　　　"
 .else
-	.sjis	"Storage Room"
+	.sjisn	"Storage Room"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　ベランダ　"
+	.sjisn	"　ベランダ　"
 .else
-	.sjis	"Balcony"
+	.sjisn	"Balcony"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------
 
 .area @text_size,@fill_value
 .if LANG == JAP
-	.sjis	"　ゴール　　"
+	.sjisn	"　ゴール　　"
 .else
-	.sjis	"Goal"
+	.sjisn	"Goal"
 .endif
+.db @end_of_line
 .endarea
 
 ;--------------------------------------

@@ -4,8 +4,9 @@
 
 .org 0x80096E2C
 
-@text_size equ 164
-@fill_value equ 0x20
+@text_size 		equ 	164
+@fill_value 	equ 	0x20
+@end_of_line 	equ 	0x00
 
 ;--------------------------------------
 
@@ -15,10 +16,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I obtained a blue key."
+	.sjisn	"I obtained a blue key."
 .endif
+.db @end_of_line
 
 .db 00h, 00h, 00h
 .endarea
@@ -31,10 +33,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"I obtained French cuisine."
+	.sjisn	"I obtained French cuisine."
 .endif
+.db @end_of_line
 
 .db 00h, 00h, 00h
 .endarea
@@ -47,10 +50,11 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"「ちょっと待っててくれたまえ。」"
-	.sjis	"　　　　　　　　　　　　　　　　"
+	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjis	"Please wait just a moment."
+	.sjisn	"Please wait just a moment."
 .endif
+.db @end_of_line
 
 .db 00h, 00h, 00h
 .endarea
