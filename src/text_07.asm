@@ -15,9 +15,8 @@
 	.sjisn	"　何だ、階段を上がろうとしたら　"
 	.sjisn	"　　　足場がなくなった！？　　　"
 .else
-	.sjisn	"What, the foothold disappeared  "
-	.sjisn	"when I tried to go up the"
-	;.sjisn	"stairs!?";CUT
+	.sjisn	"Foothold disappeared when tried"
+	.sjisn	"to go up stairs! What?"
 .endif
 .endarea
 .db @end_of_line
@@ -202,8 +201,8 @@
 	.sjisn	"　　　絵をかけると、後ろの　　　"
 	.sjisn	"　ドアから小さな物音がした…。　"
 .else
-	.sjisn	"When I hung up the picture, I"
-	;.sjisn	"heard a small noise from the door behind it...";CUT
+	.sjisn	"Heard small noise from door     "
+	.sjisn	"behind picture when hung it up."
 .endif
 .endarea
 .db @end_of_line

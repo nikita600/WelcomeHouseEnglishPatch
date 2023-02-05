@@ -33,10 +33,10 @@
 	.sjisn	"　　「若きウエルテルの悩み」　　"
 	.sjisn	"　　有名なゲーテの哲学書だ。　　"
 .else
-	.sjisn	"A world without love is like "
-	.sjisn	"a lamp without light. "
-	.sjisn	"\"The Sorrows of Young Werther\""
-	;.sjisn	"is a famous Goethe philosophical book.";CUT
+	.sjisn	"A world without love is a lamp"
+	.sjisn	"without light. \"The Sorrows of  "
+	.sjisn	"Young Werther\" is a famous      "
+	.sjisn	"Goethe book."
 .endif
 .endarea
 .db @end_of_line
@@ -101,10 +101,10 @@
 	.sjisn	"をひきちぎった…英雄交きょう曲　"
 	.sjisn	"　　音楽に関する本のようだな。　"
 .else
-	.sjisn	"Beethoven became furious when   "
+	.sjisn	"Beethoven tore up score of      "
+	.sjisn	"\"Heroic Symphony\" when          "
 	.sjisn	"Bonaparte declared himself      "
-	.sjisn	"Emperor and tore up the score..."
-	;.sjisn	"a heroic symphony? It seems to be a book about music.";CUT
+	.sjisn	"Emperor. A book about music."
 .endif
 .endarea
 .db @end_of_line
@@ -118,10 +118,10 @@
 	.sjisn	"　ペンキで白い本を黒くしてみた…"
 	.sjisn	"　こんな事、していいのだろうか？"
 .else
-	.sjisn	"It is Tolstoy's 'War and Peace'."
-	.sjisn	" I couldn't find a black book,  "
-	.sjisn	"so I tried to paint a white book"
-	;.sjisn	"black with paint... Is it okay to do something like this?";CUT
+	.sjisn	"Tolstoy's 'War and Peace'.      "
+	.sjisn	"Painting a white book black with"
+	.sjisn	"paint, is it okay? No black book"
+	.sjisn	"found."
 .endif
 .endarea
 .db @end_of_line
@@ -167,10 +167,10 @@
 	.sjisn	"　　　１階の部屋にはカギは　　　"
 	.sjisn	"　　かかってなかったはずだ。　　"
 .else
-	.sjisn	"This is the key that I received "
-	.sjisn	"from the man in the mirror.     "
-	.sjisn	"There is a blue door on both the"
-	;.sjisn	" first and second floors, but the key shouldn't be locked in the room on the first floor.";CUT
+	.sjisn	"Key from man in the mirror.     "
+	.sjisn	"Blue door on 1st & 2nd floor,   "
+	.sjisn	"key shouldn't be locked in room "
+	.sjisn	"on 1st floor."
 .endif
 .endarea
 .db @end_of_line
@@ -230,10 +230,9 @@
 	.sjisn	"　登りつめたフランスの英雄だ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"He is a hero of France who      "
-	.sjisn	"united all of Europe and        "
-	.sjisn	"ascended to the throne as       "
-	;.sjisn	"emperor, starting as a low-ranking soldier.";CUT
+	.sjisn	"Hero of France, united Europe   "
+	.sjisn	"and ascended to emperor throne, "
+	.sjisn	"starting as low-ranking soldier."
 .endif
 .endarea
 .db @end_of_line
@@ -601,10 +600,9 @@
 	.sjisn	"カベに穴をあけたからシンバルで　"
 	.sjisn	"ぶったたいてやろうとしたのよ。」"
 .else
-	.sjisn	"Look at this! My room is        "
-	.sjisn	"a mess... because the Escargot  "
-	.sjisn	"drilled a hole in the wall and  "
-	;.sjisn	"I tried to knock it down with a cymbal.";CUT
+	.sjisn	"Room is a mess! Escargot drilled"
+	.sjisn	"hole, tried to knock it down    "
+	.sjisn	"with cymbal."
 .endif
 .endarea
 .db @end_of_line
@@ -618,10 +616,10 @@
 	.sjisn	"たんだけど、エスカルゴに言い寄　"
 	.sjisn	"られて困ってるの…最低だわ！」　"
 .else
-	.sjisn	"I am Alegro Adagio... I came to "
-	.sjisn	"study music from Italy as       "
-	.sjisn	"a foreign student, but now I am "
-	;.sjisn	"troubled by the Escargot... it's the worst!";CUT
+	.sjisn	"I'm Alegro Adagio, a foreign    "
+	.sjisn	"student from Italy studying     "
+	.sjisn	"music. Troubled by Escargot,    "
+	.sjisn	"worst problem!"
 .endif
 .endarea
 .db @end_of_line
@@ -635,11 +633,9 @@
 	.sjisn	"子供がいるのに私のことが好きだ　"
 	.sjisn	"ってしつこいのよ…変な人だわ。」"
 .else
-	.sjisn	"Escargot is a cook who came from"
-	.sjisn	"France... despite having a wife "
-	.sjisn	"and children back in their home "
-	.sjisn	"country, they keep saying they  "
-	;.sjisn	"like me... they're a strange person.";CUT
+	.sjisn	"Escargot is a cook from France  "
+	.sjisn	"with wife & kids but likes me.  "
+	.sjisn	"Strange person."
 .endif
 .endarea
 .db @end_of_line
@@ -653,10 +649,10 @@
 	.sjisn	"スターパーキンソンならこの階の反"
 	.sjisn	"対側の部屋で待っているわよ。」　"
 .else
-	.sjisn	"Don't come into my room         "
-	.sjisn	"anymore... don't you think it's "
-	.sjisn	"rude to me as a lady?           "
-	;.sjisn	"Mr. Perkins, if you're looking for a place to wait, there's a room on the opposite side of this floor.";CUT
+	.sjisn	"Don't enter my room, it's rude  "
+	.sjisn	"to a lady. Mr. Perkins, wait in "
+	.sjisn	"room on opposite side of this   "
+	.sjisn	"floor."
 .endif
 .endarea
 .db @end_of_line
@@ -704,10 +700,9 @@
 	.sjisn	"ことが気になってるみたいだな…今"
 	.sjisn	"は落ち込んでキッチンにいるよ。」"
 .else
-	.sjisn	"It seems like Chef Aperitif,    "
-	.sjisn	"Mouch, is interested in the     "
-	.sjisn	"beautiful Allegro. Now he's     "
-	;.sjisn	"feeling down and is in the kitchen.";CUT
+	.sjisn	"Chef Aperitif, Mouch interested "
+	.sjisn	"in beautiful Allegro. Now       "
+	.sjisn	"feeling down, in kitchen."
 .endif
 .endarea
 .db @end_of_line
@@ -738,10 +733,9 @@
 	.sjisn	"しかし、アレグロはかんかんに怒　"
 	.sjisn	"ってもう口もきいてくれない。」　"
 .else
-	.sjisn	"Yes, I did make a hole in the   "
-	.sjisn	"wall, but I was too big to fit  "
-	.sjisn	"through it. But now, Allegro is "
-	;.sjisn	"so angry that he won't even talk to me.";CUT
+	.sjisn	"Made hole in wall but too big to"
+	.sjisn	"fit, now Allegro won't talk to"
+	.sjisn	"me."
 .endif
 .endarea
 .db @end_of_line
@@ -772,10 +766,9 @@
 	.sjisn	"そんな彼女にわしは夢中になった　"
 	.sjisn	"フランス人はいつも恋するのさ。」"
 .else
-	.sjisn	"I've been hated by Allegro...   "
-	.sjisn	"her playing piano has a         "
-	.sjisn	"beautiful sound, I became       "
-	;.sjisn	"obsessed with such a girl. French people always fall in love.";CUT
+	.sjisn	"Hated by Allegro, obsessed with"
+	.sjisn	"girl's beautiful piano playing."
+	.sjisn	"French always fall in love."
 .endif
 .endarea
 .db @end_of_line
@@ -805,10 +798,10 @@
 	.sjisn	"わざわざ来てくれてすまなかった　"
 	.sjisn	"がなかなか楽しかったじゃろう？」"
 .else
-	.sjisn	"Waited for you! Keaton sir...   "
-	.sjisn	"How's it going? My new mansion, "
-	.sjisn	"did you like it? Sorry to have  "
-	;.sjisn	"kept you waiting, but I bet it was enjoyable, right?";CUT
+	.sjisn	"Waited for you, Keaton sir!     "
+	.sjisn	"How's it going? Liked my new    "
+	.sjisn	"mansion? Sorry for wait,        "
+	.sjisn	"enjoyable, right?"
 .endif
 .endarea
 .db @end_of_line
@@ -822,10 +815,9 @@
 	.sjisn	"ちなみに今日４月１日はナポレオ　"
 	.sjisn	"ンの結婚記念日でもあるのだよ。」"
 .else
-	.sjisn	"I like Napoleon, you see...     "
-	.sjisn	"I even named my dog after him..."
-	.sjisn	"By the way, today April 1st is  "
-	;.sjisn	"also Napoleon's wedding anniversary.";CUT
+	.sjisn	"Like Napoleon, named my dog     "
+	.sjisn	"after him. Today is April 1st,  "
+	.sjisn	"Napoleon's wedding anniversary."
 .endif
 .endarea
 .db @end_of_line
@@ -856,10 +848,9 @@
 	.sjisn	"てくれたまえ、次はもっと面白い仕"
 	.sjisn	"掛けを用意しとくから、ワハハ。」"
 .else
-	.sjisn	"This is also my hobby, don't get"
-	.sjisn	"mad... come back without getting"
-	.sjisn	"caught again, I'll prepare a    "
-	;.sjisn	"more interesting setup next time, hahaha.";CUT
+	.sjisn	"Hobby too. Don't get mad. Come  "
+	.sjisn	"back, I'll prepare more         "
+	.sjisn	"interesting setup. Hahaha."
 .endif
 .endarea
 .db @end_of_line
@@ -873,11 +864,10 @@
 	.sjisn	"盗んで私のピアノにさわるから３　"
 	.sjisn	"階の音楽室もふさいだのよ。」　　"
 .else
-	.sjisn	"That's a letter I wrote to      "
-	.sjisn	"Escargot. She's always looking  "
-	.sjisn	"into other people's business and"
-	;.sjisn	"touching my piano, so I had to  ";CUT
-	;.sjisn	"block access to the third-floor music room.";CUT
+	.sjisn	"Letter to Escargot. Always      "
+	.sjisn	"prying and touching my piano,   "
+	.sjisn	"had to block 3rd floor music    "
+	.sjisn	"room access."
 .endif
 .endarea
 .db @end_of_line
@@ -891,11 +881,9 @@
 	.sjisn	"れてしまう…おいしいフランス料　"
 	.sjisn	"理を作るから材料を集めてくれ。」"
 .else
-	.sjisn	"Oh no... I have to do something "
-	.sjisn	"to make Alleandro happy or I'll "
-	.sjisn	"be hated forever... I'll make   "
-	.sjisn	"delicious French cuisine, so    "
-	;.sjisn	"gather the ingredients.";CUT
+	.sjisn	"Oh no! Must make Allegro happy  "
+	.sjisn	"or hated forever. Making French "
+	.sjisn	"cuisine, gathering ingredients."
 .endif
 .endarea
 .db @end_of_line
@@ -926,10 +914,9 @@
 	.sjisn	"がどうも気まずい…わしの代わり　"
 	.sjisn	"にアレグロに渡してきてくれ。」　"
 .else
-	.sjisn	"Ugh! That's the letter I        "
-	.sjisn	"wrote... I was going to give it "
-	.sjisn	"to Allegro, but it's kind of    "
-	;.sjisn	"awkward... Could you deliver it to Allegro instead of me?";CUT
+	.sjisn	"Ugh! That's my letter. Was going"
+	.sjisn	"to give to Allegro but awkward. "
+	.sjisn	"Can you deliver it instead?"
 .endif
 .endarea
 .db @end_of_line
@@ -943,10 +930,9 @@
 	.sjisn	"いなの…それナポレオンが大好き　"
 	.sjisn	"だから食べさせてあげて。」　　　"
 .else
-	.sjisn	"Sorry, I can't take it...       "
-	.sjisn	"I don't like French cuisine     "
-	.sjisn	"because it makes me gain        "
-	;.sjisn	"weight... That's why I let Napoleon eat it.";CUT
+	.sjisn	"Can't take it, don't like French"
+	.sjisn	"cuisine, makes me gain weight.  "
+	.sjisn	"Let Napoleon eat it."
 .endif
 .endarea
 .db @end_of_line
