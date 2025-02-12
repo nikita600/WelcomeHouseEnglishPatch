@@ -47,7 +47,7 @@
 .if LANG == JAP
 	.sjisn	"　食堂　　　"
 .else
-	.sjisn	"Dining room"
+	.sjisn	"Dining Room"
 .endif
 .endarea
 .db @end_of_line
@@ -69,7 +69,7 @@
 .if LANG == JAP
 	.sjisn	"　廊下　　　"
 .else
-	.sjisn	"Hallway"
+	.sjisn	"Hall"
 .endif
 .endarea
 .db @end_of_line
@@ -80,7 +80,7 @@
 .if LANG == JAP
 	.sjisn	"　トイレ　　"
 .else
-	.sjisn	"Toilet"
+	.sjisn	"Bath"
 .endif
 .endarea
 .db @end_of_line

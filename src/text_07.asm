@@ -15,8 +15,8 @@
 	.sjisn	"　何だ、階段を上がろうとしたら　"
 	.sjisn	"　　　足場がなくなった！？　　　"
 .else
-	.sjisn	"Foothold disappeared when tried"
-	.sjisn	"to go up stairs! What?"
+	.sjisn	"AAHH! The stairs disappeared when"
+	.sjisn	"I tried to go up! What the...?"
 .endif
 .endarea
 .db @end_of_line
@@ -28,7 +28,7 @@
 	.sjisn	"　　ギャー！手をはさまれた！　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"GYAAAH! My hand got stuck!"
+	.sjisn	"GYAAAH!! My hand's stuck!!"
 .endif
 .endarea
 .db @end_of_line
@@ -40,7 +40,7 @@
 	.sjisn	"おや？中には何も入っていないぞ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh? There is nothing inside."
+	.sjisn	"Huh? There's nothing inside."
 .endif
 .endarea
 .db @end_of_line
@@ -52,8 +52,8 @@
 	.sjisn	"　　　　何だこの部屋は…　　　　"
 	.sjisn	"　ここを飛び越えろというのか？　"
 .else
-	.sjisn	"What is this room... is it      "
-	.sjisn	"saying to jump over here?"
+	.sjisn	"What's this room...? Should I      "
+	.sjisn	"jump over there?"
 .endif
 .endarea
 .db @end_of_line
@@ -65,7 +65,7 @@
 	.sjisn	"　　何やら上の方で音がした。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I heard a noise from above."
+	.sjisn	"I hear something upstairs."
 .endif
 .endarea
 .db @end_of_line
@@ -77,8 +77,8 @@
 	.sjisn	"　　イテテ…　　　　　　　　　　"
 	.sjisn	"　油にすべってドラム缶が頭に…。"
 .else
-	.sjisn	"Eek... I slipped on some oil    "
-	.sjisn	"and a drum can hit my head..."
+	.sjisn	"Oww... I slipped on oil    "
+	.sjisn	"and the drum can hit my head..."
 .endif
 .endarea
 .db @end_of_line
@@ -90,7 +90,7 @@
 	.sjisn	"　　あっ！これは鏡じゃない！　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Ah! This isn't a mirror!"
+	.sjisn	"Ahh!! That's no mirror!"
 .endif
 .endarea
 .db @end_of_line
@@ -102,8 +102,8 @@
 	.sjisn	"ソファに座ったらテレビがついた。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"When I sat on the sofa, the TV  "
-	.sjisn	"turned on."
+	.sjisn	"I sat on the sofa and...  "
+	.sjisn	"the TV turned on...?      "
 .endif
 .endarea
 .db @end_of_line
@@ -115,7 +115,7 @@
 	.sjisn	"　　　何もない部屋だな…。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is an empty room..."
+	.sjisn	"This room's empty..."
 .endif
 .endarea
 .db @end_of_line
@@ -127,8 +127,8 @@
 	.sjisn	"　はぁーっ、死ぬかと思った…。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Phew, I thought I was going to  "
-	.sjisn	"die..."
+	.sjisn	"Hah... I thought I was gonna die! "
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -140,7 +140,7 @@
 	.sjisn	"もう上がっても大丈夫のようだな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It looks like it's safe to go up"
+	.sjisn	"Looks like it's safe to go up"
 	.sjisn	"now."
 .endif
 .endarea
@@ -153,7 +153,7 @@
 	.sjisn	"　もう…イヤになっちゃうよ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Ugh... this is getting tiresome."
+	.sjisn	"Ugh... I'm getting sick of this."
 .endif
 .endarea
 .db @end_of_line
@@ -165,7 +165,7 @@
 	.sjisn	"　　イテテ…ここはどこだ？　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Eek... where am I?"
+	.sjisn	"Eek... Where am I?"
 .endif
 .endarea
 .db @end_of_line
@@ -177,7 +177,7 @@
 	.sjisn	"　　イテーッ！頭が割れるーっ！　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Eek! My head is splitting open!"
+	.sjisn	"AGH!! My head's splitting open!"
 .endif
 .endarea
 .db @end_of_line
@@ -201,8 +201,8 @@
 	.sjisn	"　　　絵をかけると、後ろの　　　"
 	.sjisn	"　ドアから小さな物音がした…。　"
 .else
-	.sjisn	"Heard small noise from door     "
-	.sjisn	"behind picture when hung it up."
+	.sjisn	"I heard a small noise coming     "
+	.sjisn	"from behind the door..."
 .endif
 .endarea
 .db @end_of_line
@@ -214,8 +214,8 @@
 	.sjisn	"　うわっ、部屋全体が動いてる！　"
 	.sjisn	"　　一体何が起こってるんだ！　　"
 .else
-	.sjisn	"Whoa, the whole room is moving! "
-	.sjisn	"What is going on here!"
+	.sjisn	"Whoa, the whole room's moving! "
+	.sjisn	"What the hell's going on?!"
 .endif
 .endarea
 .db @end_of_line
@@ -251,7 +251,7 @@
 	.sjisn	"　　　階段が動いている…？　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The stairs are moving...?"
+	.sjisn	"Are the stairs moving...?"
 .endif
 .endarea
 .db @end_of_line
@@ -263,8 +263,8 @@
 	.sjisn	"このドアはこのためにあったのか。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Was this door made for this     "
-	.sjisn	"purpose?"
+	.sjisn	"Is that what the door was for?    "
+	.sjisn	"     "
 .endif
 .endarea
 .db @end_of_line
@@ -276,7 +276,7 @@
 	.sjisn	"　若い男がこっちを見ているぞ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A young man is looking this way."
+	.sjisn	"A young man is looking over here."
 .endif
 .endarea
 .db @end_of_line
@@ -288,7 +288,7 @@
 	.sjisn	"　　彼からカギをもらった。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I received a key from him."
+	.sjisn	"I got a key from him."
 .endif
 .endarea
 .db @end_of_line
@@ -300,7 +300,7 @@
 	.sjisn	"　きれいな女性が立っているぞ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a beautiful woman      "
+	.sjisn	"There's a pretty woman      "
 	.sjisn	"standing here."
 .endif
 .endarea
@@ -337,7 +337,7 @@
 	.sjisn	"　　　あっ！なんだあの男は。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Ah! Who is that man."
+	.sjisn	"Oh! That man is..."
 .endif
 .endarea
 .db @end_of_line
@@ -349,8 +349,8 @@
 	.sjisn	"　　ここはあがれないようだ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems like I can't go up from"
-	.sjisn	"here."
+	.sjisn	"I can't seem to get up there."
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -362,8 +362,8 @@
 	.sjisn	"　　またつぶされるのはヤダな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I don't want to be crushed      "
-	.sjisn	"again."
+	.sjisn	"I don't want to be crushed again...   "
+	.sjisn	"       "
 .endif
 .endarea
 .db @end_of_line
@@ -375,7 +375,7 @@
 	.sjisn	"　　普通だったら死んでるぞ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Normally I would be dead."
+	.sjisn	"Normally, I'd be dead."
 .endif
 .endarea
 .db @end_of_line
@@ -387,7 +387,7 @@
 	.sjisn	"　　彼女からトマトをもらった。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I received a tomato from her."
+	.sjisn	"I got a tomato from her."
 .endif
 .endarea
 .db @end_of_line
@@ -399,8 +399,8 @@
 	.sjisn	"　　プールの前にイヌがいる。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a dog in front of the  "
-	.sjisn	"pool."
+	.sjisn	"There's a dog in front of the pool. "
+	.sjisn	"      "
 .endif
 .endarea
 .db @end_of_line

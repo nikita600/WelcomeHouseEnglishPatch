@@ -15,7 +15,7 @@
 	.sjisn	"「メモリーカードがありません。」"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"There is no memory card."
+	.sjisn 	"There is no memory card inserted."
 .endif
 .endarea
 .db @end_of_line
@@ -27,7 +27,7 @@
 	.sjisn	"「フォーマットされていません…　"
 	.sjisn	"　　フォーマットしますか？」　　"
 .else
-	.sjisn 	"It is not formatted...          "
+	.sjisn 	"The memory card is not formatted.          "
 	.sjisn	"Would you like to format it?" 
 .endif
 .endarea
@@ -52,7 +52,7 @@
 	.sjisn	"　「フォーマットしました。」　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"I formatted it." 
+	.sjisn 	"Memory card formatted." 
 .endif
 .endarea
 .db @end_of_line
@@ -64,7 +64,7 @@
 	.sjisn	"　「フォーマット中です。」　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"It is being formatted." 
+	.sjisn 	"Formatting memory card..." 
 .endif
 .endarea
 .db @end_of_line
@@ -76,7 +76,7 @@
 	.sjisn	"「フォーマットしませんでした。」"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"I did not format it." 
+	.sjisn 	"Format cancelled." 
 .endif
 .endarea
 .db @end_of_line
@@ -88,7 +88,7 @@
 	.sjisn	"　「セーブが終わりました。」　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"The save is complete." 
+	.sjisn 	"Save complete!" 
 .endif
 .endarea
 .db @end_of_line
@@ -100,8 +100,8 @@
 	.sjisn	"「メモリーカードがいっぱいで　　"
 	.sjisn	"　セーブする場所がありません。」"
 .else
-	.sjisn 	"The memory card is full and     "
-	.sjisn	"there is no place to save." 
+	.sjisn 	"The memory card is full.    "
+	.sjisn	"There is no room to save data." 
 .endif
 .endarea
 .db @end_of_line
@@ -113,8 +113,8 @@
 	.sjisn	"　「セーブデータを上書きします…"
 	.sjisn	"　　　　よろしいですか。」　　　"
 .else
-	.sjisn 	"I will overwrite the save       "
-	.sjisn	"data... Is that okay?" 
+	.sjisn 	"Overwrite save data?  "
+	.sjisn	"                 " 
 .endif
 .endarea
 .db @end_of_line
@@ -126,8 +126,8 @@
 	.sjisn	"　　「新しくセーブします…　　　"
 	.sjisn	"　　　　よろしいですか。」　　　"
 .else
-	.sjisn 	"I will save anew... Is that     "
-	.sjisn	"okay?" 
+	.sjisn 	"Create new save data?   "
+	.sjisn	"                " 
 .endif
 .endarea
 .db @end_of_line
@@ -139,7 +139,7 @@
 	.sjisn	"「ウエルカムハウスの　　　　　　"
 	.sjisn	"　　セーブデータがありません。」"
 .else
-	.sjisn 	"There is no save data for the   "
+	.sjisn 	"There is no save data for   "
 	.sjisn	"Welcome House." 
 .endif
 .endarea
@@ -152,7 +152,7 @@
 	.sjisn	"「フォーマットされていない　　　"
 	.sjisn	"カードです…ロードできません。」"
 .else
-	.sjisn 	"This is an unformatted card...  "
+	.sjisn 	"The memory card is unformatted.  "
 	.sjisn	"It cannot be loaded." 
 .endif
 .endarea
@@ -189,8 +189,8 @@
 	.sjisn	"「セーブデフォ（上書）に引っ掛か"
 	.sjisn	"りました…見直してください。」　"
 .else
-	.sjisn 	"The save has failed             "
-	.sjisn	"(overwrite)... Please try again." 
+	.sjisn 	"The save data failed to overwrite.   "
+	.sjisn	"Please try again." 
 .endif
 .endarea
 .db @end_of_line
@@ -202,7 +202,7 @@
 	.sjisn	"「セーブデフォ（新規）に引っ掛か"
 	.sjisn	"りました…見直してください。」　"
 .else
-	.sjisn 	"The save has failed (new)...    "
+	.sjisn 	"New save creation failed.    "
 	.sjisn	"Please try again." 
 .endif
 .endarea
@@ -215,7 +215,7 @@
 	.sjisn	"「ファイルチェックに引っ掛かりま"
 	.sjisn	"した…見直してください。」　　　"
 .else
-	.sjisn 	"The file check has failed...    "
+	.sjisn 	"The file check has failed. "
 	.sjisn	"Please try again." 
 .endif
 .endarea
@@ -228,7 +228,7 @@
 	.sjisn	"　　「セーブしませんでした。」　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"I did not save." 
+	.sjisn 	"Save cancelled." 
 .endif
 .endarea
 .db @end_of_line
@@ -240,7 +240,7 @@
 	.sjisn	"「セーブデータをロード中です。」"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"Loading the save data." 
+	.sjisn 	"Loading save data." 
 .endif
 .endarea
 .db @end_of_line
@@ -252,7 +252,7 @@
 	.sjisn	"　「ロードが終わりました。」　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn 	"The load is complete." 
+	.sjisn 	"Load complete!" 
 .endif
 .endarea
 .db @end_of_line

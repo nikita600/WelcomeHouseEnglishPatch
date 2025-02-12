@@ -17,7 +17,7 @@ Text01_8008e17c:
 	.sjisn	"　　　ここには何もなさそうだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Seems nothing here."
+	.sjisn	"There's nothing here."
 .endif
 .endarea
 .db @end_of_line
@@ -30,7 +30,7 @@ Text01_8008e17c:
 	.sjisn	"まいったな、だれもいないのかな？"
 .else
 	.sjisn	"The door is locked and won't    "
-	.sjisn	"open. Damn it, is anyone here?  "
+	.sjisn	"open. Damnit, is anyone here?  "
 .endif
 .endarea
 .db @end_of_line
@@ -42,8 +42,8 @@ Text01_8008e17c:
 	.sjisn	"　　　ここはまだ開かないな　　　"
 	.sjisn	"　　　カギがかかっている。　　　"
 .else
-	.sjisn	"This place is still locked, the "
-	.sjisn	"door is locked.                 "
+	.sjisn	"This place is still locked! The "
+	.sjisn	"won't budge.                 "
 .endif
 .endarea
 .db @end_of_line
@@ -55,7 +55,7 @@ Text01_8008e17c:
 	.sjisn	"　　　ここはもう開いている。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This place is already open."
+	.sjisn	"This one's already open."
 .endif
 .endarea
 .db @end_of_line
@@ -67,7 +67,7 @@ Text01_8008e17c:
 	.sjisn	"　このカギでは開かないようだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems this key won't open it."
+	.sjisn	"It seems like this key won't work."
 .endif
 .endarea
 .db @end_of_line
@@ -79,8 +79,8 @@ Text01_8008e17c:
 	.sjisn	"　おじさんジョーダンきついよ　　"
 	.sjisn	"　ここからはもう外に出られない。"
 .else
-	.sjisn	"Uncle Jordan is tough, we can't "
-	.sjisn	"get out from here anymore."
+	.sjisn	"Uncle Parkinson is tough. I can't "
+	.sjisn	"get out of here anymore."
 .endif
 .endarea
 .db @end_of_line
@@ -92,7 +92,7 @@ Text01_8008e17c:
 	.sjisn	"ここはどうしても開かないようだ　"
 	.sjisn	"　　他に出口をさがさなきゃ。　　"
 .else
-	.sjisn	"It seems this place won't open. "
+	.sjisn	"It seems like this one won't open. "
 	.sjisn	"Look for another exit."
 .endif
 .endarea
@@ -105,8 +105,8 @@ Text01_8008e17c:
 	.sjisn	"　　カギでは開きそうにないな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It doesn't seem like the key    "
-	.sjisn	"will open it."
+	.sjisn	"It doesn't seem like this key works.   "
+	.sjisn	"                   "
 .endif
 .endarea
 .db @end_of_line
@@ -118,8 +118,8 @@ Text01_8008e17c:
 	.sjisn	"　カギがかかってて開かないや　　"
 	.sjisn	"　どこかでカギを見つけなきゃ。　"
 .else
-	.sjisn	"Door locked, won't open. Find   "
-	.sjisn	"Find key somewhere."
+	.sjisn	"The door's locked! I need to  "
+	.sjisn	"find a key somewhere."
 .endif
 .endarea
 .db @end_of_line
@@ -131,7 +131,7 @@ Text01_8008e17c:
 	.sjisn	"　　　ここはまだ開かないな　　　"
 	.sjisn	"　どこかでカギを見つけなきゃ。　"
 .else
-	.sjisn	"This place is still locked, we  "
+	.sjisn	"This one's still locked. I  "
 	.sjisn	"have to find the key somewhere."
 .endif
 .endarea
@@ -144,8 +144,8 @@ Text01_8008e17c:
 	.sjisn	"持ってるカギで開くかもしれない。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It might open with the key we   "
-	.sjisn	"have."
+	.sjisn	"It might open with a key I   "
+	.sjisn	"have..."
 .endif
 .endarea
 .db @end_of_line
@@ -160,7 +160,7 @@ Text02_8008e447:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
 	.sjisn	"Just as I thought...            "
-	.sjisn	"it's a perfect fit!"
+	.sjisn	"It's a perfect fit!"
 .endif
 .endarea
 .db @end_of_line
@@ -172,7 +172,7 @@ Text02_8008e447:
 	.sjisn	"　　　ここはもう開いている。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It's already open here."
+	.sjisn	"It's already open."
 .endif
 .endarea
 .db @end_of_line
@@ -184,8 +184,8 @@ Text02_8008e447:
 	.sjisn	"　　おっ！ここは開くようだな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh! It looks like it's opening  "
-	.sjisn	"here."
+	.sjisn	"Oh! Looks like it's opening.  "
+	.sjisn	"       "
 .endif
 .endarea
 .db @end_of_line
@@ -197,7 +197,7 @@ Text02_8008e447:
 	.sjisn	"　ここはカギがかかっていない。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The door is not locked here."
+	.sjisn	"This door is unlocked."
 .endif
 .endarea
 .db @end_of_line
@@ -209,8 +209,8 @@ Text02_8008e447:
 	.sjisn	"もともと開いてたから意味ないな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It's already open, so it doesn't"
-	.sjisn	"matter."
+	.sjisn	"It's already open..."
+	.sjisn	"         "
 .endif
 .endarea
 .db @end_of_line
@@ -235,8 +235,8 @@ Text02_8008e447:
 	.sjisn	"　　ヒドいな…上がれないぞ　　　"
 	.sjisn	"　　いったいどうなってるんだ。　"
 .else
-	.sjisn	"This is tough... I can't make it"
-	.sjisn	"up. What on earth is going on?"
+	.sjisn	"This is tough... I can't go"
+	.sjisn	"up! What on earth is going on?"
 .endif
 .endarea
 .db @end_of_line
@@ -248,7 +248,7 @@ Text02_8008e447:
 	.sjisn	"　　　もう大丈夫だろうな。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I suppose it's already okay."
+	.sjisn	"I suppose it's fine."
 .endif
 .endarea
 .db @end_of_line
@@ -260,7 +260,8 @@ Text02_8008e447:
 	.sjisn	"　どうしても出られないようだ　　"
 	.sjisn	"　　他の部屋に行ってみよう。　　"
 .else
-	.sjisn	"Can't get out, try another room."
+	.sjisn	"I can't get out. "
+        .sjisn  "Let's go to another room."
 .endif
 .endarea
 .db @end_of_line
@@ -272,8 +273,8 @@ Text02_8008e447:
 	.sjisn	"　　テコでも開きそうにないな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It doesn't seem like it will    "
-	.sjisn	"open even if I try to force it."
+	.sjisn	"It doesn't seem like it'll    "
+	.sjisn	"open... even if I try to force it."
 .endif
 .endarea
 .db @end_of_line
@@ -285,8 +286,8 @@ Text02_8008e447:
 	.sjisn	"　　　　おじさんの絵だ　　　　　"
 	.sjisn	"　なんだか笑ってるみたいだな。　"
 .else
-	.sjisn	"This is the old man's picture.  "
-	.sjisn	"It looks like he's smiling.     "
+	.sjisn	"It's a picture of my uncle.  "
+	.sjisn	"He looks like he's laughing.     "
 .endif
 .endarea
 .db @end_of_line
@@ -298,8 +299,7 @@ Text02_8008e447:
 	.sjisn	"　おじさんに会わないと帰れない。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I can't go home until I see the "
-	.sjisn	"old man."
+	.sjisn	"I can't go home until I see my uncle!"
 .endif
 .endarea
 .db @end_of_line
@@ -311,7 +311,7 @@ Text02_8008e447:
 	.sjisn	"　　　上にあがる階段がある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a staircase leading up."
+	.sjisn	"There's a staircase leading up."
 .endif
 .endarea
 .db @end_of_line
@@ -323,8 +323,7 @@ Text02_8008e447:
 	.sjisn	"　　カギはかかっていないようだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that the door is not   "
-	.sjisn	"locked."
+	.sjisn	"It doesn't seem to be locked.  "
 .endif
 .endarea
 .db @end_of_line
@@ -360,8 +359,8 @@ Text02_8008e447:
 	.sjisn	"　こちら側からカギがかかってる　"
 	.sjisn	"　　　　　開けておこう。　　　　"
 .else
-	.sjisn	"The door is locked from this    "
-	.sjisn	"side. I'll unlock it."
+	.sjisn	"It's locked from the other side.   "
+	.sjisn	"I'll open it."
 .endif
 .endarea
 .db @end_of_line
@@ -397,7 +396,7 @@ Text02_8008e447:
 	.sjisn	"カウンターの中をしらべてみよう。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Let's search inside the counter."
+	.sjisn	"Let's take a look in the counter."
 .endif
 .endarea
 .db @end_of_line
@@ -409,7 +408,7 @@ Text02_8008e447:
 	.sjisn	"　　ここでは何も見つからない。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Nothing was found here."
+	.sjisn	"Can't find anything here."
 .endif
 .endarea
 .db @end_of_line
@@ -421,8 +420,8 @@ Text02_8008e447:
 	.sjisn	"　　おや…こんなところから　　　"
 	.sjisn	"　　　　白い本が出てきた。　　　"
 .else
-	.sjisn	"Oh... a white book came out     "
-	.sjisn	"from such a place."
+	.sjisn	"Huh... A white book came out     "
+	.sjisn	"from here."
 .endif
 .endarea
 .db @end_of_line
@@ -434,8 +433,8 @@ Text02_8008e447:
 	.sjisn	"　　　　　お酒があった　　　　　"
 	.sjisn	"フランス産のブランデーのようだ。"
 .else
-	.sjisn	"There is alcohol. It looks like "
-	.sjisn	"French brandy."
+	.sjisn	"There's some alcohol. "
+	.sjisn	"It looks like French brandy."
 .endif
 .endarea
 .db @end_of_line
@@ -447,7 +446,7 @@ Text02_8008e447:
 	.sjisn	"　　　　カウンターがある。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a counter."
+	.sjisn	"It's a counter."
 .endif
 .endarea
 .db @end_of_line
@@ -459,7 +458,7 @@ Text02_8008e447:
 	.sjisn	"　　すわっても何も出ないな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Nothing comes out even if I sit "
+	.sjisn	"Nothing comes out, even if I sit "
 	.sjisn	"down."
 .endif
 .endarea
@@ -472,7 +471,7 @@ Text02_8008e447:
 	.sjisn	"　しゃれたジュークボックスだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a stylish jukebox."
+	.sjisn	"What a swanky jukebox!"
 .endif
 .endarea
 .db @end_of_line
@@ -484,8 +483,8 @@ Text02_8008e447:
 	.sjisn	"なんだ、レコードがひとつもない。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"What? There's not even one      "
-	.sjisn	"record."
+	.sjisn	"Hey, there's no records!   "
+	.sjisn	"       "
 .endif
 .endarea
 .db @end_of_line
@@ -497,8 +496,8 @@ Text02_8008e447:
 	.sjisn	"　気晴らしに音楽でも聞くかな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Maybe I'll listen to music to   "
-	.sjisn	"relax."
+	.sjisn	"Maybe I'll listen to some music to   "
+	.sjisn	"relax..."
 .endif
 .endarea
 .db @end_of_line
@@ -510,7 +509,7 @@ Text02_8008e447:
 	.sjisn	"　　　でかいオーブンだな。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a big oven."
+	.sjisn	"That's a big oven."
 .endif
 .endarea
 .db @end_of_line
@@ -522,7 +521,7 @@ Text02_8008e447:
 	.sjisn	"　　中には何もないようだな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that there is nothing  "
+	.sjisn	"Looks like there's nothing "
 	.sjisn	"inside."
 .endif
 .endarea
@@ -535,8 +534,8 @@ Text02_8008e447:
 	.sjisn	"　鍋があるけど重くて持てない。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a pot, but it is heavy "
-	.sjisn	"and I cannot lift it."
+	.sjisn	"A heavy pot that I "
+	.sjisn	"can't lift."
 .endif
 .endarea
 .db @end_of_line
@@ -548,7 +547,7 @@ Text02_8008e447:
 	.sjisn	"　　　でかいオーブンだな。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a big oven."
+	.sjisn	"That's a big oven."
 .endif
 .endarea
 .db @end_of_line
@@ -560,7 +559,8 @@ Text02_8008e447:
 	.sjisn	"　　ここで料理をするんだろう　　"
 	.sjisn	"まだあまり使われていないようだ。"
 .else
-	.sjisn	"Cooking done, not used much yet."
+	.sjisn	"I guess they cook here."
+        .sjisn  "Doesn't look like it's used much."
 .endif
 .endarea
 .db @end_of_line
@@ -585,8 +585,8 @@ Text02_8008e447:
 	.sjisn	"　　箱の中からカギが出てきた。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A key came out from inside the  "
-	.sjisn	"box."
+	.sjisn	"A key came out of the box.  "
+	.sjisn	"                   "
 .endif
 .endarea
 .db @end_of_line
@@ -613,7 +613,7 @@ Text03_8008ed6b:
 	.sjisn	"　　　　開けてみようかな…　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Maybe I'll try opening it..."
+	.sjisn	"Let's open it..."
 .endif
 .endarea
 .db @end_of_line
@@ -625,7 +625,7 @@ Text03_8008ed6b:
 	.sjisn	"　あっ…中はもぬけのカラだ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Ah... it's empty inside."
+	.sjisn	"Ah... It's empty inside."
 .endif
 .endarea
 .db @end_of_line
@@ -637,8 +637,8 @@ Text03_8008ed6b:
 	.sjisn	"　　　中には何も入ってない　　　"
 	.sjisn	"　穴が開いてて奥に進めそうだ。　"
 .else
-	.sjisn	"Nothing inside, proceed through "
-	.sjisn	"opening."
+	.sjisn	"A big hole with nothing inside."
+	.sjisn	"It seems pretty deep."
 .endif
 .endarea
 .db @end_of_line
@@ -650,7 +650,7 @@ Text03_8008ed6b:
 	.sjisn	"　　　　これは冷蔵庫だ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is the refrigerator."
+	.sjisn	"It's a fridge."
 .endif
 .endarea
 .db @end_of_line
@@ -662,8 +662,8 @@ Text03_8008ed6b:
 	.sjisn	"　　あれ…本しか入ってない。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Hmm... there are only books     "
-	.sjisn	"inside."
+	.sjisn	"Huh... Only a book in there. "
+	.sjisn	"       "
 .endif
 .endarea
 .db @end_of_line
@@ -687,7 +687,7 @@ Text03_8008ed6b:
 	.sjisn	"　　フタの上に乗れそうだな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I can get on top of the lid."
+	.sjisn	"I'm going to get on top of the lid."
 .endif
 .endarea
 .db @end_of_line
@@ -699,7 +699,7 @@ Text03_8008ed6b:
 	.sjisn	"　　暖炉の上ににんにくがある。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is garlic on top of the   "
+	.sjisn	"There's garlic on top of the   "
 	.sjisn	"fireplace."
 .endif
 .endarea
@@ -736,7 +736,8 @@ Text03_8008ed6b:
 	.sjisn	"　　テーブルの上にレコードが…　"
 	.sjisn	"　　　　後で聞いてみよう。　　　"
 .else
-	.sjisn	"Records on table, listen later."
+	.sjisn	"There's some records here..."
+        .sjisn  "I'll take a listen later."
 .endif
 .endarea
 .db @end_of_line
@@ -749,8 +750,8 @@ Text04_8008f036:
 	.sjisn	"　　こんなところに落とし穴が…　"
 	.sjisn	"いたずらにしては手がこんでるな。"
 .else
-	.sjisn	"Pitfall, mischievous hand       "
-	.sjisn	"did it."
+	.sjisn	"There's a pitfall here! In a place   "
+	.sjisn	"like this? Must be a prank."
 .endif
 .endarea
 .db @end_of_line
@@ -762,7 +763,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　大きな食卓だ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a large dining table."
+	.sjisn	"It's a big dining table."
 .endif
 .endarea
 .db @end_of_line
@@ -774,7 +775,7 @@ Text04_8008f036:
 	.sjisn	"　　　これはただの時計だ。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is just a clock."
+	.sjisn	"It's just a clock."
 .endif
 .endarea
 .db @end_of_line
@@ -786,7 +787,7 @@ Text04_8008f036:
 	.sjisn	"　これはファミリーの写真だな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a family photo."
+	.sjisn	"It's a family portrait."
 .endif
 .endarea
 .db @end_of_line
@@ -798,8 +799,8 @@ Text04_8008f036:
 	.sjisn	"　おじさんの若い頃の写真がある。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a photo of the old man "
-	.sjisn	"when he was young."
+	.sjisn	"It's a photo of my uncle "
+	.sjisn	"when he was younger."
 .endif
 .endarea
 .db @end_of_line
@@ -811,8 +812,8 @@ Text04_8008f036:
 	.sjisn	"　　たいして意味はなさそうだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It doesn't seem to have much    "
-	.sjisn	"meaning."
+	.sjisn	"Thi doesn't make much sense.  "
+	.sjisn	"              "
 .endif
 .endarea
 .db @end_of_line
@@ -824,8 +825,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　ここもだめか…　　　　"
 	.sjisn	"どうしても外に出さないつもりか。"
 .else
-	.sjisn	"This also no good?              "
-	.sjisn	"Not letting me out?"
+	.sjisn	"You're not gonna let me out,   "
+	.sjisn	"aren't you?"
 .endif
 .endarea
 .db @end_of_line
@@ -837,7 +838,7 @@ Text04_8008f036:
 	.sjisn	"　　　もうビクとも動かない。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I won't move even if I flinch."
+	.sjisn	"I can't move at all!"
 .endif
 .endarea
 .db @end_of_line
@@ -861,8 +862,8 @@ Text04_8008f036:
 	.sjisn	"ここでカギを使っても意味ないな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It doesn't seem to make a       "
-	.sjisn	"difference using the key here."
+	.sjisn	"It doesn't make sense to use the  "
+	.sjisn	"key here."
 .endif
 .endarea
 .db @end_of_line
@@ -874,8 +875,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　おや…　　　　　　"
 	.sjisn	"　　テーブルの上にカギがある。　"
 .else
-	.sjisn	"Oh... there is a key on top of  "
-	.sjisn	"the table."
+	.sjisn	"Oh... There's a key on  "
+	.sjisn	"the table!"
 .endif
 .endarea
 .db @end_of_line
@@ -887,8 +888,8 @@ Text04_8008f036:
 	.sjisn	"　　ゆっくりしてる暇はないな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I don't have time to take it    "
-	.sjisn	"easy." 
+	.sjisn	"There's no time to relax! "
+	.sjisn	"               " 
 .endif
 .endarea
 .db @end_of_line
@@ -900,8 +901,8 @@ Text04_8008f036:
 	.sjisn	"　　　ただのソファのようだ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It just looks like a regular    "
-	.sjisn	"sofa."
+	.sjisn	"It's an ordinary sofa.    "
+	.sjisn	"                   "
 .endif
 .endarea
 .db @end_of_line
@@ -913,8 +914,8 @@ Text04_8008f036:
 	.sjisn	"　　おっ！ここは開くようだな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh! it looks like it opens up   "
-	.sjisn	"here."
+	.sjisn	"Oh! Seems like it opens up!   "
+	.sjisn	"                    "
 .endif
 .endarea
 .db @end_of_line
@@ -927,7 +928,7 @@ Text04_8008f036:
 	.sjisn	"　　　　特に用はないな。　　　　"
 .else
 	.sjisn	"This is the toilet... I don't   "
-	.sjisn	"particularly need to use it."
+	.sjisn	"need to use it right now."
 .endif
 .endarea
 .db @end_of_line
@@ -939,8 +940,8 @@ Text04_8008f036:
 	.sjisn	"　カギはかかっていないようだが　"
 	.sjisn	"　　何かにつかえて開かないや。　"
 .else
-	.sjisn	"Key not locked but can't open,  "
-	.sjisn	"reason unknown."
+	.sjisn	"It's unlocked, but it seems to  "
+	.sjisn	"be jammed..."
 .endif
 .endarea
 .db @end_of_line
@@ -952,8 +953,8 @@ Text04_8008f036:
 	.sjisn	"開いているけど、つかえて動かない"
 	.sjisn	"　　向こうに何かがあるようだ。　"
 .else
-	.sjisn	"Open but can't move, something  "
-	.sjisn	"on other side."
+	.sjisn	"It's unlocked, but something's jamming "
+	.sjisn	"it shut on the other side."
 .endif
 .endarea
 .db @end_of_line
@@ -965,8 +966,8 @@ Text04_8008f036:
 	.sjisn	"　　カギでは意味がなさそうだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It doesn't seem like the key    "
-	.sjisn	"would be of any use."
+	.sjisn	"Doesn't seem like the key    "
+	.sjisn	"works here."
 .endif
 .endarea
 .db @end_of_line
@@ -978,8 +979,8 @@ Text04_8008f036:
 	.sjisn	"どうしても外に出さないつもりか。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Are you determined not to let   "
-	.sjisn	"me out?"
+	.sjisn	"You're seriously not letting me out?! "
+	.sjisn	"              "
 .endif
 .endarea
 .db @end_of_line
@@ -991,8 +992,8 @@ Text04_8008f036:
 	.sjisn	"　２階の方から何やら物音がする　"
 	.sjisn	"　どうやらおじさんはこの上だな。"
 .else
-	.sjisn	"Hear noise from upstairs,       "
-	.sjisn	"old man up there."
+	.sjisn	"I hear something upstairs..."
+	.sjisn	"I think my uncle's up there."
 .endif
 .endarea
 .db @end_of_line
@@ -1004,7 +1005,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　これは鏡だ。　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a mirror."
+	.sjisn	"It's a mirror."
 .endif
 .endarea
 .db @end_of_line
@@ -1016,7 +1017,7 @@ Text04_8008f036:
 	.sjisn	"　　　　これはタオルだ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a towel."
+	.sjisn	"Just an ordinary towel."
 .endif
 .endarea
 .db @end_of_line
@@ -1028,8 +1029,8 @@ Text04_8008f036:
 	.sjisn	"おフロに入っているヒマはないな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I don't have time to soak in    "
-	.sjisn	"the bath."
+	.sjisn	"There's no time to take a bath!"
+	.sjisn	"                   "
 .endif
 .endarea
 .db @end_of_line
@@ -1041,7 +1042,7 @@ Text04_8008f036:
 	.sjisn	"　　　　これはトイレだ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a toilet."
+	.sjisn	"It's a toilet."
 .endif
 .endarea
 .db @end_of_line
@@ -1053,7 +1054,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　おっ！　　　　　　"
 	.sjisn	"　まくらの下からカギが出てきた。"
 .else
-	.sjisn	"Oh! the key came out from under "
+	.sjisn	"Aha! There was a key under"
 	.sjisn	"the pillow."
 .endif
 .endarea
@@ -1078,7 +1079,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　これは電話だ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a telephone."
+	.sjisn	"It's a telephone."
 .endif
 .endarea
 .db @end_of_line
@@ -1090,8 +1091,8 @@ Text04_8008f036:
 	.sjisn	"　外にかけられるか試してみよう…"
 	.sjisn	"　だめだ、この電話は使えない。　"
 .else
-	.sjisn	"Try calling outside, doesn't    "
-	.sjisn	"work, phone not usable."
+	.sjisn	"Let's see if we can call for help..."
+	.sjisn	"...The line's been disconnected!"
 .endif
 .endarea
 .db @end_of_line
@@ -1103,7 +1104,7 @@ Text04_8008f036:
 	.sjisn	"　　　この電話は使えない。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This phone is not usable."
+	.sjisn	"I can't use this phone."
 .endif
 .endarea
 .db @end_of_line
@@ -1115,8 +1116,8 @@ Text04_8008f036:
 	.sjisn	"　　ここを出ると廊下に出る。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"If I go out from here, I'll be  "
-	.sjisn	"in the hallway."
+	.sjisn	"If I leave through here, I'll be "
+	.sjisn	"back in the hallway."
 .endif
 .endarea
 .db @end_of_line
@@ -1128,7 +1129,7 @@ Text04_8008f036:
 	.sjisn	"　　　　これはベッドだ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a bed."
+	.sjisn	"It's a cozy bed."
 .endif
 .endarea
 .db @end_of_line
@@ -1140,8 +1141,8 @@ Text04_8008f036:
 	.sjisn	"　少し休んでいきたいところだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I would like to take a nap for  "
-	.sjisn	"a little bit."
+	.sjisn	"Yawn... I could go for a nap. "
+	.sjisn	"            "
 .endif
 .endarea
 .db @end_of_line
@@ -1153,8 +1154,8 @@ Text04_8008f036:
 	.sjisn	"　　おや、カレンダーがある　　　"
 	.sjisn	"　　　　今日は４月１日…。　　　"
 .else
-	.sjisn	"Oh, there's a calendar. Today is"
-	.sjisn	"April 1st..."
+	.sjisn	"Aha, a calendar. Let's see..."
+	.sjisn	"Today is April 1st..."
 .endif
 .endarea
 .db @end_of_line
@@ -1166,7 +1167,7 @@ Text04_8008f036:
 	.sjisn	"　しまった、エイプリルフールだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh no, it's April Fool's Day."
+	.sjisn	"Oh no, it's April Fool's Day!"
 .endif
 .endarea
 .db @end_of_line
@@ -1178,8 +1179,8 @@ Text04_8008f036:
 	.sjisn	"　おじさんにまんまとのせられた。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I was completely fooled by the  "
-	.sjisn	"old man."
+	.sjisn	"My uncle must've fooled me! "
+	.sjisn	"                   "
 .endif
 .endarea
 .db @end_of_line
@@ -1191,8 +1192,8 @@ Text04_8008f036:
 	.sjisn	"　　いらっしゃい…キートン…　　"
 	.sjisn	"　おじさんからのメッセージだ。　"
 .else
-	.sjisn	"Welcome... Keeton... This is    "
-	.sjisn	"a message from the old man."
+	.sjisn	"Welcome, Keaton! My uncle   "
+	.sjisn	"must've written this."
 .endif
 .endarea
 .db @end_of_line
@@ -1204,8 +1205,8 @@ Text04_8008f036:
 	.sjisn	"　おじさんからのメッセージだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a message from the old  "
-	.sjisn	"man."
+	.sjisn	"It's a message from my uncle. "
+	.sjisn	"                   "
 .endif
 .endarea
 .db @end_of_line
@@ -1229,7 +1230,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　これは机だ。　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a desk."
+	.sjisn	"It's a desk."
 .endif
 .endarea
 .db @end_of_line
@@ -1241,7 +1242,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　階段がある。　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a staircase."
+	.sjisn	"It's a staircase."
 .endif
 .endarea
 .db @end_of_line
@@ -1253,8 +1254,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　私の車がある…　　　　"
 	.sjisn	"　　　誰が運んだのだろう。　　　"
 .else
-	.sjisn	"My car is here... I wonder who  "
-	.sjisn	"drove it here."
+	.sjisn	"Well, there's my car...  "
+	.sjisn	"Hopefully I can get it fixed."
 .endif
 .endarea
 .db @end_of_line
@@ -1266,8 +1267,8 @@ Text04_8008f036:
 	.sjisn	"　　こわれて動きそうにない。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems to be broken and won't "
-	.sjisn	"move."
+	.sjisn	"It's broken down and won't move. "
+	.sjisn	"                 "
 .endif
 .endarea
 .db @end_of_line
@@ -1279,8 +1280,8 @@ Text04_8008f036:
 	.sjisn	"　ドラム缶がドアをふさいでいる　"
 	.sjisn	"　どけないとドアは開かないな。　"
 .else
-	.sjisn	"Drum can blocks door, move to   "
-	.sjisn	"open."
+	.sjisn	"There's a drum can blocking the "
+	.sjisn	"way. Maybe if I move it..."
 .endif
 .endarea
 .db @end_of_line
@@ -1292,8 +1293,8 @@ Text04_8008f036:
 	.sjisn	"　ドラム缶をどけないと通れない　"
 	.sjisn	"　　けど今にもくずれそうだな。　"
 .else
-	.sjisn	"Can't get through, drum can     "
-	.sjisn	"about to fall."
+	.sjisn	"I can't get through. The "
+	.sjisn	"drum cans are about to fall!"
 .endif
 .endarea
 .db @end_of_line
@@ -1305,8 +1306,8 @@ Text04_8008f036:
 	.sjisn	"　　たおれた拍子にくずれた。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I slipped and fell when the     "
-	.sjisn	"timing was bad."
+	.sjisn	"I slipped and fell! Ouch..."
+	.sjisn	"                  "
 .endif
 .endarea
 .db @end_of_line
@@ -1318,8 +1319,8 @@ Text04_8008f036:
 	.sjisn	"プール付きの庭とはしゃれてるね。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The garden with a pool looks    "
-	.sjisn	"lively."
+	.sjisn	"The garden looks fancy with "
+	.sjisn	"that beautiful pool."
 .endif
 .endarea
 .db @end_of_line
@@ -1331,8 +1332,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　犬小屋がある…　　　　"
 	.sjisn	"ということは中に犬がいるのかな？"
 .else
-	.sjisn	"There's a dog house... Does that"
-	.sjisn	"mean there's a dog inside?"
+	.sjisn	"A dog house... Could there be"
+	.sjisn	"a dog inside?"
 .endif
 .endarea
 .db @end_of_line
@@ -1356,7 +1357,7 @@ Text04_8008f036:
 	.sjisn	"何かいるようだけど出てこないな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems like something is      "
+	.sjisn	"It seems like something's in     "
 	.sjisn	"there, but it's not coming out."
 .endif
 .endarea
@@ -1369,8 +1370,8 @@ Text04_8008f036:
 	.sjisn	"　ドラム缶があるけど何だろう…　"
 	.sjisn	"黒いペンキが入ってるみたいだな。"
 .else
-	.sjisn	"Drum can, what is it...         "
-	.sjisn	"Filled with black paint."
+	.sjisn	"It's a drum can, but what's in it...?    "
+	.sjisn	"...It's filled with black paint."
 .endif
 .endarea
 .db @end_of_line
@@ -1382,7 +1383,7 @@ Text04_8008f036:
 	.sjisn	"　黒いペンキの入ったドラム缶だ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It's a drum can filled with     "
+	.sjisn	"It's a drum can filled with  "
 	.sjisn	"black paint."
 .endif
 .endarea
@@ -1395,7 +1396,7 @@ Text04_8008f036:
 	.sjisn	"　　　　あ～ぁ、白い本が…　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Ah, a white book is..."
+	.sjisn	"Ah, a white book..."
 .endif
 .endarea
 .db @end_of_line
@@ -1407,7 +1408,7 @@ Text04_8008f036:
 	.sjisn	"　本をよごすのはやめておこう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Let's stop soiling the book."
+	.sjisn	"Let's stop painting the book."
 .endif
 .endarea
 .db @end_of_line
@@ -1419,8 +1420,8 @@ Text04_8008f036:
 	.sjisn	"　　ジャンプすれば乗れそうだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"If I jump, I think I can ride   "
-	.sjisn	"it."
+	.sjisn	"If I jump, I might be able  "
+	.sjisn	"to ride it."
 .endif
 .endarea
 .db @end_of_line
@@ -1456,8 +1457,8 @@ Text04_8008f036:
 	.sjisn	"　　しっかりカギがかかってて　　"
 	.sjisn	"　　　　開きそうにないな。　　　"
 .else
-	.sjisn	"Lock securely fastened, won't   "
-	.sjisn	"open."
+	.sjisn	"It's firmly locked and "
+	.sjisn	"won't  budge a bit."
 .endif
 .endarea
 .db @end_of_line
@@ -1469,8 +1470,8 @@ Text04_8008f036:
 	.sjisn	"　　柵の外にも広い庭があるぞ　　"
 	.sjisn	"　ヤシが遠くにかすんで見えるよ。"
 .else
-	.sjisn	"The palm trees are hazy in the  "
-	.sjisn	"distance."
+	.sjisn	"There's a large garden in the "
+	.sjisn	"distance with hazy palm trees."
 .endif
 .endarea
 .db @end_of_line
@@ -1482,8 +1483,8 @@ Text04_8008f036:
 	.sjisn	"　　地下に降りる階段がある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a staircase that leads "
-	.sjisn	"down underground."
+	.sjisn	"It's a staircase that leads "
+	.sjisn	"down to the basement."
 .endif
 .endarea
 .db @end_of_line
@@ -1495,8 +1496,8 @@ Text04_8008f036:
 	.sjisn	"　食料がいっぱい積んであるけど　"
 	.sjisn	"　　　特に意味はなさそうだ。　　"
 .else
-	.sjisn	"Food stored, no particular      "
-	.sjisn	"meaning."
+	.sjisn	"There's a lot of food, but "
+	.sjisn	"I don't know what for..."
 .endif
 .endarea
 .db @end_of_line
@@ -1508,8 +1509,8 @@ Text04_8008f036:
 	.sjisn	"　　ここをぬけるとキッチンだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"If we pass through here, it     "
-	.sjisn	"leads to the kitchen."
+	.sjisn	"This one leads to the kitchen.  "
+	.sjisn	"                     "
 .endif
 .endarea
 .db @end_of_line
@@ -1521,7 +1522,7 @@ Text04_8008f036:
 	.sjisn	"スイッチがあるけど動かしてみる？"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a switch, should we    "
+	.sjisn	"There's a switch. Should I   "
 	.sjisn	"try moving it?"
 .endif
 .endarea
@@ -1534,8 +1535,8 @@ Text04_8008f036:
 	.sjisn	"変な音がしてもう動かなくなった。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It made a strange noise and now "
-	.sjisn	"it won't move."
+	.sjisn	"It made a strange sound and"
+	.sjisn	"stopped moving.  "
 .endif
 .endarea
 .db @end_of_line
@@ -1547,8 +1548,8 @@ Text04_8008f036:
 	.sjisn	"　　エスカルゴ・アペリチフ…　　"
 	.sjisn	"この部屋に住んでる人の名前かな。"
 .else
-	.sjisn	"Escargot Aperitif, name of room "
-	.sjisn	"dweller."
+	.sjisn	"Escargot Aperitif..."
+	.sjisn	"That's who lives in this room."
 .endif
 .endarea
 .db @end_of_line
@@ -1560,8 +1561,8 @@ Text04_8008f036:
 	.sjisn	"　　エスカルゴさんの部屋か…　　"
 	.sjisn	"　カギがかかってて開かないな。　"
 .else
-	.sjisn	"Mr. Escargot's room, door       "
-	.sjisn	"locked, won't open."
+	.sjisn	"Monsieur Escargot's room... "
+	.sjisn	"It's locked!"
 .endif
 .endarea
 .db @end_of_line
@@ -1573,8 +1574,8 @@ Text04_8008f036:
 	.sjisn	"　下のキッチンで見つけたカギを。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I found the key in the kitchen  "
-	.sjisn	"below."
+	.sjisn	"The key I found in the kitchen. "
+	.sjisn	"                  "
 .endif
 .endarea
 .db @end_of_line
@@ -1586,8 +1587,8 @@ Text04_8008f036:
 	.sjisn	"　　　　ジャック・スミス…　　　"
 	.sjisn	"　　扉に名前のプレートがある。　"
 .else
-	.sjisn	"Jack Smith... there is a name   "
-	.sjisn	"plate on the door."
+	.sjisn	"Jack Smith... "
+	.sjisn	"That's what the nameplate says."
 .endif
 .endarea
 .db @end_of_line
@@ -1599,8 +1600,8 @@ Text04_8008f036:
 	.sjisn	"　　　　ピンク色の扉か…　　　　"
 	.sjisn	"　カギがかかってて開かないな。　"
 .else
-	.sjisn	"Pink door, key locked, won't    "
-	.sjisn	"open."
+	.sjisn	"The pink door... "
+	.sjisn	"It's locked."
 .endif
 .endarea
 .db @end_of_line
@@ -1612,8 +1613,8 @@ Text04_8008f036:
 	.sjisn	"　ピンク色の扉だからカギもピンク"
 	.sjisn	"。　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Because the door is pink, the   "
-	.sjisn	"key is also pink."
+	.sjisn	"It's a pink door, so the "
+	.sjisn	"key's also pink."
 .endif
 .endarea
 .db @end_of_line
@@ -1625,8 +1626,8 @@ Text04_8008f036:
 	.sjisn	"　　ここにも鉄の扉がある…。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is also an iron door      "
-	.sjisn	"here..."
+	.sjisn	"There's also an iron door...  "
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -1638,8 +1639,8 @@ Text04_8008f036:
 	.sjisn	"　扉のカギはどこにあるのだろう。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I wonder where the key to the   "
-	.sjisn	"door is."
+	.sjisn	"Where's that door's key? "
+	.sjisn	"              "
 .endif
 .endarea
 .db @end_of_line
@@ -1651,8 +1652,8 @@ Text04_8008f036:
 	.sjisn	"押してもビクともしそうにないな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Even if I press it, it doesn't  "
-	.sjisn	"seem to move."
+	.sjisn	"Even if I push it, it won't "
+	.sjisn	"move an inch.  "
 .endif
 .endarea
 .db @end_of_line
@@ -1676,8 +1677,8 @@ Text04_8008f036:
 	.sjisn	"　もらったカギで開けてみよう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Let's try opening it with the   "
-	.sjisn	"key we received."
+	.sjisn	"Let's open it with the  "
+	.sjisn	"key I just got."
 .endif
 .endarea
 .db @end_of_line
@@ -1689,8 +1690,8 @@ Text04_8008f036:
 	.sjisn	"　　　これはただの花ビンだ…　　"
 	.sjisn	"壊したら大変だから持ってくまい。"
 .else
-	.sjisn	"Just a flower vase, don't break "
-	.sjisn	"it."
+	.sjisn	"Just a flower vase... "
+	.sjisn	"Don't break it!  "
 .endif
 .endarea
 .db @end_of_line
@@ -1702,8 +1703,8 @@ Text04_8008f036:
 	.sjisn	"　こんなせまいスキマを通るのは　"
 	.sjisn	"　　　　　もうゴメンだ。　　　　"
 .else
-	.sjisn	"Sorry, I can't pass through     "
-	.sjisn	"such a narrow gap."
+	.sjisn	"That gap's too tight for me to "
+	.sjisn	"pass through! "
 .endif
 .endarea
 .db @end_of_line
@@ -1715,7 +1716,8 @@ Text04_8008f036:
 	.sjisn	"　　　これは鏡のようだが…。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This looks like a mirror, but..."
+	.sjisn	"It looks like an ordinary mirror, "
+        .sjisn  "but...   "
 .endif
 .endarea
 .db @end_of_line
@@ -1727,8 +1729,8 @@ Text04_8008f036:
 	.sjisn	"　　これは鏡のようだが変だな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This looks like a mirror, but   "
-	.sjisn	"it's strange."
+	.sjisn	"It looks like a mirror, but  "
+	.sjisn	"something's off."
 .endif
 .endarea
 .db @end_of_line
@@ -1740,8 +1742,8 @@ Text04_8008f036:
 	.sjisn	"　　　鉄の扉が閉まってる…　　　"
 	.sjisn	"たぶんおじさんはこの向こうだな。"
 .else
-	.sjisn	"The iron door is closed... The  "
-	.sjisn	"old man probably went this way."
+	.sjisn	"The iron door is locked...  "
+	.sjisn	"I wonder if my uncle's in there."
 .endif
 .endarea
 .db @end_of_line
@@ -1753,8 +1755,8 @@ Text04_8008f036:
 	.sjisn	"　　　この扉は開くようだぞ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems like this door can be  "
-	.sjisn	"opened."
+	.sjisn	"This door seems to open.  "
+	.sjisn	"               "
 .endif
 .endarea
 .db @end_of_line
@@ -1766,7 +1768,7 @@ Text04_8008f036:
 	.sjisn	"ここから出ると庭に落ちてしまう。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"If I exit here, I will fall into"
+	.sjisn	"If I get out here, I'll fall into"
 	.sjisn	"the garden."
 .endif
 .endarea
@@ -1779,7 +1781,7 @@ Text04_8008f036:
 	.sjisn	"　３階に戻ってもしかたがない。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I have to go back to the third  "
+	.sjisn	"There's no way back to the third"
 	.sjisn	"floor."
 .endif
 .endarea
@@ -1805,8 +1807,8 @@ Text04_8008f036:
 	.sjisn	"消火器があるけど重くて持てない。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a fire extinguisher,   "
-	.sjisn	"but it is too heavy to carry."
+	.sjisn	"There's a fire extinguisher,   "
+	.sjisn	"but it's too heavy to carry."
 .endif
 .endarea
 .db @end_of_line
@@ -1818,8 +1820,8 @@ Text04_8008f036:
 	.sjisn	"内側からカギがかかってるようだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It looks like the key is locked "
-	.sjisn	"on the inside."
+	.sjisn	"Seems to be locked from the inside."
+	.sjisn	"         "
 .endif
 .endarea
 .db @end_of_line
@@ -1831,7 +1833,7 @@ Text04_8008f036:
 	.sjisn	"　あっ、内側からカギをかけたな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh, I locked it from the inside."
+	.sjisn	"Ah, locked from the inside..."
 .endif
 .endarea
 .db @end_of_line
@@ -1843,7 +1845,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　これは窓だ。　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a window."
+	.sjisn	"It's a window."
 .endif
 .endarea
 .db @end_of_line
@@ -1855,8 +1857,8 @@ Text04_8008f036:
 	.sjisn	"　まいったな、カギがかかってる　"
 	.sjisn	"　おじさんは中にいるはずなのに。"
 .else
-	.sjisn	"Dammit, the key is locked.      "
-	.sjisn	"The old man should be inside."
+	.sjisn	"Dammit, locked again.      "
+	.sjisn	"My uncle should be in there."
 .endif
 .endarea
 .db @end_of_line
@@ -1868,7 +1870,7 @@ Text04_8008f036:
 	.sjisn	"　どこかでカギを見つけなきゃ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I need to find the key          "
+	.sjisn	"I need to find the key "
 	.sjisn	"somewhere."
 .endif
 .endarea
@@ -1881,7 +1883,7 @@ Text04_8008f036:
 	.sjisn	"　　この扉はもう開いている。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The door is already open."
+	.sjisn	"This door's already open."
 .endif
 .endarea
 .db @end_of_line
@@ -1893,7 +1895,7 @@ Text04_8008f036:
 	.sjisn	"　　　まだ上があるのか…。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Is there still more above...?"
+	.sjisn	"Is there still more...?"
 .endif
 .endarea
 .db @end_of_line
@@ -1905,8 +1907,8 @@ Text04_8008f036:
 	.sjisn	"　　　アレグロ・アダージョ…　　"
 	.sjisn	"　　扉に名前のプレートがある。　"
 .else
-	.sjisn	"Alegro Adagio... there is a name"
-	.sjisn	"plate on the door."
+	.sjisn	"Allegro Adagio... "
+	.sjisn	"That's who lives here."
 .endif
 .endarea
 .db @end_of_line
@@ -1918,7 +1920,8 @@ Text04_8008f036:
 	.sjisn	"　　　アレグロさんの部屋か…　　"
 	.sjisn	"　カギがかかってて開かないな。　"
 .else
-	.sjisn	"This is Mr. Alegro's room..."
+	.sjisn	"This is Ms. Allegro's room."
+        .sjisn  "Oh, locked again..."
 .endif
 .endarea
 .db @end_of_line
@@ -1930,7 +1933,7 @@ Text04_8008f036:
 	.sjisn	"絵をかけておくような凹みがある。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Recess for hanging picture."
+	.sjisn	"There's a place to hang a picture."
 .endif
 .endarea
 .db @end_of_line
@@ -1955,8 +1958,8 @@ Text04_8008f036:
 	.sjisn	"　この絵でよかったみたいだな　　"
 	.sjisn	"後ろのドアのカギが外れたようだ。"
 .else
-	.sjisn	"Picture good, key of back door  "
-	.sjisn	"removed."
+	.sjisn	"Good call on hanging it up. I "
+	.sjisn	"found the key to the back door!."
 .endif
 .endarea
 .db @end_of_line
@@ -1968,8 +1971,8 @@ Text04_8008f036:
 	.sjisn	"　　　この絵は違うらしいな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This picture seems to be        "
-	.sjisn	"different."
+	.sjisn	"This picture seems different...   "
+	.sjisn	"          "
 .endif
 .endarea
 .db @end_of_line
@@ -1993,8 +1996,8 @@ Text04_8008f036:
 	.sjisn	"　　絵の重さで開くしくみか…　　"
 	.sjisn	"　ナポレオンでよかったようだな。"
 .else
-	.sjisn	"Door opens with picture weight. "
-	.sjisn	"Worked with Napoleon."
+	.sjisn	"A mechanism that opens with weight? "
+	.sjisn	"The picture's connected to it."
 .endif
 .endarea
 .db @end_of_line
@@ -2006,7 +2009,7 @@ Text04_8008f036:
 	.sjisn	"　ここはもう開かないだろうな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It probably won't open anymore."
+	.sjisn	"Doesn't seem to open anymore."
 .endif
 .endarea
 .db @end_of_line
@@ -2018,8 +2021,8 @@ Text04_8008f036:
 	.sjisn	"　　　銅のカギが出てきた…　　　"
 	.sjisn	"こんなところにかくしていたのか。"
 .else
-	.sjisn	"A copper key has appeared...    "
-	.sjisn	"It was hidden here."
+	.sjisn	"The copper key came out...  "
+	.sjisn	"Why was it hidden here?"
 .endif
 .endarea
 .db @end_of_line
@@ -2031,8 +2034,8 @@ Text04_8008f036:
 	.sjisn	"　　変わった形のベッドだな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a bed with an unusual   "
-	.sjisn	"shape."
+	.sjisn	"What a strange bed!   "
+	.sjisn	"     "
 .endif
 .endarea
 .db @end_of_line
@@ -2044,7 +2047,7 @@ Text04_8008f036:
 	.sjisn	"　　　　日記がおいてある。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A diary is left here."
+	.sjisn	"There's a diary."
 .endif
 .endarea
 .db @end_of_line
@@ -2080,8 +2083,8 @@ Text04_8008f036:
 	.sjisn	"　　　　サーフボードだな　　　　"
 	.sjisn	"　この部屋の住人は遊び好きだな。"
 .else
-	.sjisn	"It's a surfboard. Resident likes"
-	.sjisn	"to play."
+	.sjisn	"A surfboard? Someone must go to"
+	.sjisn	"the beach a lot."
 .endif
 .endarea
 .db @end_of_line
@@ -2093,7 +2096,7 @@ Text04_8008f036:
 	.sjisn	"　こんなものは持っていけない。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I can't bring this thing with   "
+	.sjisn	"I can't bring this back with   "
 	.sjisn	"me."
 .endif
 .endarea
@@ -2106,7 +2109,7 @@ Text04_8008f036:
 	.sjisn	"　　　　こっちは廊下だな。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a corridor."
+	.sjisn	"Just a hallway."
 .endif
 .endarea
 .db @end_of_line
@@ -2118,7 +2121,7 @@ Text04_8008f036:
 	.sjisn	"　　　モンローのポスターだ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It's a poster of Monet."
+	.sjisn	"It's a Monroe poster."
 .endif
 .endarea
 .db @end_of_line
@@ -2130,8 +2133,8 @@ Text04_8008f036:
 	.sjisn	"　　内側からカギがかかってて　　"
 	.sjisn	"　　　　　　開かない。　　　　　"
 .else
-	.sjisn	"The key is locked from the      "
-	.sjisn	"inside and cannot be opened."
+	.sjisn	"Locked from the inside again! "
+	.sjisn	"I can't get in."
 .endif
 .endarea
 .db @end_of_line
@@ -2143,8 +2146,8 @@ Text04_8008f036:
 	.sjisn	"ヨットのカジのようなものがある。"
 	.sjisn	"　　　　　　…おや？　　　　　　"
 .else
-	.sjisn	"There is something like         "
-	.sjisn	"a yacht's cabin. ...Oh?"
+	.sjisn	"Something like a yacht rudder? "
+	.sjisn	"Hm... "
 .endif
 .endarea
 .db @end_of_line
@@ -2156,8 +2159,8 @@ Text04_8008f036:
 	.sjisn	"　　　　動くみたいだぞ…　　　　"
 	.sjisn	"　　　　動かしますか？　　　　　"
 .else
-	.sjisn	"It looks like it's moving...    "
-	.sjisn	"Do you want to move it?"
+	.sjisn	"It looks like it moves...    "
+	.sjisn	"Should I move it?"
 .endif
 .endarea
 .db @end_of_line
@@ -2169,7 +2172,7 @@ Text04_8008f036:
 	.sjisn	"　こういう仕掛けだったのか…。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"So that's what this mechanism   "
+	.sjisn	"So that's what this mechanism "
 	.sjisn	"was for..."
 .endif
 .endarea
@@ -2182,8 +2185,8 @@ Text04_8008f036:
 	.sjisn	"こんなところにピンクの本がある。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A pink book is here in this     "
-	.sjisn	"place."
+	.sjisn	"There's a pink book over here.  "
+	.sjisn	"                   "
 .endif
 .endarea
 .db @end_of_line
@@ -2195,7 +2198,7 @@ Text04_8008f036:
 	.sjisn	"　　　もう何もないようだ。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems there is nothing left. "
+	.sjisn	"Nope, nothing left here. "
 .endif
 .endarea
 .db @end_of_line
@@ -2207,8 +2210,8 @@ Text04_8008f036:
 	.sjisn	"枕の下からノコギリが出てきたぞ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A saw came out from under the   "
-	.sjisn	"pillow."
+	.sjisn	"I found a saw under the "
+	.sjisn	"pillow!"
 .endif
 .endarea
 .db @end_of_line
@@ -2220,8 +2223,8 @@ Text04_8008f036:
 	.sjisn	"　下にあるキッチンと同じドアだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It's the same door as the       "
-	.sjisn	"kitchen below."
+	.sjisn	"Same door as the kitchen's.  "
+	.sjisn	"                "
 .endif
 .endarea
 .db @end_of_line
@@ -2233,8 +2236,8 @@ Text04_8008f036:
 	.sjisn	"　　何やら紙キレが出てきた。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Something like a paper cut came "
-	.sjisn	"out."
+	.sjisn	"A scrap of paper came out. "
+	.sjisn	"            "
 .endif
 .endarea
 .db @end_of_line
@@ -2246,7 +2249,7 @@ Text04_8008f036:
 	.sjisn	"　　　緑のカギが見つかった。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A green key was found."
+	.sjisn	"I found a green key!"
 .endif
 .endarea
 .db @end_of_line
@@ -2258,7 +2261,7 @@ Text04_8008f036:
 	.sjisn	"　蓄音機の上にレコードがある。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a record on top of the "
+	.sjisn	"There's a record on top of the "
 	.sjisn	"phonograph."
 .endif
 .endarea
@@ -2283,7 +2286,7 @@ Text04_8008f036:
 	.sjisn	"　　　　楽器のようだな。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It looks like a musical         "
+	.sjisn	"Looks like a musical "
 	.sjisn	"instrument."
 .endif
 .endarea
@@ -2308,8 +2311,8 @@ Text04_8008f036:
 	.sjisn	"２階の窓から外に出るのはムリだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Exiting through the window on   "
-	.sjisn	"the second floor is impossible."
+	.sjisn	"I can't jump down from a  "
+	.sjisn	"window this high!"
 .endif
 .endarea
 .db @end_of_line
@@ -2321,8 +2324,8 @@ Text04_8008f036:
 	.sjisn	"　手紙らしきものが置いてある。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There's something that looks    "
-	.sjisn	"like a letter left."
+	.sjisn	"That looks like it's a    "
+	.sjisn	"letter."
 .endif
 .endarea
 .db @end_of_line
@@ -2334,8 +2337,8 @@ Text04_8008f036:
 	.sjisn	"　　女の人の写真があるけど…　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There's a photo of a woman,     "
-	.sjisn	"but..."
+	.sjisn	"It's a photo of a woman...   "
+	.sjisn	"              "
 .endif
 .endarea
 .db @end_of_line
@@ -2347,7 +2350,7 @@ Text04_8008f036:
 	.sjisn	"　あれ？カベに穴が開いてるぞ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Hey, there's a hole in the wall."
+	.sjisn	"Huh? There's a hole in the wall!"
 .endif
 .endarea
 .db @end_of_line
@@ -2359,8 +2362,8 @@ Text04_8008f036:
 	.sjisn	"　　　カベに穴が開いている　　　"
 	.sjisn	"　ノコギリで切ったアトがある。　"
 .else
-	.sjisn	"There's a hole in the wall and  "
-	.sjisn	"an axe that was cut with a saw."
+	.sjisn	"There's a hole in the wall. "
+	.sjisn	"Was it cut with a saw?"
 .endif
 .endarea
 .db @end_of_line
@@ -2372,8 +2375,8 @@ Text04_8008f036:
 	.sjisn	"　穴を通るとシンバルで叩かれる　"
 	.sjisn	"　いったいどういうことなんだ？　"
 .else
-	.sjisn	"Hear cymbal strike thru hole,   "
-	.sjisn	"what's going on?"
+	.sjisn	"I heard a cymbal strike "
+	.sjisn	"through the hole! Huh?"
 .endif
 .endarea
 .db @end_of_line
@@ -2385,8 +2388,8 @@ Text04_8008f036:
 	.sjisn	"　このドアにはカギ穴がないけど　"
 	.sjisn	"　　　　　開かないな。　　　　　"
 .else
-	.sjisn	"There's no keyhole on this door "
-	.sjisn	"but it won't open."
+	.sjisn	"Strange... This door has "
+	.sjisn	"no keyhole and won't open."
 .endif
 .endarea
 .db @end_of_line
@@ -2398,8 +2401,8 @@ Text04_8008f036:
 	.sjisn	"　　カギ穴がないけど開かない　　"
 	.sjisn	"　　何か仕掛けがあるのかな。　　"
 .else
-	.sjisn	"No keyhole but won't open, could"
-	.sjisn	"there be a mechanism?"
+	.sjisn	"Maybe there's a mechanism "
+	.sjisn	"to get it open?"
 .endif
 .endarea
 .db @end_of_line
@@ -2411,7 +2414,7 @@ Text04_8008f036:
 	.sjisn	"　　　　これはテレビだな。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a TV, I guess."
+	.sjisn	"Just an ordinary TV."
 .endif
 .endarea
 .db @end_of_line
@@ -2423,8 +2426,8 @@ Text04_8008f036:
 	.sjisn	"　　おや…スイッチを入れても　　"
 	.sjisn	"　　　　　何も映らない。　　　　"
 .else
-	.sjisn	"Oh... even if I turn on the     "
-	.sjisn	"switch, nothing is shown."
+	.sjisn	"Hm... Even if I turn it on,     "
+	.sjisn	"nothing shows up!"
 .endif
 .endarea
 .db @end_of_line
@@ -2436,7 +2439,7 @@ Text04_8008f036:
 	.sjisn	"　映らないのか…つまらないな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Nothing is shown? That's boring."
+	.sjisn	"Nothing on TV? That's boring."
 .endif
 .endarea
 .db @end_of_line
@@ -2448,8 +2451,8 @@ Text04_8008f036:
 	.sjisn	"　矢印がドアの方を向いている…　"
 	.sjisn	"　ドアが開いたということかな。　"
 .else
-	.sjisn	"Arrow points to door, likely    "
-	.sjisn	"means it's open."
+	.sjisn	"The arrow's pointing to the door. "
+	.sjisn	"Maybe it's open?"
 .endif
 .endarea
 .db @end_of_line
@@ -2473,8 +2476,8 @@ Text04_8008f036:
 	.sjisn	"　　　　大きな水槽だな…　　　　"
 	.sjisn	"　　　　　魚も泳いでる。　　　　"
 .else
-	.sjisn	"It's a big aquarium... and the  "
-	.sjisn	"fish are swimming."
+	.sjisn	"What a big aquarium... There's  "
+	.sjisn	"lots of fish swimming around."
 .endif
 .endarea
 .db @end_of_line
@@ -2486,8 +2489,8 @@ Text04_8008f036:
 	.sjisn	"　　なんだか怪しいカベだな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This wall looks suspicious      "
-	.sjisn	"somehow."
+	.sjisn	"This wall looks suspicious...    "
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -2499,8 +2502,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　　まさか…　　　　　　"
 	.sjisn	"　つぶされたりしないだろうな。　"
 .else
-	.sjisn	"I hope it won't collapse or     "
-	.sjisn	"be smashed."
+	.sjisn	"I hope it doesn't crush me.  "
+	.sjisn	"          "
 .endif
 .endarea
 .db @end_of_line
@@ -2512,7 +2515,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　怪しいカベだ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This wall is suspicious.        "
+	.sjisn	"This wall seems dodgy...   "
 .endif
 .endarea
 .db @end_of_line
@@ -2524,8 +2527,8 @@ Text04_8008f036:
 	.sjisn	"　　こんな所に小さなスキマが…　"
 	.sjisn	"　　何に使うスキマなのかな？　　"
 .else
-	.sjisn	"Small gap here... What's it's   "
-	.sjisn	"purpose?"
+	.sjisn	"There's a small gap... But   "
+	.sjisn	"why?"
 .endif
 .endarea
 .db @end_of_line
@@ -2537,7 +2540,7 @@ Text04_8008f036:
 	.sjisn	"　　よくわからないスキマだ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It is an unclear gap."
+	.sjisn	"I'm not sure why this is here."
 .endif
 .endarea
 .db @end_of_line
@@ -2549,7 +2552,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　あれ…　　　　　　"
 	.sjisn	"　おかしいな…扉が開かないっ！　"
 .else
-	.sjisn	"What... that's strange... the   "
+	.sjisn	"Hah... That's strange. The   "
 	.sjisn	"door won't open!"
 .endif
 .endarea
@@ -2574,7 +2577,8 @@ Text04_8008f036:
 	.sjisn	"　よく見ると中はみんな赤い本だ　"
 	.sjisn	"　むずかしい内容の本ばかりだな。"
 .else
-	.sjisn	"Upon closer inspection, all red books have difficult content."
+	.sjisn	"All the red books seem tough  "
+        .sjisn  "to read."
 .endif
 .endarea
 .db @end_of_line
@@ -2586,8 +2590,8 @@ Text04_8008f036:
 	.sjisn	"　ここに赤い本を戻しておこう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It's a good idea to return the  "
-	.sjisn	"red book back to its place."
+	.sjisn	"I'll put the red book back.  "
+	.sjisn	"              "
 .endif
 .endarea
 .db @end_of_line
@@ -2599,8 +2603,8 @@ Text04_8008f036:
 	.sjisn	"　この本じゃ色が合わないな…。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This book doesn't match the     "
-	.sjisn	"color."
+	.sjisn	"This book's color doesn't    "
+	.sjisn	"match..."
 .endif
 .endarea
 .db @end_of_line
@@ -2612,8 +2616,8 @@ Text04_8008f036:
 	.sjisn	"　これは青い本ばかりある本棚だ　"
 	.sjisn	"　　有名な小説が並んでいる。　　"
 .else
-	.sjisn	"A bookshelf of only blue books, "
-	.sjisn	"famous novels lined up."
+	.sjisn	"This shelf only has blue books. "
+	.sjisn	"There's lots of famous novels."
 .endif
 .endarea
 .db @end_of_line
@@ -2625,8 +2629,8 @@ Text04_8008f036:
 	.sjisn	"　ここに青い本を戻しておこう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Let's put the blue book back    "
-	.sjisn	"here."
+	.sjisn	"I'll put the blue book back. "
+	.sjisn	"          "
 .endif
 .endarea
 .db @end_of_line
@@ -2638,8 +2642,8 @@ Text04_8008f036:
 	.sjisn	"　この本棚には黄色い本しかない　"
 	.sjisn	"　すべて料理の作り方のようだ。　"
 .else
-	.sjisn	"Yellow recipe books only on this"
-	.sjisn	"bookshelf."
+	.sjisn	"There's only yellow cookbooks "
+	.sjisn	"on this shelf."
 .endif
 .endarea
 .db @end_of_line
@@ -2651,7 +2655,7 @@ Text04_8008f036:
 	.sjisn	"　ここに黄色い本を戻しておこう。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Let's put the yellow book back  "
+	.sjisn	"I'll put the yellow book back  "
 	.sjisn	"here."
 .endif
 .endarea
@@ -2664,8 +2668,8 @@ Text04_8008f036:
 	.sjisn	"　ナポレオンの絵で扉が開いた。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The door opened with a picture  "
-	.sjisn	"of Napoleon."
+	.sjisn	"The Napoleon picture opened  "
+	.sjisn	"this door. "
 .endif
 .endarea
 .db @end_of_line
@@ -2677,8 +2681,8 @@ Text04_8008f036:
 	.sjisn	"　　机がある…書斎なのかな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems to be a study room,    "
-	.sjisn	"there's a desk."
+	.sjisn	"There's a desk...    "
+	.sjisn	"Is this a study room?"
 .endif
 .endarea
 .db @end_of_line
@@ -2690,8 +2694,8 @@ Text04_8008f036:
 	.sjisn	"　調べても何もないみたいだな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems like there's nothing   "
-	.sjisn	"here after checking."
+	.sjisn	"Seems like there's nothing here.  "
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -2703,8 +2707,8 @@ Text04_8008f036:
 	.sjisn	"　ピンクの本ばかり集めてあるな　"
 	.sjisn	"　やっぱりエッチな本ばかりだ。　"
 .else
-	.sjisn	"Only pink naughty books in my   "
-	.sjisn	"collection."
+	.sjisn	"All of these pink books   "
+	.sjisn	"are dirty!"
 .endif
 .endarea
 .db @end_of_line
@@ -2716,7 +2720,7 @@ Text04_8008f036:
 	.sjisn	"　ここにはやっぱりピンクの本を。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I'll return the pink book here."
+	.sjisn	"I'll put the pink book here."
 .endif
 .endarea
 .db @end_of_line
@@ -2728,8 +2732,8 @@ Text04_8008f036:
 	.sjisn	"　よく見ると緑の本ばっかりだな　"
 	.sjisn	"　　音楽に関した本しかないな。　"
 .else
-	.sjisn	"Looks like it's all green books,"
-	.sjisn	"all about music."
+	.sjisn	"All of the green books seem to"
+	.sjisn	"be about music."
 .endif
 .endarea
 .db @end_of_line
@@ -2741,7 +2745,7 @@ Text04_8008f036:
 	.sjisn	"　ここに緑の本を戻しておこう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Let's return the green book     "
+	.sjisn	"I'll put the green book back  "
 	.sjisn	"here."
 .endif
 .endarea
@@ -2754,8 +2758,8 @@ Text04_8008f036:
 	.sjisn	"　ここには黒い本が並んでいるな　"
 	.sjisn	"　黒い本なんて持ってたっけ…？　"
 .else
-	.sjisn	"Let's return the black book here"
-	.sjisn	"as well."
+	.sjisn	"All of these books are black,"
+	.sjisn	"too."
 .endif
 .endarea
 .db @end_of_line
@@ -2767,8 +2771,8 @@ Text04_8008f036:
 	.sjisn	"黒くぬった白い本だけどいいかな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Let's return the blackened white"
-	.sjisn	"book here too."
+	.sjisn	"I'll return the painted white"
+	.sjisn	"book here."
 .endif
 .endarea
 .db @end_of_line
@@ -2780,7 +2784,7 @@ Text04_8008f036:
 	.sjisn	"　　「やあ…おどろいたかい？　　"
 	.sjisn	"　　ぼくはいとこのアントニー。」"
 .else
-	.sjisn	"Hey...surprised? I'm your cousin"
+	.sjisn	"Hey! Surprised? I'm your cousin,"
 	.sjisn	"Anthony."
 .endif
 .endarea
@@ -2794,7 +2798,7 @@ Text04_8008f036:
 	.sjisn	"　　鏡のフリをしていたんだ。」　"
 .else
 	.sjisn	"I was asked to do a stand-in for"
-	.sjisn	"you because you resemble me."
+	.sjisn	"you because you look like me."
 .endif
 .endarea
 .db @end_of_line
@@ -2806,8 +2810,8 @@ Text04_8008f036:
 	.sjisn	"　　「この青いカギをあげるから　"
 	.sjisn	"　　　　ゆるしてくれよ。」　　　"
 .else
-	.sjisn	"I'll give you this blue key, so "
-	.sjisn	"forgive me."
+	.sjisn	"I'll give you this blue key. "
+	.sjisn	"Forgive me."
 .endif
 .endarea
 .db @end_of_line
@@ -2819,7 +2823,7 @@ Text04_8008f036:
 	.sjisn	"　　　「もうなにもないよ。」　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There's nothing left anymore."
+	.sjisn	"There's nothing else."
 .endif
 .endarea
 .db @end_of_line
@@ -2831,8 +2835,8 @@ Text04_8008f036:
 	.sjisn	"　　私と同じカッコの男がいる　　"
 	.sjisn	"なんて手の込んだイタズラなんだ。"
 .else
-	.sjisn	"There's a man with the same"
-	.sjisn	"outfit as me. What a elaborate prank."
+	.sjisn	"A man with the same outfit"
+	.sjisn	"as me! What a elaborate prank."
 .endif
 .endarea
 .db @end_of_line
@@ -2844,7 +2848,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　いてて…　　　　　　"
 	.sjisn	"　　　　これはサボテンだ。　　　"
 .else
-	.sjisn	"Whoa... this is a cactus."
+	.sjisn	"Whoa... It's a cactus."
 .endif
 .endarea
 .db @end_of_line
@@ -2856,8 +2860,8 @@ Text04_8008f036:
 	.sjisn	"　　カギ穴はないけど内側から　　"
 	.sjisn	"　　　　閉められるようだ。　　　"
 .else
-	.sjisn	"Keyhole not visible, but appears"
-	.sjisn	"lockable from inside."
+	.sjisn	"There's no keyhole, but it's "
+	.sjisn	"locked from the inside."
 .endif
 .endarea
 .db @end_of_line
@@ -2869,8 +2873,8 @@ Text04_8008f036:
 	.sjisn	"　さっきの男はこの中に逃げたな　"
 	.sjisn	"　　カギはかかってないようだ。　"
 .else
-	.sjisn	"Man from earlier escaped here,  "
-	.sjisn	"door not locked from inside."
+	.sjisn	"The guy from earlier escaped here.  "
+	.sjisn	"I don't think it's locked..."
 .endif
 .endarea
 .db @end_of_line
@@ -2882,8 +2886,8 @@ Text04_8008f036:
 	.sjisn	"　　内側からカギをかけたな…　　"
 	.sjisn	"　このドアはもう開きそうにない。"
 .else
-	.sjisn	"Man inside locked door, won't   "
-	.sjisn	"open anymore."
+	.sjisn	"Did he lock himself inside?   "
+	.sjisn	"It won't open anymore."
 .endif
 .endarea
 .db @end_of_line
@@ -2895,8 +2899,8 @@ Text04_8008f036:
 	.sjisn	"　　　なんだ鏡かと思ったら…　　"
 	.sjisn	"なんて手の込んだイタズラなんだ。"
 .else
-	.sjisn	"I thought it was a mirror...    "
-	.sjisn	"what a complicated prank."
+	.sjisn	"I thought that was a mirror...    "
+	.sjisn	"What a complicated prank!"
 .endif
 .endarea
 .db @end_of_line
@@ -2908,8 +2912,8 @@ Text04_8008f036:
 	.sjisn	"　　　なんだ鏡かと思ったら…　　"
 	.sjisn	"　　ここは通れるじゃないか。　　"
 .else
-	.sjisn	"Thought it was mirror, elaborate"
-	.sjisn	"prank. Can we pass through?"
+	.sjisn	"That was a good trick... But "
+	.sjisn	"can I pass through?"
 .endif
 .endarea
 .db @end_of_line
@@ -2921,7 +2925,7 @@ Text04_8008f036:
 	.sjisn	"なんて手の込んだイタズラなんだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"What a complicated prank!"
+	.sjisn	"What an elaborate prank!"
 .endif
 .endarea
 .db @end_of_line
@@ -2933,8 +2937,8 @@ Text04_8008f036:
 	.sjisn	"　　　　ナポレオンの絵だ　　　　"
 	.sjisn	"おじさんナポレオンが好きなんだ。"
 .else
-	.sjisn	"It's a picture of Napoleon,     "
-	.sjisn	"the old man likes Napoleon."
+	.sjisn	"It's a picture of Napoleon.     "
+	.sjisn	"My uncle must like him."
 .endif
 .endarea
 .db @end_of_line
@@ -2946,8 +2950,8 @@ Text04_8008f036:
 	.sjisn	"　　　「待っておったぞ…！　　　"
 	.sjisn	"　やっと会えたな、キートン君。」"
 .else
-	.sjisn	"I've been waiting...!"
-	.sjisn	"Finally I met you, Keaton."
+	.sjisn	"I've been waiting for you,"
+	.sjisn	"Keaton! Finally, we meet!"
 .endif
 .endarea
 .db @end_of_line
@@ -2959,7 +2963,7 @@ Text04_8008f036:
 	.sjisn	"　「どうかね？わしの新しい家は　"
 	.sjisn	"なかなか楽しかったじゃろう？。」"
 .else
-	.sjisn	"How was it? Did you have a good "
+	.sjisn	"How was it? You have a good "
 	.sjisn	"time in my new house?"
 .endif
 .endarea
@@ -2972,8 +2976,8 @@ Text04_8008f036:
 	.sjisn	"　　「わざわざすまなかった…　　"
 	.sjisn	"しばらくゆっくりしてくれたまえ」"
 .else
-	.sjisn	"No need to hurry, take your     "
-	.sjisn	"time."
+	.sjisn	"Well, sorry for the trouble! Gahaha!  "
+	.sjisn	"Relax for a while."
 .endif
 .endarea
 .db @end_of_line
@@ -2985,8 +2989,8 @@ Text04_8008f036:
 	.sjisn	"　　「これもわしの趣味でな…　　"
 	.sjisn	"　　まぁ悪く思わんでおくれ。」　"
 .else
-	.sjisn	"This is also my hobby... don't  "
-	.sjisn	"think badly of me, okay?"
+	.sjisn	"Making new traps is my hobby! Er, "
+	.sjisn	"don't think too badly of me, okay?"
 .endif
 .endarea
 .db @end_of_line
@@ -2998,8 +3002,8 @@ Text04_8008f036:
 	.sjisn	"「車は使用人のジャックに言って　"
 	.sjisn	"　直させるから心配せんでくれ。」"
 .else
-	.sjisn	"Don't worry, I've told the      "
-	.sjisn	"driver Jack to fix it."
+	.sjisn	"Don't worry about the car, I'll"
+	.sjisn	"have Jack fix it right up."
 .endif
 .endarea
 .db @end_of_line
@@ -3011,8 +3015,8 @@ Text04_8008f036:
 	.sjisn	"「これにこりずにまた来ておくれよ"
 	.sjisn	"　次はごちそうを用意するから。」"
 .else
-	.sjisn	"Come back without fail next     "
-	.sjisn	"time, I'll prepare a feast."
+	.sjisn	"Hey, come back again soon! I'll    "
+	.sjisn	"even prepare a big feast for you!"
 .endif
 .endarea
 .db @end_of_line
@@ -3024,7 +3028,7 @@ Text04_8008f036:
 	.sjisn	"　　　これでやっと帰れる…。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Finally I can go home now.      "
+	.sjisn	"Finally, I can go home now.      "
 .endif
 .endarea
 .db @end_of_line
@@ -3036,8 +3040,8 @@ Text04_8008f036:
 	.sjisn	"　　これはおじさんの机だな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems to be the desk of the  "
-	.sjisn	"old man."
+	.sjisn	"Looks like my uncle's desk.  "
+	.sjisn	"               "
 .endif
 .endarea
 .db @end_of_line
@@ -3049,8 +3053,8 @@ Text04_8008f036:
 	.sjisn	"　　これはカメラのようだな　　　"
 	.sjisn	"　　　何に使うんだろう…？　　　"
 .else
-	.sjisn	"This looks like a camera,       "
-	.sjisn	"I wonder what it's used for?"
+	.sjisn	"This looks like a camera.       "
+	.sjisn	"What's it used for?"
 .endif
 .endarea
 .db @end_of_line
@@ -3062,8 +3066,8 @@ Text04_8008f036:
 	.sjisn	"　　これもナポレオンの絵だ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that this is also a    "
-	.sjisn	"picture of Napoleon."
+	.sjisn	"It's another picture of  "
+	.sjisn	"Napoleon."
 .endif
 .endarea
 .db @end_of_line
@@ -3075,8 +3079,8 @@ Text04_8008f036:
 	.sjisn	"　もうここが最後の部屋だろう。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems like this is the last  "
-	.sjisn	"room."
+	.sjisn	"Looks like I've found the "
+	.sjisn	"last room!"
 .endif
 .endarea
 .db @end_of_line
@@ -3088,7 +3092,7 @@ Text04_8008f036:
 	.sjisn	"　　　私の部屋に来いだと…　　　"
 	.sjisn	"　人を散々ふり回しといてっ…！　"
 .else
-	.sjisn	"Come to my room... making people"
+	.sjisn	"Come to my room. You're making people"
 	.sjisn	"run around like crazy!"
 .endif
 .endarea
@@ -3101,8 +3105,8 @@ Text04_8008f036:
 	.sjisn	"　　　　おめでとうだと…　　　　"
 	.sjisn	"　こっちはヒドい目にあったぞ！　"
 .else
-	.sjisn	"Congratulations... I had a"
-	.sjisn	"terrible time over here!"
+	.sjisn	"Well, congratulations... I had a"
+	.sjisn	"crazy time here!"
 .endif
 .endarea
 .db @end_of_line
@@ -3114,8 +3118,8 @@ Text04_8008f036:
 	.sjisn	"地下で見たようなスイッチがある。"
 	.sjisn	"　　　　動かしますか？　　　　　"
 .else
-	.sjisn	"Do you want to move the switch  "
-	.sjisn	"that you saw in the basement?"
+	.sjisn	"Should I move the switch  "
+	.sjisn	"in the basement?"
 .endif
 .endarea
 .db @end_of_line
@@ -3153,7 +3157,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
 	.sjisn	"It might open with this green   "
-	.sjisn	"key."
+	.sjisn	"key..."
 .endif
 .endarea
 .db @end_of_line
@@ -3177,7 +3181,7 @@ Text04_8008f036:
 	.sjisn	"　　　これはただのイスだ。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is just a chair."
+	.sjisn	"It's just a chair."
 .endif
 .endarea
 .db @end_of_line
@@ -3189,8 +3193,8 @@ Text04_8008f036:
 	.sjisn	"　　　　　ひどいなあ…　　　　　"
 	.sjisn	"　　　　手をはさまれたよ。　　　"
 .else
-	.sjisn	"This is terrible... I got my    "
-	.sjisn	"hand caught."
+	.sjisn	"How horrid! I got my    "
+	.sjisn	"hand caught!"
 .endif
 .endarea
 .db @end_of_line
@@ -3202,7 +3206,7 @@ Text04_8008f036:
 	.sjisn	"　この部屋は音楽室のようだな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This room seems like a music    "
+	.sjisn	"This room looks like a music    "
 	.sjisn	"room."
 .endif
 .endarea
@@ -3215,7 +3219,7 @@ Text04_8008f036:
 	.sjisn	"　ピアノの上に緑色の本がある。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a green book on top of "
+	.sjisn	"There's a green book on top of "
 	.sjisn	"the piano."
 .endif
 .endarea
@@ -3240,8 +3244,8 @@ Text04_8008f036:
 	.sjisn	"３階の窓からはとても出られない。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The window on the third floor   "
-	.sjisn	"can't be seen from here."
+	.sjisn	"I can't get out of the third   "
+	.sjisn	"floor through a window!"
 .endif
 .endarea
 .db @end_of_line
@@ -3253,7 +3257,7 @@ Text04_8008f036:
 	.sjisn	"　　これは何でもないようだ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This seems to be nothing."
+	.sjisn	"This doesn't look like anything."
 .endif
 .endarea
 .db @end_of_line
@@ -3265,8 +3269,8 @@ Text04_8008f036:
 	.sjisn	"これは東洋の王ジンギスカンだな　"
 	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
-	.sjisn	"Picture of Eastern King Genghis "
-	.sjisn	"Khan, you can take it."
+	.sjisn	"A picture of Genghis Khan."
+	.sjisn	"I think I can take it."
 .endif
 .endarea
 .db @end_of_line
@@ -3278,8 +3282,8 @@ Text04_8008f036:
 	.sjisn	"これは古代の王アレキサンダーだ　"
 	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
-	.sjisn	"Ancient king Alexander, picture "
-	.sjisn	"can be taken."
+	.sjisn	"A picture of the king, Alexander."
+	.sjisn	"I can take this."
 .endif
 .endarea
 .db @end_of_line
@@ -3291,8 +3295,8 @@ Text04_8008f036:
 	.sjisn	"これは中世の王、ナポレオンだな　"
 	.sjisn	"　この絵は持っていけそうだぞ。　"
 .else
-	.sjisn	"King Napoleon from Middle Ages, "
-	.sjisn	"painting can be taken."
+	.sjisn	"The French ruler, Napoleon."
+	.sjisn	"Maybe I should take this."
 .endif
 .endarea
 .db @end_of_line
@@ -3304,7 +3308,7 @@ Text04_8008f036:
 	.sjisn	"この位の高さなら上に乗れそうだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Yes, it seems that you could    "
+	.sjisn	"Yep, it looks like I can    "
 	.sjisn	"climb up from here."
 .endif
 .endarea
@@ -3317,8 +3321,8 @@ Text04_8008f036:
 	.sjisn	"　　これに乗るのはムリだな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems impossible to ride     "
-	.sjisn	"this."
+	.sjisn	"I can't ride this.    "
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -3330,8 +3334,8 @@ Text04_8008f036:
 	.sjisn	"　　　荷物が高く重ねてある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This appears to be a pile of    "
-	.sjisn	"heavy items stacked high."
+	.sjisn	"These items are piled high. "
+	.sjisn	"             "
 .endif
 .endarea
 .db @end_of_line
@@ -3343,8 +3347,8 @@ Text04_8008f036:
 	.sjisn	"　絵は重すぎて２枚は持てないな　"
 	.sjisn	"今持ってる絵を置いていこうかな？"
 .else
-	.sjisn	"Pictures too heavy, may put down"
-	.sjisn	"one to carry two."
+	.sjisn	"I can't carry more than one"
+	.sjisn	"picture with me! Leave this one?"
 .endif
 .endarea
 .db @end_of_line
@@ -3356,8 +3360,8 @@ Text04_8008f036:
 	.sjisn	"ナポレオンの絵があった所だ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is the place where there   "
-	.sjisn	"was a painting of Napoleon."
+	.sjisn	"There was a painting of Napoleon  "
+	.sjisn	"here."
 .endif
 .endarea
 .db @end_of_line
@@ -3369,7 +3373,7 @@ Text04_8008f036:
 	.sjisn	"ジンギスカンの絵があった所だ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is the place where the     "
+	.sjisn	"This is where the     "
 	.sjisn	"picture of Genghis Khan was."
 .endif
 .endarea
@@ -3382,8 +3386,8 @@ Text04_8008f036:
 	.sjisn	"アレキサンダーの絵があった所だ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is where the painting of   "
-	.sjisn	"Alexander was."
+	.sjisn	"This is where the Alexander  "
+	.sjisn	"picture was."
 .endif
 .endarea
 .db @end_of_line
@@ -3395,7 +3399,7 @@ Text04_8008f036:
 	.sjisn	"　　この鉄のカギをあげるよ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I will raise this iron key.     "
+	.sjisn	"I'll take this iron key.     "
 .endif
 .endarea
 .db @end_of_line
@@ -3407,7 +3411,7 @@ Text04_8008f036:
 	.sjisn	"　　　　オーブンの中から　　　　"
 	.sjisn	"　　ニワトリの肉が出てきた。　　"
 .else
-	.sjisn	"The chicken meat came out from  "
+	.sjisn	"This chicken came out of  "
 	.sjisn	"the oven."
 .endif
 .endarea
@@ -3420,8 +3424,8 @@ Text04_8008f036:
 	.sjisn	"　　　　冷蔵庫のフタから　　　　"
 	.sjisn	"　　　　　卵が出てきた。　　　　"
 .else
-	.sjisn	"An egg came out from the        "
-	.sjisn	"refrigerator lid."
+	.sjisn	"This egg came out from the        "
+	.sjisn	"fridge."
 .endif
 .endarea
 .db @end_of_line
@@ -3433,7 +3437,7 @@ Text04_8008f036:
 	.sjisn	"　こんな所にアミが置いてある。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A candy is placed here."
+	.sjisn	"This is over here..."
 .endif
 .endarea
 .db @end_of_line
@@ -3445,7 +3449,7 @@ Text04_8008f036:
 	.sjisn	"　　　女の人の写真がある。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a photo of a woman."
+	.sjisn	"It's a picture of a lady."
 .endif
 .endarea
 .db @end_of_line
@@ -3457,7 +3461,7 @@ Text04_8008f036:
 	.sjisn	"　　　これじゃ先に進めない。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I can't move forward like this."
+	.sjisn	"I can't move on like this."
 .endif
 .endarea
 .db @end_of_line
@@ -3469,8 +3473,8 @@ Text04_8008f036:
 	.sjisn	"　本棚が動いて抜け穴が現れた。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The bookshelf moved and         "
-	.sjisn	"a hole appeared."
+	.sjisn	"The bookshelf moved and there        "
+	.sjisn	"was a hole behind it!"
 .endif
 .endarea
 .db @end_of_line
@@ -3508,8 +3512,8 @@ Text04_8008f036:
 	.sjisn	"　フタがジャマして先に進めない。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"The lid is in the way and       "
-	.sjisn	"I can't move forward."
+	.sjisn	"It's jammed and I can't   "
+	.sjisn	"go forward."
 .endif
 .endarea
 .db @end_of_line
@@ -3521,8 +3525,8 @@ Text04_8008f036:
 	.sjisn	"　　　　コックさんが着る　　　　"
 	.sjisn	"　　　ような服が掛けてある。　　"
 .else
-	.sjisn	"Clothing hanging, looks like    "
-	.sjisn	"chef's attire."
+	.sjisn	"The chef's clothes are hung   "
+	.sjisn	"up here."
 .endif
 .endarea
 .db @end_of_line
@@ -3534,7 +3538,7 @@ Text04_8008f036:
 	.sjisn	"　　　小さなテーブルがある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a small table."
+	.sjisn	"It's a small table."
 .endif
 .endarea
 .db @end_of_line
@@ -3547,7 +3551,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
 	.sjisn	"Oh no...                        "
-	.sjisn	"I'm going to be crushed!"
+	.sjisn	"I'm gonna be crushed!!"
 .endif
 .endarea
 .db @end_of_line
@@ -3559,7 +3563,7 @@ Text04_8008f036:
 	.sjisn	"　　　あっ！何だあの男は。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Ah! Who is that man?"
+	.sjisn	"Ahh!! Who's that guy?"
 .endif
 .endarea
 .db @end_of_line
@@ -3571,7 +3575,7 @@ Text04_8008f036:
 	.sjisn	"　　　　もう絵は必要ない。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I don't need the picture        "
+	.sjisn	"I don't need that picture   "
 	.sjisn	"anymore."
 .endif
 .endarea
@@ -3584,7 +3588,7 @@ Text04_8008f036:
 	.sjisn	"　　玄関に降りる階段がある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a staircase leading    "
+	.sjisn	"There's a staircase leading    "
 	.sjisn	"down to the entrance."
 .endif
 .endarea
@@ -3597,7 +3601,7 @@ Text04_8008f036:
 	.sjisn	"　　わっ！カベがせまってくる。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Whoa! The wall is closing in."
+	.sjisn	"W-Whoa!! The wall is closing in!"
 .endif
 .endarea
 .db @end_of_line
@@ -3609,8 +3613,8 @@ Text04_8008f036:
 	.sjisn	"　　このままではつぶされる。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"If it stays like this, I'll be  "
-	.sjisn	"crushed."
+	.sjisn	"If I stay here, I'll be  "
+	.sjisn	"crushed!"
 .endif
 .endarea
 .db @end_of_line
@@ -3622,7 +3626,7 @@ Text04_8008f036:
 	.sjisn	"　　　あわわ…もうだめだ。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh no... it's over."
+	.sjisn	"Oh no, no, no... I-It's over!!"
 .endif
 .endarea
 .db @end_of_line
@@ -3634,7 +3638,7 @@ Text04_8008f036:
 	.sjisn	"　　　これをまたやるのか。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Will I do this again?"
+	.sjisn	"Should I do that again?"
 .endif
 .endarea
 .db @end_of_line
@@ -3646,7 +3650,7 @@ Text04_8008f036:
 	.sjisn	"　　もう、どうにでもしてくれ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Please, just do anything."
+	.sjisn	"Just do anything."
 .endif
 .endarea
 .db @end_of_line
@@ -3658,7 +3662,7 @@ Text04_8008f036:
 	.sjisn	"　　１階に上がる階段がある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a staircase leading up "
+	.sjisn	"There's a staircase leading up "
 	.sjisn	"to the first floor."
 .endif
 .endarea
@@ -3671,7 +3675,7 @@ Text04_8008f036:
 	.sjisn	"　　もう中には何もいないな。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that there's nothing   "
+	.sjisn	"Looks like there's nothing   "
 	.sjisn	"inside anymore."
 .endif
 .endarea
@@ -3684,8 +3688,8 @@ Text04_8008f036:
 	.sjisn	"　　　だれかがカギ穴から　　　　"
 	.sjisn	"　　　カギを持って行ったな。　　"
 .else
-	.sjisn	"Key removed from keyhole,       "
-	.sjisn	"someone went away."
+	.sjisn	"Someone took the key out from "
+	.sjisn	"the hole."
 .endif
 .endarea
 .db @end_of_line
@@ -3697,8 +3701,8 @@ Text04_8008f036:
 	.sjisn	"もうどこにも跳び乗れないようだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that there is no longer"
-	.sjisn	"anywhere to jump on."
+	.sjisn	"Looks like I can't jump"
+	.sjisn	"anywhere anymore."
 .endif
 .endarea
 .db @end_of_line
@@ -3710,8 +3714,8 @@ Text04_8008f036:
 	.sjisn	"　　この電話は鳴らないようだ。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that this phone is not "
-	.sjisn	"ringing."
+	.sjisn	"The phone's not ringing... "
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -3723,7 +3727,7 @@ Text04_8008f036:
 	.sjisn	"　　黄色い本がしまってある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A yellow book is stored."
+	.sjisn	"The yellow book's put away."
 .endif
 .endarea
 .db @end_of_line
@@ -3735,7 +3739,7 @@ Text04_8008f036:
 	.sjisn	"　　　黒い本がしまってある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a black book stored."
+	.sjisn	"The black book's put away."
 .endif
 .endarea
 .db @end_of_line
@@ -3747,7 +3751,7 @@ Text04_8008f036:
 	.sjisn	"　　　緑の本がしまってある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a green book stored."
+	.sjisn	"The green book's put away."
 .endif
 .endarea
 .db @end_of_line
@@ -3759,7 +3763,7 @@ Text04_8008f036:
 	.sjisn	"　　　青い本がしまってある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A blue book is stored."
+	.sjisn	"The blue book's put away."
 .endif
 .endarea
 .db @end_of_line
@@ -3771,7 +3775,7 @@ Text04_8008f036:
 	.sjisn	"　ピンクの本がしまってある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"A pink book is stored."
+	.sjisn	"The pink book's put away."
 .endif
 .endarea
 .db @end_of_line
@@ -3783,7 +3787,7 @@ Text04_8008f036:
 	.sjisn	"　　　赤い本がしまってある。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is a red book stored."
+	.sjisn	"The red book's put away."
 .endif
 .endarea
 .db @end_of_line
@@ -3795,7 +3799,7 @@ Text04_8008f036:
 	.sjisn	"　　　これは鏡ではなかった。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This was not a mirror."
+	.sjisn	"That wasn't a mirror..."
 .endif
 .endarea
 .db @end_of_line
@@ -3807,7 +3811,7 @@ Text04_8008f036:
 	.sjisn	"　　　これは電気スタンドだ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is an electric stand."
+	.sjisn	"It's a desk lamp."
 .endif
 .endarea
 .db @end_of_line
@@ -3819,8 +3823,8 @@ Text04_8008f036:
 	.sjisn	"　　矢印がドアをさしている。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is an arrow pointing to   "
-	.sjisn	"the door."
+	.sjisn	"There's an arrow pointing   "
+	.sjisn	"towards the door."
 .endif
 .endarea
 .db @end_of_line
@@ -3832,7 +3836,7 @@ Text04_8008f036:
 	.sjisn	"　　　　何もない棚がある。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There is an empty shelf.        "
+	.sjisn	"The shelf is empty.        "
 .endif
 .endarea
 .db @end_of_line
@@ -3844,8 +3848,8 @@ Text04_8008f036:
 	.sjisn	"　どうやらおじさんはこの上だな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that the old man is on "
-	.sjisn	"this floor."
+	.sjisn	"My uncle's on this"
+	.sjisn	"floor."
 .endif
 .endarea
 .db @end_of_line
@@ -3857,8 +3861,8 @@ Text04_8008f036:
 	.sjisn	"　　このカベにつぶされるのは　　"
 	.sjisn	"　　　　　もうイヤだな。　　　　"
 .else
-	.sjisn	"Getting crushed under this bed  "
-	.sjisn	"is no longer okay."
+	.sjisn	"I don't want to be crushed by  "
+	.sjisn	"this bed anymore!"
 .endif
 .endarea
 .db @end_of_line
@@ -3871,7 +3875,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
 	.sjisn	"I don't want to be crushed      "
-	.sjisn	"again."
+	.sjisn	"again!"
 .endif
 .endarea
 .db @end_of_line
@@ -3883,8 +3887,8 @@ Text04_8008f036:
 	.sjisn	"　洋服をかけるハンガーのようだ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems to be a hanger for     "
-	.sjisn	"hanging clothes."
+	.sjisn	"Looks like it's a place to hang     "
+	.sjisn	"a coat."
 .endif
 .endarea
 .db @end_of_line
@@ -3896,7 +3900,7 @@ Text04_8008f036:
 	.sjisn	"　　　　　これは絵皿だ。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a plate."
+	.sjisn	"It's a plate."
 .endif
 .endarea
 .db @end_of_line
@@ -3908,7 +3912,7 @@ Text04_8008f036:
 	.sjisn	"　　　　青い鍵を入手した。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Got a blue key."
+	.sjisn	"I got a blue key."
 .endif
 .endarea
 .db @end_of_line
@@ -3920,8 +3924,8 @@ Text04_8008f036:
 	.sjisn	"　　　お城みたいな家だな。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Yes, it sounds like a house that"
-	.sjisn	"resembles a castle."
+	.sjisn	"This place is so big that it"
+	.sjisn	"feels like a castle!"
 .endif
 .endarea
 .db @end_of_line
@@ -3933,8 +3937,8 @@ Text04_8008f036:
 	.sjisn	"　　　酒場のような場所だ。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems to be a place like     "
-	.sjisn	"a bar."
+	.sjisn	"This looks like a bar.  "
+	.sjisn	"        "
 .endif
 .endarea
 .db @end_of_line
@@ -3946,7 +3950,7 @@ Text04_8008f036:
 	.sjisn	"　　ここはキッチンのようだな。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems to be a kitchen."
+	.sjisn	"This must be the kitchen."
 .endif
 .endarea
 .db @end_of_line
@@ -3958,8 +3962,8 @@ Text04_8008f036:
 	.sjisn	"　　　大きなテーブルがある…　　"
 	.sjisn	"　ここでみんな食事するのかな。　"
 .else
-	.sjisn	"Large dining table, people"
-	.sjisn	"likely eat here together."
+	.sjisn	"What a large dining table! I "
+	.sjisn	"wonder if everyone eats here."
 .endif
 .endarea
 .db @end_of_line
@@ -3971,8 +3975,8 @@ Text04_8008f036:
 	.sjisn	"　　応接間といったところか…。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It appears to be a reception    "
-	.sjisn	"room."
+	.sjisn	"Looks like some kind of    "
+	.sjisn	"reception room..."
 .endif
 .endarea
 .db @end_of_line
@@ -3997,7 +4001,7 @@ Text04_8008f036:
 	.sjisn	"　　　　何だトイレか…。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems to be a bathroom."
+	.sjisn	"It's the downstairs bathroom."
 .endif
 .endarea
 .db @end_of_line
@@ -4009,7 +4013,7 @@ Text04_8008f036:
 	.sjisn	"　　　やっと部屋に入れたよ。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Finally, I got into the room."
+	.sjisn	"It's my bedroom! "
 .endif
 .endarea
 .db @end_of_line
@@ -4021,7 +4025,7 @@ Text04_8008f036:
 	.sjisn	"　　　　やっと抜け出せた…　　　"
 	.sjisn	"　おや、上にあがる階段があるぞ。"
 .else
-	.sjisn	"Finally, I got out... Oh,       "
+	.sjisn	"Finally, I'm out... Hmm,       "
 	.sjisn	"there's a staircase leading up."
 .endif
 .endarea
@@ -4034,8 +4038,8 @@ Text04_8008f036:
 	.sjisn	"　　　　庭に出てしまった…　　　"
 	.sjisn	"　プール付きとはしゃれてるね…。"
 .else
-	.sjisn	"Finally made it to fancy garden "
-	.sjisn	"with attached pool."
+	.sjisn	"It's my uncle's fancy garden "
+	.sjisn	"with his attached pool."
 .endif
 .endarea
 .db @end_of_line
@@ -4047,8 +4051,8 @@ Text04_8008f036:
 	.sjisn	"こんなところにかくし部屋がある。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There's a hidden room in a place"
-	.sjisn	"like this."
+	.sjisn	"There's bound to be a hidden room"
+	.sjisn	"in a place like this."
 .endif
 .endarea
 .db @end_of_line
@@ -4073,8 +4077,8 @@ Text04_8008f036:
 	.sjisn	"　ピンク色の趣味の悪い部屋だな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a pink room with        "
-	.sjisn	"tasteless decor."
+	.sjisn	"It's a tasteless pink room!     "
+	.sjisn	"             "
 .endif
 .endarea
 .db @end_of_line
@@ -4086,7 +4090,7 @@ Text04_8008f036:
 	.sjisn	"　　　　ここはトイレか…。　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is the toilet..."
+	.sjisn	"This is the bathroom..."
 .endif
 .endarea
 .db @end_of_line
@@ -4098,7 +4102,7 @@ Text04_8008f036:
 	.sjisn	"　　　　黄色い部屋だな。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This is a yellow room."
+	.sjisn	"It's a yellow room."
 .endif
 .endarea
 .db @end_of_line
@@ -4122,8 +4126,8 @@ Text04_8008f036:
 	.sjisn	"　うわっ、たくさん本があるなあ　"
 	.sjisn	"　　　まるで図書館のようだ。　　"
 .else
-	.sjisn	"Wow, there are so many books    "
-	.sjisn	"here. It's like a library."
+	.sjisn	"Wow, there's so many books    "
+	.sjisn	"here! It's like a library."
 .endif
 .endarea
 .db @end_of_line
@@ -4135,8 +4139,8 @@ Text04_8008f036:
 	.sjisn	"今、私と同じカッコの男がいたぞ。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"There was a man dressed the same"
-	.sjisn	"way as me."
+	.sjisn	"There was a man dressed exactly"
+	.sjisn	"like me!"
 .endif
 .endarea
 .db @end_of_line
@@ -4148,7 +4152,7 @@ Text04_8008f036:
 	.sjisn	"　　あっ…！おじさんがいる。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"Oh... there's an old man."
+	.sjisn	"Oh...! It's my uncle!"
 .endif
 .endarea
 .db @end_of_line
@@ -4173,8 +4177,8 @@ Text04_8008f036:
 	.sjisn	"　ピアノがある…音楽室らしいな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This looks like a music room    "
-	.sjisn	"with a piano."
+	.sjisn	"This one's a music room    "
+	.sjisn	"with a large piano."
 .endif
 .endarea
 .db @end_of_line
@@ -4186,8 +4190,8 @@ Text04_8008f036:
 	.sjisn	"　　ここは物置きのようだな…　　"
 	.sjisn	"片付けていない荷物が重ねてある。"
 .else
-	.sjisn	"Storage room with piles of"
-	.sjisn	"unorganized belongings."
+	.sjisn	"It's a very disorganized  "
+	.sjisn	"storage room..."
 .endif
 .endarea
 .db @end_of_line
@@ -4199,7 +4203,7 @@ Text04_8008f036:
 	.sjisn	"　　　アイテムがない…。　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"No items... "
+	.sjisn	"I've got no items... "
 .endif
 .endarea
 .db @end_of_line
@@ -4211,8 +4215,8 @@ Text04_8008f036:
 	.sjisn	"こんな所で使っても意味がないな。"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It doesn't make sense to use    "
-	.sjisn	"it here."
+	.sjisn	"I don't think I can use    "
+	.sjisn	"this here."
 .endif
 .endarea
 .db @end_of_line
@@ -4237,8 +4241,8 @@ Text04_8008f036:
 	.sjisn	"　　なぜか料理と引き換えに　　　"
 	.sjisn	"　　　　金のカギをくれた。　　　"
 .else
-	.sjisn	"Got golden key in exchange for  "
-	.sjisn	"cooking."
+	.sjisn	"For some reason, he gave me the   "
+	.sjisn	"golden key in exchange for my cooking."
 .endif
 .endarea
 .db @end_of_line
@@ -4250,8 +4254,8 @@ Text04_8008f036:
 	.sjisn	"　　ナポレオンはうれしそうに　　"
 	.sjisn	"　　　料理を口にくわえた。　　　"
 .else
-	.sjisn	"Napoleon seems happily taking   "
-	.sjisn	"a bite of the cuisine."
+	.sjisn	"Napoleon seems to be happily   "
+	.sjisn	"eating the French dish."
 .endif
 .endarea
 .db @end_of_line
@@ -4263,8 +4267,8 @@ Text04_8008f036:
 	.sjisn	"　水槽をすくったら魚が入った！　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems that you have found    "
-	.sjisn	"some fish in a aquarium."
+	.sjisn	"I found some fish!   "
+	.sjisn	"              "
 .endif
 .endarea
 .db @end_of_line
@@ -4276,8 +4280,8 @@ Text04_8008f036:
 	.sjisn	"　　こんどはざりがにが入った！　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"It seems like there are now     "
-	.sjisn	"different fish in the tank."
+	.sjisn	"This time, I got a crayfish!  "
+	.sjisn	"      "
 .endif
 .endarea
 .db @end_of_line
@@ -4289,7 +4293,7 @@ Text04_8008f036:
 	.sjisn	"　　こんどは何もとれなかった！　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"This time, I couldn't get       "
+	.sjisn	"This time, I couldn't catch    "
 	.sjisn	"anything!"
 .endif
 .endarea
@@ -4302,7 +4306,7 @@ Text04_8008f036:
 	.sjisn	"　　アミを水槽の中にいれた。　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"I put Amy in the aquarium."
+	.sjisn	"I put the net in the tank."
 .endif
 .endarea
 .db @end_of_line

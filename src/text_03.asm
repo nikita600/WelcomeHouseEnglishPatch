@@ -15,8 +15,8 @@
 	.sjisn	"をみつけた　　"
 	.sjisn	"　　　　　　　とりますか？　　　"
 .else
-	.sjisn	" founded.     "
-	.sjisn	"     Do you want to take it?    "
+	.sjisn	" discovered.     "
+	.sjisn	"     Would you like to take it?    "
 .endif
 .endarea
 .db @end_of_line
@@ -28,7 +28,7 @@
 	.sjisn	"を入手した。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	" obtained."
+	.sjisn	" was obtained."
 .endif
 .endarea
 .db @end_of_line
@@ -40,7 +40,7 @@
 	.sjisn	"をもどした。　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	" returned."
+	.sjisn	" was returned."
 .endif
 .endarea
 .db @end_of_line
@@ -53,7 +53,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
 	.sjisn	"              "
-	.sjisn	"Do you want to put it away?"
+	.sjisn	"Put it back?"
 .endif
 .endarea
 .db @end_of_line

@@ -18,7 +18,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"     I obtained a blue key.     "
+	.sjisn	"     I got the blue key!     "
 	.sjisn	"                                "
 	.sjisn	"                                "
 	.sjisn	"                                "
@@ -39,7 +39,7 @@
 	.sjisn	"　　　　　　　　　　　　　　　　"
 	.sjisn	"　　　　　　　　　　　　　　　　"
 .else
-	.sjisn	"   I obtained French cuisine.   "
+	.sjisn	"   I got the French Dish!   "
 	.sjisn	"                                "
 	.sjisn	"                                "
 	.sjisn	"                                "
@@ -63,7 +63,7 @@
 	.sjisn	"                                "
 	.sjisn	"                                "
 	.sjisn	"                                "
-	.sjisn	"   Please wait just a moment.   "
+	.sjisn	"   Please wait a minute.   "
 	.sjisn	"                                "
 .endif
 .endarea

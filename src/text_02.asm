@@ -14,7 +14,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　ブランデー"
 .else
-	.sjisn	"            Brandy"
+	.sjisn	"      Brandy"
 .endif
 .endarea
 
@@ -27,7 +27,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　赤い本"
 .else
-	.sjisn	"      The Red Book"
+	.sjisn	"      Red Book"
 .endif
 .endarea
 
@@ -40,7 +40,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　青い本"
 .else
-	.sjisn	"     The Blue Book"
+	.sjisn	"     Blue Book"
 .endif
 .endarea
 
@@ -53,7 +53,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　黄色い本"
 .else
-	.sjisn	"   The Yellow Book"
+	.sjisn	"   Yellow Book"
 .endif
 .endarea
 
@@ -66,7 +66,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　ピンクの本"
 .else
-	.sjisn	"     The Pink Book"
+	.sjisn	"     Pink Book"
 .endif
 .endarea
 
@@ -79,7 +79,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　緑の本"
 .else
-	.sjisn	"    The Green Book"
+	.sjisn	"    Green Book"
 .endif
 .endarea
 
@@ -92,7 +92,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　黒い本"
 .else
-	.sjisn	"    The Black Book"
+	.sjisn	"    Black Book"
 .endif
 .endarea
 
@@ -105,7 +105,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　白い本"
 .else
-	.sjisn	"    The White Book"
+	.sjisn	"    White Book"
 .endif
 .endarea
 
@@ -118,7 +118,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　赤いカギ"
 .else
-	.sjisn	"       The Red Key"
+	.sjisn	"      Red Key"
 .endif
 .endarea
 
@@ -131,7 +131,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　青いカギ"
 .else
-	.sjisn	"      The Blue Key"
+	.sjisn	"      Blue Key"
 .endif
 .endarea
 
@@ -144,7 +144,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　黄色のカギ"
 .else
-	.sjisn	"    The Yellow Key"
+	.sjisn	"    Yellow Key"
 .endif
 .endarea
 
@@ -157,7 +157,7 @@
 .if LANG == JAP
 	.sjisn	"　　　ピンクのカギ"
 .else
-	.sjisn	"      The Pink Key"
+	.sjisn	"    Pink Key"
 .endif
 .endarea
 
@@ -170,7 +170,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　緑のカギ"
 .else
-	.sjisn	"     The Green Key"
+	.sjisn	"     Green Key"
 .endif
 .endarea
 
@@ -183,7 +183,7 @@
 .if LANG == JAP
 	.sjisn	"　　ナポレオンの絵"
 .else
-	.sjisn	" Image of Napoleon"
+	.sjisn	" Napoleon's Picture"
 .endif
 .endarea
 
@@ -196,7 +196,7 @@
 .if LANG == JAP
 	.sjisn	"アレキサンダーの絵"
 .else
-	.sjisn	"Image of Alexander"
+	.sjisn	"Alexander's Picture"
 .endif
 .endarea
 
@@ -209,7 +209,7 @@
 .if LANG == JAP
 	.sjisn	"　ジンギスカンの絵"
 .else
-	.sjisn	" Pic. Genghis Khan"
+	.sjisn	" Genghis Khan's Picture"
 .endif
 .endarea
 
@@ -222,7 +222,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　　日記"
 .else
-	.sjisn	"           A Diary"
+	.sjisn	"        Diary"
 .endif
 .endarea
 
@@ -235,7 +235,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　金のカギ"
 .else
-	.sjisn	"    The Golden Key"
+	.sjisn	"    Golden Key"
 .endif
 .endarea
 
@@ -248,7 +248,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　銀のカギ"
 .else
-	.sjisn	"    The Silver Key"
+	.sjisn	"    Silver Key"
 .endif
 .endarea
 
@@ -261,7 +261,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　銅のカギ"
 .else
-	.sjisn	"    The Bronze Key"
+	.sjisn	"    Bronze Key"
 .endif
 .endarea
 
@@ -274,7 +274,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　ラブレター"
 .else
-	.sjisn	"     A Love Letter"
+	.sjisn	"     Love Letter"
 .endif
 .endarea
 
@@ -287,7 +287,7 @@
 .if LANG == JAP
 	.sjisn	"”皇帝”のレコード"
 .else
-	.sjisn	"Record \"Emperor\""
+	.sjisn	"”Eroica” Record"
 .endif
 .endarea
 
@@ -326,7 +326,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　苦情文"
 .else
-	.sjisn	"A Complaint Letter"
+	.sjisn	"Complaint Letter"
 .endif
 .endarea
 
@@ -340,7 +340,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　ノコギリ"
 .else
-	.sjisn	"             A Saw"
+	.sjisn	"      Saw"
 .endif
 .endarea
 
@@ -353,7 +353,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　鉄のカギ"
 .else
-	.sjisn	"      The Iron Key"
+	.sjisn	"      Iron Key"
 .endif
 .endarea
 
@@ -366,7 +366,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　チキン"
 .else
-	.sjisn	"           Chicken"
+	.sjisn	"      Chicken"
 .endif
 .endarea
 
@@ -379,7 +379,7 @@
 .if LANG == JAP
 	.sjisn	"　　ざりがにとアミ"
 .else
-	.sjisn	" Crayfish and Net."
+	.sjisn	" Crayfish"
 .endif
 .endarea
 
@@ -392,7 +392,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　たまご"
 .else
-	.sjisn	"            An Egg"
+	.sjisn	"       Egg"
 .endif
 .endarea
 
@@ -405,7 +405,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　にんにく"
 .else
-	.sjisn	"            Garlic"
+	.sjisn	"      Garlic"
 .endif
 .endarea
 
@@ -418,7 +418,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　トマト"
 .else
-	.sjisn	"            Tomato"
+	.sjisn	"     Tomato"
 .endif
 .endarea
 
@@ -431,7 +431,7 @@
 .if LANG == JAP
 	.sjisn	"　　　フランス料理"
 .else
-	.sjisn	"    French Cuisine"
+	.sjisn	"    French Dish"
 .endif
 .endarea
 
@@ -444,7 +444,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　　　アミ"
 .else
-	.sjisn	"               Net"
+	.sjisn	"        Net"
 .endif
 .endarea
 
@@ -457,7 +457,7 @@
 .if LANG == JAP
 	.sjisn	"　　　　　魚とアミ"
 .else
-	.sjisn	"     Fish and Ami."
+	.sjisn	"     Fish"
 .endif
 .endarea
 
@@ -470,7 +470,7 @@
 .if LANG == JAP
 	.sjisn	"使う調べる選択バー"
 .else
-	.sjisn	" USE, LOOK, SELECT"
+	.sjisn	" Look"
 .endif
 .endarea
 
@@ -483,7 +483,7 @@
 .if LANG == JAP
 	.sjisn	"取る取らず選択バー"
 .else
-	.sjisn	" TAKE, NOT, SELECT"
+	.sjisn	"Don't take    "
 .endif
 .endarea
 
@@ -496,7 +496,7 @@
 .if LANG == JAP
 	.sjisn	"　　セーブ選択バー"
 .else
-	.sjisn	"      SAVE, SELECT"
+	.sjisn	"   Save"
 .endif
 .endarea
 
